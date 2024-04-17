@@ -1,0 +1,11 @@
+"filters_button_title" = "Filtreler";
+"location_button_map_view" = "Haritada göster";
+"location_button_card_view" = "Liste";
+"meters" = "%@m";
+"kilometers" = "%@km";
+"city_center" = "Şehir merkezi";
+"free_cancel_title" = "Ücretsiz iptal";
+"without_cancellation_title" = "İptal edilemez";
+"no_available_rooms" = "Bu tarihler için müsait oda yok";
+"for_single_night" = "gecelik";
+"price_not_availalble" = "Oda bulunamadı";

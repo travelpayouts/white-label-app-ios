@@ -1,0 +1,7 @@
+"title" = "Lufthavne";
+"forth_trip_departure_from_title" = "Afgang fra %@";
+"forth_trip_arrival_to_title" = "Ankomst til %@";
+"back_trip_departure_from_title" = "Returafgang fra %@";
+"back_trip_arrival_to_title" = "Returankomst til %@";
+"choose_all_cell_title" = "Vælg alle";
+"apply_button_title" = "Anvend";

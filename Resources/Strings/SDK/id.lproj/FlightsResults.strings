@@ -1,0 +1,13 @@
+"filters_button_title" = "Filter";
+"price_chart_button_title" = "Bagan harga";
+"widget_title_cell_title" = "Penerbangan langsung";
+"widget_button_cell_show_all_title" = "Tampilkan semua";
+"widget_button_cell_collapse_title" = "Tampilkan lebih sedikit";
+"ticket_cell_travel_time_title" = "Waktu travel: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ dengan harga ini";
+"load_more_button_cell_title" = "Tampilkan %@ tiket lainnya";
+"footer_text_cell_title" = "Anda telah melihat semua tiket yang cocok dengan parameter pencarian Anda.\nEdit filter Anda untuk mendapat hasil pencarian baru";
+"should_update_alert_title" = "Hasil pencarian mungkin sudah usang";
+"should_update_alert_message" = "Harga tiket berubah sekitar 10 kali dalam sehari. Segarkan pencarian Anda untuk harga terkini";
+"should_update_alert_update_button_title" = "Perbarui Pencarian";
+"should_update_alert_later_button_title" = "Nanti";

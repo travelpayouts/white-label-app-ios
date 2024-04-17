@@ -1,0 +1,5 @@
+"title" = "Tarikh";
+"choose_button_title" = "Pilih %@";
+"disabled_choose_button_title" = "Pilih";
+"date_range_limit_title" = "Melebihi had tinggal";
+"date_range_limit_message" = "Maaf, namun penginapan hotel maksima adalah terhad\nkepada %@";

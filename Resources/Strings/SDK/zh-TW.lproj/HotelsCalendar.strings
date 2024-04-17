@@ -1,0 +1,5 @@
+"title" = "日期";
+"choose_button_title" = "選擇 %@";
+"disabled_choose_button_title" = "選擇";
+"date_range_limit_title" = "超過入住晚數上限";
+"date_range_limit_message" = "抱歉，飯店住宿時間上限為\n%@";

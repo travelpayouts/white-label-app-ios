@@ -1,0 +1,11 @@
+"filters_button_title" = "تصفية";
+"location_button_map_view" = "أظْهِر على الخريطة";
+"location_button_card_view" = "قائمة";
+"meters" = "%@ م";
+"kilometers" = "%@ كم";
+"city_center" = "مركز المدينة";
+"free_cancel_title" = "إلغاء الحجز مجانًا";
+"without_cancellation_title" = "غير قابل للإلغاء";
+"no_available_rooms" = "لا توجد غرف متاحة في هذه التواريخ";
+"for_single_night" = "في الليلة الواحدة";
+"price_not_availalble" = "لم نعثر على غرف";

@@ -1,0 +1,13 @@
+"filters_button_title" = "Filtreler";
+"price_chart_button_title" = "Fiyat tablosu";
+"widget_title_cell_title" = "Aktarmasız uçuşlar";
+"widget_button_cell_show_all_title" = "Tümünü göster";
+"widget_button_cell_collapse_title" = "Daha azını göster";
+"ticket_cell_travel_time_title" = "Seyahat zamanı: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ bu fiyattan";
+"load_more_button_cell_title" = "%@ bilet daha göster";
+"footer_text_cell_title" = "Arama parametrelerinizle eşleşen tüm biletleri görüntülediniz.\nYeni arama sonuçları için filtrelerinizi düzenleyin";
+"should_update_alert_title" = "Arama sonuçları güncel olmayabilir";
+"should_update_alert_message" = "Bilet fiyatları günde yaklaşık 10 kere değişir. Güncellenen fiyatlar için aramanı yenile";
+"should_update_alert_update_button_title" = "Aramayı güncelle";
+"should_update_alert_later_button_title" = "Sonra";

@@ -1,0 +1,7 @@
+"title" = "機場";
+"forth_trip_departure_from_title" = "從 %@ 出發";
+"forth_trip_arrival_to_title" = "飛往 %@";
+"back_trip_departure_from_title" = "回程起飛從 %@";
+"back_trip_arrival_to_title" = "回程飛往 %@";
+"choose_all_cell_title" = "選擇全部";
+"apply_button_title" = "套用";

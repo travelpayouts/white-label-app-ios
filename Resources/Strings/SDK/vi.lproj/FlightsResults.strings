@@ -1,0 +1,13 @@
+"filters_button_title" = "Bộ lọc";
+"price_chart_button_title" = "Biểu đồ giá";
+"widget_title_cell_title" = "Chuyến bay thẳng";
+"widget_button_cell_show_all_title" = "Hiện tất cả";
+"widget_button_cell_collapse_title" = "Hiển thị rút gọn";
+"ticket_cell_travel_time_title" = "Thời gian hành trình: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ với giá này";
+"load_more_button_cell_title" = "Hiển thị thêm %@ vé";
+"footer_text_cell_title" = "Bạn đã xem tất cả các vé phù hợp với thông số tìm kiếm.\nChỉnh sửa bộ lọc của bạn để có kết quả tìm kiếm mới";
+"should_update_alert_title" = "Kết quả tìm kiếm có thể đã lỗi thời";
+"should_update_alert_message" = "Giá vé thay đổi khoảng 10 lần mỗi ngày. Hãy tải lại yêu cầu tìm kiếm để xem giá mới nhất";
+"should_update_alert_update_button_title" = "Cập nhật tìm kiếm";
+"should_update_alert_later_button_title" = "Để sau";

@@ -1,0 +1,75 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLSupport
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+import NeedleFoundation
+import Swift
+import UIKit
+import WLCommon
+import WLConfig
+import WLNetwork
+import WLUserInterface
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ConfigurableTabBar : UIKit.UITabBarController {
+  func configureTabBar(for traitCollection: UIKit.UITraitCollection)
+}
+extension WLSupport.ConfigurableTabBar {
+  public func configureTabBar(for traitCollection: UIKit.UITraitCollection)
+}
+public protocol FlightsModuleCore : WLSupport.ModuleCore, WLSupport.TrackableScreen {
+}
+extension WLSupport.FlightsModuleCore {
+  public var moduleIcon: WLSupport.ModuleIcon {
+    get
+  }
+  public func trackOpen(from source: WLSupport.TrackableScreenSource)
+}
+public protocol HotelsModuleCore : WLSupport.ModuleCore, WLSupport.TrackableScreen {
+}
+extension WLSupport.HotelsModuleCore {
+  public var moduleIcon: WLSupport.ModuleIcon {
+    get
+  }
+  public func trackOpen(from source: WLSupport.TrackableScreenSource)
+}
+public protocol InformationModuleCore : WLSupport.ModuleCore, WLSupport.TrackableScreen {
+}
+extension WLSupport.InformationModuleCore {
+  public var moduleIcon: WLSupport.ModuleIcon {
+    get
+  }
+  public func trackOpen(from source: WLSupport.TrackableScreenSource)
+}
+public protocol ModuleCore {
+  var moduleIcon: WLSupport.ModuleIcon { get }
+}
+public struct ModuleIcon {
+  public let inactive: UIKit.UIImage?
+  public let active: UIKit.UIImage?
+}
+public func registerProviderFactories()
+@_hasMissingDesignatedInitializers final public class ScreenProvider {
+  public static let shared: WLSupport.ScreenProvider
+  final public func webContaiverViewController(for url: Foundation.URL?) -> UIKit.UIViewController
+  @objc deinit
+}
+public protocol TrackableScreen {
+  func trackOpen(from source: WLSupport.TrackableScreenSource)
+}
+public enum TrackableScreenSource {
+  case tabBar
+  public static func == (a: WLSupport.TrackableScreenSource, b: WLSupport.TrackableScreenSource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum WhiteLabel {
+  public static func configure(with configuration: WLConfig.Configuration)
+}
+extension WLSupport.TrackableScreenSource : Swift.Equatable {}
+extension WLSupport.TrackableScreenSource : Swift.Hashable {}

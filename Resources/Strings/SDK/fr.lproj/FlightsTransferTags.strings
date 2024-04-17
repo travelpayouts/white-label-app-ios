@@ -1,0 +1,10 @@
+"visa_required_title" = "escale avec visa";
+"should_recheck_baggage_title" = "réservation intercompagnies";
+"night_transfer_title" = "escale de nuit";
+"airport_change_required_title" = "changement d\'aéroport";
+"short_layover_title" = "brève escale";
+"extended_visa_required_title" = "Vous aurez besoin d\'un visa à %@";
+"extended_should_recheck_baggage_title" = "Vous devrez réenregistrer vos bagages et vous enregistrer à nouveau pour votre vol de correspondance";
+"extended_night_transfer_title" = "Escale de nuit à %@";
+"extended_airport_change_required_title" = "Changement d\'aéroport à %@";
+"extended_short_layover_title" = "Brève escale à %@";

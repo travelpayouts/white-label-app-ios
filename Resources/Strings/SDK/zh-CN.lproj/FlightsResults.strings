@@ -1,0 +1,13 @@
+"filters_button_title" = "筛选器";
+"price_chart_button_title" = "价格图表";
+"widget_title_cell_title" = "直飞航班";
+"widget_button_cell_show_all_title" = "显示全部";
+"widget_button_cell_collapse_title" = "显示更少";
+"ticket_cell_travel_time_title" = "行程时间：%@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ 为此价格";
+"load_more_button_cell_title" = "显示另外 %@ 张票";
+"footer_text_cell_title" = "您已查看了所有符合您的搜索参数的机票。\n修改您的筛选条件以获取新的搜索结果";
+"should_update_alert_title" = "搜索结果可能已过时";
+"should_update_alert_message" = "票价每天会变化 10 次左右，请刷新您的搜索以获得更新价格";
+"should_update_alert_update_button_title" = "更新搜索";
+"should_update_alert_later_button_title" = "稍后";

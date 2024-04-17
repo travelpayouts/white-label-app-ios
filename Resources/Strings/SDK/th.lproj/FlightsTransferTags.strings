@@ -1,0 +1,10 @@
+"visa_required_title" = "หยุดพักโดยใช้วีซ่า";
+"should_recheck_baggage_title" = "การจองแบบอินเตอร์ไลน์";
+"night_transfer_title" = "หยุดพักค้างคืน";
+"airport_change_required_title" = "เปลี่ยนสนามบิน";
+"short_layover_title" = "หยุดพักระยะสั้น";
+"extended_visa_required_title" = "คุณจะต้องมีวีซ่าใน %@";
+"extended_should_recheck_baggage_title" = "คุณจะต้องตรวจสอบสัมภาระและเช็กอินอีกครั้งสำหรับเที่ยวบินต่อเครื่อง";
+"extended_night_transfer_title" = "หยุดพักค้างคืนใน %@";
+"extended_airport_change_required_title" = "เปลี่ยนสนามบินใน %@";
+"extended_short_layover_title" = "หยุดพักระยะสั้นใน %@";

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>transfers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>%d เปลี่ยนเครื่อง</string>
+      </dict>
+    </dict>
+    <key>transfers_for_slider</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>สูงสุด %d</string>
+      </dict>
+    </dict>
+    <key>tickets_left</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>เหลือตั๋ว %d ที่นั่ง</string>
+      </dict>
+    </dict>
+    <key>tickets</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>%d ตั๋ว</string>
+      </dict>
+    </dict>
+    <key>passengers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>ผู้โดยสาร %d ราย</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>กระเป๋าถือขึ้นเครื่อง: %#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>กระเป๋า %d ใบ</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>กระเป๋าถือขึ้นเครื่อง: %#@count@ %d กก.</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>กระเป๋า %d ใบ</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>สัมภาระ: %#@count@/ท่าน</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>%d ชิ้น</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>สัมภาระ: %#@count@ %d กก./ท่าน</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>other</key>
+        <string>%d ชิ้น</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

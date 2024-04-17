@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Kaikki tarjoukset";
+"flight_proposals_subtitle_per_person" = "Hinta 1 matkustajalle";
+"flight_proposals_subtitle_for_all_persons" = "Hinta kaikille matkustajille";
+"flight_proposals_filter_caption" = "Vain matkatavarat sisältävät liput";
+"flight_proposals_luggage_not_included" = "Matkatavarat eivät sisälly";
+"flight_proposals_hand_luggage_not_included" = "Käsimatkatavarat eivät sisälly";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Osta hintaan %@";
+"flight_proposals_flight_there" = "Lähtö";
+"flight_proposals_flight_back" = "Palaavat";

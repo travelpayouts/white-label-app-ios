@@ -1,0 +1,11 @@
+"filters_button_title" = "Filter";
+"location_button_map_view" = "Visa på karta";
+"location_button_card_view" = "Lista";
+"meters" = "%@ m";
+"kilometers" = "%@ km";
+"city_center" = "Stadskärna";
+"free_cancel_title" = "Gratis avbokning";
+"without_cancellation_title" = "Ej avbokningsbar";
+"no_available_rooms" = "Inga rum finns tillgängliga dessa datum";
+"for_single_night" = "per natt";
+"price_not_availalble" = "Inga rum hittades";

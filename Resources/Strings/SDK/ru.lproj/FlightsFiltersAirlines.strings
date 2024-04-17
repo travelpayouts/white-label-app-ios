@@ -1,0 +1,17 @@
+
+// MARK: - Titles
+
+"title" = "Авиакомпании";
+
+// MARK: - Sections titles
+
+"alliances_section_title" = "Альянсы и группы";
+"airlines_section_title" = "Авиакомпании";
+
+// MARK: - Cell titles
+
+"choose_all_cell_title" = "Выбрать все";
+
+// MARK: - Button titles
+
+"apply_button_title" = "Применить";

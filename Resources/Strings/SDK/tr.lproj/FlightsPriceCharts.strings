@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Uçuş Ara";
+"flights_price_charts_search_button" = "%@ kalkışlı uçuşları bul";
+"flights_price_charts_price_form" = "%@\'dan";
+"flights_price_charts_price_not_available" = "Fiyat\nmevcut değil";
+"flights_price_charts_price_departure_title_for_cases" = "%@\'e giden uçuş";
+"flights_price_charts_price_departure_title" = "%@\'e giden uçuş";
+"flights_price_charts_price_return_title_for_cases" = "%@\'e dönüş uçuşu";
+"flights_price_charts_price_return_title" = "%@\'e dönüş uçuşu";
+"flights_price_charts_price_direct_flight" = "Sadece direkt uçuşlar";
+"flights_price_charts_price_baggage" = "Bagaj dahil";

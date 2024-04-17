@@ -1,0 +1,6 @@
+"title" = "날짜";
+"first_date_text_field_placeholder" = "출발";
+"second_date_text_field_placeholder" = "귀국";
+"choose_button_title" = "%@ 선택하기";
+"disabled_choose_button_title" = "선택";
+"button_price_from" = "부터";

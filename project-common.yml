@@ -1,0 +1,72 @@
+############
+# Options
+############
+
+options:
+  minimumXcodeGenVersion: 2.11
+  groupSortPosition: top
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+  xcodeVersion: 12.2
+
+############
+# Project attributes
+############
+
+attributes:
+  ORGANIZATIONNAME: CleverPumpkin
+
+############
+# File Groups
+############
+
+fileGroups:
+  - Configs
+  - project.yml
+
+############
+# Configs
+############
+
+configs:
+  debug: debug
+  qa: release
+  rc: release
+  release: release
+
+############
+# Settings
+############
+
+settings:
+  SWIFT_VERSION: 5.4
+
+############
+# Templates
+############
+
+targetTemplates:
+  DefaultTarget:
+    platform: iOS
+
+    ############
+    # Sources
+    ############
+
+    sources:
+      - Sources
+      - Supporting Files
+
+    ############
+    # Info.plist
+    ############
+
+    info:
+      path: "Supporting Files/Info.plist"
+      properties:
+        CFBundleDisplayName: $(CP_PRODUCT_BUNDLE_DISPLAY_NAME)
+        CFBundleShortVersionString: $(CP_PRODUCT_BUNDLE_VERSION_SHORT)
+        CFBundleVersion: $(CP_PRODUCT_BUNDLE_VERSION)
+        
+    preBuildScripts:
+      

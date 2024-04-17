@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "항공편 검색";
+"flights_price_charts_search_button" = "%@부터 시작하는 항공편 찾기";
+"flights_price_charts_price_form" = "%@부터";
+"flights_price_charts_price_not_available" = "가격 이용 불가";
+"flights_price_charts_price_departure_title_for_cases" = "%@ 행 출발 항공권";
+"flights_price_charts_price_departure_title" = "%@ 행 출발 항공권";
+"flights_price_charts_price_return_title_for_cases" = "%@ 행 귀국 항공권";
+"flights_price_charts_price_return_title" = "%@ 행 귀국 항공권";
+"flights_price_charts_price_direct_flight" = "직항만 선택";
+"flights_price_charts_price_baggage" = "수하물 포함";

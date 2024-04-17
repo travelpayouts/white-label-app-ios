@@ -1,0 +1,10 @@
+"visa_required_title" = "ビザが必要な乗り継ぎ";
+"should_recheck_baggage_title" = "インターライン予約";
+"night_transfer_title" = "深夜乗り換え";
+"airport_change_required_title" = "空港間の地上移動";
+"short_layover_title" = "短い乗り継ぎ";
+"extended_visa_required_title" = "%@ではビザが必要になります";
+"extended_should_recheck_baggage_title" = "乗り継ぎ便のために、お荷物を再検査してもう一度チェックインしなければいけません";
+"extended_night_transfer_title" = "%@で夜間の乗り継ぎ";
+"extended_airport_change_required_title" = "%@で空港間の地上移動";
+"extended_short_layover_title" = "%@で短い乗り継ぎ";

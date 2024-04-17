@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Semua tawaran";
+"flight_proposals_subtitle_per_person" = "Harga untuk 1 penumpang";
+"flight_proposals_subtitle_for_all_persons" = "Harga untuk semua penumpang";
+"flight_proposals_filter_caption" = "Hanya tiket termasuk bagasi";
+"flight_proposals_luggage_not_included" = "Tidak termasuk bagasi";
+"flight_proposals_hand_luggage_not_included" = "Tidak termasuk beg bimbit";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Beli pada harga %@";
+"flight_proposals_flight_there" = "Perlepasan";
+"flight_proposals_flight_back" = "Kembali";

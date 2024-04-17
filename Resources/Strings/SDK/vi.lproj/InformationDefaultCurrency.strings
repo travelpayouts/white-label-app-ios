@@ -1,0 +1,3 @@
+"title" = "Tiền tệ";
+"all_currencies_button" = "Tất cả loại tiền";
+"load_currencies_error_description" = "Không thể xác định đơn vị tiền tệ dựa trên vị trí của bạn. Đã áp dụng đơn vị tiền tệ mặc định";

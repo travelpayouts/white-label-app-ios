@@ -1,0 +1,10 @@
+"visa_required_title" = "scalo con visto";
+"should_recheck_baggage_title" = "prenotazione interlinea";
+"night_transfer_title" = "scalo notturno";
+"airport_change_required_title" = "cambio di aeroporto";
+"short_layover_title" = "breve sosta";
+"extended_visa_required_title" = "Avrai bisogno di un visto a %@";
+"extended_should_recheck_baggage_title" = "Dovrai ricontrollare il bagaglio e rifare il check-in per la coincidenza";
+"extended_night_transfer_title" = "Scalo notturno a %@";
+"extended_airport_change_required_title" = "Cambio di aeroporto a %@";
+"extended_short_layover_title" = "Breve sosta a %@";

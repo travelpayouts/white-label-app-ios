@@ -1,0 +1,15 @@
+// MARK: - Titles
+
+"flight_proposals_title" = "Все предложения";
+"flight_proposals_subtitle_per_person" = "Цена за одного пассажира";
+"flight_proposals_subtitle_for_all_persons" = "Цена за всех пассажиров";
+"flight_proposals_filter_caption" = "Показать только с багажом";
+
+// MARK: - Cells
+
+"flight_proposals_luggage_not_included" = "Багаж не включен";
+"flight_proposals_hand_luggage_not_included" = "Ручная кладь не включена";
+"flight_proposals_dimension_centimetre_format" = "%d см";
+"flight_proposals_purchase_button_format" = "Купить за %@";
+"flight_proposals_flight_there" = "Туда";
+"flight_proposals_flight_back" = "Обратно";

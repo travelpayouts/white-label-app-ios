@@ -1,0 +1,8 @@
+"title" = "料金を表示";
+"aviaTickets_section_title" = "フライト";
+"hotels_section_title" = "ホテル";
+"currency_cell_title" = "通貨";
+"priceForAllPassengers_cell_title" = "すべての乗客における料金";
+"priceForOnePassenger_cell_title" = "乗客一人当たりの料金";
+"priceForAllNights_cell_title" = "滞在全体の料金";
+"priceForOneNight_cell_title" = "1泊の価格";

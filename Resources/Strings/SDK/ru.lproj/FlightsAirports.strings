@@ -1,0 +1,14 @@
+
+// MARK: - Titles
+
+"departure_title" = "Откуда";
+"arrival_title" = "Куда";
+
+// MARK: - Placeholders
+
+"search_bar_placeholder" = "Город, страна или аэропорт";
+
+// MARK: - Section titles
+
+"airports_nearby_section_title" = "Аэропорты рядом";
+"already_searched_section_title" = "Вы уже искали";

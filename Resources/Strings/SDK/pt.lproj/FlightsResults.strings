@@ -1,0 +1,13 @@
+"filters_button_title" = "Filtros";
+"price_chart_button_title" = "Gráfico de preços";
+"widget_title_cell_title" = "Voos diretos";
+"widget_button_cell_show_all_title" = "Exibir todos";
+"widget_button_cell_collapse_title" = "Exibir menos";
+"ticket_cell_travel_time_title" = "Tempo de viagem: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ por este preço";
+"load_more_button_cell_title" = "Mostrar mais %@ ingressos";
+"footer_text_cell_title" = "Você visualizou todas as passagens compatíveis com seus parâmetros de pesquisa.\nEdite os seus filtros para obter novos resultados de pesquisa";
+"should_update_alert_title" = "Os resultados da pesquisa podem estar desatualizados";
+"should_update_alert_message" = "O preço das passagens muda cerca de 10 vezes ao dia. Atualize sua busca para obter preços atualizados";
+"should_update_alert_update_button_title" = "Atualizar pesquisa";
+"should_update_alert_later_button_title" = "Não, depois";

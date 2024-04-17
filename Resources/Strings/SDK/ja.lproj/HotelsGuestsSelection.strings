@@ -1,0 +1,5 @@
+"adults" = "大人";
+"adults_description" = "18歳以上";
+"children" = "子供";
+"indexed_children" = "子供%d";
+"title" = "ゲスト";

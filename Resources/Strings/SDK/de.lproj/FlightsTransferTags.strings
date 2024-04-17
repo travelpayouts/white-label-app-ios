@@ -1,0 +1,10 @@
+"visa_required_title" = "zwischenstopp mit Visum";
+"should_recheck_baggage_title" = "interline-Buchung";
+"night_transfer_title" = "zwischenstopp mit Übernachtung";
+"airport_change_required_title" = "flughafenwechsel";
+"short_layover_title" = "kurzer Zwischenstopp";
+"extended_visa_required_title" = "In %@ benötigen Sie ein Visum";
+"extended_should_recheck_baggage_title" = "Sie müssen Ihr Gepäck neu aufgeben und sich für Ihren Anschlussflug neu einchecken";
+"extended_night_transfer_title" = "Zwischenstopp über Nacht in %@";
+"extended_airport_change_required_title" = "Flughafenwechsel in %@";
+"extended_short_layover_title" = "Kurzer Zwischenstopp in %@";

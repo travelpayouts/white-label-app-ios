@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Filter";
+"hotel_rooms_filters_grouping_title" = "Gruppera efter";
+"hotel_rooms_filters_bed_type_title" = "Sängtyp";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Stäng av allmänna filter";
+"hotel_rooms_filters_grouping_rooms_text" = "Rum";
+"hotel_rooms_filters_grouping_gates_text" = "Resebyråer";
+"hotel_rooms_filters_grouping_prices_text" = "Priser";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Visa alla rum, även om de\ninte överensstämmer med de filter som du har ställt in";

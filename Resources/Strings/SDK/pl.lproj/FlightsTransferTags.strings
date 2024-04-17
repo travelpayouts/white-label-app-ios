@@ -1,0 +1,10 @@
+"visa_required_title" = "przesiadka z wizą";
+"should_recheck_baggage_title" = "rezerwacja międzyliniowa";
+"night_transfer_title" = "przesiadka nocna";
+"airport_change_required_title" = "zmiana lotniska";
+"short_layover_title" = "krótki postój";
+"extended_visa_required_title" = "Będziesz potrzebować wizy w %@";
+"extended_should_recheck_baggage_title" = "Będzie konieczna ponowna odprawa bagażu i ponowna odprawa na kolejny lot";
+"extended_night_transfer_title" = "Nocny postój w %@";
+"extended_airport_change_required_title" = "Zmiana lotniska w %@";
+"extended_short_layover_title" = "Krótki postój w %@";

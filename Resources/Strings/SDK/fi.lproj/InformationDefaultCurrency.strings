@@ -1,0 +1,3 @@
+"title" = "Valuutta";
+"all_currencies_button" = "Kaikki valuutat";
+"load_currencies_error_description" = "Valuutan määrittäminen sijaintisi perusteella ei onnistunut. Käytetään oletusvaluuttaa";

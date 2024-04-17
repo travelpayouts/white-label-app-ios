@@ -1,0 +1,8 @@
+"title" = "Sort by";
+"best_title" = "Recommended";
+"cheapest_title" = "Price";
+"departure_time_title" = "Departure time";
+"arrival_time_title" = "Arrival time";
+"transfer_duration_title" = "Layover duration";
+"trip_duration_title" = "Travel time";
+"popularity_title" = "Popularity";

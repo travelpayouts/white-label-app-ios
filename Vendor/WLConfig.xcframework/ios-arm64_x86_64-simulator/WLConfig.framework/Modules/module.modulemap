@@ -1,0 +1,4 @@
+framework module WLConfig {
+  header "WLConfig-Swift.h"
+  requires objc
+}

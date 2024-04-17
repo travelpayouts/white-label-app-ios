@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "ค้นหาเที่ยวบิน";
+"flights_price_charts_search_button" = "ค้นหาเที่ยวบินเริ่มจาก %@";
+"flights_price_charts_price_form" = "จาก %@";
+"flights_price_charts_price_not_available" = "ไม่สามารถดูราคาได้";
+"flights_price_charts_price_departure_title_for_cases" = "เที่ยวบินต่างประเทศไปยัง %@";
+"flights_price_charts_price_departure_title" = "เที่ยวบินต่างประเทศไปยัง %@";
+"flights_price_charts_price_return_title_for_cases" = "เที่ยวบินกลับไปยัง %@";
+"flights_price_charts_price_return_title" = "เที่ยวบินกลับไปยัง %@";
+"flights_price_charts_price_direct_flight" = "เฉพาะเที่ยวบินตรง";
+"flights_price_charts_price_baggage" = "รวมสัมภาระ";

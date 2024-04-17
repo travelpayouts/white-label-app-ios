@@ -1,0 +1,23 @@
+"hotel_details_best_proposal_button_title" = "Все номера";
+"hotel_details_map_location_button_title" = "Показать на карте";
+"hotel_details_map_distance_to_cender" = "Центр города";
+"hotel_details_year_opened" = "Построен в %@ году";
+"hotel_details_year_renovated" = "Обновлен в %@ году";
+"hotel_details_price_category" = "Ценовая категория %@";
+"hotel_details_language_amenity" = "Персонал говорит на языках: %@";
+"hotel_details_check_in" = "Заезд с %@";
+"hotel_details_check_out" = "Выезд до %@";
+"hotel_details_check_in_check_out" = "Заезд с %@, выезд до %@";
+"hotel_details_book_button_title" = "Забронировать";
+"hotel_details_book_unavailable_button_title" = "Нет номеров";
+
+// Section headers
+
+"hotel_details_location_section_header" = "Расположение";
+"hotel_details_rating_section_header" = "Рейтинг";
+"hotel_details_reviews_section_header" = "Отзывы";
+"hotel_details_reviews_section_header_button" = "Все отзывы";
+"hotel_details_about_section_header" = "Об отеле";
+"hotel_details_room_amenities_section_header" = "Удобства в номере";
+"hotel_details_amenities_section_header" = "Удобства в отеле";
+"hotel_details_suggests_section_header" = "Похожие варианты размещения";

@@ -1,0 +1,3 @@
+"title" = "货币";
+"all_currencies_button" = "所有货币";
+"load_currencies_error_description" = "无法根据您的位置确定货币种类。应用默认货币";

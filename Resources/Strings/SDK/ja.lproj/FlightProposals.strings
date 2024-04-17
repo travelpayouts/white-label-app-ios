@@ -1,0 +1,10 @@
+"flight_proposals_title" = "すべてのオファー";
+"flight_proposals_subtitle_per_person" = "乗客1人分の料金";
+"flight_proposals_subtitle_for_all_persons" = "乗客全員分の料金";
+"flight_proposals_filter_caption" = "受託手荷物を含む航空券のみ";
+"flight_proposals_luggage_not_included" = "手荷物を除く";
+"flight_proposals_hand_luggage_not_included" = "機内持ち込み手荷物は含まれておりません";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "%@で購入";
+"flight_proposals_flight_there" = "出発";
+"flight_proposals_flight_back" = "帰着便";

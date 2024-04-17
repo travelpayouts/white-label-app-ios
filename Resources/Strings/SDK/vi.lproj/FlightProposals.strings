@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Tất cả ưu đãi";
+"flight_proposals_subtitle_per_person" = "Giá cho 1 hành khách";
+"flight_proposals_subtitle_for_all_persons" = "Giá cho tất cả hành khách";
+"flight_proposals_filter_caption" = "Chỉ những vé có bao gồm hành lý";
+"flight_proposals_luggage_not_included" = "Không bao gồm hành lý";
+"flight_proposals_hand_luggage_not_included" = "Không bao gồm hành lý xách tay";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Mua với %@";
+"flight_proposals_flight_there" = "Xuất phát";
+"flight_proposals_flight_back" = "Trở về";

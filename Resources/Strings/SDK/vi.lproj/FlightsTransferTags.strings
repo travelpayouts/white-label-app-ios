@@ -1,0 +1,10 @@
+"visa_required_title" = "chặng dừng cần visa";
+"should_recheck_baggage_title" = "đặt chỗ chuyến bay liên danh";
+"night_transfer_title" = "quá cảnh qua đêm";
+"airport_change_required_title" = "thay đổi sân bay";
+"short_layover_title" = "quá cảnh ngắn";
+"extended_visa_required_title" = "Bạn sẽ cần có visa ở %@";
+"extended_should_recheck_baggage_title" = "Bạn sẽ phải ký gửi lại hành lý và làm thủ tục lại cho chuyến bay nối chuyến của mình";
+"extended_night_transfer_title" = "Quá cảnh qua đêm ở %@";
+"extended_airport_change_required_title" = "Thay đổi sân bay ở %@";
+"extended_short_layover_title" = "Quá cảnh ngắn ở %@";

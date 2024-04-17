@@ -1,0 +1,5 @@
+"title" = "Date";
+"choose_button_title" = "Seleziona %@";
+"disabled_choose_button_title" = "Seleziona";
+"date_range_limit_title" = "Limite di soggiorno superato";
+"date_range_limit_message" = "Siamo spiacenti, ma il soggiorno massimo in hotel è limitato\na %@";

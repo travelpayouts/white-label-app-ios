@@ -1,0 +1,3 @@
+"title" = "Valuta";
+"all_currencies_button" = "Alle valuta";
+"load_currencies_error_description" = "Het is niet gelukt om de valuta te bepalen op basis van uw locatie. Standaardvaluta toegepast";

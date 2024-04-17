@@ -1,0 +1,12 @@
+
+// MARK: - Titles
+
+"title" = "Аэропорты пересадок";
+
+// MARK: - Cell titles
+
+"choose_all_cell_title" = "Выбрать все";
+
+// MARK: - Button titles
+
+"apply_button_title" = "Применить";

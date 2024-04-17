@@ -1,0 +1,8 @@
+"title" = "按排序";
+"best_title" = "推薦";
+"cheapest_title" = "價格";
+"departure_time_title" = "啟程時間";
+"arrival_time_title" = "到達時間";
+"transfer_duration_title" = "中途停留時間";
+"trip_duration_title" = "飛行時間";
+"popularity_title" = "熱門程度";

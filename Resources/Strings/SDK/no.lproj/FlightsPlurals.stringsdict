@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>transfers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d opphold</string>
+        <key>other</key>
+        <string>%d mellomlandinger</string>
+      </dict>
+    </dict>
+    <key>transfers_for_slider</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>En eller færre</string>
+        <key>other</key>
+        <string>opptil %d</string>
+      </dict>
+    </dict>
+    <key>tickets_left</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d billett igjen</string>
+        <key>other</key>
+        <string>%d billetter igjen</string>
+      </dict>
+    </dict>
+    <key>tickets</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d billett</string>
+        <key>other</key>
+        <string>%d billetter</string>
+      </dict>
+    </dict>
+    <key>passengers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d passasjer</string>
+        <key>other</key>
+        <string>%d passasjerer</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Håndbagasje: %#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d koffert</string>
+        <key>other</key>
+        <string>%d kofferter</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Håndbagasje: %#@count@ %dkg</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d koffert</string>
+        <key>other</key>
+        <string>%d kofferter</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Bagasje: %#@count@/pax</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d stk.</string>
+        <key>other</key>
+        <string>%d stk.</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Bagasje: %#@count@ %dkg/pax</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d stk.</string>
+        <key>other</key>
+        <string>%d stk.</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

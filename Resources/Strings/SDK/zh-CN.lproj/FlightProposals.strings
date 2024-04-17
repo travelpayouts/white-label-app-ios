@@ -1,0 +1,10 @@
+"flight_proposals_title" = "所有优惠";
+"flight_proposals_subtitle_per_person" = "1 名乘客的价格";
+"flight_proposals_subtitle_for_all_persons" = "所有乘客的价格";
+"flight_proposals_filter_caption" = "仅显示包含行李的机票";
+"flight_proposals_luggage_not_included" = "不包含行李";
+"flight_proposals_hand_luggage_not_included" = "不含手提行李";
+"flight_proposals_dimension_centimetre_format" = "%d 厘米";
+"flight_proposals_purchase_button_format" = "以 %@ 价格购买";
+"flight_proposals_flight_there" = "出发";
+"flight_proposals_flight_back" = "返程";

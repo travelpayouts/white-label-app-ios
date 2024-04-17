@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>transfers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d vaihto</string>
+        <key>other</key>
+        <string>%d vaihtoa</string>
+      </dict>
+    </dict>
+    <key>transfers_for_slider</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>Yksi tai vähemmän</string>
+        <key>other</key>
+        <string>%d asti</string>
+      </dict>
+    </dict>
+    <key>tickets_left</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d lippu jäljellä</string>
+        <key>other</key>
+        <string>%d lippua jäljellä</string>
+      </dict>
+    </dict>
+    <key>tickets</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d lippu</string>
+        <key>other</key>
+        <string>%d lippua</string>
+      </dict>
+    </dict>
+    <key>passengers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d matkustaja</string>
+        <key>other</key>
+        <string>%d matkustajaa</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Käsimatkatavarat: %#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d laukku</string>
+        <key>other</key>
+        <string>%d laukkua</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Käsimatkatavarat: %#@count@ %dkg</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d laukku</string>
+        <key>other</key>
+        <string>%d laukkua</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Matkatavarat: %#@count@/pax</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d kpl</string>
+        <key>other</key>
+        <string>%d kpl</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Matkatavarat: %#@count@ %dkg/pax</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d kpl</string>
+        <key>other</key>
+        <string>%d kpl</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

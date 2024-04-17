@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Search flights";
+"flights_price_charts_search_button" = "Find flights starting from %@";
+"flights_price_charts_price_form" = "from %@";
+"flights_price_charts_price_not_available" = "Price\nnot available";
+"flights_price_charts_price_departure_title_for_cases" = "Outbound flight %@";
+"flights_price_charts_price_departure_title" = "Outbound flight %@";
+"flights_price_charts_price_return_title_for_cases" = "Return flight %@";
+"flights_price_charts_price_return_title" = "Return flight %@";
+"flights_price_charts_price_direct_flight" = "Direct flights only";
+"flights_price_charts_price_baggage" = "Baggage included";

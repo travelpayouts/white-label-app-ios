@@ -1,0 +1,3 @@
+"title" = "Devise";
+"all_currencies_button" = "Toutes les devises";
+"load_currencies_error_description" = "Échec de la détermination de la devise en fonction de votre emplacement. Devise par défaut appliquée";

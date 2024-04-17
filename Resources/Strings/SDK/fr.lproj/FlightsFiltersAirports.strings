@@ -1,0 +1,7 @@
+"title" = "Aéroports";
+"forth_trip_departure_from_title" = "Départ à partir de %@";
+"forth_trip_arrival_to_title" = "Arrivée à %@";
+"back_trip_departure_from_title" = "Départ du vol retour à partir de %@";
+"back_trip_arrival_to_title" = "Arrivée du vol retour à %@";
+"choose_all_cell_title" = "Tout sélectionner";
+"apply_button_title" = "Appliquer";

@@ -1,0 +1,10 @@
+"visa_required_title" = "vizeli konaklama";
+"should_recheck_baggage_title" = "şirketler arası rezervasyon";
+"night_transfer_title" = "gece bekleme";
+"airport_change_required_title" = "havalimanı değişikliği";
+"short_layover_title" = "kısa aktarma";
+"extended_visa_required_title" = "%@ için vizeye ihtiyacınız olacak";
+"extended_should_recheck_baggage_title" = "Bagajınızı tekrar kontrol etmeniz ve aktarmalı uçuşunuz için tekrar check-in yapmanız gerekecektir";
+"extended_night_transfer_title" = "%@ konumunda bir gece süren aktarma";
+"extended_airport_change_required_title" = "%@ şehrinde havalimanı değişikliği";
+"extended_short_layover_title" = "%@ konumunda kısa aktarma";

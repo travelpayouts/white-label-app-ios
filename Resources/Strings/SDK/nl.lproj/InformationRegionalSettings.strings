@@ -1,0 +1,5 @@
+"title" = "Regionale instellingen";
+"app_language_cell_title" = "App-taal";
+"country_cell_title" = "Land";
+"currency_cell_title" = "Valuta";
+"description_cell_title" = "Regionale instellingen worden gebruikt om geschikte tickets en toegangsregels voor verschillende landen te tonen";

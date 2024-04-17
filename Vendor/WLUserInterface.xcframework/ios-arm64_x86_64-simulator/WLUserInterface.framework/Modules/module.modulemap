@@ -1,0 +1,4 @@
+framework module WLUserInterface {
+  header "WLUserInterface-Swift.h"
+  requires objc
+}

@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Filter";
+"hotel_rooms_filters_grouping_title" = "Gruppieren nach";
+"hotel_rooms_filters_bed_type_title" = "Art des Betts";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Allgemeine Filter deaktivieren";
+"hotel_rooms_filters_grouping_rooms_text" = "Zimmer";
+"hotel_rooms_filters_grouping_gates_text" = "Agenturen";
+"hotel_rooms_filters_grouping_prices_text" = "Preise";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Alle Räume anzeigen, auch wenn\nsie nicht Ihren Filtern entsprechen";

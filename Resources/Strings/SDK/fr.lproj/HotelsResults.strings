@@ -1,0 +1,11 @@
+"filters_button_title" = "Filtres";
+"location_button_map_view" = "Afficher sur la carte";
+"location_button_card_view" = "Liste";
+"meters" = "%@m";
+"kilometers" = "%@km";
+"city_center" = "Centre-ville";
+"free_cancel_title" = "Annulation gratuite";
+"without_cancellation_title" = "Non annulable";
+"no_available_rooms" = "Pas de chambres disponibles à ces dates";
+"for_single_night" = "par nuit";
+"price_not_availalble" = "Aucune chambre trouvée";

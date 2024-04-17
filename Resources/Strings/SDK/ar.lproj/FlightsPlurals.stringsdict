@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>transfers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>توقف %d</string>
+        <key>one</key>
+        <string>توقف %d</string>
+        <key>two</key>
+        <string>توقف %d</string>
+        <key>few</key>
+        <string>توقف %d</string>
+        <key>many</key>
+        <string>توقف %d</string>
+        <key>other</key>
+        <string>توقف %d</string>
+      </dict>
+    </dict>
+    <key>transfers_for_slider</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>zero</key>
+        <string>تصل إلى %d</string>
+        <key>one</key>
+        <string>مرة أو أقل</string>
+        <key>two</key>
+        <string>تصل إلى %d</string>
+        <key>few</key>
+        <string>تصل إلى %d</string>
+        <key>many</key>
+        <string>تصل إلى %d</string>
+        <key>other</key>
+        <string>تصل إلى %d</string>
+      </dict>
+    </dict>
+    <key>tickets_left</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d تذكرة متبقية</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d تذكرة متبقية</string>
+        <key>two</key>
+        <string>%d تذكرة متبقية</string>
+        <key>few</key>
+        <string>%d تذكرة متبقية</string>
+        <key>many</key>
+        <string>%d تذكرة متبقية</string>
+        <key>other</key>
+        <string>%d تذكرة متبقية</string>
+      </dict>
+    </dict>
+    <key>tickets</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d تذاكر</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>تذكرة %d</string>
+        <key>two</key>
+        <string>تذكرتان %d</string>
+        <key>few</key>
+        <string>%d تذاكر</string>
+        <key>many</key>
+        <string>%d تذكرة</string>
+        <key>other</key>
+        <string>%d تذكرة</string>
+      </dict>
+    </dict>
+    <key>passengers</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d مسافرين</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d مسافر</string>
+        <key>two</key>
+        <string>%d مسافرين</string>
+        <key>few</key>
+        <string>%d مسافرين</string>
+        <key>many</key>
+        <string>%d مسافرين</string>
+        <key>other</key>
+        <string>%d مسافرين</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>الحقائب المسموح بحملها: %#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d شنط</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d شنطة</string>
+        <key>two</key>
+        <string>%d شنط</string>
+        <key>few</key>
+        <string>%d شنط</string>
+        <key>many</key>
+        <string>%d شنط</string>
+        <key>other</key>
+        <string>%d شنط</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_hand_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>الحقائب المسموح بحملها: %#@count@ %dكجم</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d شنط</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d شنطة</string>
+        <key>two</key>
+        <string>%d شنط</string>
+        <key>few</key>
+        <string>%d شنط</string>
+        <key>many</key>
+        <string>%d شنط</string>
+        <key>other</key>
+        <string>%d شنط</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>الأمتعة: %#@count@/مسافر</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d شنط</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d شنطة</string>
+        <key>two</key>
+        <string>%d شنط</string>
+        <key>few</key>
+        <string>%d شنط</string>
+        <key>many</key>
+        <string>%d شنط</string>
+        <key>other</key>
+        <string>%d شنط</string>
+      </dict>
+    </dict>
+    <key>ticket_proposal_luggage_with_weight</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>الأمتعة: %#@count@ %dكجم/مسافر</string>
+      <key>count</key>
+      <dict>
+        <key>zero</key>
+        <string>%d شنط</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d شنطة</string>
+        <key>two</key>
+        <string>%d شنط</string>
+        <key>few</key>
+        <string>%d شنط</string>
+        <key>many</key>
+        <string>%d شنط</string>
+        <key>other</key>
+        <string>%d شنط</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

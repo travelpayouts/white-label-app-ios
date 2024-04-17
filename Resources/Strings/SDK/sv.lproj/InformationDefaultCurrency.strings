@@ -1,0 +1,3 @@
+"title" = "Valuta";
+"all_currencies_button" = "Alla valutor";
+"load_currencies_error_description" = "Det gick inte att bestämma valuta utifrån på din plats. Ordinarie valuta är vald";

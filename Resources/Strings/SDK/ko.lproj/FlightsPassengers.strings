@@ -1,0 +1,10 @@
+"passengers_title" = "승객";
+"adults_title" = "성인";
+"adults_subtitle" = "만 12세 이상";
+"children_title" = "어린이";
+"children_subtitle" = "2세부터 12세";
+"babies_title" = "유아";
+"babies_subtitle" = "0~만 2세 (좌석 없음)";
+"class_title" = "좌석 등급";
+"economy_class_title" = "이코노미";
+"business_class_title" = "비즈니스";

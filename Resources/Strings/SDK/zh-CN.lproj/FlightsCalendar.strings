@@ -1,0 +1,6 @@
+"title" = "日期";
+"first_date_text_field_placeholder" = "出发";
+"second_date_text_field_placeholder" = "返程";
+"choose_button_title" = "选择 %@";
+"disabled_choose_button_title" = "选择";
+"button_price_from" = "来自";

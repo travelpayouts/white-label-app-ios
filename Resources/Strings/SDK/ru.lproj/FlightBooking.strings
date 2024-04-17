@@ -1,0 +1,6 @@
+
+// MARK: - Alerts
+
+"flight_booking_close_msg_title" = "Вернуться к поиску\nбилетов?";
+"flight_booking_close_msg_stay_button" = "Остаться";
+"flight_booking_close_msg_return_button" = "Вернуться";

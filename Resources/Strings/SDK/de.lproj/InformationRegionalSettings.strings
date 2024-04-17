@@ -1,0 +1,5 @@
+"title" = "Ländereinstellungen";
+"app_language_cell_title" = "App-Sprache";
+"country_cell_title" = "Land";
+"currency_cell_title" = "Währung";
+"description_cell_title" = "Regionale Einstellungen werden verwendet, um geeignete Tickets und Einreiseregeln für verschiedene Länder anzuzeigen";

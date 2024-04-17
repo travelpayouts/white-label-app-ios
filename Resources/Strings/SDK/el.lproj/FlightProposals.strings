@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Όλες οι προσφορές";
+"flight_proposals_subtitle_per_person" = "Τιμή για 1 επιβάτη";
+"flight_proposals_subtitle_for_all_persons" = "Τιμή για όλους τους επιβάτες";
+"flight_proposals_filter_caption" = "Μόνο εισιτήρια με αποσκευές";
+"flight_proposals_luggage_not_included" = "Δε συμπεριλαμβάνονται αποσκευές";
+"flight_proposals_hand_luggage_not_included" = "Δεν συμπεριλαμβάνεται χειραποσκευή";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Αγορά για %@";
+"flight_proposals_flight_there" = "Αναχώρηση";
+"flight_proposals_flight_back" = "Επιστροφή";

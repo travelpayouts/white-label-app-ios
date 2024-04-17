@@ -1,0 +1,10 @@
+"visa_required_title" = "توقف مع تأشيرة";
+"should_recheck_baggage_title" = "حجز الربط";
+"night_transfer_title" = "توقف أثناء الليل";
+"airport_change_required_title" = "تغيير المطار";
+"short_layover_title" = "توقف قصير";
+"extended_visa_required_title" = "ستحتاج إلى تأشيرة في %@";
+"extended_should_recheck_baggage_title" = "سيجب عليك إعادة تسجيل أمتعتك وتسجيل الوصول مرة أخرى لرحلة المتابعة الخاصة بك";
+"extended_night_transfer_title" = "توقف ليلي في %@";
+"extended_airport_change_required_title" = "تغيير المطار في %@";
+"extended_short_layover_title" = "توقف قصير في %@";

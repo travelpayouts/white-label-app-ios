@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Cerca voli";
+"flights_price_charts_search_button" = "Trova voli a partire da %@";
+"flights_price_charts_price_form" = "da %@";
+"flights_price_charts_price_not_available" = "Prezzo\nnon disponibile";
+"flights_price_charts_price_departure_title_for_cases" = "Volo di andata per %@";
+"flights_price_charts_price_departure_title" = "Volo di andata per %@";
+"flights_price_charts_price_return_title_for_cases" = "Volo di ritorno per %@";
+"flights_price_charts_price_return_title" = "Volo di ritorno per %@";
+"flights_price_charts_price_direct_flight" = "Solo voli diretti";
+"flights_price_charts_price_baggage" = "Bagaglio incluso";

@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Søg efter flyrejser";
+"flights_price_charts_search_button" = "Find flyrejser fra %@";
+"flights_price_charts_price_form" = "fra %@";
+"flights_price_charts_price_not_available" = "Pris er ikke\ntilgængelig";
+"flights_price_charts_price_departure_title_for_cases" = "Udgående flyrejse til %@";
+"flights_price_charts_price_departure_title" = "Udgående flyrejse til %@";
+"flights_price_charts_price_return_title_for_cases" = "Returfly til %@";
+"flights_price_charts_price_return_title" = "Returfly til %@";
+"flights_price_charts_price_direct_flight" = "Kun direkte fly";
+"flights_price_charts_price_baggage" = "Bagage inkluderet";

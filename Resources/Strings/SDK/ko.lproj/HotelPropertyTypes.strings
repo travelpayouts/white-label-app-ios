@@ -1,0 +1,11 @@
+"hotel_property_type_guest" = "게스트 하우스";
+"hotel_property_type_hotel" = "호텔";
+"hotel_property_type_hostel" = "호스텔";
+"hotel_property_type_apartment" = "아파트";
+"hotel_property_type_villa" = "빌라";
+"hotel_property_type_apart_hotel" = "아파토텔";
+"hotel_property_type_motel" = "모텔";
+"hotel_property_type_resort" = "리조트 호텔";
+"hotel_property_type_lodge" = "산장";
+"hotel_property_type_bb" = "B&B";
+"hotel_property_type_other" = "기타";

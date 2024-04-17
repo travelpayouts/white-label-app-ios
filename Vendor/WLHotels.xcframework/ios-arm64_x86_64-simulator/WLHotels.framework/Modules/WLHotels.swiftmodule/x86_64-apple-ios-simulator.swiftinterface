@@ -1,0 +1,1063 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLHotels
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import ClusterKit
+import Combine
+import CombineCocoa
+import CombineExt
+import CoreGraphics
+import CoreLocation
+import CrispyCalendar
+import Foundation
+import ImageViewer_swift
+import Kingfisher
+import MapKit
+import Moya
+import NeedleFoundation
+import RswiftResources
+import SkeletonView
+import SnapKit
+import Swift
+import UIKit
+import WLCommon
+import WLConfig
+import WLNetwork
+import WLPersistence
+import WLShared
+import WLUserInterface
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum HotelsImageSink : WLConfig.ImageSink {
+  case searchScreenBackground
+  public static func == (a: WLHotels.HotelsImageSink, b: WLHotels.HotelsImageSink) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension WLConfig.Configuration.ImagesProvider {
+  final public func register(source: WLConfig.Configuration.ImagesProvider.ImageSource, forHotelsSink sink: WLHotels.HotelsImageSink)
+}
+public func registerProviderFactories()
+public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable {
+  case hotelBooking
+  case hotelDetails
+  case hotelPropertyTypes
+  case hotelProposalOptions
+  case hotelRooms
+  case hotelRoomsFilters
+  case hotelsCalendar
+  case hotelsFavorites
+  case hotelsFilterSearch
+  case hotelsFilters
+  case hotelsFiltersChains
+  case hotelsFiltersDistanceTo
+  case hotelsFiltersDistricts
+  case hotelsFiltersGates
+  case hotelsFiltersPointOnMap
+  case hotelsGuestsSelection
+  case hotelsLocations
+  case hotelsMap
+  case hotelsMapLocationPicker
+  case hotelsPhotosPreview
+  case hotelsPlurals
+  case hotelsResults
+  case hotelsReviews
+  case hotelsSearch
+  case hotelsSorting
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [WLHotels.LocalizationTable]
+  public typealias RawValue = Swift.String
+  public static var allCases: [WLHotels.LocalizationTable] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension WLConfig.Configuration.Localization {
+  final public func register(bundle: Foundation.Bundle, hotelsTable table: WLHotels.LocalizationTable, overriddenTableName: Swift.String? = nil)
+}
+public let R: WLHotels._R
+public struct _R {
+  public let bundle: Foundation.Bundle
+  public init(bundle: Foundation.Bundle)
+  public var string: WLHotels._R.string {
+    get
+  }
+  public func string(bundle: Foundation.Bundle) -> WLHotels._R.string
+  public func string(locale: Foundation.Locale) -> WLHotels._R.string
+  public func string(preferredLanguages: [Swift.String], locale: Foundation.Locale? = nil) -> WLHotels._R.string
+  public func validate() throws
+  public struct project {
+    public let developmentRegion: Swift.String
+  }
+  public struct string {
+    public let bundle: Foundation.Bundle
+    public let preferredLanguages: [Swift.String]?
+    public let locale: Foundation.Locale?
+    public init(bundle: Foundation.Bundle, preferredLanguages: [Swift.String]? = nil, locale: Foundation.Locale? = nil)
+    public var hotelBooking: WLHotels._R.string.hotelBooking {
+      get
+    }
+    public var hotelDetails: WLHotels._R.string.hotelDetails {
+      get
+    }
+    public var hotelPropertyTypes: WLHotels._R.string.hotelPropertyTypes {
+      get
+    }
+    public var hotelProposalOptions: WLHotels._R.string.hotelProposalOptions {
+      get
+    }
+    public var hotelRooms: WLHotels._R.string.hotelRooms {
+      get
+    }
+    public var hotelRoomsFilters: WLHotels._R.string.hotelRoomsFilters {
+      get
+    }
+    public var hotelsCalendar: WLHotels._R.string.hotelsCalendar {
+      get
+    }
+    public var hotelsFavorites: WLHotels._R.string.hotelsFavorites {
+      get
+    }
+    public var hotelsFilterSearch: WLHotels._R.string.hotelsFilterSearch {
+      get
+    }
+    public var hotelsFilters: WLHotels._R.string.hotelsFilters {
+      get
+    }
+    public var hotelsFiltersChains: WLHotels._R.string.hotelsFiltersChains {
+      get
+    }
+    public var hotelsFiltersDistanceTo: WLHotels._R.string.hotelsFiltersDistanceTo {
+      get
+    }
+    public var hotelsFiltersDistricts: WLHotels._R.string.hotelsFiltersDistricts {
+      get
+    }
+    public var hotelsFiltersGates: WLHotels._R.string.hotelsFiltersGates {
+      get
+    }
+    public var hotelsFiltersPointOnMap: WLHotels._R.string.hotelsFiltersPointOnMap {
+      get
+    }
+    public var hotelsGuestsSelection: WLHotels._R.string.hotelsGuestsSelection {
+      get
+    }
+    public var hotelsLocations: WLHotels._R.string.hotelsLocations {
+      get
+    }
+    public var hotelsMap: WLHotels._R.string.hotelsMap {
+      get
+    }
+    public var hotelsMapLocationPicker: WLHotels._R.string.hotelsMapLocationPicker {
+      get
+    }
+    public var hotelsPhotosPreview: WLHotels._R.string.hotelsPhotosPreview {
+      get
+    }
+    public var hotelsPlurals: WLHotels._R.string.hotelsPlurals {
+      get
+    }
+    public var hotelsResults: WLHotels._R.string.hotelsResults {
+      get
+    }
+    public var hotelsReviews: WLHotels._R.string.hotelsReviews {
+      get
+    }
+    public var hotelsSearch: WLHotels._R.string.hotelsSearch {
+      get
+    }
+    public var hotelsSorting: WLHotels._R.string.hotelsSorting {
+      get
+    }
+    public func hotelBooking(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelBooking
+    public func hotelDetails(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelDetails
+    public func hotelPropertyTypes(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelPropertyTypes
+    public func hotelProposalOptions(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelProposalOptions
+    public func hotelRooms(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelRooms
+    public func hotelRoomsFilters(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelRoomsFilters
+    public func hotelsCalendar(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsCalendar
+    public func hotelsFavorites(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFavorites
+    public func hotelsFilterSearch(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFilterSearch
+    public func hotelsFilters(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFilters
+    public func hotelsFiltersChains(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFiltersChains
+    public func hotelsFiltersDistanceTo(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFiltersDistanceTo
+    public func hotelsFiltersDistricts(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFiltersDistricts
+    public func hotelsFiltersGates(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFiltersGates
+    public func hotelsFiltersPointOnMap(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsFiltersPointOnMap
+    public func hotelsGuestsSelection(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsGuestsSelection
+    public func hotelsLocations(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsLocations
+    public func hotelsMap(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsMap
+    public func hotelsMapLocationPicker(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsMapLocationPicker
+    public func hotelsPhotosPreview(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsPhotosPreview
+    public func hotelsPlurals(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsPlurals
+    public func hotelsResults(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsResults
+    public func hotelsReviews(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsReviews
+    public func hotelsSearch(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsSearch
+    public func hotelsSorting(preferredLanguages: [Swift.String]) -> WLHotels._R.string.hotelsSorting
+    public struct hotelBooking {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_booking_close_msg_return_button: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_booking_close_msg_stay_button: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_booking_close_msg_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelDetails {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_details_about_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_amenities_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_best_proposal_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_book_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_book_unavailable_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_check_in: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotel_details_check_in_check_out: RswiftResources.StringResource2<Swift.String, Swift.String> {
+        get
+      }
+      public var hotel_details_check_out: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotel_details_language_amenity: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotel_details_location_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_map_distance_to_cender: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_map_location_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_price_category: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotel_details_rating_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_reviews_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_reviews_section_header_button: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_room_amenities_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_suggests_section_header: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_details_year_opened: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotel_details_year_renovated: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+    }
+    public struct hotelPropertyTypes {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_property_type_apart_hotel: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_apartment: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_bb: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_guest: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_hostel: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_hotel: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_lodge: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_motel: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_other: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_resort: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_property_type_villa: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelProposalOptions {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_proposal_air_conditioner: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_all_inclusive: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_balcony: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_beds_double: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_beds_twin: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_breakfast_included: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_breakfast_not_included: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_card_required: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_dormitory: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_fan: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_free_wifi: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_full_board: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_half_board: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_non_private_bathroom: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_non_refundable: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_non_smoking: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_pay_later: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_pay_now: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_penthouse: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_private_pool: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_refundable: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_smoking: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_terrace: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_ultra_all_inclusive: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_with_deposit: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_without_card_required: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_proposal_without_deposit: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelRooms {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_room_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_other_rooms_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelRoomsFilters {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotel_rooms_filters_bed_type_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_disable_common_filters_switch_cell_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_disable_common_filters_switch_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_grouping_gates_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_grouping_prices_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_grouping_rooms_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_grouping_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rooms_filters_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsCalendar {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var choose_button_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var date_range_limit_message: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var date_range_limit_title: RswiftResources.StringResource {
+        get
+      }
+      public var disabled_choose_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFavorites {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var outdated_dates_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFilterSearch {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filter_search_search_bar_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filter_search_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFilters {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var additional_title: RswiftResources.StringResource {
+        get
+      }
+      public var any_plural_title: RswiftResources.StringResource {
+        get
+      }
+      public var any_title: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_apart_hotel_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_apartment_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_bb_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_guest_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_hostel_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_hotel_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_lodge_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_motel_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_resort_text: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_title: RswiftResources.StringResource {
+        get
+      }
+      public var apartment_type_villa_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_adults_only_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_airbnb_plus_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_boutique_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_business_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_comfort_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_designer_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_family_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_friendly_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_luxury_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_modern_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_romantic_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_stylish_text: RswiftResources.StringResource {
+        get
+      }
+      public var atmosphere_title: RswiftResources.StringResource {
+        get
+      }
+      public var booking_agency_title: RswiftResources.StringResource {
+        get
+      }
+      public var distance_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var districts_title: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_full_board_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_half_board_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_pay_later_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_pay_now_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_title: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_ultra_all_inclusive_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_with_breakfast_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_without_breakfast_text: RswiftResources.StringResource {
+        get
+      }
+      public var food_and_payment_without_card_required_text: RswiftResources.StringResource {
+        get
+      }
+      public var hide_shared_rooms_title: RswiftResources.StringResource {
+        get
+      }
+      public var hide_sold_rooms_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_amenities_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_chain_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_any_metro_station: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_city_center: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_slider_max_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotels_filters_point_on_map: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_search_point: RswiftResources.StringResource {
+        get
+      }
+      public var location_title: RswiftResources.StringResource {
+        get
+      }
+      public var map_choice_title: RswiftResources.StringResource {
+        get
+      }
+      public var popularity_title: RswiftResources.StringResource {
+        get
+      }
+      public var price_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var price_title: RswiftResources.StringResource {
+        get
+      }
+      public var rating_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var rating_title: RswiftResources.StringResource {
+        get
+      }
+      public var review_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var reviews_count_title: RswiftResources.StringResource {
+        get
+      }
+      public var room_amenities_title: RswiftResources.StringResource {
+        get
+      }
+      public var search_hotel_title: RswiftResources.StringResource {
+        get
+      }
+      public var sorting_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var stars_count_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFiltersChains {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filters_chains_button_choose_all: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_chains_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_chains_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFiltersDistanceTo {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filters_distance_to_airports_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_any_metro_station_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_city_center_text: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotels_filters_distance_to_point_on_map: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_search_point_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_distance_to_train_stations_section_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFiltersDistricts {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filters_districts_button_choose_all: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_districts_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_districts_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFiltersGates {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filters_gates_button_choose_all: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_gates_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_gates_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsFiltersPointOnMap {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_filters_point_on_map_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_filters_point_on_map_distance_text: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var hotels_filters_point_on_map_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsGuestsSelection {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var adults: RswiftResources.StringResource {
+        get
+      }
+      public var adults_description: RswiftResources.StringResource {
+        get
+      }
+      public var children: RswiftResources.StringResource {
+        get
+      }
+      public var indexed_children: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsLocations {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var airports_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var already_searched_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var attractions_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var cities_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var map_point_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var my_location_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var nearest_locations_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var search_bar_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsMap {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var airport_text: RswiftResources.StringResource {
+        get
+      }
+      public var beach_text: RswiftResources.StringResource {
+        get
+      }
+      public var business_text: RswiftResources.StringResource {
+        get
+      }
+      public var metro_station_text: RswiftResources.StringResource {
+        get
+      }
+      public var shopping_text: RswiftResources.StringResource {
+        get
+      }
+      public var sight_text: RswiftResources.StringResource {
+        get
+      }
+      public var ski_lift_text: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+      public var train_station_text: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsMapLocationPicker {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var map_location_selection_button_text: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsPhotosPreview {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var hotels_photos_title: RswiftResources.StringResource {
+        get
+      }
+      public var rooms_photos_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsPlurals {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var accommodation_options: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var adults: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var age_range: RswiftResources.StringResource2<Swift.Int, Swift.Int> {
+        get
+      }
+      public var based_on_evaluations_count: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var based_on_review_count: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var bedrooms: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var children: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var children_age: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var hotel_rooms: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var nights: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var review: RswiftResources.StringResource2<Swift.String, Swift.Int> {
+        get
+      }
+      public var rooms_available: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var show_hotels: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var show_variants: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public func accommodation_options(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func accommodation_options(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func adults(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func adults(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func age_range(_ value1: Swift.Int, years value2: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func age_range(_ value1: Swift.Int, years value2: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func based_on_evaluations_count(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func based_on_evaluations_count(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func based_on_review_count(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func based_on_review_count(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func bedrooms(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func bedrooms(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func children(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func children(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func children_age(age value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func children_age(age value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func hotel_rooms(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func hotel_rooms(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func nights(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func nights(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func rooms_available(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func rooms_available(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func show_hotels(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func show_hotels(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func show_variants(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func show_variants(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+    }
+    public struct hotelsResults {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var city_center: RswiftResources.StringResource {
+        get
+      }
+      public var filters_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var for_single_night: RswiftResources.StringResource {
+        get
+      }
+      public var free_cancel_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_results_loading_prices: RswiftResources.StringResource {
+        get
+      }
+      public var kilometers: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var location_button_card_view: RswiftResources.StringResource {
+        get
+      }
+      public var location_button_map_view: RswiftResources.StringResource {
+        get
+      }
+      public var meters: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var no_available_rooms: RswiftResources.StringResource {
+        get
+      }
+      public var price_not_availalble: RswiftResources.StringResource {
+        get
+      }
+      public var without_cancellation_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsReviews {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var reviews_information_text: RswiftResources.StringResource {
+        get
+      }
+      public var reviews_information_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsSearch {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var location_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var location_troubles_close: RswiftResources.StringResource {
+        get
+      }
+      public var location_troubles_title: RswiftResources.StringResource {
+        get
+      }
+      public var map_location_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var my_location_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var restricred_location_access_message: RswiftResources.StringResource {
+        get
+      }
+      public var restricred_location_access_not_now: RswiftResources.StringResource {
+        get
+      }
+      public var restricred_location_access_settings: RswiftResources.StringResource {
+        get
+      }
+      public var search_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct hotelsSorting {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var distance_to_text: RswiftResources.StringResource {
+        get
+      }
+      public var hotel_rank_text: RswiftResources.StringResource {
+        get
+      }
+      public var popularity2_text: RswiftResources.StringResource {
+        get
+      }
+      public var popularity_text: RswiftResources.StringResource {
+        get
+      }
+      public var price_text: RswiftResources.StringResource {
+        get
+      }
+      public var rating_text: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+  }
+}
+@_hasMissingDesignatedInitializers final public class ScreenProvider {
+  public static let shared: WLHotels.ScreenProvider
+  final public var hotelsViewController: UIKit.UIViewController {
+    get
+  }
+  final public func enable()
+  @objc deinit
+}
+extension WLHotels.LocalizationTable : Swift.RawRepresentable {}

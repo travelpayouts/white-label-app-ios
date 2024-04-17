@@ -1,0 +1,134 @@
+{
+    "base_configuration": {
+        "identifier": {
+            "android": {
+                "id": "com.travelapp"
+            },
+            "apple": {
+                "id": "com.travelapp",
+                "team_id": "",
+                "version": "1.0.0",
+                "build_number": 0
+            }
+        },
+        "display_name": {
+            "base": "en",
+            "localized": {
+                "en": "Travel App EN TEST",
+                "ru": "Travel App RU TEST"
+            }
+        }
+    },
+    "constants": {
+        "api_key": "",
+        "policy_url": {
+            "base": "en",
+            "localized": {
+                "en": "https://www.google.com",
+                "ru": "https://www.google.ru"
+            }
+        },
+        "feedback_email": "test@test.com",
+        "google_maps_api_key": "",
+        "appstore_id": "",
+        "client_device_host": "iphone.apartments",
+        "marker": 0,
+        "sharing_data": {
+            "sharing_link": "https://www.google.ru",
+            "handling_link": "https://www.google.ru",
+        },
+        "appsflyer_dev_key": ""
+    },
+    "advertising": {
+        "appodeal_api_key": "",
+        "google_admob_app_id": null,
+        "placements": {
+            "air_ticket_placement_interstitial": "air_ticket_placement_interstitial",
+            "air_ticket_placement_banner": "air_ticket_placement_banner",
+            "hotels_placement_interstitial": "hotels_placement_interstitial",
+            "hotels_placement_banner": "hotels_placement_banner"
+        }
+    },
+    "style": {
+        "base_color": "#7648C5",
+        "corners_type": "default",
+        "icons_type": "tint",
+        "palette": "lab"
+    },
+    "info_screen_config": {
+        "items_to_display": ["favorites", "about_app", "rate_app", "share_app"],
+        "about_app_info": {
+            "description": {
+                "base": "en",
+                "localized": {
+                    "en": "Application description",
+                    "ru": "Описание приложения"
+                }
+            },
+            "developer": {
+                "base": "en",
+                "localized": {
+                    "en": "CleverPumpkin Ltd.",
+                    "ru": "CleverPumpkin Ltd."
+                }
+            },
+            "partner_url": {
+                "base": "en",
+                "localized": {
+                    "en": "https://www.google.com",
+                    "ru": "https://www.google.ru"
+                }
+            }
+        }
+    },
+    "white_label_config": {
+        "screens_to_display": [
+            {
+                "type": "flights"
+            },
+            {
+                "type": "hotels"
+            },
+            {
+                "type": "other",
+                "parameters": {
+                    "icon": "ic_other_1",
+                    "title": {
+                        "base": "en",
+                        "localized": {
+                            "en": "Other 1",
+                            "ru": "Другое"
+                        }
+                    },
+                    "url": {
+                        "base": "en",
+                        "localized": {
+                            "en": "https://www.google.com",
+                            "ru": "https://www.google.ru"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "other",
+                "parameters": {
+                    "icon": "ic_other_2",
+                    "title": {
+                        "base": "en",
+                        "localized": {
+                            "en": "Other 2",
+                            "ru": "Это другое"
+                        }
+                    },
+                    "url": {
+                        "base": "en",
+                        "localized": {
+                            "en": "https://www.google.com",
+                            "ru": "https://www.google.ru"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

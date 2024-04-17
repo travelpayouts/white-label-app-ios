@@ -1,0 +1,10 @@
+"visa_required_title" = "需要签证的中转";
+"should_recheck_baggage_title" = "联程预订";
+"night_transfer_title" = "过夜中转";
+"airport_change_required_title" = "变更机场";
+"short_layover_title" = "中途短暂停留";
+"extended_visa_required_title" = "在%@，您需要持有签证";
+"extended_should_recheck_baggage_title" = "对于联程航班，您需要重新托运行李并再次办理登机手续";
+"extended_night_transfer_title" = "%@中途过夜停留";
+"extended_airport_change_required_title" = "在 %@ 变更机场";
+"extended_short_layover_title" = "%@中途短暂停留";

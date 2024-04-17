@@ -1,0 +1,13 @@
+"filters_button_title" = "Filtri";
+"price_chart_button_title" = "Grafico del prezzo";
+"widget_title_cell_title" = "Voli diretti";
+"widget_button_cell_show_all_title" = "Mostra tutto";
+"widget_button_cell_collapse_title" = "Mostra meno";
+"ticket_cell_travel_time_title" = "Tempo di viaggio: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ a questo prezzo";
+"load_more_button_cell_title" = "Mostra altri %@ biglietti";
+"footer_text_cell_title" = "Hai visualizzato tutti i biglietti che corrispondono ai tuoi parametri di ricerca.\nModifica i filtri per i nuovi risultati di ricerca";
+"should_update_alert_title" = "I risultati della ricerca potrebbero essere obsoleti";
+"should_update_alert_message" = "I prezzi dei biglietti cambiano circa 10 volte al giorno. Aggiorna la ricerca per i prezzi aggiornati";
+"should_update_alert_update_button_title" = "Aggiorna la ricerca";
+"should_update_alert_later_button_title" = "Più tardi";

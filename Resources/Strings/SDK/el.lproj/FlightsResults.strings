@@ -1,0 +1,13 @@
+"filters_button_title" = "Φίλτρα";
+"price_chart_button_title" = "Πίνακας τιμών";
+"widget_title_cell_title" = "Απευθείας πτήσεις";
+"widget_button_cell_show_all_title" = "Εμφάνιση όλων";
+"widget_button_cell_collapse_title" = "Εμφάνιση λιγότερων";
+"ticket_cell_travel_time_title" = "Διάρκεια ταξιδιού: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ σε αυτήν την τιμή";
+"load_more_button_cell_title" = "Εμφάνιση %@ ακόμα εισιτηρίων";
+"footer_text_cell_title" = "Έχετε δει όλα τα εισιτήρια που ταιριάζουν στις παραμέτρους αναζήτησης.\nΕπεξεργαστείτε τα φίλτρα σας για νέα αποτελέσματα αναζήτησης";
+"should_update_alert_title" = "Τα αποτελέσματα αναζήτησης μπορεί να είναι ξεπερασμένα";
+"should_update_alert_message" = "Οι τιμές των εισιτηρίων αλλάζουν περίπου 10 φορές τη μέρα. Ανανεώστε την αναζήτησή σας για να δείτε τις ενημερωμένες τιμές";
+"should_update_alert_update_button_title" = "Ενημέρωση αναζήτησης";
+"should_update_alert_later_button_title" = "Αργότερα";

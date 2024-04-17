@@ -1,0 +1,3 @@
+"title" = "Monedă";
+"all_currencies_button" = "Toate monedele";
+"load_currencies_error_description" = "Nu s-a reușit determinarea monedei în funcție de locația dvs. A fost folosită moneda implicită";

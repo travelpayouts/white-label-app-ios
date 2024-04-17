@@ -1,0 +1,5 @@
+"title" = "Datas";
+"choose_button_title" = "Selecionar %@";
+"disabled_choose_button_title" = "Selecionar";
+"date_range_limit_title" = "Limite de permanência excedido";
+"date_range_limit_message" = "Sentimos muito, mas a estadia máxima de hotel é\nde %@";

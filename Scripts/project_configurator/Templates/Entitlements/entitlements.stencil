@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aps-environment</key>
+	{% if is_production == true %}
+	<string>production</string>
+	{% else %}
+	<string>development</string>
+	{% endif %}
+	{% if context.constants.sharing_data.handling_link and context.constants.sharing_data.handling_link != "" %}
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:{{ context.constants.sharing_data.handling_link|urlHost }}</string>
+	</array>
+	{% endif %}
+	<key>keychain-access-groups</key>
+	<array>
+		<string>$(AppIdentifierPrefix)$(CP_KEYCHAIN_NAME)</string>
+	</array>
+</dict>
+</plist>

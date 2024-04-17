@@ -1,0 +1,442 @@
+PODS:
+  - ABIcons (0.2.1)
+  - Alamofire (5.9.1)
+  - APDBidMachineAdapter (3.1.3.1):
+    - Appodeal (= 3.1.3)
+    - BidMachine (= 2.3.0.2)
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+  - APDIABAdapter (3.1.3.0):
+    - Appodeal (= 3.1.3)
+  - APDStackAnalyticsAdapter (3.1.3.0):
+    - Appodeal (= 3.1.3)
+    - StackAnalytics (~> 1.4.0)
+    - StackIAB (~> 2.2.1)
+    - StackModules (~> 1.5.0)
+  - Apollo (1.9.3):
+    - Apollo/Core (= 1.9.3)
+  - Apollo/Core (1.9.3)
+  - Appodeal (3.1.3):
+    - Protobuf
+    - StackConsentManager (~> 1.2.0)
+    - StackIAB (~> 2.2.1)
+    - StackModules (~> 1.5.0)
+    - StackProtobuf (~> 0.8.0)
+  - AppsFlyerFramework (6.13.0):
+    - AppsFlyerFramework/Main (= 6.13.0)
+  - AppsFlyerFramework/Main (6.13.0)
+  - AvailableHapticFeedback (1.0.4)
+  - BidMachine (2.3.0.2):
+    - BidMachine/Core (= 2.3.0.2)
+  - BidMachine/ApiCore (2.3.0.2)
+  - BidMachine/BiddingCore (2.3.0.2):
+    - BidMachine/ApiCore
+    - StackIAB (~> 2.2.1)
+    - StackModules (~> 1.5.1)
+  - BidMachine/Core (2.3.0.2):
+    - BidMachine/ApiCore
+    - BidMachine/BiddingCore
+    - BidMachine/ModulesCore
+  - BidMachine/ModulesCore (2.3.0.2):
+    - BidMachine/ApiCore
+  - ClusterKit (0.5.0):
+    - ClusterKit/Core (= 0.5.0)
+  - ClusterKit/Core (0.5.0)
+  - CombineCocoa (0.4.0)
+  - CombineDataSources (0.2.5)
+  - CombineExt (1.8.0)
+  - CrispyCalendar (1.0.9)
+  - DictionaryCoder (1.0.8)
+  - ESTabBarController-swift (2.8.0)
+  - FigmaExport (0.37.1)
+  - Firebase (10.23.0):
+    - Firebase/Core (= 10.23.0)
+  - Firebase/Core (10.23.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 10.23.0)
+  - Firebase/CoreOnly (10.23.0):
+    - FirebaseCore (= 10.23.0)
+  - FirebaseAnalytics (10.23.0):
+    - FirebaseAnalytics/AdIdSupport (= 10.23.0)
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (10.23.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleAppMeasurement (= 10.23.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - FirebaseCore (10.23.0):
+    - FirebaseCoreInternal (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.12)
+    - GoogleUtilities/Logger (~> 7.12)
+  - FirebaseCoreExtension (10.24.0):
+    - FirebaseCore (~> 10.0)
+  - FirebaseCoreInternal (10.24.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.8)"
+  - FirebaseCrashlytics (10.23.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseInstallations (~> 10.0)
+    - FirebaseRemoteConfigInterop (~> 10.23)
+    - FirebaseSessions (~> 10.5)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.8)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (~> 2.1)
+  - FirebaseInstallations (10.24.0):
+    - FirebaseCore (~> 10.0)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (10.23.0):
+    - FirebaseCore (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
+    - GoogleUtilities/Environment (~> 7.8)
+    - GoogleUtilities/Reachability (~> 7.8)
+    - GoogleUtilities/UserDefaults (~> 7.8)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - FirebaseRemoteConfigInterop (10.24.0)
+  - FirebaseSessions (10.24.0):
+    - FirebaseCore (~> 10.5)
+    - FirebaseCoreExtension (~> 10.0)
+    - FirebaseInstallations (~> 10.0)
+    - GoogleDataTransport (~> 9.2)
+    - GoogleUtilities/Environment (~> 7.10)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesSwift (~> 2.1)
+  - GoogleAppMeasurement (10.23.0):
+    - GoogleAppMeasurement/AdIdSupport (= 10.23.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (10.23.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 10.23.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (10.23.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.11)
+    - GoogleUtilities/MethodSwizzler (~> 7.11)
+    - GoogleUtilities/Network (~> 7.11)
+    - "GoogleUtilities/NSData+zlib (~> 7.11)"
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+  - GoogleDataTransport (9.4.1):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30911.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUserMessagingPlatform (2.3.0)
+  - GoogleUtilities (7.13.0):
+    - GoogleUtilities/AppDelegateSwizzler (= 7.13.0)
+    - GoogleUtilities/Environment (= 7.13.0)
+    - GoogleUtilities/ISASwizzler (= 7.13.0)
+    - GoogleUtilities/Logger (= 7.13.0)
+    - GoogleUtilities/MethodSwizzler (= 7.13.0)
+    - GoogleUtilities/Network (= 7.13.0)
+    - "GoogleUtilities/NSData+zlib (= 7.13.0)"
+    - GoogleUtilities/Privacy (= 7.13.0)
+    - GoogleUtilities/Reachability (= 7.13.0)
+    - GoogleUtilities/SwizzlerTestHelpers (= 7.13.0)
+    - GoogleUtilities/UserDefaults (= 7.13.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Environment (7.13.0):
+    - GoogleUtilities/Privacy
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/ISASwizzler (7.13.0):
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Logger (7.13.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/MethodSwizzler (7.13.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Network (7.13.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Privacy
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.13.0)":
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/Privacy (7.13.0)
+  - GoogleUtilities/Reachability (7.13.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - GoogleUtilities/SwizzlerTestHelpers (7.13.0):
+    - GoogleUtilities/MethodSwizzler
+  - GoogleUtilities/UserDefaults (7.13.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Privacy
+  - ImageViewer.swift (3.3.8)
+  - KeychainSwift (19.0.0)
+  - Kingfisher (7.6.2)
+  - lottie-ios (4.2.0)
+  - Moya/Combine (15.0.0):
+    - Moya/Core
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - nanopb (2.30910.0):
+    - nanopb/decode (= 2.30910.0)
+    - nanopb/encode (= 2.30910.0)
+  - nanopb/decode (2.30910.0)
+  - nanopb/encode (2.30910.0)
+  - NeedleFoundation (0.17.2)
+  - OMSDK_Appodeal (1.4.2.0)
+  - PromisesObjC (2.4.0)
+  - PromisesSwift (2.4.0):
+    - PromisesObjC (= 2.4.0)
+  - Protobuf (3.26.1)
+  - Punycode-Cocoa (1.3.1)
+  - R.swift (7.2.4)
+  - SkeletonView (1.30.4)
+  - SnapKit (5.0.1)
+  - Sourcery (1.4.2)
+  - StackAnalytics (1.4.3):
+    - StackAnalytics/Full (= 1.4.3)
+    - StackModules (~> 1.5.0)
+  - StackAnalytics/Base (1.4.3):
+    - StackModules (~> 1.5.0)
+  - StackAnalytics/Crashes (1.4.3):
+    - StackModules (~> 1.5.0)
+  - StackAnalytics/Full (1.4.3):
+    - StackAnalytics/Base
+    - StackAnalytics/Crashes
+    - StackModules (~> 1.5.0)
+  - StackConsentManager (1.2.6)
+  - StackIAB (2.2.3):
+    - StackIAB/StackIABAssets (= 2.2.3)
+    - StackIAB/StackMRAIDKit (= 2.2.3)
+    - StackIAB/StackNASTKit (= 2.2.3)
+    - StackIAB/StackOpenMeasure (= 2.2.3)
+    - StackIAB/StackRichMedia (= 2.2.3)
+    - StackIAB/StackVASTAssets (= 2.2.3)
+    - StackIAB/StackVASTKit (= 2.2.3)
+    - StackIAB/StackVideoPlayer (= 2.2.3)
+    - StackIAB/StackXML (= 2.2.3)
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackIABAssets (2.2.3):
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackMRAIDKit (2.2.3):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackOpenMeasure
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackNASTKit (2.2.3):
+    - StackIAB/StackVASTKit
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackOpenMeasure (2.2.3):
+    - OMSDK_Appodeal (~> 1.4.2.0)
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackRichMedia (2.2.3):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackVASTAssets
+    - StackIAB/StackVideoPlayer
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackVASTAssets (2.2.3):
+    - StackIAB/StackIABAssets
+    - StackIAB/StackXML
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackVASTKit (2.2.3):
+    - StackIAB/StackMRAIDKit
+    - StackIAB/StackVASTAssets
+    - StackIAB/StackVideoPlayer
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackVideoPlayer (2.2.3):
+    - StackModules (~> 1.5.0)
+  - StackIAB/StackXML (2.2.3):
+    - StackModules (~> 1.5.0)
+  - StackModules (1.5.6):
+    - StackModules/StackProductPresentation (= 1.5.6)
+  - StackModules/StackFoundation (1.5.6)
+  - StackModules/StackProductPresentation (1.5.6):
+    - StackModules/StackUIKit
+  - StackModules/StackUIKit (1.5.6):
+    - StackModules/StackFoundation
+  - StackProtobuf (0.8.5):
+    - Protobuf (~> 3.13)
+  - SweeterSwift (1.2.3)
+  - SwiftLint (0.43.1)
+
+DEPENDENCIES:
+  - ABIcons (from `https://github.com/CleverPumpkin/abicons-ios.git`, tag `0.2.1`)
+  - APDBidMachineAdapter (= 3.1.3.1)
+  - APDIABAdapter (= 3.1.3.0)
+  - APDStackAnalyticsAdapter (= 3.1.3.0)
+  - Apollo (= 1.9.3)
+  - Appodeal (= 3.1.3)
+  - AppsFlyerFramework (= 6.13.0)
+  - AvailableHapticFeedback (= 1.0.4)
+  - ClusterKit (= 0.5.0)
+  - CombineCocoa (= 0.4.0)
+  - CombineDataSources (= 0.2.5)
+  - CombineExt (= 1.8.0)
+  - CrispyCalendar (= 1.0.9)
+  - DictionaryCoder (= 1.0.8)
+  - ESTabBarController-swift (= 2.8.0)
+  - FigmaExport (= 0.37.1)
+  - Firebase (= 10.23.0)
+  - FirebaseAnalytics (= 10.23.0)
+  - FirebaseCore (= 10.23.0)
+  - FirebaseCrashlytics (= 10.23.0)
+  - FirebaseMessaging (= 10.23.0)
+  - GoogleUtilities (= 7.13.0)
+  - ImageViewer.swift (~> 3.0)
+  - KeychainSwift (= 19.0.0)
+  - Kingfisher (= 7.6.2)
+  - lottie-ios (= 4.2.0)
+  - Moya/Combine (= 15.0.0)
+  - NeedleFoundation (= 0.17.2)
+  - Punycode-Cocoa (= 1.3.1)
+  - R.swift (= 7.2.4)
+  - SkeletonView (= 1.30.4)
+  - SnapKit (= 5.0.1)
+  - Sourcery (= 1.4.2)
+  - SweeterSwift (= 1.2.3)
+  - SwiftLint (= 0.43.1)
+
+SPEC REPOS:
+  "git@github.com:CleverPumpkin/public-podspecs.git":
+    - CrispyCalendar
+  https://github.com/appodeal/CocoaPods.git:
+    - APDBidMachineAdapter
+    - APDIABAdapter
+    - APDStackAnalyticsAdapter
+    - Appodeal
+    - BidMachine
+    - OMSDK_Appodeal
+    - StackAnalytics
+    - StackConsentManager
+    - StackIAB
+    - StackModules
+    - StackProtobuf
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Apollo
+    - AppsFlyerFramework
+    - AvailableHapticFeedback
+    - ClusterKit
+    - CombineCocoa
+    - CombineDataSources
+    - CombineExt
+    - DictionaryCoder
+    - ESTabBarController-swift
+    - FigmaExport
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreExtension
+    - FirebaseCoreInternal
+    - FirebaseCrashlytics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FirebaseRemoteConfigInterop
+    - FirebaseSessions
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - ImageViewer.swift
+    - KeychainSwift
+    - Kingfisher
+    - lottie-ios
+    - Moya
+    - nanopb
+    - NeedleFoundation
+    - PromisesObjC
+    - PromisesSwift
+    - Protobuf
+    - Punycode-Cocoa
+    - R.swift
+    - SkeletonView
+    - SnapKit
+    - Sourcery
+    - StackModules
+    - SweeterSwift
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  ABIcons:
+    :git: https://github.com/CleverPumpkin/abicons-ios.git
+    :tag: 0.2.1
+
+CHECKOUT OPTIONS:
+  ABIcons:
+    :git: https://github.com/CleverPumpkin/abicons-ios.git
+    :tag: 0.2.1
+
+SPEC CHECKSUMS:
+  ABIcons: 999e4f4ff490f700d4572f8a84ee5d062159ef4e
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  APDBidMachineAdapter: 4498af3f7f42400866fc4107ee61068ba00e7550
+  APDIABAdapter: 2586d082a35ddd6b6ec352df33917b7b8937bfe9
+  APDStackAnalyticsAdapter: 3ae917a05d681e89d759f0ec7719681d1508d54a
+  Apollo: b339a44b439f6b64208eb8761a0336813287a903
+  Appodeal: caf6521230a2e296edf50ce21b7d5c14f8cbfb4e
+  AppsFlyerFramework: cb54b4f27d2da2b3e2b286800476ce3b2007c75f
+  AvailableHapticFeedback: cd3cb476743764b3efe8645d25e6b359d375ddb0
+  BidMachine: af2b5a2d335a858d12f1f47ab521e64aacb27477
+  ClusterKit: 6d4b2fdfdd2a74a386fd67dd60a29a69851745e0
+  CombineCocoa: 68a050228ce7c53c1c5ac2c57cccf92a7f5c5085
+  CombineDataSources: dcbc3b06a038ffdf620b3b4533d3ecaf76ca6a2e
+  CombineExt: c4daa97ef75754d8ef319bd79edeef82652f3eea
+  CrispyCalendar: 5e484a5572ea8c35610065e24d42761683c00525
+  DictionaryCoder: 5f84fff69f54cb806071538430bdafe04a89d658
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  FigmaExport: f094a45551c24af7b4fa7d8aa20c19b160f1a044
+  Firebase: 333ec7c6b12fa09c77b5162cda6b862102211d50
+  FirebaseAnalytics: 45f6e2e5ef8ccbb90be73ae983c3b20fa78837f7
+  FirebaseCore: 63efb128decaebb04c4033ed4e05fb0bb1cccef1
+  FirebaseCoreExtension: af5fd85e817ea9d19f9a2659a376cf9cf99f03c0
+  FirebaseCoreInternal: bcb5acffd4ea05e12a783ecf835f2210ce3dc6af
+  FirebaseCrashlytics: b7aca2d52dd2440257a13741d2909ad80745ac6c
+  FirebaseInstallations: 8f581fca6478a50705d2bd2abd66d306e0f5736e
+  FirebaseMessaging: 1b2270e66c81bbf184f70184db1d6a736ad0def5
+  FirebaseRemoteConfigInterop: 6c349a466490aeace3ce9c091c86be1730711634
+  FirebaseSessions: 2651b464e241c93fd44112f995d5ab663c970487
+  GoogleAppMeasurement: 453eb0de99fcf2bdec9403e9ac5d7871fdba3e3f
+  GoogleDataTransport: 6c09b596d841063d76d4288cc2d2f42cc36e1e2a
+  GoogleUserMessagingPlatform: b1ad7bb1ee3ce64749d4fec24f667b36e45c396c
+  GoogleUtilities: d053d902a8edaa9904e1bd00c37535385b8ed152
+  ImageViewer.swift: 284cd8127d31af8e5938674fb9f8e695a4cdf6c6
+  KeychainSwift: a06190cf933ad46b1e0abc3d77d29c06331715c7
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  nanopb: 438bc412db1928dac798aa6fd75726007be04262
+  NeedleFoundation: 36cfaea9ae9eb527a796f5c1df19296c722666b8
+  OMSDK_Appodeal: f4e97878c54edd6be63259a4ba38a5491be6226a
+  PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
+  PromisesSwift: 9d77319bbe72ebf6d872900551f7eeba9bce2851
+  Protobuf: a53f5173a603075b3522a5c50be63a67a5f3353a
+  Punycode-Cocoa: d9a974cc7384bd6d31b8d9df867a9b7b213d8880
+  R.swift: 681bb9135f482e7a81d9d27445b837fef5467e11
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Sourcery: 43d8addc35ca31c2ab331cfd34b02421fa53bb7f
+  StackAnalytics: 42307f033e611586dab85081731e1b639327e738
+  StackConsentManager: 84236919432139434ec78f65552bcd1e7ab249aa
+  StackIAB: 13b2ec9602f1e8f142e0d8768655e7cbc29657cf
+  StackModules: 5fb97f9516fa9d3ccfce93c17da32a2486465907
+  StackProtobuf: 6b78e9e5c5f7ead500a5d1527e569c4d49599a74
+  SweeterSwift: 3910bab8ba35b6964d5169a3c52b2c87d930b61c
+  SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
+
+PODFILE CHECKSUM: 6a4e2a88821117fe5e4ff4daab275323e66ecbeb
+
+COCOAPODS: 1.13.0

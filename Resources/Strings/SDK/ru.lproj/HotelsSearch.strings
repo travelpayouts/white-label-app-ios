@@ -1,0 +1,22 @@
+
+// MARK: - Titles
+
+"title" = "Поиск интересных отелей";
+"my_location_button_title" = "Моё местоположение";
+"map_location_button_title" = "Точка на карте";
+
+// MARK: - Placeholders
+
+"location_placeholder" = "Город или отель";
+
+// MARK: - Button titles
+
+"search_button_title" = "Найти";
+
+// MARK: - Messages
+
+"location_troubles_title" = "Не удалось определить\nваше местоположение";
+"location_troubles_close" = "Закрыть";
+"restricred_location_access_message" = "Разрешите приложению определять вашу геопозицию";
+"restricred_location_access_not_now" = "Не сейчас";
+"restricred_location_access_settings" = "Настройки";

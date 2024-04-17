@@ -1,0 +1,13 @@
+"filters_button_title" = "تصفية";
+"price_chart_button_title" = "مخطط الأسعار";
+"widget_title_cell_title" = "رحلات مباشرة";
+"widget_button_cell_show_all_title" = "إظهار الجميع";
+"widget_button_cell_collapse_title" = "عرض أقل";
+"ticket_cell_travel_time_title" = "وقت السفر: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ بهذا السعر";
+"load_more_button_cell_title" = "عرض %@ تذاكر أكثر";
+"footer_text_cell_title" = "لقد اطلعت على جميع التذاكر المطابقة لمعايير بحثك.\nعدّل الفلاتر لتطلع على نتائج بحث جديدة";
+"should_update_alert_title" = "قد تكون نتائج البحث قديمة";
+"should_update_alert_message" = "تتغير أسعار التذاكر نحو 10 مرات في اليوم. قم بتحديث بحثك للحصول على الأسعار المحدّثة";
+"should_update_alert_update_button_title" = "حدّث البحث";
+"should_update_alert_later_button_title" = "لاحقًا";

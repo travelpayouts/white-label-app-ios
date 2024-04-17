@@ -1,0 +1,10 @@
+"visa_required_title" = "transit dengan visa";
+"should_recheck_baggage_title" = "pemesanan interline";
+"night_transfer_title" = "transit malam";
+"airport_change_required_title" = "pindah bandara";
+"short_layover_title" = "singgah singkat";
+"extended_visa_required_title" = "Anda memerlukan visa di %@";
+"extended_should_recheck_baggage_title" = "Anda harus mencatatkan ulang bagasi dan check-in lagi untuk penerbangan lanjutan";
+"extended_night_transfer_title" = "Singgah bermalam di %@";
+"extended_airport_change_required_title" = "Pindah bandara di %@";
+"extended_short_layover_title" = "Singgah singkat di %@";

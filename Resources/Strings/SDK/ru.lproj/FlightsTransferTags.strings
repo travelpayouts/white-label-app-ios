@@ -1,0 +1,16 @@
+
+// MARK: - Titles
+
+"visa_required_title" = "пересадка с визой";
+"should_recheck_baggage_title" = "раздельное бронирование";
+"night_transfer_title" = "ночная пересадка";
+"airport_change_required_title" = "смена аэропорта";
+"short_layover_title" = "короткая пересадка";
+
+// MARK: - Extended titles
+
+"extended_visa_required_title" = "У вас попросят визу %@";
+"extended_should_recheck_baggage_title" = "Нужно заново сдавать багаж и регистрироваться на рейс";
+"extended_night_transfer_title" = "Ночная пересадка %@";
+"extended_airport_change_required_title" = "Смена аэропорта %@";
+"extended_short_layover_title" = "Короткая пересадка %@";

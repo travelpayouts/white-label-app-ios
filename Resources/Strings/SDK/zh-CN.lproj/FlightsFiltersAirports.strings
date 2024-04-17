@@ -1,0 +1,7 @@
+"title" = "机场";
+"forth_trip_departure_from_title" = "从 %@ 出发";
+"forth_trip_arrival_to_title" = "到达 %@";
+"back_trip_departure_from_title" = "回程出发地 %@";
+"back_trip_arrival_to_title" = "回程到达地 %@";
+"choose_all_cell_title" = "选择全部";
+"apply_button_title" = "应用";

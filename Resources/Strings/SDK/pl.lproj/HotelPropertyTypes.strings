@@ -1,0 +1,11 @@
+"hotel_property_type_guest" = "Pensjonat";
+"hotel_property_type_hotel" = "Hotel";
+"hotel_property_type_hostel" = "Hostel";
+"hotel_property_type_apartment" = "Apartament";
+"hotel_property_type_villa" = "Willa";
+"hotel_property_type_apart_hotel" = "Apart-hotel";
+"hotel_property_type_motel" = "Motel";
+"hotel_property_type_resort" = "Dom wypoczynkowy";
+"hotel_property_type_lodge" = "Domek";
+"hotel_property_type_bb" = "Pensjonat";
+"hotel_property_type_other" = "Inny";

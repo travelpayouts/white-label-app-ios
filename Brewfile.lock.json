@@ -1,0 +1,96 @@
+{
+  "entries": {
+    "brew": {
+      "xcodegen": {
+        "version": "2.37.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:01a6e074defcf2b17bb25bdc28daf96bbfd9aaea65f40c4f31b34178e04a2477",
+              "sha256": "01a6e074defcf2b17bb25bdc28daf96bbfd9aaea65f40c4f31b34178e04a2477"
+            },
+            "arm64_ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:9d147d0bbde8f76fe1c88da308c1f99e866d1702458e82b685a164505de10093",
+              "sha256": "9d147d0bbde8f76fe1c88da308c1f99e866d1702458e82b685a164505de10093"
+            },
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:9058c7b14f8ea6e8457c808db3329eb0b2f7aa3de00d147e931501dcc2e26874",
+              "sha256": "9058c7b14f8ea6e8457c808db3329eb0b2f7aa3de00d147e931501dcc2e26874"
+            },
+            "sonoma": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:162c4534eb6bfcf41d8b0447830001fd08d9d38aa4151aa62eee66858b4ddc55",
+              "sha256": "162c4534eb6bfcf41d8b0447830001fd08d9d38aa4151aa62eee66858b4ddc55"
+            },
+            "ventura": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:caddccdd2b82aef7ae9221d1249b0af14bf5c4befe8ceb5445d55a9150649ed6",
+              "sha256": "caddccdd2b82aef7ae9221d1249b0af14bf5c4befe8ceb5445d55a9150649ed6"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/xcodegen/blobs/sha256:54fefbac5d69356b64354c1e7b281feeee2ae27ee79cf34505a0e23a3d2196a9",
+              "sha256": "54fefbac5d69356b64354c1e7b281feeee2ae27ee79cf34505a0e23a3d2196a9"
+            }
+          }
+        }
+      },
+      "needle": {
+        "version": "0.24.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:d701a8da8eb60eeb86f034d27f0793e124ba4dac5155b35b95c92042f41cca65",
+              "sha256": "d701a8da8eb60eeb86f034d27f0793e124ba4dac5155b35b95c92042f41cca65"
+            },
+            "arm64_ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:2b953b5225793b663e30652c4dcf15af21883f3161e1424cf3ae4884def4fc85",
+              "sha256": "2b953b5225793b663e30652c4dcf15af21883f3161e1424cf3ae4884def4fc85"
+            },
+            "arm64_monterey": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:f5336518cc424b2a5daf3400d9968035966226f1372d75ad4e8d950a5bfced93",
+              "sha256": "f5336518cc424b2a5daf3400d9968035966226f1372d75ad4e8d950a5bfced93"
+            },
+            "sonoma": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:f267e4418bd50cdab1cdbf5765f647cb7bde25a46e3e861fc1b337249954de47",
+              "sha256": "f267e4418bd50cdab1cdbf5765f647cb7bde25a46e3e861fc1b337249954de47"
+            },
+            "ventura": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:4a2e37bdcfa6fd09d7a6115ef0d61ed067f6c32ff336513a0e48efc7ce4e502c",
+              "sha256": "4a2e37bdcfa6fd09d7a6115ef0d61ed067f6c32ff336513a0e48efc7ce4e502c"
+            },
+            "monterey": {
+              "cellar": ":any",
+              "url": "https://ghcr.io/v2/homebrew/core/needle/blobs/sha256:0a7abfa75a75acf3773fc1bef1ed9e268ddda7da6ceafb2c5f74c6d36a4922c8",
+              "sha256": "0a7abfa75a75acf3773fc1bef1ed9e268ddda7da6ceafb2c5f74c6d36a4922c8"
+            }
+          }
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "ventura": {
+        "HOMEBREW_VERSION": "4.1.16",
+        "HOMEBREW_PREFIX": "/opt/homebrew",
+        "Homebrew/homebrew-core": "api",
+        "CLT": "",
+        "Xcode": "14.3",
+        "macOS": "13.3.1"
+      }
+    }
+  }
+}

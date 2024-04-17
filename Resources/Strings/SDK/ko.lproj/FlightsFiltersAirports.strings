@@ -1,0 +1,7 @@
+"title" = "공항";
+"forth_trip_departure_from_title" = "%@에서 출발";
+"forth_trip_arrival_to_title" = "%@ 도착";
+"back_trip_departure_from_title" = "%@에서 출발하는 귀환 항공편";
+"back_trip_arrival_to_title" = "%@에 도착하는 귀환 항공편";
+"choose_all_cell_title" = "모두 선택하기";
+"apply_button_title" = "적용";

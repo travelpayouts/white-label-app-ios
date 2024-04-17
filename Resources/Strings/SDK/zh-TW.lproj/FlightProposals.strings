@@ -1,0 +1,10 @@
+"flight_proposals_title" = "所有優惠";
+"flight_proposals_subtitle_per_person" = "1 位乘客的價格";
+"flight_proposals_subtitle_for_all_persons" = "全部乘客的價格";
+"flight_proposals_filter_caption" = "僅顯示含行李的機票";
+"flight_proposals_luggage_not_included" = "不包括行李";
+"flight_proposals_hand_luggage_not_included" = "不包含隨身行李";
+"flight_proposals_dimension_centimetre_format" = "%d 公分";
+"flight_proposals_purchase_button_format" = "價格為 %@";
+"flight_proposals_flight_there" = "出發";
+"flight_proposals_flight_back" = "返程";

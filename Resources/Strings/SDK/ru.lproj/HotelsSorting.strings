@@ -1,0 +1,12 @@
+// MARK: - Title
+
+"title" = "Сортировка";
+ 
+// MARK: - Texts
+
+"hotel_rank_text" = "Рекомендуемое";
+"popularity_text" = "Популярное";
+"popularity2_text" = "Набирающие популярность";
+"rating_text" = "Оценка гостей";
+"distance_to_text" = "Расстояние до";
+"price_text" = "Цена";

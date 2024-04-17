@@ -1,0 +1,13 @@
+
+// MARK: - Titles
+
+"passengers_title" = "Пассажиры";
+"adults_title" = "Взрослые";
+"adults_subtitle" = "Старше 12 лет";
+"children_title" = "Дети";
+"children_subtitle" = "От 2 до 12 лет";
+"babies_title" = "Младенцы";
+"babies_subtitle" = "До 2 лет, без места";
+"class_title" = "Класс";
+"economy_class_title" = "Эконом";
+"business_class_title" = "Бизнес";

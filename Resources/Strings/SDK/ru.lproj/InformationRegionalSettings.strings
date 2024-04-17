@@ -1,0 +1,11 @@
+
+// MARK: - Titles
+
+"title" = "Региональные настройки";
+
+// MARK: - Cell titles
+
+"app_language_cell_title" = "Язык приложения";
+"country_cell_title" = "Страна";
+"currency_cell_title" = "Валюта";
+"description_cell_title" = "Региональные настройки нужны для отображения подходящих билетов и правил въезда в страну";

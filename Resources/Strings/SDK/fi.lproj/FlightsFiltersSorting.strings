@@ -1,0 +1,8 @@
+"title" = "Lajittele";
+"best_title" = "Suositeltu";
+"cheapest_title" = "Hinta";
+"departure_time_title" = "Lähtöaika";
+"arrival_time_title" = "Saapumisaika";
+"transfer_duration_title" = "Välilaskun kesto";
+"trip_duration_title" = "Kesto";
+"popularity_title" = "Suosio";

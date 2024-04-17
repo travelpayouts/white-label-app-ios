@@ -1,0 +1,436 @@
+{
+	"packages": [
+		"json"
+	],
+	"platform": {
+		"name": "ios",
+		"version": "14.0"
+	},
+	"sources": [
+		"https://github.com/appodeal/CocoaPods.git",
+		"https://github.com/CocoaPods/Specs.git"
+	],
+	"inhibit_all_warnings": true,
+	"use_frameworks": "dynamic",
+	"install": {
+		"method": "cocoapods",
+		"options": {
+			"warn_for_multiple_pod_sources": false
+		}
+	},
+	"workspace": "travel-app.xcworkspace",
+	"functions": [
+		{
+			"name": "appodeal_base_pods",
+			"comment": "Appodeal pods",
+			"pods": [
+				{
+					"name": "Appodeal",
+					"version": "3.1.3"
+				},
+				{
+					"name": "APDBidMachineAdapter",
+					"version": "3.1.3.1",
+					"comment": "Required"
+				},
+				{
+					"name": "APDStackAnalyticsAdapter",
+					"version": "3.1.3.0",
+					"comment": "Required"
+				},
+				{
+					"name": "APDIABAdapter",
+					"version": "3.1.3.0",
+					"comment": "Required"
+				}
+			]
+		},
+		{
+			"name": "appodeal_facebook_pods",
+			"pods": [
+				{
+					"name": "APDFacebookAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDMetaAudienceNetworkAdapter",
+					"version": "3.1.3.0"
+				},
+				{
+					"name": "BidMachineMetaAudienceAdapter",
+					"version": "2.3.0.0"
+				}
+			]
+		},
+		{
+			"name": "appodeal_optional_pods",
+			"pods": [
+				{
+					"name": "APDAdColonyAdapter",
+					"version": "3.1.3.0"
+				},
+				{
+					"name": "BidMachineAdColonyAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "APDAdjustAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDAppLovinAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDAppsFlyerAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "BidMachineMintegralAdapter",
+					"version": "2.3.0.2"
+				},
+				{
+					"name": "BidMachineAmazonAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "BidMachineCriteoAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "BidMachineSmaatoAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "BidMachineTapjoyAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "BidMachinePangleAdapter",
+					"version": "2.3.0.0"
+				},
+				{
+					"name": "APDFirebaseAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDIronSourceAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDMyTargetAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "BidMachineMyTargetAdapter",
+					"version": "2.3.0.1"
+				},
+				{
+					"name": "APDUnityAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "APDVungleAdapter",
+					"version": "3.1.3.1"
+				},
+				{
+					"name": "BidMachineVungleAdapter",
+					"version": "2.3.0.1"
+				},
+				{
+					"name": "APDYandexAdapter",
+					"version": "3.1.3.0"
+				},
+				{
+					"name": "APDGoogleAdMobAdapter",
+					"version": "3.1.3.1",
+					"enabled": {
+						"name": "configuration",
+						"paths": [
+							"advertising",
+							"google_admob_app_id"
+						],
+						"conditions": [
+							"not_nil",
+							"not_empty"
+						]
+					}
+				}
+			],
+			"functions": [
+				{
+					"name": "appodeal_facebook_pods",
+					"enabled": {
+						"name": "constant",
+						"value": false
+					}
+				}
+			]
+		},
+		{
+			"name": "appsflyer_pods",
+			"comment": "AppsFlyer pods",
+			"pods": [
+				{
+					"name": "AppsFlyerFramework",
+					"version": "6.13.0"
+				}
+			]
+		},
+		{
+			"name": "firebase_messaging_pods",
+			"comment": "Firebase pods",
+			"pods": [
+				{
+					"name": "GoogleUtilities",
+					"version": "7.13.0"
+				},
+				{
+					"name": "FirebaseMessaging",
+					"version": "10.23.0"
+				}
+			]
+		},
+		{
+			"name": "firebase_pods",
+			"pods": [
+				{
+					"name": "Firebase",
+					"version": "10.23.0"
+				},
+				{
+					"name": "FirebaseCore",
+					"version": "10.23.0"
+				},
+				{
+					"name": "FirebaseCrashlytics",
+					"version": "10.23.0"
+				},
+				{
+					"name": "FirebaseAnalytics",
+					"version": "10.23.0"
+				}
+			],
+			"functions": [
+				{
+					"name": "firebase_messaging_pods"
+				}
+			],
+			"script_phases": [
+				{
+					"comment": "Crashlytics workaround, see https://github.com/yonaskolb/XcodeGen/blob/master/Docs/FAQ.md#can-i-use-crashlytics",
+					"name": "Run FirebaseCrashlytics",
+					"script": "\"${PODS_ROOT}\/FirebaseCrashlytics\/run\"",
+					"input_files": [
+						"$(SRCROOT)\/$(BUILT_PRODUCTS_DIR)\/$(INFOPLIST_PATH)"
+					]
+				}
+			]
+		},
+		{
+			"name": "general_pods",
+			"comment": "General pods",
+			"pods": [
+				{
+					"name": "NeedleFoundation",
+					"version": "0.17.2"
+				},
+				{
+					"name": "DictionaryCoder",
+					"version": "1.0.8"
+				}
+			]
+		},
+		{
+			"name": "common_pods",
+			"comment": "WLCommon target pods",
+			"pods": [
+				{
+					"name": "Sourcery",
+					"version": "1.4.2"
+				},
+				{
+					"name": "Punycode-Cocoa",
+					"version": "1.3.1"
+				}
+			]
+		},
+		{
+			"name": "persistence_pods",
+			"comment": "WLPersistence target pods",
+			"pods": [
+				{
+					"name": "KeychainSwift",
+					"version": "19.0.0"
+				}
+			]
+		},
+		{
+			"name": "networking_pods",
+			"comment": "WLNetwork target pods",
+			"pods": [
+				{
+					"name": "Apollo",
+					"version": "1.9.3"
+				},
+				{
+					"name": "Moya/Combine",
+					"version": "15.0.0"
+				}
+			]
+		},
+		{
+			"name": "ui_pods",
+			"comment": "WLUserInterface target pods",
+			"pods": [
+				{
+					"name": "SnapKit",
+					"version": "5.0.1"
+				},
+				{
+					"name": "CrispyCalendar",
+					"version": "1.0.10"
+				},
+				{
+					"name": "lottie-ios",
+					"version": "4.2.0"
+				},
+				{
+					"name": "Kingfisher",
+					"version": "7.6.2"
+				},
+				{
+					"name": "FigmaExport",
+					"version": "0.37.1",
+					"excluded_from_sdk": true
+				},
+				{
+					"name": "CombineCocoa",
+					"version": "0.4.0"
+				},
+				{
+					"name": "CombineDataSources",
+					"version": "0.2.5"
+				},
+				{
+					"name": "SkeletonView",
+					"version": "1.30.4"
+				},
+				{
+					"name": "ClusterKit",
+					"version": "0.5.0"
+				},
+				{
+					"name": "AvailableHapticFeedback",
+					"version": "1.0.4",
+					"comment": "Use only for MultiSlider"
+				},
+				{
+					"name": "SweeterSwift",
+					"version": "1.2.3",
+					"comment": "Use only for MultiSlider"
+				},
+				{
+					"name": "ImageViewer.swift",
+					"version": "~> 3.0"
+				}
+			]
+		},
+		{
+			"name": "main_pods",
+			"comment": "Main target pods",
+			"pods": [
+				{
+					"name": "ABIcons",
+					"git": "https://github.com/CleverPumpkin/abicons-ios.git",
+					"tag": "0.2.1",
+					"excluded_from_sdk": true
+				},
+				{
+					"name": "SwiftLint",
+					"version": "0.43.1"
+				},
+				{
+					"name": "ESTabBarController-swift",
+					"version": "2.8.0"
+				}
+			]
+		}
+	],
+	"abstract_targets": [
+		{
+			"comment": "Pods used across all modules and targets",
+			"name": "General",
+			"pods": [
+				{
+					"name": "CombineExt",
+					"version": "1.8.0"
+				},
+				{
+					"name": "R.swift",
+					"version": "7.2.4"
+				}
+			],
+			"targets": [
+				{
+					"name": "travel-app-notification-service-extension",
+					"functions": [
+						{
+							"name": "firebase_messaging_pods"
+						}
+					]
+				},
+				{
+					"name": "travel-app",
+					"functions": [
+						{
+							"name": "general_pods"
+						},
+						{
+							"name": "common_pods"
+						},
+						{
+							"name": "persistence_pods"
+						},
+						{
+							"name": "networking_pods"
+						},
+						{
+							"name": "ui_pods"
+						},
+						{
+							"name": "main_pods"
+						},
+						{
+							"name": "firebase_pods"
+						},
+						{
+							"name": "appodeal_base_pods"
+						},
+						{
+							"name": "appodeal_optional_pods",
+							"enabled": {
+								"name": "constant",
+								"value": false
+							}
+						},
+						{
+							"name": "appsflyer_pods",
+							"enabled": {
+								"name": "configuration",
+								"paths": [
+									"constants",
+									"appsflyer_dev_key"
+								],
+								"conditions": [
+									"not_nil",
+									"not_empty"
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

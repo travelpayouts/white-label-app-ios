@@ -1,0 +1,4 @@
+framework module WLShared {
+  header "WLShared-Swift.h"
+  requires objc
+}

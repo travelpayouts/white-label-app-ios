@@ -1,0 +1,13 @@
+"filters_button_title" = "篩選項";
+"price_chart_button_title" = "價格圖表";
+"widget_title_cell_title" = "直飛";
+"widget_button_cell_show_all_title" = "顯示全部";
+"widget_button_cell_collapse_title" = "顯示較少資訊";
+"ticket_cell_travel_time_title" = "旅行時間：%@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ 在此價格";
+"load_more_button_cell_title" = "顯示 %@ 筆其他機票";
+"footer_text_cell_title" = "您已經檢視所有與搜尋參數相符的機票。\n編輯篩選以獲得新的搜尋結果。";
+"should_update_alert_title" = "搜尋結果可能已經過時";
+"should_update_alert_message" = "機票價格每天大約會變動 10 次。刷新您的搜索結果來查看最新價格";
+"should_update_alert_update_button_title" = "更新搜索";
+"should_update_alert_later_button_title" = "不，稍後再說";

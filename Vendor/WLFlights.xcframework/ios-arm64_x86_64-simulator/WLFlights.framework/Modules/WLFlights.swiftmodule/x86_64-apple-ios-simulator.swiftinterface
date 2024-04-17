@@ -1,0 +1,847 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLFlights
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import Combine
+import CombineCocoa
+import CombineExt
+import CoreFoundation
+import CoreGraphics
+import CrispyCalendar
+import Foundation
+import Kingfisher
+import NeedleFoundation
+import QuartzCore
+import RswiftResources
+import SnapKit
+import Swift
+import UIKit
+import WLCommon
+import WLConfig
+import WLNetwork
+import WLPersistence
+import WLShared
+import WLUserInterface
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum FlightsImageSink : WLConfig.ImageSink {
+  case searchScreenBackground
+  public static func == (a: WLFlights.FlightsImageSink, b: WLFlights.FlightsImageSink) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension WLConfig.Configuration.ImagesProvider {
+  final public func register(source: WLConfig.Configuration.ImagesProvider.ImageSource, forFlightsSink sink: WLFlights.FlightsImageSink)
+}
+public func registerProviderFactories()
+public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable {
+  case flightBooking
+  case flightDetails
+  case flightDetailsShare
+  case flightProposals
+  case flightsAirports
+  case flightsCalendar
+  case flightsCommon
+  case flightsFavorites
+  case flightsFilters
+  case flightsFiltersAgents
+  case flightsFiltersAirlines
+  case flightsFiltersAirports
+  case flightsFiltersSorting
+  case flightsFiltersTransfersAirports
+  case flightsLayoverInfo
+  case flightsPassengers
+  case flightsPlurals
+  case flightsPriceCharts
+  case flightsResults
+  case flightsSearch
+  case flightsTransferTags
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [WLFlights.LocalizationTable]
+  public typealias RawValue = Swift.String
+  public static var allCases: [WLFlights.LocalizationTable] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension WLConfig.Configuration.Localization {
+  final public func register(bundle: Foundation.Bundle, flightsTable table: WLFlights.LocalizationTable, overriddenTableName: Swift.String? = nil)
+}
+public let R: WLFlights._R
+public struct _R {
+  public let bundle: Foundation.Bundle
+  public init(bundle: Foundation.Bundle)
+  public var string: WLFlights._R.string {
+    get
+  }
+  public func string(bundle: Foundation.Bundle) -> WLFlights._R.string
+  public func string(locale: Foundation.Locale) -> WLFlights._R.string
+  public func string(preferredLanguages: [Swift.String], locale: Foundation.Locale? = nil) -> WLFlights._R.string
+  public func validate() throws
+  public struct project {
+    public let developmentRegion: Swift.String
+  }
+  public struct string {
+    public let bundle: Foundation.Bundle
+    public let preferredLanguages: [Swift.String]?
+    public let locale: Foundation.Locale?
+    public init(bundle: Foundation.Bundle, preferredLanguages: [Swift.String]? = nil, locale: Foundation.Locale? = nil)
+    public var flightBooking: WLFlights._R.string.flightBooking {
+      get
+    }
+    public var flightDetails: WLFlights._R.string.flightDetails {
+      get
+    }
+    public var flightDetailsShare: WLFlights._R.string.flightDetailsShare {
+      get
+    }
+    public var flightProposals: WLFlights._R.string.flightProposals {
+      get
+    }
+    public var flightsAirports: WLFlights._R.string.flightsAirports {
+      get
+    }
+    public var flightsCalendar: WLFlights._R.string.flightsCalendar {
+      get
+    }
+    public var flightsCommon: WLFlights._R.string.flightsCommon {
+      get
+    }
+    public var flightsFavorites: WLFlights._R.string.flightsFavorites {
+      get
+    }
+    public var flightsFilters: WLFlights._R.string.flightsFilters {
+      get
+    }
+    public var flightsFiltersAgents: WLFlights._R.string.flightsFiltersAgents {
+      get
+    }
+    public var flightsFiltersAirlines: WLFlights._R.string.flightsFiltersAirlines {
+      get
+    }
+    public var flightsFiltersAirports: WLFlights._R.string.flightsFiltersAirports {
+      get
+    }
+    public var flightsFiltersSorting: WLFlights._R.string.flightsFiltersSorting {
+      get
+    }
+    public var flightsFiltersTransfersAirports: WLFlights._R.string.flightsFiltersTransfersAirports {
+      get
+    }
+    public var flightsLayoverInfo: WLFlights._R.string.flightsLayoverInfo {
+      get
+    }
+    public var flightsPassengers: WLFlights._R.string.flightsPassengers {
+      get
+    }
+    public var flightsPlurals: WLFlights._R.string.flightsPlurals {
+      get
+    }
+    public var flightsPriceCharts: WLFlights._R.string.flightsPriceCharts {
+      get
+    }
+    public var flightsResults: WLFlights._R.string.flightsResults {
+      get
+    }
+    public var flightsSearch: WLFlights._R.string.flightsSearch {
+      get
+    }
+    public var flightsTransferTags: WLFlights._R.string.flightsTransferTags {
+      get
+    }
+    public func flightBooking(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightBooking
+    public func flightDetails(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightDetails
+    public func flightDetailsShare(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightDetailsShare
+    public func flightProposals(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightProposals
+    public func flightsAirports(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsAirports
+    public func flightsCalendar(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsCalendar
+    public func flightsCommon(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsCommon
+    public func flightsFavorites(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFavorites
+    public func flightsFilters(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFilters
+    public func flightsFiltersAgents(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFiltersAgents
+    public func flightsFiltersAirlines(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFiltersAirlines
+    public func flightsFiltersAirports(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFiltersAirports
+    public func flightsFiltersSorting(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFiltersSorting
+    public func flightsFiltersTransfersAirports(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsFiltersTransfersAirports
+    public func flightsLayoverInfo(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsLayoverInfo
+    public func flightsPassengers(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsPassengers
+    public func flightsPlurals(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsPlurals
+    public func flightsPriceCharts(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsPriceCharts
+    public func flightsResults(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsResults
+    public func flightsSearch(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsSearch
+    public func flightsTransferTags(preferredLanguages: [Swift.String]) -> WLFlights._R.string.flightsTransferTags
+    public struct flightBooking {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flight_booking_close_msg_return_button: RswiftResources.StringResource {
+        get
+      }
+      public var flight_booking_close_msg_stay_button: RswiftResources.StringResource {
+        get
+      }
+      public var flight_booking_close_msg_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightDetails {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flight_details_add_luggage: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_book_ticket: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_details_buy_luggage_later_msg_button: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_buy_luggage_later_msg_desc: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_buy_luggage_later_msg_title: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_direct_flight_same_price_text: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_direct_flight_selected_text: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_direct_flight_unavailable_text: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_in_flight_duration_format: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_details_luggage_included: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_luggage_information: RswiftResources.StringResource2<Swift.Int, Swift.Int> {
+        get
+      }
+      public var flight_details_luggage_must_be_paid_separately: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_luggage_not_included: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_on_the_way_duration_format: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_details_price_for_all: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_price_per_person: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_transfer_in_city_format: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_details_unavailable_ticket_message: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_details_unavailable_ticket_primary_button: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_unavailable_ticket_secondary_button: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_unavailable_ticket_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+    }
+    public struct flightDetailsShare {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flight_details_share_close_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var flight_details_share_share_button_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightProposals {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flight_proposals_dimension_centimetre_format: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var flight_proposals_filter_caption: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_flight_back: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_flight_there: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_hand_luggage_not_included: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_luggage_not_included: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_purchase_button_format: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flight_proposals_subtitle_for_all_persons: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_subtitle_per_person: RswiftResources.StringResource {
+        get
+      }
+      public var flight_proposals_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsAirports {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var airports_nearby_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var already_searched_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var arrival_title: RswiftResources.StringResource {
+        get
+      }
+      public var departure_title: RswiftResources.StringResource {
+        get
+      }
+      public var search_bar_placeholder: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsCalendar {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var button_price_from: RswiftResources.StringResource {
+        get
+      }
+      public var choose_button_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var disabled_choose_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var first_date_text_field_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var second_date_text_field_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsCommon {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var all: RswiftResources.StringResource {
+        get
+      }
+      public var chosen: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var passanger: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFavorites {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var outdated_directions_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFilters {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var agencies_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var airlines_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var airports_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var arrival_time_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var back_route_section_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var baggage_switch_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var day_slider_preset_title: RswiftResources.StringResource {
+        get
+      }
+      public var departure_time_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var duration_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var evening_slider_preset_title: RswiftResources.StringResource {
+        get
+      }
+      public var extras_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var flight_duration_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var forth_route_section_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var morning_slider_preset_title: RswiftResources.StringResource {
+        get
+      }
+      public var price_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var price_slider_value_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var search_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var sorting_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+      public var transfer_airports_picker_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var transfers_count_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var transfers_duration_slider_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var transfers_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var without_airport_changing_switch_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var without_night_transfers_switch_row_cell_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFiltersAgents {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var apply_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var choose_all_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFiltersAirlines {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var airlines_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var alliances_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var apply_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var choose_all_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFiltersAirports {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var apply_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var back_trip_arrival_to_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var back_trip_departure_from_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var choose_all_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var forth_trip_arrival_to_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var forth_trip_departure_from_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFiltersSorting {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var arrival_time_title: RswiftResources.StringResource {
+        get
+      }
+      public var best_title: RswiftResources.StringResource {
+        get
+      }
+      public var cheapest_title: RswiftResources.StringResource {
+        get
+      }
+      public var departure_time_title: RswiftResources.StringResource {
+        get
+      }
+      public var popularity_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+      public var transfer_duration_title: RswiftResources.StringResource {
+        get
+      }
+      public var trip_duration_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsFiltersTransfersAirports {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var apply_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var choose_all_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsLayoverInfo {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flights_layover_info_airport_change_description: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_airport_change_nuance_0: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_airport_change_nuance_1: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_airport_change_nuance_2: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_airport_change_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_layover_info_night_description: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_night_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_layover_info_separate_booking_description: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_epilogue: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_nuance_0: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_nuance_1: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_nuance_2: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_nuance_3: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_nuance_4: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_separate_booking_title: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_short_description: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_layover_info_short_nuance_0: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_short_nuance_1: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_short_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_layover_info_visa_description: RswiftResources.StringResource {
+        get
+      }
+      public var flights_layover_info_visa_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+    }
+    public struct flightsPassengers {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var adults_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var adults_title: RswiftResources.StringResource {
+        get
+      }
+      public var babies_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var babies_title: RswiftResources.StringResource {
+        get
+      }
+      public var business_class_title: RswiftResources.StringResource {
+        get
+      }
+      public var children_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var children_title: RswiftResources.StringResource {
+        get
+      }
+      public var class_title: RswiftResources.StringResource {
+        get
+      }
+      public var economy_class_title: RswiftResources.StringResource {
+        get
+      }
+      public var passengers_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsPlurals {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var passengers: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var ticket_proposal_hand_luggage: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var ticket_proposal_hand_luggage_with_weight: RswiftResources.StringResource2<Swift.Int, Swift.Int> {
+        get
+      }
+      public var ticket_proposal_luggage: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var ticket_proposal_luggage_with_weight: RswiftResources.StringResource2<Swift.Int, Swift.Int> {
+        get
+      }
+      public var tickets: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var tickets_left: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var transfers: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var transfers_for_slider: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public func passengers(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func passengers(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func ticket_proposal_hand_luggage(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func ticket_proposal_hand_luggage(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func ticket_proposal_hand_luggage_with_weight(count value1: Swift.Int, _ value2: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func ticket_proposal_hand_luggage_with_weight(count value1: Swift.Int, _ value2: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func ticket_proposal_luggage(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func ticket_proposal_luggage(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func ticket_proposal_luggage_with_weight(count value1: Swift.Int, _ value2: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func ticket_proposal_luggage_with_weight(count value1: Swift.Int, _ value2: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func tickets(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func tickets(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func tickets_left(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func tickets_left(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func transfers(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func transfers(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func transfers_for_slider(count value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func transfers_for_slider(count value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+    }
+    public struct flightsPriceCharts {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var flights_price_charts_price_baggage: RswiftResources.StringResource {
+        get
+      }
+      public var flights_price_charts_price_departure_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_price_departure_title_for_cases: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_price_direct_flight: RswiftResources.StringResource {
+        get
+      }
+      public var flights_price_charts_price_form: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_price_not_available: RswiftResources.StringResource {
+        get
+      }
+      public var flights_price_charts_price_return_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_price_return_title_for_cases: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_search_button: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var flights_price_charts_search_button_without_price: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsResults {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var filters_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var footer_text_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var load_more_button_cell_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var price_chart_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var should_update_alert_later_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var should_update_alert_message: RswiftResources.StringResource {
+        get
+      }
+      public var should_update_alert_title: RswiftResources.StringResource {
+        get
+      }
+      public var should_update_alert_update_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var ticket_cell_few_tickets_left_warning_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var ticket_cell_travel_time_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var widget_button_cell_collapse_title: RswiftResources.StringResource {
+        get
+      }
+      public var widget_button_cell_show_all_title: RswiftResources.StringResource {
+        get
+      }
+      public var widget_title_cell_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsSearch {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var arrival_airport_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var dates_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var departure_airport_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var passengers_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var search_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct flightsTransferTags {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var airport_change_required_title: RswiftResources.StringResource {
+        get
+      }
+      public var extended_airport_change_required_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var extended_night_transfer_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var extended_short_layover_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var extended_should_recheck_baggage_title: RswiftResources.StringResource {
+        get
+      }
+      public var extended_visa_required_title: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var night_transfer_title: RswiftResources.StringResource {
+        get
+      }
+      public var short_layover_title: RswiftResources.StringResource {
+        get
+      }
+      public var should_recheck_baggage_title: RswiftResources.StringResource {
+        get
+      }
+      public var visa_required_title: RswiftResources.StringResource {
+        get
+      }
+    }
+  }
+}
+@_hasMissingDesignatedInitializers final public class ScreenProvider {
+  public static let shared: WLFlights.ScreenProvider
+  final public var flightsViewController: UIKit.UIViewController {
+    get
+  }
+  final public func enable()
+  @objc deinit
+}
+extension WLFlights.LocalizationTable : Swift.RawRepresentable {}

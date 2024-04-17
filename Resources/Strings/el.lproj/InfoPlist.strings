@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "Travel App RU TEST";
+"CFBundleName" = "Travel App RU TEST";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Για να αναζητήσει τα πλησιέστερα αεροδρόμια και ξενοδοχεία κοντά σας";
+"NSLocationWhenInUseUsageDescription" = "Για να αναζητήσει τα πλησιέστερα αεροδρόμια και ξενοδοχεία κοντά σας";
+"NSPhotoLibraryAddUsageDescription" = "Η εφαρμογή πρέπει να μπορεί να αποθηκεύει εισιτήρια στη βιβλιοθήκη φωτογραφιών του τηλεφώνου σας";
+"NSUserTrackingUsageDescription" = "Αυτό το αναγνωριστικό θα χρησιμοποιηθεί για την προβολή εξατομικευμένων διαφημίσεων προς εσάς";

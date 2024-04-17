@@ -1,0 +1,13 @@
+"filters_button_title" = "Søgefiltre";
+"price_chart_button_title" = "Prisskema";
+"widget_title_cell_title" = "Direkte flyruter";
+"widget_button_cell_show_all_title" = "Vis alle";
+"widget_button_cell_collapse_title" = "Vis mindre";
+"ticket_cell_travel_time_title" = "Rejsetid: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ til denne pris";
+"load_more_button_cell_title" = "Vis %@ flere billetter";
+"footer_text_cell_title" = "Du har set alle de billetter, der matcher dine søgeparametre.\nRediger dine filtre for nye søgeresultater";
+"should_update_alert_title" = "Søgeresultater kan være forældede";
+"should_update_alert_message" = "Billetpriser ændrer sig cirka 10 gange om dagen. Opdater din søgning for at se de opdaterede priser";
+"should_update_alert_update_button_title" = "Opdatér søgning";
+"should_update_alert_later_button_title" = "Senere";

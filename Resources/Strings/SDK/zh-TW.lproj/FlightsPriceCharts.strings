@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "搜尋航班";
+"flights_price_charts_search_button" = "尋找價格從 %@ 起的航班";
+"flights_price_charts_price_form" = "來自%@";
+"flights_price_charts_price_not_available" = "票價不可用";
+"flights_price_charts_price_departure_title_for_cases" = "飛往 %@ 的去程航班";
+"flights_price_charts_price_departure_title" = "飛往 %@ 的去程航班";
+"flights_price_charts_price_return_title_for_cases" = "回 %@ 的回程航班";
+"flights_price_charts_price_return_title" = "回 %@ 的回程航班";
+"flights_price_charts_price_direct_flight" = "僅限直航";
+"flights_price_charts_price_baggage" = "行李包括在内";

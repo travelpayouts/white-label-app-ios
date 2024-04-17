@@ -1,0 +1,11 @@
+"filters_button_title" = "篩選項";
+"location_button_map_view" = "於地圖上顯示";
+"location_button_card_view" = "列表";
+"meters" = "%@ 公尺";
+"kilometers" = "%@ 公里";
+"city_center" = "市中心";
+"free_cancel_title" = "免費取消";
+"without_cancellation_title" = "無法取消";
+"no_available_rooms" = "這些日期沒有空房了";
+"for_single_night" = "每一晚";
+"price_not_availalble" = "沒有找到房間";

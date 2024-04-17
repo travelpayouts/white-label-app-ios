@@ -1,0 +1,7 @@
+"title" = "Lentokentät";
+"forth_trip_departure_from_title" = "Lähtö paikasta %@";
+"forth_trip_arrival_to_title" = "Saapuminen kohteeseen %@";
+"back_trip_departure_from_title" = "Paluulennon lähtö kohteesta %@";
+"back_trip_arrival_to_title" = "Paluulennon saapuminen kohteeseen %@";
+"choose_all_cell_title" = "Valitse kaikki";
+"apply_button_title" = "Käytä";

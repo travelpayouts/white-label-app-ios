@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Tüm teklifler";
+"flight_proposals_subtitle_per_person" = "1 yolcu fiyatı";
+"flight_proposals_subtitle_for_all_persons" = "Tüm yolcular için fiyat";
+"flight_proposals_filter_caption" = "Sadece bagajın dahil olduğu biletler";
+"flight_proposals_luggage_not_included" = "Bagaj dahil değil";
+"flight_proposals_hand_luggage_not_included" = "El bagajı dahil değil";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Şu fiyattan satın al %@";
+"flight_proposals_flight_there" = "Kalkış";
+"flight_proposals_flight_back" = "Dönüş";

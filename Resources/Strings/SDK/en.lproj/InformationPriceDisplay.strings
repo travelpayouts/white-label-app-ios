@@ -1,0 +1,8 @@
+"title" = "Display prices";
+"aviaTickets_section_title" = "Flights";
+"hotels_section_title" = "Hotels";
+"currency_cell_title" = "Currency";
+"priceForAllPassengers_cell_title" = "Prices for all passengers";
+"priceForOnePassenger_cell_title" = "Prices per 1 passenger";
+"priceForAllNights_cell_title" = "Prices for whole stay";
+"priceForOneNight_cell_title" = "Prices per 1 night";

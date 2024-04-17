@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Bộ lọc";
+"hotel_rooms_filters_grouping_title" = "Nhóm theo";
+"hotel_rooms_filters_bed_type_title" = "Loại giường";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Tắt bộ lọc chung";
+"hotel_rooms_filters_grouping_rooms_text" = "Phòng";
+"hotel_rooms_filters_grouping_gates_text" = "Đại lý";
+"hotel_rooms_filters_grouping_prices_text" = "Giá";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Hiển thị tất cả các phòng kể cả phòng\nkhông khớp với bộ lọc bạn đã đặt";

@@ -1,0 +1,10 @@
+"visa_required_title" = "opphold med visum";
+"should_recheck_baggage_title" = "interline booking";
+"night_transfer_title" = "opphold med overnatting";
+"airport_change_required_title" = "flyplassbytte";
+"short_layover_title" = "kort mellomlanding";
+"extended_visa_required_title" = "Du må ha visum i %@";
+"extended_should_recheck_baggage_title" = "Du må gå gjennom sikkerhetskontrollen og sjekke inn bagasjen på nytt under mellomlanding når du bytter fly";
+"extended_night_transfer_title" = "Mellomlanding med overnatting i %@";
+"extended_airport_change_required_title" = "Flyplassbytte i %@";
+"extended_short_layover_title" = "Kort mellomlanding i %@";

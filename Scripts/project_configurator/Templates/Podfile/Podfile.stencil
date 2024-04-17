@@ -1,0 +1,155 @@
+#  This file was automatically generated and should not be edited.
+#
+#  Copyright © {{ year }} CleverPumpkin. All rights reserved.
+#
+{% if podfile_context.packages %}
+{% for package in podfile_context.packages %}
+require '{{ package }}'
+{% endfor %}
+{% endif %}
+
+{% if podfile_context.platform and podfile_context.platform.name and podfile_context.platform.version %}
+platform :{{ podfile_context.platform.name }}, '{{ podfile_context.platform.version }}'
+{% endif %}
+
+{% if podfile_context.sources %}
+{% for source in podfile_context.sources %}
+source '{{ source }}'
+{% endfor %}
+{% endif %}
+
+{% if podfile_context.inhibit_all_warnings %}
+inhibit_all_warnings!
+{% endif %}
+{% if podfile_context.use_frameworks %}
+use_frameworks!{% if podfile_context.use_frameworks != 'static' %} :linkage => :{{ podfile_context.use_frameworks }}{% endif %}
+{% endif %}
+
+{% if podfile_context.install and podfile_context.install.method and podfile_context.install.options %}
+install! '{{ podfile_context.install.method }}'{% if podfile_context.install.options %},{% endif %}
+	{% if podfile_context.install.options %}
+	{% for option, value in podfile_context.install.options %}
+
+	:{{ option }} => {{ value|boolValue }}
+	{% endfor %}
+	{% endif %}
+{% endif %}
+{% if podfile_context.workspace %}
+workspace_name = '{{ podfile_context.workspace }}'
+workspace workspace_name
+{% endif %}
+
+{% if podfile_context.grouping %}
+grouping = {
+	{% if podfile_context.grouping.order %}
+	'order': [
+		{% for module in podfile_context.grouping.order %}
+		'{{ module }}'{% if not forloop.last %},{% endif %}
+
+		{% endfor %}
+	] {% if podfile_context.grouping.grouping %},{% endif %}
+	{% endif %}
+	{% if podfile_context.grouping.grouping %}
+
+	'map': {
+		{% for group, modules in podfile_context.grouping.grouping %}
+		'{{ group }}': [
+			{% for module in modules %}
+			'{{ module }}'{% if not forloop.last %},{% endif %}
+
+			{% endfor %}
+		]{% if not forloop.last %},{% endif %}
+
+		{% endfor %}
+	}
+	{% endif %}
+}
+{% endif %}
+{% if podfile_context.functions %}
+{% for function in podfile_context.functions %}
+{% if function.comment %}
+
+# {{ function.comment }}
+{% endif %}
+
+def {{ function.name }}
+	{% if function.pods|enabled:context %}
+	{% for pod in function.pods|enabled:context %}
+	{% if pod.name %}
+	{% if pod.condition %}{% endif %}	pod '{{ pod.name }}'{% if pod.version %}, '{{ pod.version }}'{% endif %}{% if pod.git and pod.tag %}, :git => '{{ pod.git }}', :tag => '{{ pod.tag }}'{% endif %}{% if pod.comment %} # {{ pod.comment }}{% endif %}
+
+	{% endif %}
+	{% endfor %}
+	{% endif %}
+	{% if function.functions|enabled:context %}
+
+	{% for function in function.functions|enabled:context %}
+	{{ function.name }}
+	{% endfor %}
+	{% endif %}
+	{% if function.script_phases %}
+	{% for script_phase in function.script_phases %}
+
+	{% if script_phase.comment %}
+	# {{ script_phase.comment }}
+	{% endif %}
+	script_phase :name => '{{ script_phase.name }}',
+								:script => '{{ script_phase.script }}'{% if script_phase.input_files %}
+,
+								{% endif %}
+								:input_files => [
+									{% for input_file in script_phase.input_files %}
+										'{{ input_file }}'
+									{% endfor %}
+								]
+	{% endfor %}
+	{% endif %}
+end
+{% endfor %}
+{% endif %}
+
+{% if podfile_context.abstract_targets %}
+{% for abstract_target in podfile_context.abstract_targets %}
+{% if abstract_target.comment %}
+# {{ abstract_target.comment }}
+
+{% endif %}
+abstract_target '{{ abstract_target.name }}' do
+	{% if abstract_target.pods|enabled:context %}
+	{% for pod in abstract_target.pods|enabled:context %}
+	{% if pod.name %}
+	{% if pod.condition %}{% endif %}	pod '{{ pod.name }}'{% if pod.version %}, '{{ pod.version }}'{% endif %}{% if pod.git and pod.tag %}, :git => '{{ pod.git }}', :tag => '{{ pod.tag }}'{% endif %}{% if pod.comment %} # {{ pod.comment }}{% endif %}
+
+	{% endif %}
+	{% endfor %}
+	{% endif %}
+	{% if abstract_target.targets %}
+	{% for target in abstract_target.targets %}
+
+	target '{{ target.name }}' do
+		{% if target.project %}
+		project '{{ target.project }}'
+		{% endif %}
+		{% if target.functions|enabled:context %}
+		{% for function in target.functions|enabled:context %}
+		{{ function.name }}
+		{% endfor %}
+		{% endif %}
+	end
+	{% endfor %}
+	{% endif %}
+end
+{% endfor %}
+{% endif %}
+
+# Various post-install hooks
+post_install do |installer|
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+			{% if podfile_context.platform.name == 'ios' %}
+			config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '{{ podfile_context.platform.version }}'
+			{% endif %}
+			config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+		end
+	end
+end

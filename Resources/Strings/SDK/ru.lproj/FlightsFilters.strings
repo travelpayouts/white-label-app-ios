@@ -1,0 +1,43 @@
+
+// MARK: - Titles
+
+"title" = "Фильтры";
+
+// MARK: - Section titles
+
+"transfers_section_title" = "Пересадки";
+"forth_route_section_title" = "Вылет %@";
+"back_route_section_title" = "Обратно %@";
+"extras_section_title" = "Дополнительно";
+
+// MARK: - Cell titles
+
+"sorting_picker_row_cell_title" = "Сортировка";
+"baggage_switch_row_cell_title" = "Только с багажом";
+"transfers_count_slider_cell_title" = "Количество пересадок";
+"transfers_duration_slider_cell_title" = "Длительность пересадок";
+"transfer_airports_picker_row_cell_title" = "Аэропорты пересадок";
+"without_airport_changing_switch_row_cell_title" = "Без смены аэропорта";
+"without_night_transfers_switch_row_cell_title" = "Без ночных прересадок";
+"departure_time_slider_cell_title" = "Отправление";
+"arrival_time_slider_cell_title" = "Прибытие";
+"flight_duration_slider_cell_title" = "Время в пути";
+"price_slider_cell_title" = "Цена";
+"airports_picker_row_cell_title" = "Аэропорты";
+"airlines_picker_row_cell_title" = "Авиакомпании";
+"agencies_picker_row_cell_title" = "Агентства";
+
+// MARK: - Button titles
+
+"search_button_title" = "Показать";
+
+// MARK: - Slider value titles
+
+"duration_slider_value_title" = "до %@";
+"price_slider_value_title" = "до %@";
+
+// MARK: - Slider presets titles
+
+"morning_slider_preset_title" = "Утро";
+"day_slider_preset_title" = "День";
+"evening_slider_preset_title" = "Вечер";

@@ -1,0 +1,10 @@
+"visa_required_title" = "비자가 필요한 경유";
+"should_recheck_baggage_title" = "경유선 예약하기";
+"night_transfer_title" = "오버나이트 경유";
+"airport_change_required_title" = "공항 변경";
+"short_layover_title" = "짧은 레이오버";
+"extended_visa_required_title" = "%@에서 비자가 필요합니다";
+"extended_should_recheck_baggage_title" = "수하물을 다시 위탁하고 연결 항공편에 다시 체크인해야 합니다.";
+"extended_night_transfer_title" = "%@에서 오버나잇 레이오버";
+"extended_airport_change_required_title" = "변경된 공항의 도시는 %@";
+"extended_short_layover_title" = "%@에서 짧은 레이오버";

@@ -1,0 +1,13 @@
+"filters_button_title" = "Filter";
+"price_chart_button_title" = "Carta harga";
+"widget_title_cell_title" = "Penerbangan terus";
+"widget_button_cell_show_all_title" = "Tunjuk semua";
+"widget_button_cell_collapse_title" = "Kurangkan";
+"ticket_cell_travel_time_title" = "Masa perjalanan: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ pada harga ini";
+"load_more_button_cell_title" = "Tunjukkan %@ lebih banyak tiket";
+"footer_text_cell_title" = "Anda telah melihat semua tiket yang sepadan dengan parameter carian anda.\nSunting penapis untuk hasil carian baharu";
+"should_update_alert_title" = "Hasil carian mungkin sudah lapuk";
+"should_update_alert_message" = "Harga tiket berubah lebih kurang 10 kali sehari. Muat semula carian anda untuk harga terkini";
+"should_update_alert_update_button_title" = "Kemas kini carian";
+"should_update_alert_later_button_title" = "Kemudian";

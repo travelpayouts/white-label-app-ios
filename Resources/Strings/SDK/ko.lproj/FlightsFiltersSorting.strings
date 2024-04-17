@@ -1,0 +1,8 @@
+"title" = "정렬 기준";
+"best_title" = "아고다 추천";
+"cheapest_title" = "가격";
+"departure_time_title" = "출발 시간";
+"arrival_time_title" = "도착 시간";
+"transfer_duration_title" = "경유 시간";
+"trip_duration_title" = "비행 시간";
+"popularity_title" = "인기도";

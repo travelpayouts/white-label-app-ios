@@ -1,0 +1,10 @@
+"visa_required_title" = "layover with visa";
+"should_recheck_baggage_title" = "interline booking";
+"night_transfer_title" = "overnight layover";
+"airport_change_required_title" = "airport change";
+"short_layover_title" = "short layover";
+"extended_visa_required_title" = "You\'ll require a visa %@";
+"extended_should_recheck_baggage_title" = "You\'ll have to recheck your baggage and check in again for your connecting flight";
+"extended_night_transfer_title" = "Overnight layover %@";
+"extended_airport_change_required_title" = "Airport change %@";
+"extended_short_layover_title" = "Short layover %@";

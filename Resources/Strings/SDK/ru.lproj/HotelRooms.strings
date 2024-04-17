@@ -1,0 +1,9 @@
+// MARK: - Titles
+
+"title" = "Все номера";
+
+"hotel_rooms_other_rooms_section_title" = "Другие номера";
+
+// MARK: - Button Titles
+
+"hotel_room_button_title" = "Выбрать номер";

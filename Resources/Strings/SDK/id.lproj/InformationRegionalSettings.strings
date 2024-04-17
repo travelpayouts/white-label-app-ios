@@ -1,0 +1,5 @@
+"title" = "Pengaturan regional";
+"app_language_cell_title" = "Bahasa aplikasi";
+"country_cell_title" = "Negara";
+"currency_cell_title" = "Mata uang";
+"description_cell_title" = "Pengaturan regional digunakan untuk menampilkan tiket dan aturan masuk yang sesuai untuk berbagai negara";

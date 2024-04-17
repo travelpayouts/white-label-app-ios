@@ -1,0 +1,5 @@
+"title" = "Setări regionale";
+"app_language_cell_title" = "Limba aplicației";
+"country_cell_title" = "Țară";
+"currency_cell_title" = "Monedă";
+"description_cell_title" = "Configurările regionale sunt utilizate pentru a afișa bilete și reguli de intrare corespunzătoare diferitelor țări";

@@ -1,0 +1,12 @@
+
+// MARK: - Titles
+
+"title" = "Сортировка";
+
+"best_title" = "Рекомендуемое";
+"cheapest_title" = "Цена";
+"departure_time_title" = "Время отправления";
+"arrival_time_title" = "Время прибытия";
+"transfer_duration_title" = "Длительность пересадок";
+"trip_duration_title" = "Время в пути";
+"popularity_title" = "Популярность";

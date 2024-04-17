@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "フライトを検索";
+"flights_price_charts_search_button" = "%@からの航空便を探す";
+"flights_price_charts_price_form" = "%@から";
+"flights_price_charts_price_not_available" = "価格該当なし";
+"flights_price_charts_price_departure_title_for_cases" = "%@への出発便";
+"flights_price_charts_price_departure_title" = "%@への出発便";
+"flights_price_charts_price_return_title_for_cases" = "%@への到着便";
+"flights_price_charts_price_return_title" = "%@への到着便";
+"flights_price_charts_price_direct_flight" = "直行便のみ";
+"flights_price_charts_price_baggage" = "手荷物込み";

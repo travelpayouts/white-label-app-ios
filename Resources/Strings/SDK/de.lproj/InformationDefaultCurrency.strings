@@ -1,0 +1,3 @@
+"title" = "Währung";
+"all_currencies_button" = "Alle Währungen";
+"load_currencies_error_description" = "Die Währung konnte nicht anhand Ihres Standorts ermittelt werden. Standardwährung wurde angewendet";

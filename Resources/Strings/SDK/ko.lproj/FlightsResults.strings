@@ -1,0 +1,13 @@
+"filters_button_title" = "필터";
+"price_chart_button_title" = "가격 차트";
+"widget_title_cell_title" = "직항";
+"widget_button_cell_show_all_title" = "전부 보이기";
+"widget_button_cell_collapse_title" = "적게 보기";
+"ticket_cell_travel_time_title" = "이동시간: %@";
+"ticket_cell_few_tickets_left_warning_title" = "이 가격에 %@";
+"load_more_button_cell_title" = "%@개 항공권 더 표시";
+"footer_text_cell_title" = "검색 파라미터와 일치하는 모든 항공권을 확인하셨습니다.\n새로운 검색 결과를 보려면 필터를 편집하세요.";
+"should_update_alert_title" = "검색 결과가 오래되었을 수 있습니다.";
+"should_update_alert_message" = "항공권 가격은 하루에 10번 정보 변경됩니다. 검색 결과를 새로 고침해서 업데이트된 가격을 확인하세요";
+"should_update_alert_update_button_title" = "검색 업데이트";
+"should_update_alert_later_button_title" = "나중에";

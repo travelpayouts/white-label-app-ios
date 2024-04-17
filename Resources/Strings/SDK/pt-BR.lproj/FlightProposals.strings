@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Todas as ofertas";
+"flight_proposals_subtitle_per_person" = "Preço para 1 passageiro";
+"flight_proposals_subtitle_for_all_persons" = "Preço para todos os passageiros";
+"flight_proposals_filter_caption" = "Apenas passagens que inclui bagagens";
+"flight_proposals_luggage_not_included" = "Bagagem não incluída";
+"flight_proposals_hand_luggage_not_included" = "Bagagens de mão não inclusas";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Compre por %@";
+"flight_proposals_flight_there" = "Partida";
+"flight_proposals_flight_back" = "Retorno";

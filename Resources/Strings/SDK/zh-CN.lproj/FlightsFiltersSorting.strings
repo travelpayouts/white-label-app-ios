@@ -1,0 +1,8 @@
+"title" = "排序方式";
+"best_title" = "热门度";
+"cheapest_title" = "价格";
+"departure_time_title" = "出发时间";
+"arrival_time_title" = "到达时间";
+"transfer_duration_title" = "中途停留时间";
+"trip_duration_title" = "飞行时间";
+"popularity_title" = "热门度";

@@ -1,0 +1,2525 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossModuleMessage",
+        "printedName": "CrossModuleMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "flights",
+            "printedName": "flights",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.CrossModuleMessage.Type) -> (WLShared.CrossModuleMessage.Flights) -> WLShared.CrossModuleMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WLShared.CrossModuleMessage.Flights) -> WLShared.CrossModuleMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossModuleMessage",
+                        "printedName": "WLShared.CrossModuleMessage",
+                        "usr": "s:8WLShared18CrossModuleMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Flights",
+                        "printedName": "WLShared.CrossModuleMessage.Flights",
+                        "usr": "s:8WLShared18CrossModuleMessageO7FlightsO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.CrossModuleMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossModuleMessage",
+                        "printedName": "WLShared.CrossModuleMessage",
+                        "usr": "s:8WLShared18CrossModuleMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared18CrossModuleMessageO7flightsyA2C7FlightsOcACmF",
+            "mangledName": "$s8WLShared18CrossModuleMessageO7flightsyA2C7FlightsOcACmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hotels",
+            "printedName": "hotels",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.CrossModuleMessage.Type) -> (WLShared.CrossModuleMessage.Hotels) -> WLShared.CrossModuleMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WLShared.CrossModuleMessage.Hotels) -> WLShared.CrossModuleMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossModuleMessage",
+                        "printedName": "WLShared.CrossModuleMessage",
+                        "usr": "s:8WLShared18CrossModuleMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Hotels",
+                        "printedName": "WLShared.CrossModuleMessage.Hotels",
+                        "usr": "s:8WLShared18CrossModuleMessageO6HotelsO"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.CrossModuleMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossModuleMessage",
+                        "printedName": "WLShared.CrossModuleMessage",
+                        "usr": "s:8WLShared18CrossModuleMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared18CrossModuleMessageO6hotelsyA2C6HotelsOcACmF",
+            "mangledName": "$s8WLShared18CrossModuleMessageO6hotelsyA2C6HotelsOcACmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hotelsSearchScreenMessage",
+            "printedName": "hotelsSearchScreenMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HotelsSearchScreen",
+                    "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                    "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared18CrossModuleMessageO018hotelsSearchScreenD0AC6HotelsO0hfG0OSgvp",
+            "mangledName": "$s8WLShared18CrossModuleMessageO018hotelsSearchScreenD0AC6HotelsO0hfG0OSgvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HotelsSearchScreen",
+                        "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                        "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared18CrossModuleMessageO018hotelsSearchScreenD0AC6HotelsO0hfG0OSgvg",
+                "mangledName": "$s8WLShared18CrossModuleMessageO018hotelsSearchScreenD0AC6HotelsO0hfG0OSgvg",
+                "moduleName": "WLShared",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flightsSearchScreenMessage",
+            "printedName": "flightsSearchScreenMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlightsSearchScreen",
+                    "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                    "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared18CrossModuleMessageO019flightsSearchScreenD0AC7FlightsO0hfG0OSgvp",
+            "mangledName": "$s8WLShared18CrossModuleMessageO019flightsSearchScreenD0AC7FlightsO0hfG0OSgvp",
+            "moduleName": "WLShared",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FlightsSearchScreen",
+                        "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                        "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared18CrossModuleMessageO019flightsSearchScreenD0AC7FlightsO0hfG0OSgvg",
+                "mangledName": "$s8WLShared18CrossModuleMessageO019flightsSearchScreenD0AC7FlightsO0hfG0OSgvg",
+                "moduleName": "WLShared",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Flights",
+            "printedName": "Flights",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "flightsSearchScreen",
+                "printedName": "flightsSearchScreen",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WLShared.CrossModuleMessage.Flights.Type) -> (WLShared.CrossModuleMessage.Flights.FlightsSearchScreen) -> WLShared.CrossModuleMessage.Flights",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Flights.FlightsSearchScreen) -> WLShared.CrossModuleMessage.Flights",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Flights",
+                            "printedName": "WLShared.CrossModuleMessage.Flights",
+                            "usr": "s:8WLShared18CrossModuleMessageO7FlightsO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FlightsSearchScreen",
+                            "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                            "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WLShared.CrossModuleMessage.Flights.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Flights",
+                            "printedName": "WLShared.CrossModuleMessage.Flights",
+                            "usr": "s:8WLShared18CrossModuleMessageO7FlightsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO19flightsSearchScreenyA2E0egH0OcAEmF",
+                "mangledName": "$s8WLShared18CrossModuleMessageO7FlightsO19flightsSearchScreenyA2E0egH0OcAEmF",
+                "moduleName": "WLShared",
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "FlightsSearchScreen",
+                "printedName": "FlightsSearchScreen",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "loadDateRange",
+                    "printedName": "loadDateRange",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Flights.FlightsSearchScreen.Type) -> (Swift.ClosedRange<Foundation.Date>) -> WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.ClosedRange<Foundation.Date>) -> WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "FlightsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ClosedRange",
+                                "printedName": "Swift.ClosedRange<Foundation.Date>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Date",
+                                    "printedName": "Foundation.Date",
+                                    "usr": "s:10Foundation4DateV"
+                                  }
+                                ],
+                                "usr": "s:SN"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "FlightsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO13loadDateRangeyAGSNy10Foundation0I0VGcAGmF",
+                    "mangledName": "$s8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO13loadDateRangeyAGSNy10Foundation0I0VGcAGmF",
+                    "moduleName": "WLShared",
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "loadSingleDate",
+                    "printedName": "loadSingleDate",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Flights.FlightsSearchScreen.Type) -> (Foundation.Date) -> WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Foundation.Date) -> WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "FlightsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Date",
+                                "printedName": "Foundation.Date",
+                                "usr": "s:10Foundation4DateV"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "FlightsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Flights.FlightsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO14loadSingleDateyAG10Foundation0J0VcAGmF",
+                    "mangledName": "$s8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO14loadSingleDateyAG10Foundation0J0VcAGmF",
+                    "moduleName": "WLShared",
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO",
+                "mangledName": "$s8WLShared18CrossModuleMessageO7FlightsO0E12SearchScreenO",
+                "moduleName": "WLShared",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8WLShared18CrossModuleMessageO7FlightsO",
+            "mangledName": "$s8WLShared18CrossModuleMessageO7FlightsO",
+            "moduleName": "WLShared",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Hotels",
+            "printedName": "Hotels",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "hotelsSearchScreen",
+                "printedName": "hotelsSearchScreen",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(WLShared.CrossModuleMessage.Hotels.Type) -> (WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen) -> WLShared.CrossModuleMessage.Hotels",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen) -> WLShared.CrossModuleMessage.Hotels",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hotels",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels",
+                            "usr": "s:8WLShared18CrossModuleMessageO6HotelsO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HotelsSearchScreen",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                            "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "WLShared.CrossModuleMessage.Hotels.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hotels",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels",
+                            "usr": "s:8WLShared18CrossModuleMessageO6HotelsO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO18hotelsSearchScreenyA2E0egH0OcAEmF",
+                "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO18hotelsSearchScreenyA2E0egH0OcAEmF",
+                "moduleName": "WLShared",
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
+                "name": "HotelsSearchScreen",
+                "printedName": "HotelsSearchScreen",
+                "children": [
+                  {
+                    "kind": "Var",
+                    "name": "loadLocation",
+                    "printedName": "loadLocation",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type) -> (Swift.String, Swift.String?) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.String, Swift.String?) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Tuple",
+                                "printedName": "(iata: Swift.String, cityName: Swift.String?)",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Optional",
+                                    "printedName": "Swift.String?",
+                                    "children": [
+                                      {
+                                        "kind": "TypeNominal",
+                                        "name": "String",
+                                        "printedName": "Swift.String",
+                                        "usr": "s:SS"
+                                      }
+                                    ],
+                                    "usr": "s:Sq"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO12loadLocationyAGSS_SSSgtcAGmF",
+                    "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO12loadLocationyAGSS_SSSgtcAGmF",
+                    "moduleName": "WLShared",
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "loadDateRange",
+                    "printedName": "loadDateRange",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type) -> (Swift.ClosedRange<Foundation.Date>) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Swift.ClosedRange<Foundation.Date>) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ClosedRange",
+                                "printedName": "Swift.ClosedRange<Foundation.Date>",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Date",
+                                    "printedName": "Foundation.Date",
+                                    "usr": "s:10Foundation4DateV"
+                                  }
+                                ],
+                                "usr": "s:SN"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO13loadDateRangeyAGSNy10Foundation0I0VGcAGmF",
+                    "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO13loadDateRangeyAGSNy10Foundation0I0VGcAGmF",
+                    "moduleName": "WLShared",
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ]
+                  },
+                  {
+                    "kind": "Var",
+                    "name": "loadSingleDate",
+                    "printedName": "loadSingleDate",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type) -> (Foundation.Date) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(Foundation.Date) -> WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Date",
+                                "printedName": "Foundation.Date",
+                                "usr": "s:10Foundation4DateV"
+                              }
+                            ]
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Metatype",
+                            "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen.Type",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HotelsSearchScreen",
+                                "printedName": "WLShared.CrossModuleMessage.Hotels.HotelsSearchScreen",
+                                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "declKind": "EnumElement",
+                    "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO14loadSingleDateyAG10Foundation0J0VcAGmF",
+                    "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO14loadSingleDateyAG10Foundation0J0VcAGmF",
+                    "moduleName": "WLShared",
+                    "spi_group_names": [
+                      "CleverPumpkinInternal"
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO",
+                "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO0E12SearchScreenO",
+                "moduleName": "WLShared",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8WLShared18CrossModuleMessageO6HotelsO",
+            "mangledName": "$s8WLShared18CrossModuleMessageO6HotelsO",
+            "moduleName": "WLShared",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8WLShared18CrossModuleMessageO",
+        "mangledName": "$s8WLShared18CrossModuleMessageO",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrossModuleMessagingService",
+        "printedName": "CrossModuleMessagingService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "messagePublisher",
+            "printedName": "messagePublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<WLShared.CrossModuleMessage, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossModuleMessage",
+                    "printedName": "WLShared.CrossModuleMessage",
+                    "usr": "s:8WLShared18CrossModuleMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared27CrossModuleMessagingServiceP16messagePublisher7Combine03AnyG0VyAA0bC7MessageOs5NeverOGvp",
+            "mangledName": "$s8WLShared27CrossModuleMessagingServiceP16messagePublisher7Combine03AnyG0VyAA0bC7MessageOs5NeverOGvp",
+            "moduleName": "WLShared",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyPublisher",
+                    "printedName": "Combine.AnyPublisher<WLShared.CrossModuleMessage, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CrossModuleMessage",
+                        "printedName": "WLShared.CrossModuleMessage",
+                        "usr": "s:8WLShared18CrossModuleMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine12AnyPublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared27CrossModuleMessagingServiceP16messagePublisher7Combine03AnyG0VyAA0bC7MessageOs5NeverOGvg",
+                "mangledName": "$s8WLShared27CrossModuleMessagingServiceP16messagePublisher7Combine03AnyG0VyAA0bC7MessageOs5NeverOGvg",
+                "moduleName": "WLShared",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLShared.CrossModuleMessagingService>",
+                "sugared_genericSig": "<Self where Self : WLShared.CrossModuleMessagingService>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrossModuleMessage",
+                "printedName": "WLShared.CrossModuleMessage",
+                "usr": "s:8WLShared18CrossModuleMessageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8WLShared27CrossModuleMessagingServiceP4send7messageyAA0bC7MessageO_tF",
+            "mangledName": "$s8WLShared27CrossModuleMessagingServiceP4send7messageyAA0bC7MessageO_tF",
+            "moduleName": "WLShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLShared.CrossModuleMessagingService>",
+            "sugared_genericSig": "<Self where Self : WLShared.CrossModuleMessagingService>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8WLShared27CrossModuleMessagingServiceP",
+        "mangledName": "$s8WLShared27CrossModuleMessagingServiceP",
+        "moduleName": "WLShared",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoriteScreensCoordinator",
+        "printedName": "FavoriteScreensCoordinator",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "onFinish",
+            "printedName": "onFinish",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvp",
+            "mangledName": "$s8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvp",
+            "moduleName": "WLShared",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvg",
+                "mangledName": "$s8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvg",
+                "moduleName": "WLShared",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensCoordinator>",
+                "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensCoordinator>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvs",
+                "mangledName": "$s8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvs",
+                "moduleName": "WLShared",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensCoordinator>",
+                "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensCoordinator>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvM",
+                "mangledName": "$s8WLShared26FavoriteScreensCoordinatorP8onFinishyycSgvM",
+                "moduleName": "WLShared",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensCoordinator>",
+                "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensCoordinator>",
+                "protocolReq": true,
+                "implicit": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8WLShared26FavoriteScreensCoordinatorP",
+        "mangledName": "$s8WLShared26FavoriteScreensCoordinatorP",
+        "moduleName": "WLShared",
+        "genericSig": "<τ_0_0 : WLUserInterface.Coordinator>",
+        "sugared_genericSig": "<Self : WLUserInterface.Coordinator>",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Coordinator",
+            "printedName": "Coordinator",
+            "usr": "s:15WLUserInterface11CoordinatorP",
+            "mangledName": "$s15WLUserInterface11CoordinatorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoriteScreensCoordinatorProvider",
+        "printedName": "FavoriteScreensCoordinatorProvider",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "coordinator",
+            "printedName": "coordinator(title:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FavoriteScreensCoordinator",
+                "printedName": "WLShared.FavoriteScreensCoordinator",
+                "usr": "s:8WLShared26FavoriteScreensCoordinatorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP11coordinator5titleAA0bcD0_pSS_tF",
+            "mangledName": "$s8WLShared34FavoriteScreensCoordinatorProviderP11coordinator5titleAA0bcD0_pSS_tF",
+            "moduleName": "WLShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensCoordinatorProvider>",
+            "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensCoordinatorProvider>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP",
+        "mangledName": "$s8WLShared34FavoriteScreensCoordinatorProviderP",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoriteScreensService",
+        "printedName": "FavoriteScreensService",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "registeredScreens",
+            "printedName": "registeredScreens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WLShared.FavoritesCoordinatorContainer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesCoordinatorContainer",
+                    "printedName": "WLShared.FavoritesCoordinatorContainer",
+                    "usr": "s:8WLShared29FavoritesCoordinatorContainerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared22FavoriteScreensServiceP010registeredC0SayAA29FavoritesCoordinatorContainerVGvp",
+            "mangledName": "$s8WLShared22FavoriteScreensServiceP010registeredC0SayAA29FavoritesCoordinatorContainerVGvp",
+            "moduleName": "WLShared",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WLShared.FavoritesCoordinatorContainer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesCoordinatorContainer",
+                        "printedName": "WLShared.FavoritesCoordinatorContainer",
+                        "usr": "s:8WLShared29FavoritesCoordinatorContainerV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared22FavoriteScreensServiceP010registeredC0SayAA29FavoritesCoordinatorContainerVGvg",
+                "mangledName": "$s8WLShared22FavoriteScreensServiceP010registeredC0SayAA29FavoritesCoordinatorContainerVGvg",
+                "moduleName": "WLShared",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensService>",
+                "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensService>",
+                "protocolReq": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(priority:provider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FavoritesScreenPriority",
+                "printedName": "WLShared.FavoritesScreenPriority",
+                "usr": "s:8WLShared23FavoritesScreenPriorityO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLUserInterface.Routable) -> WLUserInterface.EmbeddedCoordinator?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WLUserInterface.EmbeddedCoordinator?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedCoordinator",
+                        "printedName": "WLUserInterface.EmbeddedCoordinator",
+                        "usr": "s:15WLUserInterface19EmbeddedCoordinatorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Routable",
+                    "printedName": "WLUserInterface.Routable",
+                    "usr": "s:15WLUserInterface8RoutableP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8WLShared22FavoriteScreensServiceP8register8priority8provideryAA23FavoritesScreenPriorityO_15WLUserInterface19EmbeddedCoordinator_pSgAI8Routable_pctF",
+            "mangledName": "$s8WLShared22FavoriteScreensServiceP8register8priority8provideryAA23FavoritesScreenPriorityO_15WLUserInterface19EmbeddedCoordinator_pSgAI8Routable_pctF",
+            "moduleName": "WLShared",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLShared.FavoriteScreensService>",
+            "sugared_genericSig": "<Self where Self : WLShared.FavoriteScreensService>",
+            "protocolReq": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8WLShared22FavoriteScreensServiceP",
+        "mangledName": "$s8WLShared22FavoriteScreensServiceP",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoriteScreensServiceImpl",
+        "printedName": "FavoriteScreensServiceImpl",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "registeredScreens",
+            "printedName": "registeredScreens",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[WLShared.FavoritesCoordinatorContainer]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesCoordinatorContainer",
+                    "printedName": "WLShared.FavoritesCoordinatorContainer",
+                    "usr": "s:8WLShared29FavoritesCoordinatorContainerV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared26FavoriteScreensServiceImplC010registeredC0SayAA29FavoritesCoordinatorContainerVGvp",
+            "mangledName": "$s8WLShared26FavoriteScreensServiceImplC010registeredC0SayAA29FavoritesCoordinatorContainerVGvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[WLShared.FavoritesCoordinatorContainer]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesCoordinatorContainer",
+                        "printedName": "WLShared.FavoritesCoordinatorContainer",
+                        "usr": "s:8WLShared29FavoritesCoordinatorContainerV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared26FavoriteScreensServiceImplC010registeredC0SayAA29FavoritesCoordinatorContainerVGvg",
+                "mangledName": "$s8WLShared26FavoriteScreensServiceImplC010registeredC0SayAA29FavoritesCoordinatorContainerVGvg",
+                "moduleName": "WLShared",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(priority:provider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FavoritesScreenPriority",
+                "printedName": "WLShared.FavoritesScreenPriority",
+                "usr": "s:8WLShared23FavoritesScreenPriorityO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLUserInterface.Routable) -> WLUserInterface.EmbeddedCoordinator?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "WLUserInterface.EmbeddedCoordinator?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EmbeddedCoordinator",
+                        "printedName": "WLUserInterface.EmbeddedCoordinator",
+                        "usr": "s:15WLUserInterface19EmbeddedCoordinatorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Routable",
+                    "printedName": "WLUserInterface.Routable",
+                    "usr": "s:15WLUserInterface8RoutableP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8WLShared26FavoriteScreensServiceImplC8register8priority8provideryAA23FavoritesScreenPriorityO_15WLUserInterface19EmbeddedCoordinator_pSgAI8Routable_pctF",
+            "mangledName": "$s8WLShared26FavoriteScreensServiceImplC8register8priority8provideryAA23FavoritesScreenPriorityO_15WLUserInterface19EmbeddedCoordinator_pSgAI8Routable_pctF",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8WLShared26FavoriteScreensServiceImplC",
+        "mangledName": "$s8WLShared26FavoriteScreensServiceImplC",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FavoriteScreensService",
+            "printedName": "FavoriteScreensService",
+            "usr": "s:8WLShared22FavoriteScreensServiceP",
+            "mangledName": "$s8WLShared22FavoriteScreensServiceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoritesCoordinatorContainer",
+        "printedName": "FavoritesCoordinatorContainer",
+        "declKind": "Struct",
+        "usr": "s:8WLShared29FavoritesCoordinatorContainerV",
+        "mangledName": "$s8WLShared29FavoritesCoordinatorContainerV",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FavoritesScreenPriority",
+        "printedName": "FavoritesScreenPriority",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "veryHigh",
+            "printedName": "veryHigh",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.FavoritesScreenPriority.Type) -> WLShared.FavoritesScreenPriority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesScreenPriority",
+                    "printedName": "WLShared.FavoritesScreenPriority",
+                    "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.FavoritesScreenPriority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO8veryHighyA2CmF",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO8veryHighyA2CmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "high",
+            "printedName": "high",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.FavoritesScreenPriority.Type) -> WLShared.FavoritesScreenPriority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesScreenPriority",
+                    "printedName": "WLShared.FavoritesScreenPriority",
+                    "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.FavoritesScreenPriority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO4highyA2CmF",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO4highyA2CmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "medium",
+            "printedName": "medium",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.FavoritesScreenPriority.Type) -> WLShared.FavoritesScreenPriority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesScreenPriority",
+                    "printedName": "WLShared.FavoritesScreenPriority",
+                    "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.FavoritesScreenPriority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO6mediumyA2CmF",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO6mediumyA2CmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "low",
+            "printedName": "low",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.FavoritesScreenPriority.Type) -> WLShared.FavoritesScreenPriority",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoritesScreenPriority",
+                    "printedName": "WLShared.FavoritesScreenPriority",
+                    "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.FavoritesScreenPriority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO3lowyA2CmF",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO3lowyA2CmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "custom",
+            "printedName": "custom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLShared.FavoritesScreenPriority.Type) -> (Swift.Int) -> WLShared.FavoritesScreenPriority",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> WLShared.FavoritesScreenPriority",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLShared.FavoritesScreenPriority.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FavoritesScreenPriority",
+                        "printedName": "WLShared.FavoritesScreenPriority",
+                        "usr": "s:8WLShared23FavoritesScreenPriorityO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO6customyACSicACmF",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO6customyACSicACmF",
+            "moduleName": "WLShared",
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared23FavoritesScreenPriorityO5valueSivp",
+            "mangledName": "$s8WLShared23FavoritesScreenPriorityO5valueSivp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared23FavoritesScreenPriorityO5valueSivg",
+                "mangledName": "$s8WLShared23FavoritesScreenPriorityO5valueSivg",
+                "moduleName": "WLShared",
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8WLShared23FavoritesScreenPriorityO",
+        "mangledName": "$s8WLShared23FavoritesScreenPriorityO",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "SPIAccessControl",
+          "RawDocComment"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Function",
+        "name": "registerProviderFactories",
+        "printedName": "registerProviderFactories()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:8WLShared25registerProviderFactoriesyyF",
+        "mangledName": "$s8WLShared25registerProviderFactoriesyyF",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RswiftResources",
+        "printedName": "RswiftResources",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Var",
+        "name": "R",
+        "printedName": "R",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "_R",
+            "printedName": "WLShared._R",
+            "usr": "s:8WLShared2_RV"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:8WLShared1RAA2_RVvp",
+        "mangledName": "$s8WLShared1RAA2_RVvp",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_R",
+                "printedName": "WLShared._R",
+                "usr": "s:8WLShared2_RV"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:8WLShared1RAA2_RVvg",
+            "mangledName": "$s8WLShared1RAA2_RVvg",
+            "moduleName": "WLShared",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "_R",
+        "printedName": "_R",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bundle",
+            "printedName": "bundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared2_RV6bundleSo8NSBundleCvp",
+            "mangledName": "$s8WLShared2_RV6bundleSo8NSBundleCvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared2_RV6bundleSo8NSBundleCvg",
+                "mangledName": "$s8WLShared2_RV6bundleSo8NSBundleCvg",
+                "moduleName": "WLShared",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "_R",
+                "printedName": "WLShared._R",
+                "usr": "s:8WLShared2_RV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8WLShared2_RV6bundleACSo8NSBundleC_tcfc",
+            "mangledName": "$s8WLShared2_RV6bundleACSo8NSBundleC_tcfc",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8WLShared2_RV8validateyyKF",
+            "mangledName": "$s8WLShared2_RV8validateyyKF",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "project",
+            "printedName": "project",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "developmentRegion",
+                "printedName": "developmentRegion",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8WLShared2_RV7projectV17developmentRegionSSvp",
+                "mangledName": "$s8WLShared2_RV7projectV17developmentRegionSSvp",
+                "moduleName": "WLShared",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8WLShared2_RV7projectV17developmentRegionSSvg",
+                    "mangledName": "$s8WLShared2_RV7projectV17developmentRegionSSvg",
+                    "moduleName": "WLShared",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:8WLShared2_RV7projectV",
+            "mangledName": "$s8WLShared2_RV7projectV",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8WLShared2_RV",
+        "mangledName": "$s8WLShared2_RV",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenProvider",
+        "printedName": "ScreenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenProvider",
+                "printedName": "WLShared.ScreenProvider",
+                "usr": "s:8WLShared14ScreenProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared14ScreenProviderC6sharedACvpZ",
+            "mangledName": "$s8WLShared14ScreenProviderC6sharedACvpZ",
+            "moduleName": "WLShared",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenProvider",
+                    "printedName": "WLShared.ScreenProvider",
+                    "usr": "s:8WLShared14ScreenProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared14ScreenProviderC6sharedACvgZ",
+                "mangledName": "$s8WLShared14ScreenProviderC6sharedACvgZ",
+                "moduleName": "WLShared",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "favoriteScreensCoordinatorProvider",
+            "printedName": "favoriteScreensCoordinatorProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FavoriteScreensCoordinatorProvider",
+                "printedName": "WLShared.FavoriteScreensCoordinatorProvider",
+                "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared14ScreenProviderC026favoriteScreensCoordinatorC0AA08FavoriteefC0_pvp",
+            "mangledName": "$s8WLShared14ScreenProviderC026favoriteScreensCoordinatorC0AA08FavoriteefC0_pvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoriteScreensCoordinatorProvider",
+                    "printedName": "WLShared.FavoriteScreensCoordinatorProvider",
+                    "usr": "s:8WLShared34FavoriteScreensCoordinatorProviderP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared14ScreenProviderC026favoriteScreensCoordinatorC0AA08FavoriteefC0_pvg",
+                "mangledName": "$s8WLShared14ScreenProviderC026favoriteScreensCoordinatorC0AA08FavoriteefC0_pvg",
+                "moduleName": "WLShared",
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "favoriteScreensService",
+            "printedName": "favoriteScreensService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FavoriteScreensService",
+                "printedName": "WLShared.FavoriteScreensService",
+                "usr": "s:8WLShared22FavoriteScreensServiceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared14ScreenProviderC22favoriteScreensServiceAA08FavoriteeF0_pvp",
+            "mangledName": "$s8WLShared14ScreenProviderC22favoriteScreensServiceAA08FavoriteeF0_pvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FavoriteScreensService",
+                    "printedName": "WLShared.FavoriteScreensService",
+                    "usr": "s:8WLShared22FavoriteScreensServiceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared14ScreenProviderC22favoriteScreensServiceAA08FavoriteeF0_pvg",
+                "mangledName": "$s8WLShared14ScreenProviderC22favoriteScreensServiceAA08FavoriteeF0_pvg",
+                "moduleName": "WLShared",
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "crossModuleMessagingService",
+            "printedName": "crossModuleMessagingService",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrossModuleMessagingService",
+                "printedName": "WLShared.CrossModuleMessagingService",
+                "usr": "s:8WLShared27CrossModuleMessagingServiceP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8WLShared14ScreenProviderC27crossModuleMessagingServiceAA05CrossefG0_pvp",
+            "mangledName": "$s8WLShared14ScreenProviderC27crossModuleMessagingServiceAA05CrossefG0_pvp",
+            "moduleName": "WLShared",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CrossModuleMessagingService",
+                    "printedName": "WLShared.CrossModuleMessagingService",
+                    "usr": "s:8WLShared27CrossModuleMessagingServiceP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8WLShared14ScreenProviderC27crossModuleMessagingServiceAA05CrossefG0_pvg",
+                "mangledName": "$s8WLShared14ScreenProviderC27crossModuleMessagingServiceAA05CrossefG0_pvg",
+                "moduleName": "WLShared",
+                "declAttributes": [
+                  "Final"
+                ],
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8WLShared14ScreenProviderC",
+        "mangledName": "$s8WLShared14ScreenProviderC",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "SPIAccessControl"
+        ],
+        "spi_group_names": [
+          "CleverPumpkinInternal"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared"
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLShared",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Presentation Layer\/SharedUI\/FavoriteScreensCoordinator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1510,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "kind": "Array",
+      "offset": 733,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreensService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 821,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 389,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 422,
+      "length": 3,
+      "value": "750"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Services\/FavoritesScreenService\/FavoriteScreenPriority\/FavoritesScreenPriority.swift",
+      "kind": "IntegerLiteral",
+      "offset": 487,
+      "length": 3,
+      "value": "250"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 113,
+      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent->FavoriteScreensCoordinatorComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 49,
+      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
+      "length": 26,
+      "value": "\"^->WLSharedRootComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1134,
+      "length": 76,
+      "value": "\"^->WLSharedRootComponent->WLSharedCoreComponent->WLSharedServicesComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1944,
+      "length": 64,
+      "value": "\"WLShared.FavoriteScreensCoordinatorDependencyaa1ea8c27cc460909ce2Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 50,
+      "value": "\"WLShared.WLSharedCoreDependencyb1456a95b4d7379bfcd3Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2818,
+      "length": 54,
+      "value": "\"WLShared.WLSharedServicesDependencya213fdce414e0ce3a010Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLShared\/Sources\/Generated\/R.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 4,
+      "value": "\"ru\""
+    }
+  ]
+}

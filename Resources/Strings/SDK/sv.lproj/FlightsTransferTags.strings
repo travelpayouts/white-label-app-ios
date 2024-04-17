@@ -1,0 +1,10 @@
+"visa_required_title" = "mellanlandning med visum";
+"should_recheck_baggage_title" = "bokning mellan olika bolag";
+"night_transfer_title" = "övernattande mellanlandning";
+"airport_change_required_title" = "flygplatsbyte";
+"short_layover_title" = "kort uppehåll";
+"extended_visa_required_title" = "Du kommer att behöva ett visa i %@";
+"extended_should_recheck_baggage_title" = "Du måste checka om ditt bagage och checka in igen på ditt anslutande flyg";
+"extended_night_transfer_title" = "Uppehåll över natten i %@";
+"extended_airport_change_required_title" = "Flygplatsbyte i %@";
+"extended_short_layover_title" = "Kort uppehåll in %@";

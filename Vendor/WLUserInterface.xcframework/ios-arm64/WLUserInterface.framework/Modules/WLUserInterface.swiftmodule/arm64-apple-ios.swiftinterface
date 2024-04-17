@@ -1,0 +1,249 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLUserInterface
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AvailableHapticFeedback
+import ClusterKit
+import Combine
+import CombineCocoa
+import CombineExt
+import CoreFoundation
+import CoreGraphics
+import CoreImage
+import CrispyCalendar
+import Foundation
+import ImageViewer_swift
+import Kingfisher
+import Lottie
+import MapKit
+import ObjectiveC/*.objc_getAssociatedObject*/
+import ObjectiveC/*.objc_setAssociatedObject*/
+import RswiftResources
+import SkeletonView
+import SnapKit
+import SweeterSwift
+import Swift
+import SwiftUI
+import UIKit
+import UIKit/*.UIGestureRecognizer*/
+import UIKit/*.UIViewController*/
+import WLCommon
+import WLConfig
+import WLNetwork
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class DimmedView : UIKit.UIView {
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func hitTest(_ point: CoreFoundation.CGPoint, with event: UIKit.UIEvent?) -> UIKit.UIView?
+  @objc deinit
+}
+extension UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor(unsafe) public var collectionView: UIKit.UICollectionView? {
+    get
+  }
+}
+extension UIKit.UITableViewCell {
+  @_Concurrency.MainActor(unsafe) public var indexPath: Foundation.IndexPath? {
+    get
+  }
+}
+extension UIKit.UICollectionViewCell {
+  @_Concurrency.MainActor(unsafe) public var indexPath: Foundation.IndexPath? {
+    get
+  }
+}
+public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable {
+  case baseCurrencies
+  case baseInterface
+  case basePlurals
+  case baseZeroData
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [WLUserInterface.LocalizationTable]
+  public typealias RawValue = Swift.String
+  public static var allCases: [WLUserInterface.LocalizationTable] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension WLConfig.Configuration.Localization {
+  final public func register(bundle: Foundation.Bundle, commonTable table: WLUserInterface.LocalizationTable, overriddenTableName: Swift.String? = nil)
+}
+public let R: WLUserInterface._R
+public struct _R {
+  public let bundle: Foundation.Bundle
+  public init(bundle: Foundation.Bundle)
+  public var string: WLUserInterface._R.string {
+    get
+  }
+  public var file: WLUserInterface._R.file {
+    get
+  }
+  public func string(bundle: Foundation.Bundle) -> WLUserInterface._R.string
+  public func string(locale: Foundation.Locale) -> WLUserInterface._R.string
+  public func string(preferredLanguages: [Swift.String], locale: Foundation.Locale? = nil) -> WLUserInterface._R.string
+  public func file(bundle: Foundation.Bundle) -> WLUserInterface._R.file
+  public func validate() throws
+  public struct project {
+    public let developmentRegion: Swift.String
+  }
+  public struct string {
+    public let bundle: Foundation.Bundle
+    public let preferredLanguages: [Swift.String]?
+    public let locale: Foundation.Locale?
+    public init(bundle: Foundation.Bundle, preferredLanguages: [Swift.String]? = nil, locale: Foundation.Locale? = nil)
+    public var baseCurrencies: WLUserInterface._R.string.baseCurrencies {
+      get
+    }
+    public var baseInterface: WLUserInterface._R.string.baseInterface {
+      get
+    }
+    public var basePlurals: WLUserInterface._R.string.basePlurals {
+      get
+    }
+    public var baseZeroData: WLUserInterface._R.string.baseZeroData {
+      get
+    }
+    public func baseCurrencies(preferredLanguages: [Swift.String]) -> WLUserInterface._R.string.baseCurrencies
+    public func baseInterface(preferredLanguages: [Swift.String]) -> WLUserInterface._R.string.baseInterface
+    public func basePlurals(preferredLanguages: [Swift.String]) -> WLUserInterface._R.string.basePlurals
+    public func baseZeroData(preferredLanguages: [Swift.String]) -> WLUserInterface._R.string.baseZeroData
+    public struct baseCurrencies {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var dollar_name: RswiftResources.StringResource {
+        get
+      }
+      public var euro_name: RswiftResources.StringResource {
+        get
+      }
+      public var ruble_name: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct baseInterface {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var cancel: RswiftResources.StringResource {
+        get
+      }
+      public var done: RswiftResources.StringResource {
+        get
+      }
+      public var got_it: RswiftResources.StringResource {
+        get
+      }
+      public var ok: RswiftResources.StringResource {
+        get
+      }
+      public var reset_button_title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct basePlurals {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var age: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public var day: RswiftResources.StringResource1<Swift.Int> {
+        get
+      }
+      public func age(age value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func age(age value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+      public func day(day value1: Swift.Int) -> Swift.String
+      @available(*, deprecated, message: "Use R.string(preferredLanguages:).*.* instead")
+      public func day(day value1: Swift.Int, preferredLanguages: [Swift.String]) -> Swift.String
+    }
+    public struct baseZeroData {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var currency_search_no_results_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var currency_search_no_results_title: RswiftResources.StringResource {
+        get
+      }
+      public var find_flights_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var find_hotels_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var flights_favorites_no_result_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var flights_favorites_no_result_title: RswiftResources.StringResource {
+        get
+      }
+      public var flights_search_no_results_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var flights_search_no_results_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_favorites_no_result_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_favorites_no_result_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_inaccessible_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_search_no_results_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_search_no_results_title: RswiftResources.StringResource {
+        get
+      }
+      public var locations_search_no_results_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var locations_search_no_results_title: RswiftResources.StringResource {
+        get
+      }
+      public var no_network_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var no_network_title: RswiftResources.StringResource {
+        get
+      }
+      public var repeat_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var retry_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var something_went_wrong_subtitle: RswiftResources.StringResource {
+        get
+      }
+      public var something_went_wrong_title: RswiftResources.StringResource {
+        get
+      }
+    }
+  }
+  public struct file {
+    public let bundle: Foundation.Bundle
+    public init(bundle: Foundation.Bundle)
+    public var activityIndicatorJson: RswiftResources.FileResource {
+      get
+    }
+    public var activityIndicator24x24Json: RswiftResources.FileResource {
+      get
+    }
+  }
+}
+extension SkeletonView.SkeletonGradient : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: SkeletonView.SkeletonGradient, rhs: SkeletonView.SkeletonGradient) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension WLUserInterface.LocalizationTable : Swift.RawRepresentable {}

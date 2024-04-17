@@ -1,0 +1,6 @@
+"title" = "Daten";
+"first_date_text_field_placeholder" = "Abflug";
+"second_date_text_field_placeholder" = "Rückflug";
+"choose_button_title" = "%@ auswählen";
+"disabled_choose_button_title" = "Auswählen";
+"button_price_from" = "von";

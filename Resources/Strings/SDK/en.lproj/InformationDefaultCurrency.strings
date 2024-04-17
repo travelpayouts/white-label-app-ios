@@ -1,0 +1,3 @@
+"title" = "Currency";
+"all_currencies_button" = "All currencies";
+"load_currencies_error_description" = "Failed to determine currency based on your location. Default currency applied";

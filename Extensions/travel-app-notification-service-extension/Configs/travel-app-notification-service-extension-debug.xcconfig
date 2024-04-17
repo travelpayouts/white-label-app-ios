@@ -1,0 +1,8 @@
+//
+//  Copyright © 2023 CleverPumpkin. All rights reserved.
+//
+
+#include "travel-app-notification-service-extension-base.xcconfig"
+#include "../../../Pods/Target Support Files/Pods-General-travel-app-notification-service-extension/Pods-General-travel-app-notification-service-extension.debug.xcconfig"
+
+CP_PRODUCT_BUNDLE_IDENTIFIER_SUFFIX = .debug

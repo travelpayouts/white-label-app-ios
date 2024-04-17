@@ -1,0 +1,5 @@
+"title" = "Daty";
+"choose_button_title" = "Wybrać %@";
+"disabled_choose_button_title" = "Wybierz";
+"date_range_limit_title" = "Przekroczono limit pobytu";
+"date_range_limit_message" = "Przepraszamy, ale maksymalna długość pobytu w hotelu\nto %@";

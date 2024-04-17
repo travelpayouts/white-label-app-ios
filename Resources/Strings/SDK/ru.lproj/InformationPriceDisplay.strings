@@ -1,0 +1,17 @@
+
+// MARK: - Titles
+
+"title" = "Отображение цен";
+
+// MARK: - Section titles
+
+"aviaTickets_section_title" = "Авиабилеты";
+"hotels_section_title" = "Отели";
+
+// MARK: - Cell titles
+
+"currency_cell_title" = "Валюта";
+"priceForAllPassengers_cell_title" = "Цены за всех пассажиров";
+"priceForOnePassenger_cell_title" = "Цены за 1 пассажира";
+"priceForAllNights_cell_title" = "Цены за все ночи";
+"priceForOneNight_cell_title" = "Цены за 1 ночь";

@@ -1,0 +1,7 @@
+"title" = "空港";
+"forth_trip_departure_from_title" = "%@を出発";
+"forth_trip_arrival_to_title" = "%@に到着";
+"back_trip_departure_from_title" = "%@からの復路出発";
+"back_trip_arrival_to_title" = "%@への復路到着";
+"choose_all_cell_title" = "すべて選択";
+"apply_button_title" = "適用";

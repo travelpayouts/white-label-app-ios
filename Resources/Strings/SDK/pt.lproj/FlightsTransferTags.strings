@@ -1,0 +1,10 @@
+"visa_required_title" = "escala com visto";
+"should_recheck_baggage_title" = "reserva interline";
+"night_transfer_title" = "escala noturna";
+"airport_change_required_title" = "mudança de aeroporto";
+"short_layover_title" = "pausa breve";
+"extended_visa_required_title" = "Você precisará de um visto em %@";
+"extended_should_recheck_baggage_title" = "Você precisará despachar sua bagagem e fazer o check-in novamente para o seu voo de conexão";
+"extended_night_transfer_title" = "Pausa com estadia noturna em %@";
+"extended_airport_change_required_title" = "Mudança de aeroporto em %@";
+"extended_short_layover_title" = "Pausa breve em %@";

@@ -1,0 +1,8 @@
+"title" = "แสดงราคา";
+"aviaTickets_section_title" = "เที่ยวบิน";
+"hotels_section_title" = "โรงแรม";
+"currency_cell_title" = "สกุลเงิน";
+"priceForAllPassengers_cell_title" = "ราคาสำหรับผู้โดยสารทั้งหมด";
+"priceForOnePassenger_cell_title" = "ราคาต่อผู้โดยสาร 1 คน";
+"priceForAllNights_cell_title" = "ราคาสำหรับการเข้าพักทั้งหมด";
+"priceForOneNight_cell_title" = "ราคาต่อ 1 คืน";

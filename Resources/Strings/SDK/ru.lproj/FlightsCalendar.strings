@@ -1,0 +1,15 @@
+
+// MARK: - Titles
+
+"title" = "Когда";
+
+// MARK: - Placeholders
+
+"first_date_text_field_placeholder" = "Туда";
+"second_date_text_field_placeholder" = "Обратно";
+
+// MARK: - Button titles
+
+"choose_button_title" = "Выбрать %@";
+"disabled_choose_button_title" = "Выбрать";
+"button_price_from" = "от";

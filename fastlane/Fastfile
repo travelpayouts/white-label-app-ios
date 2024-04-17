@@ -1,0 +1,88 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Install executables: cocoapods, generamba and homebrew dependencies"
+  	lane :initialize do
+      Dir.chdir("..") do
+	sh("gem install bundler")
+	sh("bundle install")
+        sh("brew bundle")
+      end
+  end
+
+  desc "Generate project files and install cocoapods dependencies"
+  lane :setup do
+
+    # Perform common setup
+
+    self.perform_common_setup()
+  end
+end
+
+def perform_common_setup
+
+  # Generate configuration
+  self.generate_configuration()
+
+  Dir.chdir("..") do
+
+    # Generate project file(s)
+    self.perform_bootstrap()
+  end
+
+  # Install pods
+  self.perform_pods_install()
+end
+
+def perform_pods_install
+  sh("bundle exec pod install --repo-update")
+end
+
+def perform_bootstrap
+
+    # Bootstrap app main target
+    sh("xcodegen generate")
+end
+
+def generate_configuration
+	
+	Dir.chdir("../") do
+		
+		# Apply configuration if needed
+		if(File.directory?('config'))
+			FileUtils.cp_r('config/.', '.')
+		end
+
+    ENV['TA_SHOULD_USE_CONFIGURATION_VERSION'] = 'YES'
+
+    project_configurator_path = "Scripts/project_configurator/project_configurator"
+
+    sh "xattr -d com.apple.quarantine \"#{project_configurator_path}\" || true"
+
+    sh "chmod +x \"#{project_configurator_path}\""
+		
+		sh "Scripts/project_configurator/project_configurator \
+--configuration-input configuration.json \
+--podfile-input podfile.json \
+--configurator-output Sources/Generated \
+--xc-config-output Configs/Generated \
+--podfile-output . \
+--entitlements-output Entitlements/Generated \
+--info-plist-strings-dir Resources/Strings"
+	end
+end

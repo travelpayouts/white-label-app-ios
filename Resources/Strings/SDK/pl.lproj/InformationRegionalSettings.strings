@@ -1,0 +1,5 @@
+"title" = "Ustawienia regionalne";
+"app_language_cell_title" = "Język aplikacji";
+"country_cell_title" = "Kraj";
+"currency_cell_title" = "Waluta";
+"description_cell_title" = "Ustawienia regionalne są używane do wyświetlania odpowiednich biletów i zasad wjazdu dla różnych krajów";

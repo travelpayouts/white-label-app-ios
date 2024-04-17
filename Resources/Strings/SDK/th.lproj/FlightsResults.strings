@@ -1,0 +1,13 @@
+"filters_button_title" = "ฟิลเตอร์";
+"price_chart_button_title" = "ตารางราคา";
+"widget_title_cell_title" = "บินโดยตรง";
+"widget_button_cell_show_all_title" = "แสดงทั้งหมด";
+"widget_button_cell_collapse_title" = "แสดงน้อยลง";
+"ticket_cell_travel_time_title" = "เวลาเดินทาง: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ ในราคานี้";
+"load_more_button_cell_title" = "แสดงตั๋วอีก %@ ใบ";
+"footer_text_cell_title" = "คุณได้ดูตั๋วทั้งหมดที่ตรงกับพารามิเตอร์การค้นหาของคุณแล้ว\nแก้ไขการกรองสำหรับผลการค้นหาใหม่";
+"should_update_alert_title" = "ผลการค้นหาอาจล้าสมัย";
+"should_update_alert_message" = "ราคาตั๋วมีการเปลี่ยนแปลงประมาณ 10 ครั้งต่อวัน โปรดรีเฟรชการค้นหาของคุณเพื่อดูราคาที่อัปเดต";
+"should_update_alert_update_button_title" = "อัปเดตการค้นหา";
+"should_update_alert_later_button_title" = "ภายหลัง";

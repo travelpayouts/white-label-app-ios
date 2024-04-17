@@ -1,0 +1,10 @@
+"title" = "Hae unohtumattomia hotelleja";
+"my_location_button_title" = "Nykyinen sijainti";
+"map_location_button_title" = "Sijainti kartalla";
+"location_placeholder" = "Kaupunki tai hotelli";
+"search_button_title" = "Hae";
+"location_troubles_title" = "Emme voineet määrittää\nsijaintiasi";
+"location_troubles_close" = "Sulje";
+"restricred_location_access_message" = "Salli tämä, jotta sovellus voi määrittää sijaintisi";
+"restricred_location_access_not_now" = "Myöhemmin";
+"restricred_location_access_settings" = "Asetukset";

@@ -1,0 +1,10 @@
+"visa_required_title" = "escală ce necesită viză";
+"should_recheck_baggage_title" = "rezervare interline";
+"night_transfer_title" = "escală peste noapte";
+"airport_change_required_title" = "schimbare de aeroport";
+"short_layover_title" = "escală scurtă";
+"extended_visa_required_title" = "Veți avea nevoie de viză în %@";
+"extended_should_recheck_baggage_title" = "Va trebui să vă reînregistrați bagajele și să vă înregistrați din nou pentru zborul de legătură";
+"extended_night_transfer_title" = "Escală peste noapte în %@";
+"extended_airport_change_required_title" = "Schimbare aeroport în %@";
+"extended_short_layover_title" = "Escală scurtă în %@";

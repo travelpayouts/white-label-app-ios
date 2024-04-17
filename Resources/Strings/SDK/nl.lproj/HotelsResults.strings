@@ -1,0 +1,11 @@
+"filters_button_title" = "Filters";
+"location_button_map_view" = "Toon op kaart";
+"location_button_card_view" = "Lijst";
+"meters" = "%@ m";
+"kilometers" = "%@ km";
+"city_center" = "Stadscentrum";
+"free_cancel_title" = "Gratis annuleren";
+"without_cancellation_title" = "Niet te annuleren";
+"no_available_rooms" = "Geen kamers beschikbaar op deze data";
+"for_single_night" = "per nacht";
+"price_not_availalble" = "Geen kamers gevonden";

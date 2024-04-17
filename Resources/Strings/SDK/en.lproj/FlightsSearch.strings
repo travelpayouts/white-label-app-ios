@@ -1,0 +1,6 @@
+"title" = "Search cheap flight tickets";
+"departure_airport_placeholder" = "From";
+"arrival_airport_placeholder" = "To";
+"dates_placeholder" = "Dates";
+"passengers_placeholder" = "Passengers and class";
+"search_button_title" = "Search";

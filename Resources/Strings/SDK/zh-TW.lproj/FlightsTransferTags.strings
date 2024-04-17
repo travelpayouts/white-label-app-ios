@@ -1,0 +1,10 @@
+"visa_required_title" = "需簽證的轉機";
+"should_recheck_baggage_title" = "聯程訂位";
+"night_transfer_title" = "中途停留過夜";
+"airport_change_required_title" = "機場更換";
+"short_layover_title" = "短暫停留";
+"extended_visa_required_title" = "您入境 %@ 須持有簽證";
+"extended_should_recheck_baggage_title" = "轉機時，您必須重新辦理登機報到手續及托運行李";
+"extended_night_transfer_title" = "於 %@ 過夜停留";
+"extended_airport_change_required_title" = "於 %@ 機場更換";
+"extended_short_layover_title" = "於 %@ 短暫停留";

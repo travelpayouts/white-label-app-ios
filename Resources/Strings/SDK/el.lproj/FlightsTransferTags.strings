@@ -1,0 +1,10 @@
+"visa_required_title" = "ενδιάμεση στάση με βίζα";
+"should_recheck_baggage_title" = "πολλαπλή κράτηση";
+"night_transfer_title" = "ολονύκτια στάση";
+"airport_change_required_title" = "αλλαγή αεροδρομίου";
+"short_layover_title" = "σύντομη στάση";
+"extended_visa_required_title" = "Θα χρειαστείτε βίζα στο %@";
+"extended_should_recheck_baggage_title" = "Θα πρέπει να ελέγξετε εκ νέου τις αποσκευές σας και να κάνετε ξανά check in για την πτήση ανταπόκρισής σας";
+"extended_night_transfer_title" = "Στάση με διανυκτέρευση σε %@";
+"extended_airport_change_required_title" = "Αλλαγή αεροδρομίου σε %@";
+"extended_short_layover_title" = "Σύντομη στάση σε %@";

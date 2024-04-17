@@ -1,0 +1,24 @@
+
+// MARK: - Titles
+
+"title" = "Информация";
+
+// MARK: - Section titles
+
+"personal_section_title" = "Персональное";
+"other_section_title" = "Другое";
+
+// MARK: - Cell titles
+
+"favourites_cell_title" = "Избранное";
+"regionalSettings_cell_title" = "Региональные настройки";
+"priceDisplay_cell_title" = "Отображение цен";
+"aboutApp_cell_title" = "О приложении";
+"connectWithUs_cell_title" = "Связаться с нами";
+"rateApp_cell_title" = "Оценить приложение";
+"shareApp_cell_title" = "Поделиться приложением";
+"confidentiality_cell_title" = "Kонфиденциальность";
+
+// MARK: - Texts
+
+"information_feedback_mail_subject" = "Whitelabel feedback";

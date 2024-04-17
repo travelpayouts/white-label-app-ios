@@ -1,0 +1,295 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WLInformation
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Combine
+import Foundation
+import NeedleFoundation
+import RswiftResources
+import SnapKit
+import Swift
+import UIKit
+import WLCommon
+import WLConfig
+import WLNetwork
+import WLPersistence
+import WLShared
+import WLUserInterface
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct InformationScreenConfiguration {
+  public var optionalItemsToDisplay: [WLInformation.InformationScreenConfiguration.OptionalItem]
+  public var aboutAppInformation: WLInformation.InformationScreenConfiguration.AboutAppInformation?
+  public init(optionalItemsToDisplay: [WLInformation.InformationScreenConfiguration.OptionalItem] = OptionalItem.allCases, aboutAppInformation: WLInformation.InformationScreenConfiguration.AboutAppInformation? = nil)
+}
+extension WLInformation.InformationScreenConfiguration {
+  public enum OptionalItem : Swift.CaseIterable, Swift.Equatable, Swift.Codable {
+    case favorites
+    case aboutApp
+    case rateApp
+    case shareApp
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: WLInformation.InformationScreenConfiguration.OptionalItem, b: WLInformation.InformationScreenConfiguration.OptionalItem) -> Swift.Bool
+    public typealias AllCases = [WLInformation.InformationScreenConfiguration.OptionalItem]
+    public static var allCases: [WLInformation.InformationScreenConfiguration.OptionalItem] {
+      get
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public var hashValue: Swift.Int {
+      get
+    }
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct AboutAppInformation : Swift.Codable, Swift.Equatable {
+    public var description: WLConfig.LocalizedStringContainer
+    public var developer: WLConfig.LocalizedStringContainer
+    public var partnerUrl: WLConfig.LocalizedUrlContainer
+    public init(description: WLConfig.LocalizedStringContainer, developer: WLConfig.LocalizedStringContainer, partnerUrl: WLConfig.LocalizedUrlContainer)
+    public static func == (a: WLInformation.InformationScreenConfiguration.AboutAppInformation, b: WLInformation.InformationScreenConfiguration.AboutAppInformation) -> Swift.Bool
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+}
+extension WLInformation.InformationScreenConfiguration : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+extension WLInformation.InformationScreenConfiguration : Swift.Equatable {
+  public static func == (a: WLInformation.InformationScreenConfiguration, b: WLInformation.InformationScreenConfiguration) -> Swift.Bool
+}
+public func registerProviderFactories()
+public enum LocalizationTable : Swift.String, Swift.Hashable, Swift.CaseIterable {
+  case informationAboutApp
+  case informationConfidentiality
+  case informationCountryPicker
+  case informationCurrencyPicker
+  case informationDefaultCurrency
+  case informationFavourites
+  case informationMain
+  case informationPriceDisplay
+  case informationRegionalSettings
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [WLInformation.LocalizationTable]
+  public typealias RawValue = Swift.String
+  public static var allCases: [WLInformation.LocalizationTable] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension WLConfig.Configuration.Localization {
+  final public func register(bundle: Foundation.Bundle, informationTable table: WLInformation.LocalizationTable, overriddenTableName: Swift.String? = nil)
+}
+public let R: WLInformation._R
+public struct _R {
+  public let bundle: Foundation.Bundle
+  public init(bundle: Foundation.Bundle)
+  public var string: WLInformation._R.string {
+    get
+  }
+  public func string(bundle: Foundation.Bundle) -> WLInformation._R.string
+  public func string(locale: Foundation.Locale) -> WLInformation._R.string
+  public func string(preferredLanguages: [Swift.String], locale: Foundation.Locale? = nil) -> WLInformation._R.string
+  public func validate() throws
+  public struct project {
+    public let developmentRegion: Swift.String
+  }
+  public struct string {
+    public let bundle: Foundation.Bundle
+    public let preferredLanguages: [Swift.String]?
+    public let locale: Foundation.Locale?
+    public init(bundle: Foundation.Bundle, preferredLanguages: [Swift.String]? = nil, locale: Foundation.Locale? = nil)
+    public var informationAboutApp: WLInformation._R.string.informationAboutApp {
+      get
+    }
+    public var informationConfidentiality: WLInformation._R.string.informationConfidentiality {
+      get
+    }
+    public var informationCountryPicker: WLInformation._R.string.informationCountryPicker {
+      get
+    }
+    public var informationCurrencyPicker: WLInformation._R.string.informationCurrencyPicker {
+      get
+    }
+    public var informationDefaultCurrency: WLInformation._R.string.informationDefaultCurrency {
+      get
+    }
+    public var informationFavourites: WLInformation._R.string.informationFavourites {
+      get
+    }
+    public var informationMain: WLInformation._R.string.informationMain {
+      get
+    }
+    public var informationPriceDisplay: WLInformation._R.string.informationPriceDisplay {
+      get
+    }
+    public var informationRegionalSettings: WLInformation._R.string.informationRegionalSettings {
+      get
+    }
+    public func informationAboutApp(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationAboutApp
+    public func informationConfidentiality(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationConfidentiality
+    public func informationCountryPicker(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationCountryPicker
+    public func informationCurrencyPicker(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationCurrencyPicker
+    public func informationDefaultCurrency(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationDefaultCurrency
+    public func informationFavourites(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationFavourites
+    public func informationMain(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationMain
+    public func informationPriceDisplay(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationPriceDisplay
+    public func informationRegionalSettings(preferredLanguages: [Swift.String]) -> WLInformation._R.string.informationRegionalSettings
+    public struct informationAboutApp {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var action_button_title: RswiftResources.StringResource {
+        get
+      }
+      public var application_version: RswiftResources.StringResource1<Swift.String> {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationConfidentiality {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationCountryPicker {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var search_bar_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationCurrencyPicker {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var search_bar_placeholder: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationDefaultCurrency {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var all_currencies_button: RswiftResources.StringResource {
+        get
+      }
+      public var load_currencies_error_description: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationFavourites {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationMain {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var aboutApp_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var confidentiality_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var connectWithUs_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var favourites_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var information_feedback_mail_subject: RswiftResources.StringResource {
+        get
+      }
+      public var other_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var personal_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var priceDisplay_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var rateApp_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var regionalSettings_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var shareApp_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationPriceDisplay {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var aviaTickets_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var currency_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var hotels_section_title: RswiftResources.StringResource {
+        get
+      }
+      public var priceForAllNights_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var priceForAllPassengers_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var priceForOneNight_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var priceForOnePassenger_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+    public struct informationRegionalSettings {
+      public let source: RswiftResources.StringResource.Source
+      public init(source: RswiftResources.StringResource.Source)
+      public var app_language_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var country_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var currency_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var description_cell_title: RswiftResources.StringResource {
+        get
+      }
+      public var title: RswiftResources.StringResource {
+        get
+      }
+    }
+  }
+}
+@_hasMissingDesignatedInitializers final public class ScreenProvider {
+  public static let shared: WLInformation.ScreenProvider
+  final public func informationViewController(informationScreenConfiguration: WLInformation.InformationScreenConfiguration) -> UIKit.UIViewController
+  @objc deinit
+}
+extension WLInformation.InformationScreenConfiguration.OptionalItem : Swift.Hashable {}
+extension WLInformation.LocalizationTable : Swift.RawRepresentable {}

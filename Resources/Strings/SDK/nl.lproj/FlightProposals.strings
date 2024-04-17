@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Alle aanbiedingen";
+"flight_proposals_subtitle_per_person" = "Prijs voor 1 passagier";
+"flight_proposals_subtitle_for_all_persons" = "Prijs voor alle passagiers";
+"flight_proposals_filter_caption" = "Alleen tickets waarbij bagage is inbegrepen";
+"flight_proposals_luggage_not_included" = "Exclusief bagage";
+"flight_proposals_hand_luggage_not_included" = "Handbagage nie inbegrepen";
+"flight_proposals_dimension_centimetre_format" = "%d cm";
+"flight_proposals_purchase_button_format" = "Koop voor %@";
+"flight_proposals_flight_there" = "Vertrek";
+"flight_proposals_flight_back" = "Retour";

@@ -1,0 +1,13 @@
+"filters_button_title" = "フィルター";
+"price_chart_button_title" = "価格表";
+"widget_title_cell_title" = "直行便";
+"widget_button_cell_show_all_title" = "すべて表示";
+"widget_button_cell_collapse_title" = "表示を減らす";
+"ticket_cell_travel_time_title" = "旅行時間： %@";
+"ticket_cell_few_tickets_left_warning_title" = "こちらの価格にて%@";
+"load_more_button_cell_title" = "他の%@枚の航空券を表示";
+"footer_text_cell_title" = "検索パラメータに一致するすべての航空券が表示されました。\n新しい検索結果を得るためにフィルタを編集する";
+"should_update_alert_title" = "検索結果が古い可能性があります";
+"should_update_alert_message" = "航空券の価格は1日に約10回変更されます。検索結果を更新して、最新の価格をご確認ください。";
+"should_update_alert_update_button_title" = "検索を更新";
+"should_update_alert_later_button_title" = "後で";

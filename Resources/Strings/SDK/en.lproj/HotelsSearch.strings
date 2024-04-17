@@ -1,0 +1,10 @@
+"title" = "Search unforgettable hotels";
+"my_location_button_title" = "Current location";
+"map_location_button_title" = "Point on the map";
+"location_placeholder" = "City or hotel";
+"search_button_title" = "Search";
+"location_troubles_title" = "We couldn\'t determine\nyour location";
+"location_troubles_close" = "Close";
+"restricred_location_access_message" = "Allow this app to determine your location";
+"restricred_location_access_not_now" = "Later";
+"restricred_location_access_settings" = "Settings";

@@ -1,0 +1,13 @@
+"filters_button_title" = "Filtry";
+"price_chart_button_title" = "Wykres cen";
+"widget_title_cell_title" = "Bezpośrednie loty";
+"widget_button_cell_show_all_title" = "Pokaż wszystko";
+"widget_button_cell_collapse_title" = "Pokaż mniej";
+"ticket_cell_travel_time_title" = "Czas podróży: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ w tej cenie";
+"load_more_button_cell_title" = "Pokaż więcej biletów (%@)";
+"footer_text_cell_title" = "Zobaczyłeś(-aś) wszystkie bilety pasujące do Twoich parametrów wyszukiwania.\nEdytuj filtry, żeby zobaczyć nowe wyniki wyszukiwania";
+"should_update_alert_title" = "Wyniki wyszukiwania mogą być przestarzałe";
+"should_update_alert_message" = "Ceny biletów zmieniają się około 10 razy dziennie. Odśwież wyszukiwanie, aby zobaczyć aktualne ceny";
+"should_update_alert_update_button_title" = "Zaktualizuj wyszukiwanie";
+"should_update_alert_later_button_title" = "Później";

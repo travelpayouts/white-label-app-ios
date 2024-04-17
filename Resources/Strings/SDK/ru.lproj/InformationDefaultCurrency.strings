@@ -1,0 +1,13 @@
+
+// MARK: - Titles
+
+"title" = "Валюта";
+
+// MARK: - Button titles
+
+"all_currencies_button" = "Все валюты";
+
+// MARK: - Descriptions
+
+"load_currencies_error_description" = "Не удалось подобрать валюту по вашему местоположению. Установлена валюта
+по умолчанию";

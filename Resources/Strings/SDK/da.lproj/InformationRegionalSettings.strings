@@ -1,0 +1,5 @@
+"title" = "Regionale indstillinger";
+"app_language_cell_title" = "App-sprog";
+"country_cell_title" = "Land";
+"currency_cell_title" = "Valuta";
+"description_cell_title" = "Regionale indstillinger bruges til at vise passende billetter og indrejseregler for forskellige lande";

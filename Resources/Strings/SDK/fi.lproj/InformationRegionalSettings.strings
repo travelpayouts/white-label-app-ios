@@ -1,0 +1,5 @@
+"title" = "Alueelliset asetukset";
+"app_language_cell_title" = "Sovelluksen kieli";
+"country_cell_title" = "Maa";
+"currency_cell_title" = "Valuutta";
+"description_cell_title" = "Alueellisia asetuksia käytetään sopivien lippujen ja eri maiden maahantulosäännösten näyttämiseen";

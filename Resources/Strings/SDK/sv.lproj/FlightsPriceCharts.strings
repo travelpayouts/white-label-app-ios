@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Sök flyg";
+"flights_price_charts_search_button" = "Hitta flyg från %@";
+"flights_price_charts_price_form" = "från %@";
+"flights_price_charts_price_not_available" = "Pris\nej tillgängligt";
+"flights_price_charts_price_departure_title_for_cases" = "Ankomstflyg till %@";
+"flights_price_charts_price_departure_title" = "Ankomstflyg till %@";
+"flights_price_charts_price_return_title_for_cases" = "Returflyg till %@";
+"flights_price_charts_price_return_title" = "Returflyg till %@";
+"flights_price_charts_price_direct_flight" = "Endast direktflyg";
+"flights_price_charts_price_baggage" = "Bagage ingår";

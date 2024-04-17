@@ -1,0 +1,6 @@
+"title" = "Dates";
+"first_date_text_field_placeholder" = "Departure";
+"second_date_text_field_placeholder" = "Return";
+"choose_button_title" = "Select %@";
+"disabled_choose_button_title" = "Select";
+"button_price_from" = "from";

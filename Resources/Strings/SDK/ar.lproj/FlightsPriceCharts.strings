@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "البحث عن الرحلات";
+"flights_price_charts_search_button" = "ابحث عن رحلات يبدأ سعرها من %@";
+"flights_price_charts_price_form" = "من %@";
+"flights_price_charts_price_not_available" = "السعر\nغير متوفر";
+"flights_price_charts_price_departure_title_for_cases" = "رحلة مغادرة إلى %@";
+"flights_price_charts_price_departure_title" = "رحلة مغادرة إلى %@";
+"flights_price_charts_price_return_title_for_cases" = "رحلة عودة إلى %@";
+"flights_price_charts_price_return_title" = "رحلة عودة إلى %@";
+"flights_price_charts_price_direct_flight" = "رحلات مباشرة فقط";
+"flights_price_charts_price_baggage" = "شاملة الأمتعة";

@@ -1,0 +1,6 @@
+"title" = "Data";
+"first_date_text_field_placeholder" = "Vertrek";
+"second_date_text_field_placeholder" = "Retour";
+"choose_button_title" = "Kies %@";
+"disabled_choose_button_title" = "Kies";
+"button_price_from" = "vanaf";

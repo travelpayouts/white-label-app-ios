@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Найти билеты";
+"flights_price_charts_search_button" = "Найти билеты от %@";
+"flights_price_charts_price_form" = "от %@";
+"flights_price_charts_price_not_available" = "Цена неизвестна";
+"flights_price_charts_price_departure_title_for_cases" = "Вылет %@";
+"flights_price_charts_price_departure_title" = "Вылет в %@";
+"flights_price_charts_price_return_title_for_cases" = "Обратно %@";
+"flights_price_charts_price_return_title" = "Обратно в %@";
+"flights_price_charts_price_direct_flight" = "Только прямые рейсы";
+"flights_price_charts_price_baggage" = "С багажом";

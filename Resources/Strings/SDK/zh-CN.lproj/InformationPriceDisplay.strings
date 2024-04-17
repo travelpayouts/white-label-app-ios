@@ -1,0 +1,8 @@
+"title" = "显示价格";
+"aviaTickets_section_title" = "航班";
+"hotels_section_title" = "酒店";
+"currency_cell_title" = "货币";
+"priceForAllPassengers_cell_title" = "所有乘客的价格";
+"priceForOnePassenger_cell_title" = "每 1 名乘客的价格";
+"priceForAllNights_cell_title" = "全程的价格";
+"priceForOneNight_cell_title" = "每 1 晚的价格";

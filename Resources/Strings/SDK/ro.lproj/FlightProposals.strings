@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Toate ofertele";
+"flight_proposals_subtitle_per_person" = "Prețul pentru 1 pasager";
+"flight_proposals_subtitle_for_all_persons" = "Prețul pentru toți pasagerii";
+"flight_proposals_filter_caption" = "Numai bilete cu bagaje incluse";
+"flight_proposals_luggage_not_included" = "Bagajul nu este inclus";
+"flight_proposals_hand_luggage_not_included" = "Bagajele de mână nu sunt incluse";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "Cumpără la %@";
+"flight_proposals_flight_there" = "Plecare";
+"flight_proposals_flight_back" = "Întoarcere";

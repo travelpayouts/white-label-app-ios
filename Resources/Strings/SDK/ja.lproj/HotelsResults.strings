@@ -1,0 +1,11 @@
+"filters_button_title" = "フィルター";
+"location_button_map_view" = "地図に示す";
+"location_button_card_view" = "リスト";
+"meters" = "%@m";
+"kilometers" = "%@km";
+"city_center" = "中心地";
+"free_cancel_title" = "キャンセル無料";
+"without_cancellation_title" = "キャンセル不可";
+"no_available_rooms" = "これらの日付に利用可能なお部屋はありません";
+"for_single_night" = "一泊につき";
+"price_not_availalble" = "部屋が見つかりません";

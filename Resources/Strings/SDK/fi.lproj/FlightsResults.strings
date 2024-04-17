@@ -1,0 +1,13 @@
+"filters_button_title" = "Suodattimet";
+"price_chart_button_title" = "Hintataulukko";
+"widget_title_cell_title" = "Suorat lennot";
+"widget_button_cell_show_all_title" = "Näytä kaikki";
+"widget_button_cell_collapse_title" = "Näytä vähemmän";
+"ticket_cell_travel_time_title" = "Matkustusaika: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ tähän hintaan";
+"load_more_button_cell_title" = "Näytä %@ lippua enemmän";
+"footer_text_cell_title" = "Olet katsonut kaikki hakuparametrejasi vastaavat liput.\nSaat uusia hakutuloksia muokkaamalla suodattimiasi";
+"should_update_alert_title" = "Hakutulokset saattavat olla vanhentuneita";
+"should_update_alert_message" = "Lippuhinnat vaihtelevat noin 10 kertaa päivässä. Päivitä hakusi nähdäksesi päivitetyt hinnat";
+"should_update_alert_update_button_title" = "Päivitä haku";
+"should_update_alert_later_button_title" = "Myöhemmin";

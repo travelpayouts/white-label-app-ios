@@ -1,0 +1,7 @@
+"title" = "Havaalanları";
+"forth_trip_departure_from_title" = "%@ konumundan kalkış";
+"forth_trip_arrival_to_title" = "%@ konumuna varış";
+"back_trip_departure_from_title" = "%@ konumundan dönüş kalkışı";
+"back_trip_arrival_to_title" = "%@ konumuna dönüş varışı";
+"choose_all_cell_title" = "Tümünü seç";
+"apply_button_title" = "Uygula";

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>show_variants</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>Vis %d alternativer</string>
+        <key>other</key>
+        <string>Vis %d alternativer</string>
+      </dict>
+    </dict>
+    <key>show_hotels</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>Vis %d hotell</string>
+        <key>other</key>
+        <string>Vis %d hoteller</string>
+      </dict>
+    </dict>
+    <key>review</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%1$@ %2$#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>anmeldelse</string>
+        <key>other</key>
+        <string>anmeldelser</string>
+      </dict>
+    </dict>
+    <key>children</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>%d barn</string>
+        <key>other</key>
+        <string>%d barn</string>
+      </dict>
+    </dict>
+    <key>adults</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>%d voksen</string>
+        <key>other</key>
+        <string>%d voksne</string>
+      </dict>
+    </dict>
+    <key>children_age</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@age@</string>
+      <key>age</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>%d år</string>
+        <key>other</key>
+        <string>%d år</string>
+      </dict>
+    </dict>
+    <key>age_range</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>Fra %1$d til %2$#@years@</string>
+      <key>years</key>
+      <dict>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>one</key>
+        <string>%d år</string>
+        <key>other</key>
+        <string>%d år</string>
+      </dict>
+    </dict>
+    <key>nights</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d natt</string>
+        <key>other</key>
+        <string>%d netter</string>
+      </dict>
+    </dict>
+    <key>accommodation_options</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d overnatting</string>
+        <key>other</key>
+        <string>%d overnattingssteder</string>
+      </dict>
+    </dict>
+    <key>bedrooms</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d soverom</string>
+        <key>other</key>
+        <string>%d soverom</string>
+      </dict>
+    </dict>
+    <key>rooms_available</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d rom igjen!</string>
+        <key>other</key>
+        <string>%d rom igjen!</string>
+      </dict>
+    </dict>
+    <key>based_on_review_count</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>Basert på %d anmeldelse</string>
+        <key>other</key>
+        <string>Basert på %d anmeldelser</string>
+      </dict>
+    </dict>
+    <key>based_on_evaluations_count</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>Basert på %d anmeldelse</string>
+        <key>other</key>
+        <string>Basert på %d anmeldelser</string>
+      </dict>
+    </dict>
+    <key>hotel_rooms</key>
+    <dict>
+      <key>NSStringLocalizedFormatKey</key>
+      <string>%#@count@</string>
+      <key>count</key>
+      <dict>
+        <key>NSStringFormatSpecTypeKey</key>
+        <string>NSStringPluralRuleType</string>
+        <key>NSStringFormatValueTypeKey</key>
+        <string>d</string>
+        <key>one</key>
+        <string>%d rom</string>
+        <key>other</key>
+        <string>%d rom</string>
+      </dict>
+    </dict>
+  </dict>
+</plist>

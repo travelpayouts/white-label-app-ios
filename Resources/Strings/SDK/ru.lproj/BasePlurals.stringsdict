@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>age</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@age@</string>
+		<key>age</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>До 1 г.</string>
+			<key>one</key>
+			<string>%d год</string>
+			<key>few</key>
+			<string>%d года</string>
+			<key>other</key>
+			<string>%d лет</string>
+		</dict>
+	</dict>
+	<key>day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@day@</string>
+		<key>day</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>zero</key>
+			<string>%d дней</string>
+			<key>one</key>
+			<string>%d день</string>
+			<key>few</key>
+			<string>%d дня</string>
+			<key>other</key>
+			<string>%d дней</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

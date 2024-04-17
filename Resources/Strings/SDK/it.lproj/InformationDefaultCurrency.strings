@@ -1,0 +1,3 @@
+"title" = "Valuta";
+"all_currencies_button" = "Tutte le valute";
+"load_currencies_error_description" = "Impossibile determinare la valuta in base alla tua posizione. Valuta predefinita applicata";

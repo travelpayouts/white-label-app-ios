@@ -1,0 +1,3 @@
+"title" = "Moneda";
+"all_currencies_button" = "Todas las divisas";
+"load_currencies_error_description" = "No se ha podido determinar la moneda en función de su ubicación. Moneda aplicada por defecto";

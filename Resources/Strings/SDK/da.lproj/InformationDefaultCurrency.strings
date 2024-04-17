@@ -1,0 +1,3 @@
+"title" = "Valuta";
+"all_currencies_button" = "Alle valutaer";
+"load_currencies_error_description" = "Kunne ikke bestemme valuta baseret på din placering. Standardvaluta anvendt";

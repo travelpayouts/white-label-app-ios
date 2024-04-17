@@ -1,0 +1,9 @@
+
+"cancel" = "Отменить";
+"done" = "Готово";
+"got_it" = "Понятно";
+"ok" = "OK";
+
+// MARK: - Button titles
+
+"reset_button_title" = "Сбросить";

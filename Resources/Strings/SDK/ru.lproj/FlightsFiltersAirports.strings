@@ -1,0 +1,17 @@
+
+// MARK: - Titles
+
+"title" = "Aэропорты";
+
+"forth_trip_departure_from_title" = "Вылет %@";
+"forth_trip_arrival_to_title" = "Прибытие %@";
+"back_trip_departure_from_title" = "Вылет обратно %@";
+"back_trip_arrival_to_title" = "Прибытие обратно %@";
+
+// MARK: - Cell titles
+
+"choose_all_cell_title" = "Выбрать все";
+
+// MARK: - Button titles
+
+"apply_button_title" = "Применить";

@@ -1,0 +1,11 @@
+"filters_button_title" = "Søgefiltre";
+"location_button_map_view" = "Vis på kort";
+"location_button_card_view" = "Liste";
+"meters" = "%@m";
+"kilometers" = "%@km";
+"city_center" = "Centrum";
+"free_cancel_title" = "Gratis afbestilling";
+"without_cancellation_title" = "Kan ikke annulleres";
+"no_available_rooms" = "Ingen værelser tilgængelige for disse datoer";
+"for_single_night" = "per nat";
+"price_not_availalble" = "Ingen værelser fundet";

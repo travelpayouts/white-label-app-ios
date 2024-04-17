@@ -1,0 +1,23 @@
+
+// MARK: - Button titles
+
+"filters_button_title" = "Фильтры";
+"price_chart_button_title" = "График цен";
+
+// MARK: - Cell titles
+
+"widget_title_cell_title" = "Прямые рейсы";
+"widget_button_cell_show_all_title" = "Показать все";
+"widget_button_cell_collapse_title" = "Свернуть";
+"ticket_cell_travel_time_title" = "%@ в пути";
+"ticket_cell_few_tickets_left_warning_title" = "%@ по этой цене";
+"load_more_button_cell_title" = "Показать ещё %@ билетов";
+"footer_text_cell_title" = "Вы просмотрели все найденые билеты.\nВоспользуйтесь фильтрами для показа новых результатов поиска";
+
+// MARK: - Alert titles
+
+"should_update_alert_title" = "Результаты могли устареть";
+"should_update_alert_message" = "Цены на билеты меняются около 10 раз в день. Обновите поиск, чтобы увидеть точные цены";
+"should_update_alert_update_button_title" = "Обновить поиск";
+"should_update_alert_later_button_title" = "Позже";
+

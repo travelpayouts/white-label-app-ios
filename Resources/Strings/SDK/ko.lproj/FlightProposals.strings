@@ -1,0 +1,10 @@
+"flight_proposals_title" = "모든 제안";
+"flight_proposals_subtitle_per_person" = "승객 1인 요금";
+"flight_proposals_subtitle_for_all_persons" = "모든 승객의 요금";
+"flight_proposals_filter_caption" = "수화물이 포함된 항공권만";
+"flight_proposals_luggage_not_included" = "수하물 포함 안 됨";
+"flight_proposals_hand_luggage_not_included" = "기내 휴대 수하물 포함 안 됨";
+"flight_proposals_dimension_centimetre_format" = "%dcm";
+"flight_proposals_purchase_button_format" = "구매 가격: %@";
+"flight_proposals_flight_there" = "출발";
+"flight_proposals_flight_back" = "귀국";

@@ -1,0 +1,10 @@
+//
+//  Copyright © 2023 CleverPumpkin. All rights reserved.
+//
+
+#include "../../../Configs/base.xcconfig"
+
+// Platform specific
+
+IPHONEOS_DEPLOYMENT_TARGET = 14.0
+PRODUCT_BUNDLE_IDENTIFIER = $(CP_PRODUCT_BUNDLE_IDENTIFIER_BASE)$(CP_PRODUCT_BUNDLE_IDENTIFIER_SUFFIX).$(TARGET_NAME)

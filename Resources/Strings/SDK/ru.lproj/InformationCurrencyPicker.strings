@@ -1,0 +1,7 @@
+// MARK: - Titles
+
+"title" = "Все валюты";
+
+// MARK: - Placeholder
+
+"search_bar_placeholder" = "Название валюты";

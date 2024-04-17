@@ -1,0 +1,13 @@
+//
+//  Copyright © 2020 CleverPumpkin. All rights reserved.
+//
+
+#include "rc.xcconfig"
+
+// CP Specific
+CP_PRODUCT_BUNDLE_DISPLAY_NAME_SUFFIX =
+CP_PRODUCT_BUNDLE_VERSION_SHORT = $(CP_PRODUCT_VERSION_BASE)
+CP_USE_ABICONS = NO
+CP_DEBUG =
+CP_DEBUG_LOGIN =
+CP_VERSION_BG_COLOR =

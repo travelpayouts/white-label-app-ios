@@ -1,0 +1,3 @@
+"title" = "Waluta";
+"all_currencies_button" = "Wszystkie waluty";
+"load_currencies_error_description" = "Określenie waluty w oparciu o Twoją lokalizację nie powiodło się. Zastosowano domyślną walutę";

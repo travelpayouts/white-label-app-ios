@@ -1,0 +1,10 @@
+"flight_proposals_title" = "Alla erbjudanden";
+"flight_proposals_subtitle_per_person" = "Pris för en passagerare";
+"flight_proposals_subtitle_for_all_persons" = "Pris för samtliga passagerare";
+"flight_proposals_filter_caption" = "Endast biljetter med bagage inkluderat";
+"flight_proposals_luggage_not_included" = "Baggage inte inkluderad";
+"flight_proposals_hand_luggage_not_included" = "Handbagage ingår ej";
+"flight_proposals_dimension_centimetre_format" = "%d cm";
+"flight_proposals_purchase_button_format" = "Köp för %@";
+"flight_proposals_flight_there" = "Avgång";
+"flight_proposals_flight_back" = "Retur";

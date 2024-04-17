@@ -1,0 +1,4 @@
+framework module WLNetwork {
+  header "WLNetwork-Swift.h"
+  requires objc
+}

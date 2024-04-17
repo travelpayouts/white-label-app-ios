@@ -1,0 +1,4 @@
+framework module WLSupport {
+  header "WLSupport-Swift.h"
+  requires objc
+}

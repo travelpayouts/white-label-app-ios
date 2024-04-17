@@ -1,0 +1,10 @@
+"visa_required_title" = "tussenstop met visum";
+"should_recheck_baggage_title" = "interlineboekingen";
+"night_transfer_title" = "nachtelijke tussenstop";
+"airport_change_required_title" = "verandering van luchthaven";
+"short_layover_title" = "korte tussenstop";
+"extended_visa_required_title" = "U hebt een visum nodig voor %@";
+"extended_should_recheck_baggage_title" = "U moet uw bagage opnieuw inchecken en opnieuw inchecken voor uw aansluitende vlucht";
+"extended_night_transfer_title" = "Nachtelijke overstap in %@";
+"extended_airport_change_required_title" = "Verandering van luchthaven in %@";
+"extended_short_layover_title" = "Korte overstap in %@";

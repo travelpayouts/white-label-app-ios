@@ -1,0 +1,10 @@
+"title" = "搜尋令人難忘的飯店";
+"my_location_button_title" = "當前位置";
+"map_location_button_title" = "在地圖上標記";
+"location_placeholder" = "城市或酒店";
+"search_button_title" = "搜尋";
+"location_troubles_title" = "我們無法判斷\n您的位置";
+"location_troubles_close" = "關閉";
+"restricred_location_access_message" = "允許應用程式確認您的地點";
+"restricred_location_access_not_now" = "稍後";
+"restricred_location_access_settings" = "設定";

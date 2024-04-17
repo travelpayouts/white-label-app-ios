@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Filtres";
+"hotel_rooms_filters_grouping_title" = "Grouper par";
+"hotel_rooms_filters_bed_type_title" = "Type de lit";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Désactiver les filtres généraux";
+"hotel_rooms_filters_grouping_rooms_text" = "Pièces";
+"hotel_rooms_filters_grouping_gates_text" = "Agences";
+"hotel_rooms_filters_grouping_prices_text" = "Prix";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Afficher toutes les pièces, même si elles\nne correspondent pas aux filtres que vous avez définis";

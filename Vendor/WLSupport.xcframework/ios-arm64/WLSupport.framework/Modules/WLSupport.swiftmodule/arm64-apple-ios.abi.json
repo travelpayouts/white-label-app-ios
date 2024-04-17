@@ -1,0 +1,1440 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurableTabBar",
+        "printedName": "ConfigurableTabBar",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configureTabBar",
+            "printedName": "configureTabBar(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITraitCollection",
+                "printedName": "UIKit.UITraitCollection",
+                "usr": "c:objc(cs)UITraitCollection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport18ConfigurableTabBarP09configurecD03forySo17UITraitCollectionC_tF",
+            "mangledName": "$s9WLSupport18ConfigurableTabBarP09configurecD03forySo17UITraitCollectionC_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.ConfigurableTabBar>",
+            "sugared_genericSig": "<Self where Self : WLSupport.ConfigurableTabBar>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureTabBar",
+            "printedName": "configureTabBar(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITraitCollection",
+                "printedName": "UIKit.UITraitCollection",
+                "usr": "c:objc(cs)UITraitCollection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport18ConfigurableTabBarPAAE09configurecD03forySo17UITraitCollectionC_tF",
+            "mangledName": "$s9WLSupport18ConfigurableTabBarPAAE09configurecD03forySo17UITraitCollectionC_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.ConfigurableTabBar>",
+            "sugared_genericSig": "<Self where Self : WLSupport.ConfigurableTabBar>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport18ConfigurableTabBarP",
+        "mangledName": "$s9WLSupport18ConfigurableTabBarP",
+        "moduleName": "WLSupport",
+        "genericSig": "<τ_0_0 : UIKit.UITabBarController>",
+        "sugared_genericSig": "<Self : UIKit.UITabBarController>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlightsModuleCore",
+        "printedName": "FlightsModuleCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "moduleIcon",
+            "printedName": "moduleIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleIcon",
+                "printedName": "WLSupport.ModuleIcon",
+                "usr": "s:9WLSupport10ModuleIconV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport17FlightsModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "mangledName": "$s9WLSupport17FlightsModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIcon",
+                    "printedName": "WLSupport.ModuleIcon",
+                    "usr": "s:9WLSupport10ModuleIconV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport17FlightsModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "mangledName": "$s9WLSupport17FlightsModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "moduleName": "WLSupport",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.FlightsModuleCore>",
+                "sugared_genericSig": "<Self where Self : WLSupport.FlightsModuleCore>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "trackOpen",
+            "printedName": "trackOpen(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport17FlightsModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "mangledName": "$s9WLSupport17FlightsModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.FlightsModuleCore>",
+            "sugared_genericSig": "<Self where Self : WLSupport.FlightsModuleCore>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport17FlightsModuleCoreP",
+        "mangledName": "$s9WLSupport17FlightsModuleCoreP",
+        "moduleName": "WLSupport",
+        "genericSig": "<τ_0_0 : WLSupport.ModuleCore, τ_0_0 : WLSupport.TrackableScreen>",
+        "sugared_genericSig": "<Self : WLSupport.ModuleCore, Self : WLSupport.TrackableScreen>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TrackableScreen",
+            "printedName": "TrackableScreen",
+            "usr": "s:9WLSupport15TrackableScreenP",
+            "mangledName": "$s9WLSupport15TrackableScreenP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ModuleCore",
+            "printedName": "ModuleCore",
+            "usr": "s:9WLSupport10ModuleCoreP",
+            "mangledName": "$s9WLSupport10ModuleCoreP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HotelsModuleCore",
+        "printedName": "HotelsModuleCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "moduleIcon",
+            "printedName": "moduleIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleIcon",
+                "printedName": "WLSupport.ModuleIcon",
+                "usr": "s:9WLSupport10ModuleIconV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport16HotelsModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "mangledName": "$s9WLSupport16HotelsModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIcon",
+                    "printedName": "WLSupport.ModuleIcon",
+                    "usr": "s:9WLSupport10ModuleIconV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport16HotelsModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "mangledName": "$s9WLSupport16HotelsModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "moduleName": "WLSupport",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.HotelsModuleCore>",
+                "sugared_genericSig": "<Self where Self : WLSupport.HotelsModuleCore>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "trackOpen",
+            "printedName": "trackOpen(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport16HotelsModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "mangledName": "$s9WLSupport16HotelsModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.HotelsModuleCore>",
+            "sugared_genericSig": "<Self where Self : WLSupport.HotelsModuleCore>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport16HotelsModuleCoreP",
+        "mangledName": "$s9WLSupport16HotelsModuleCoreP",
+        "moduleName": "WLSupport",
+        "genericSig": "<τ_0_0 : WLSupport.ModuleCore, τ_0_0 : WLSupport.TrackableScreen>",
+        "sugared_genericSig": "<Self : WLSupport.ModuleCore, Self : WLSupport.TrackableScreen>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TrackableScreen",
+            "printedName": "TrackableScreen",
+            "usr": "s:9WLSupport15TrackableScreenP",
+            "mangledName": "$s9WLSupport15TrackableScreenP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ModuleCore",
+            "printedName": "ModuleCore",
+            "usr": "s:9WLSupport10ModuleCoreP",
+            "mangledName": "$s9WLSupport10ModuleCoreP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLNetwork",
+        "printedName": "WLNetwork",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InformationModuleCore",
+        "printedName": "InformationModuleCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "moduleIcon",
+            "printedName": "moduleIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleIcon",
+                "printedName": "WLSupport.ModuleIcon",
+                "usr": "s:9WLSupport10ModuleIconV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport21InformationModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "mangledName": "$s9WLSupport21InformationModuleCorePAAE10moduleIconAA0cF0Vvp",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIcon",
+                    "printedName": "WLSupport.ModuleIcon",
+                    "usr": "s:9WLSupport10ModuleIconV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport21InformationModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "mangledName": "$s9WLSupport21InformationModuleCorePAAE10moduleIconAA0cF0Vvg",
+                "moduleName": "WLSupport",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.InformationModuleCore>",
+                "sugared_genericSig": "<Self where Self : WLSupport.InformationModuleCore>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "trackOpen",
+            "printedName": "trackOpen(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport21InformationModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "mangledName": "$s9WLSupport21InformationModuleCorePAAE9trackOpen4fromyAA21TrackableScreenSourceO_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.InformationModuleCore>",
+            "sugared_genericSig": "<Self where Self : WLSupport.InformationModuleCore>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport21InformationModuleCoreP",
+        "mangledName": "$s9WLSupport21InformationModuleCoreP",
+        "moduleName": "WLSupport",
+        "genericSig": "<τ_0_0 : WLSupport.ModuleCore, τ_0_0 : WLSupport.TrackableScreen>",
+        "sugared_genericSig": "<Self : WLSupport.ModuleCore, Self : WLSupport.TrackableScreen>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TrackableScreen",
+            "printedName": "TrackableScreen",
+            "usr": "s:9WLSupport15TrackableScreenP",
+            "mangledName": "$s9WLSupport15TrackableScreenP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ModuleCore",
+            "printedName": "ModuleCore",
+            "usr": "s:9WLSupport10ModuleCoreP",
+            "mangledName": "$s9WLSupport10ModuleCoreP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleCore",
+        "printedName": "ModuleCore",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "moduleIcon",
+            "printedName": "moduleIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ModuleIcon",
+                "printedName": "WLSupport.ModuleIcon",
+                "usr": "s:9WLSupport10ModuleIconV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport10ModuleCoreP10moduleIconAA0bE0Vvp",
+            "mangledName": "$s9WLSupport10ModuleCoreP10moduleIconAA0bE0Vvp",
+            "moduleName": "WLSupport",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ModuleIcon",
+                    "printedName": "WLSupport.ModuleIcon",
+                    "usr": "s:9WLSupport10ModuleIconV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport10ModuleCoreP10moduleIconAA0bE0Vvg",
+                "mangledName": "$s9WLSupport10ModuleCoreP10moduleIconAA0bE0Vvg",
+                "moduleName": "WLSupport",
+                "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.ModuleCore>",
+                "sugared_genericSig": "<Self where Self : WLSupport.ModuleCore>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport10ModuleCoreP",
+        "mangledName": "$s9WLSupport10ModuleCoreP",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModuleIcon",
+        "printedName": "ModuleIcon",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "inactive",
+            "printedName": "inactive",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport10ModuleIconV8inactiveSo7UIImageCSgvp",
+            "mangledName": "$s9WLSupport10ModuleIconV8inactiveSo7UIImageCSgvp",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport10ModuleIconV8inactiveSo7UIImageCSgvg",
+                "mangledName": "$s9WLSupport10ModuleIconV8inactiveSo7UIImageCSgvg",
+                "moduleName": "WLSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "active",
+            "printedName": "active",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport10ModuleIconV6activeSo7UIImageCSgvp",
+            "mangledName": "$s9WLSupport10ModuleIconV6activeSo7UIImageCSgvp",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport10ModuleIconV6activeSo7UIImageCSgvg",
+                "mangledName": "$s9WLSupport10ModuleIconV6activeSo7UIImageCSgvg",
+                "moduleName": "WLSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:9WLSupport10ModuleIconV",
+        "mangledName": "$s9WLSupport10ModuleIconV",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Function",
+        "name": "registerProviderFactories",
+        "printedName": "registerProviderFactories()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:9WLSupport25registerProviderFactoriesyyF",
+        "mangledName": "$s9WLSupport25registerProviderFactoriesyyF",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScreenProvider",
+        "printedName": "ScreenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScreenProvider",
+                "printedName": "WLSupport.ScreenProvider",
+                "usr": "s:9WLSupport14ScreenProviderC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport14ScreenProviderC6sharedACvpZ",
+            "mangledName": "$s9WLSupport14ScreenProviderC6sharedACvpZ",
+            "moduleName": "WLSupport",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScreenProvider",
+                    "printedName": "WLSupport.ScreenProvider",
+                    "usr": "s:9WLSupport14ScreenProviderC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport14ScreenProviderC6sharedACvgZ",
+                "mangledName": "$s9WLSupport14ScreenProviderC6sharedACvgZ",
+                "moduleName": "WLSupport",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "webContaiverViewController",
+            "printedName": "webContaiverViewController(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport14ScreenProviderC26webContaiverViewController3forSo06UIViewG0C10Foundation3URLVSg_tF",
+            "mangledName": "$s9WLSupport14ScreenProviderC26webContaiverViewController3forSo06UIViewG0C10Foundation3URLVSg_tF",
+            "moduleName": "WLSupport",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9WLSupport14ScreenProviderC",
+        "mangledName": "$s9WLSupport14ScreenProviderC",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrackableScreen",
+        "printedName": "TrackableScreen",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "trackOpen",
+            "printedName": "trackOpen(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport15TrackableScreenP9trackOpen4fromyAA0bC6SourceO_tF",
+            "mangledName": "$s9WLSupport15TrackableScreenP9trackOpen4fromyAA0bC6SourceO_tF",
+            "moduleName": "WLSupport",
+            "genericSig": "<τ_0_0 where τ_0_0 : WLSupport.TrackableScreen>",
+            "sugared_genericSig": "<Self where Self : WLSupport.TrackableScreen>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:9WLSupport15TrackableScreenP",
+        "mangledName": "$s9WLSupport15TrackableScreenP",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TrackableScreenSource",
+        "printedName": "TrackableScreenSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tabBar",
+            "printedName": "tabBar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WLSupport.TrackableScreenSource.Type) -> WLSupport.TrackableScreenSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackableScreenSource",
+                    "printedName": "WLSupport.TrackableScreenSource",
+                    "usr": "s:9WLSupport21TrackableScreenSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "WLSupport.TrackableScreenSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackableScreenSource",
+                        "printedName": "WLSupport.TrackableScreenSource",
+                        "usr": "s:9WLSupport21TrackableScreenSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:9WLSupport21TrackableScreenSourceO6tabBaryA2CmF",
+            "mangledName": "$s9WLSupport21TrackableScreenSourceO6tabBaryA2CmF",
+            "moduleName": "WLSupport"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TrackableScreenSource",
+                "printedName": "WLSupport.TrackableScreenSource",
+                "usr": "s:9WLSupport21TrackableScreenSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport21TrackableScreenSourceO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s9WLSupport21TrackableScreenSourceO2eeoiySbAC_ACtFZ",
+            "moduleName": "WLSupport",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9WLSupport21TrackableScreenSourceO9hashValueSivp",
+            "mangledName": "$s9WLSupport21TrackableScreenSourceO9hashValueSivp",
+            "moduleName": "WLSupport",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9WLSupport21TrackableScreenSourceO9hashValueSivg",
+                "mangledName": "$s9WLSupport21TrackableScreenSourceO9hashValueSivg",
+                "moduleName": "WLSupport",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport21TrackableScreenSourceO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s9WLSupport21TrackableScreenSourceO4hash4intoys6HasherVz_tF",
+            "moduleName": "WLSupport",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9WLSupport21TrackableScreenSourceO",
+        "mangledName": "$s9WLSupport21TrackableScreenSourceO",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NeedleFoundation",
+        "printedName": "NeedleFoundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "WLSupport"
+      },
+      {
+        "kind": "Import",
+        "name": "WLCommon",
+        "printedName": "WLCommon",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLUserInterface",
+        "printedName": "WLUserInterface",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WLConfig",
+        "printedName": "WLConfig",
+        "declKind": "Import",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "SPIAccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WhiteLabel",
+        "printedName": "WhiteLabel",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "WLConfig.Configuration",
+                "usr": "s:8WLConfig13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9WLSupport10WhiteLabelO9configure4withy8WLConfig13ConfigurationV_tFZ",
+            "mangledName": "$s9WLSupport10WhiteLabelO9configure4withy8WLConfig13ConfigurationV_tFZ",
+            "moduleName": "WLSupport",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:9WLSupport10WhiteLabelO",
+        "mangledName": "$s9WLSupport10WhiteLabelO",
+        "moduleName": "WLSupport",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Model Layer\/ConfigurableTabBar\/ConfigurableTabBar.swift",
+      "kind": "BooleanLiteral",
+      "offset": 576,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 117,
+      "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent->WebContainerCoordinatorComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 146,
+      "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent->WebContainerCoordinatorComponent->WebContainerModuleComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1001,
+      "length": 83,
+      "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent->WLSupportCoordinatorsComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 27,
+      "value": "\"^->WLSupportRootComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1477,
+      "length": 51,
+      "value": "\"^->WLSupportRootComponent->WLSupportCoreComponent\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 61,
+      "value": "\"WLSupport.WebContainerCoordinatorDependency8a8b9442a909fa491582Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2445,
+      "length": 56,
+      "value": "\"WLSupport.WebContainerModuleDependency1650967f29e755d57b05Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 59,
+      "value": "\"WLSupport.WLSupportCoordinatorsDependencyb0785e077233445bbf61Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Generated\/Needle.generated.swift",
+      "kind": "StringLiteral",
+      "offset": 3269,
+      "length": 51,
+      "value": "\"WLSupport.WLSupportCoreDependencyf8ddebb4e7f89cd23a34Provider\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.ScreenState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 635,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLSupport\/Sources\/Presentation Layer\/WebContainer\/Screens\/WebContainer\/ViewController\/WebContainerVC.swift",
+      "kind": "StringLiteral",
+      "offset": 282,
+      "length": 14,
+      "value": "\"WLSupport.WebContainerVC\""
+    }
+  ]
+}

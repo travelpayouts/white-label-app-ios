@@ -1,0 +1,13 @@
+"filters_button_title" = "Filter";
+"price_chart_button_title" = "Prisgraf";
+"widget_title_cell_title" = "Direktefly";
+"widget_button_cell_show_all_title" = "Vis alle";
+"widget_button_cell_collapse_title" = "Vis mindre";
+"ticket_cell_travel_time_title" = "Reisetid: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ til denne prisen";
+"load_more_button_cell_title" = "Vis %@ flere billetter";
+"footer_text_cell_title" = "Du har sett alle billettene som samsvarer med søkefiltrene dine.\nRediger filtrene dine for nye søkeresultater";
+"should_update_alert_title" = "Søkeresultatene kan være foreldet";
+"should_update_alert_message" = "Billettprisene endrer seg omtrent ti ganger per dag. Oppfrisk søket ditt for oppdaterte priser";
+"should_update_alert_update_button_title" = "Oppdater søket";
+"should_update_alert_later_button_title" = "Senere";

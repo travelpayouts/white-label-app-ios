@@ -1,0 +1,4 @@
+framework module WLCommon {
+  header "WLCommon-Swift.h"
+  requires objc
+}

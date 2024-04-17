@@ -1,0 +1,10 @@
+"visa_required_title" = "välilasku, joka vaatii viisumin";
+"should_recheck_baggage_title" = "interline-varaus";
+"night_transfer_title" = "yön yli kestävä välilasku";
+"airport_change_required_title" = "lentoaseman vaihto";
+"short_layover_title" = "lyhyt välilasku";
+"extended_visa_required_title" = "%@ vaatii viisumin";
+"extended_should_recheck_baggage_title" = "Muista tarkistaa matkatavarasi ja ilmoittautua jatkolennolle";
+"extended_night_transfer_title" = "Yön yli kestävä välilasku kohteessa %@";
+"extended_airport_change_required_title" = "Lentoaseman vaihto paikkakunnalla %@";
+"extended_short_layover_title" = "Lyhyt välilasku kohteessa %@";

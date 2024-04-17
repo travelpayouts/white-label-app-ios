@@ -1,0 +1,10 @@
+"flight_proposals_title" = "ข้อเสนอทั้งหมด";
+"flight_proposals_subtitle_per_person" = "ราคาสำหรับผู้โดยสาร 1 คน";
+"flight_proposals_subtitle_for_all_persons" = "ราคาสำหรับผู้โดยสารทั้งหมด";
+"flight_proposals_filter_caption" = "เฉพาะตั๋วที่รวมสัมภาระ";
+"flight_proposals_luggage_not_included" = "ไม่รวมกระเป๋าเดินทาง";
+"flight_proposals_hand_luggage_not_included" = "ไม่รวมกระเป๋าถือขึ้นเครื่อง";
+"flight_proposals_dimension_centimetre_format" = "%d ซม.";
+"flight_proposals_purchase_button_format" = "ซื้อในราคา %@";
+"flight_proposals_flight_there" = "ต้นทาง";
+"flight_proposals_flight_back" = "ขากลับ";

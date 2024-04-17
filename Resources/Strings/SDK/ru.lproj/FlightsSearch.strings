@@ -1,0 +1,15 @@
+
+// MARK: - Titles
+
+"title" = "Поиск недорогих авиабилетов";
+
+// MARK: - Placeholders
+
+"departure_airport_placeholder" = "Откуда";
+"arrival_airport_placeholder" = "Куда";
+"dates_placeholder" = "Когда";
+"passengers_placeholder" = "Пассажиры и класс";
+
+// MARK: - Button titles
+
+"search_button_title" = "Найти";

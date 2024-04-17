@@ -1,0 +1,7 @@
+"title" = "Airports";
+"forth_trip_departure_from_title" = "Departure from %@";
+"forth_trip_arrival_to_title" = "Arrival to %@";
+"back_trip_departure_from_title" = "Return departure from %@";
+"back_trip_arrival_to_title" = "Return arrival to %@";
+"choose_all_cell_title" = "Select all";
+"apply_button_title" = "Apply";

@@ -1,0 +1,13 @@
+"filters_button_title" = "Filtre";
+"price_chart_button_title" = "Grafic prețuri";
+"widget_title_cell_title" = "Zboruri directe";
+"widget_button_cell_show_all_title" = "Afișează toate";
+"widget_button_cell_collapse_title" = "Arată mai puțin";
+"ticket_cell_travel_time_title" = "Timp de calatorie: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ la acest preț";
+"load_more_button_cell_title" = "Arată cu %@ mai multe bilete";
+"footer_text_cell_title" = "Ați vizualizat toate biletele care corespund parametrilor de căutare.\nModificați filtrele pentru noi rezultate ale căutării";
+"should_update_alert_title" = "Rezultatele căutării ar putea fi depășite";
+"should_update_alert_message" = "Prețul biletelor se modifică de aproximativ 10 ori pe zi. Reîmprospătați-vă căutarea pentru a vedea prețurile actualizate";
+"should_update_alert_update_button_title" = "Actualizați căutarea";
+"should_update_alert_later_button_title" = "Mai târziu";

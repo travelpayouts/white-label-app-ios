@@ -1,0 +1,13 @@
+"filters_button_title" = "Filter";
+"price_chart_button_title" = "Prisdiagram";
+"widget_title_cell_title" = "Direkt-flyg";
+"widget_button_cell_show_all_title" = "Visa alla";
+"widget_button_cell_collapse_title" = "Visa mindre";
+"ticket_cell_travel_time_title" = "Resetid: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ till detta pris";
+"load_more_button_cell_title" = "Visa %@ biljetter till";
+"footer_text_cell_title" = "Du har sett alla biljetter som matchar dina sökparametrar.\nÄndra dina filter för att få nya sökresultat";
+"should_update_alert_title" = "Sökresultat kan vara inaktuella";
+"should_update_alert_message" = "Biljettpriserna ändras cirka 10 gånger per dag. Uppdatera din sökning för aktuella priser";
+"should_update_alert_update_button_title" = "Uppdatera sökningen";
+"should_update_alert_later_button_title" = "Senare";

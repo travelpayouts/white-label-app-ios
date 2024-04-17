@@ -1,0 +1,36 @@
+
+// MARK: - Visa
+
+"flights_layover_info_visa_title" = "Пересадка с визой %@";
+"flights_layover_info_visa_description" = "В некоторых аэропортах нет транзитной зоны. Это значит, что пересадка равноценна въезду в страну, и вам точно понадобится виза.";
+
+// MARK: - Separate booking
+
+"flights_layover_info_separate_booking_title" = "Раздельное бронирование";
+"flights_layover_info_separate_booking_description" = "Это не один билет, а несколько разных. Такие бронирования называются раздельными. Они часто дешевле обычных, но есть нюансы:";
+"flights_layover_info_separate_booking_nuance_0" = "Нужно регистрироваться на рейс при пересадке, а если у вас есть багаж – получать и сдавать его";
+"flights_layover_info_separate_booking_nuance_1" = "Пересадка равноценна въезду в страну – если нужна виза, ее потребуют на паспортном контроле";
+"flights_layover_info_separate_booking_nuance_2" = "Если в страну пересадки не пускают туристов, вы можете не попасть на следующий рейс";
+"flights_layover_info_separate_booking_nuance_3" = "Если рейс задержат и вы опоздаете на следующий, все расходы лягут на вас, а не на авиакомпанию";
+"flights_layover_info_separate_booking_nuance_4" = "Правила обмена и возврата для каждого билета, скорее всего, отличаются";
+"flights_layover_info_separate_booking_epilogue" = "В общем, такие билеты подойдут только подготовленным путешественникам";
+
+// MARK: - Short
+
+"flights_layover_info_short_title" = "Короткая пересадка %@";
+"flights_layover_info_short_description" = "Всего %@ – придется поторопиться:";
+"flights_layover_info_short_nuance_0" = "Ваш багаж может не успеть «пересесть» вместе с вами и прилететь позже";
+"flights_layover_info_short_nuance_1" = "Вы можете не успеть на следующий рейс, если предыдущий задержится";
+
+// MARK: - Night
+
+"flights_layover_info_night_title" = "Ночная пересадка %@";
+"flights_layover_info_night_description" = "Придётся тратить деньги на отель или спать на лавочке. К тому же некоторые аэропорты закрываются на ночь.";
+
+// MARK: - Ariport change
+
+"flights_layover_info_airport_change_title" = "Пересадка со сменой аэропорта\n%@";
+"flights_layover_info_airport_change_description" = "Это не сложно, но есть нюансы:";
+"flights_layover_info_airport_change_nuance_0" = "Вас ждут затраты на проезд по городу";
+"flights_layover_info_airport_change_nuance_1" = "Придется получать и сдавать багаж";
+"flights_layover_info_airport_change_nuance_2" = "Есть риск застрять в пробке и не успеть на посадку";

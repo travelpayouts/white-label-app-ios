@@ -1,0 +1,13 @@
+"filters_button_title" = "Filters";
+"price_chart_button_title" = "Price chart";
+"widget_title_cell_title" = "Direct flights";
+"widget_button_cell_show_all_title" = "Show all";
+"widget_button_cell_collapse_title" = "Show less";
+"ticket_cell_travel_time_title" = "Travel time: %@";
+"ticket_cell_few_tickets_left_warning_title" = "%@ at this price";
+"load_more_button_cell_title" = "Show %@ more tickets";
+"footer_text_cell_title" = "You\'ve viewed all the tickets matching your search parameters.\nEdit your filters for new search results";
+"should_update_alert_title" = "Results may be outdated";
+"should_update_alert_message" = "Ticket prices change around 10 times a day. Refresh your search for updated prices";
+"should_update_alert_update_button_title" = "Refresh search";
+"should_update_alert_later_button_title" = "Later";

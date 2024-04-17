@@ -1,0 +1,5 @@
+"title" = "Päivämäärät";
+"choose_button_title" = "Valitse %@";
+"disabled_choose_button_title" = "Valitse";
+"date_range_limit_title" = "Yöpymisraja ylittynyt";
+"date_range_limit_message" = "Pahoittelut, mutta pisin mahdollinen hotellivierailu\non %@";

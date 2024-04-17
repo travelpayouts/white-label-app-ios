@@ -1,0 +1,11 @@
+"hotel_property_type_guest" = "Ξενώνας";
+"hotel_property_type_hotel" = "Ξενοδοχείο";
+"hotel_property_type_hostel" = "Hostel";
+"hotel_property_type_apartment" = "Διαμέρισμα";
+"hotel_property_type_villa" = "Βίλα";
+"hotel_property_type_apart_hotel" = "Apart-hotel";
+"hotel_property_type_motel" = "Μοτέλ";
+"hotel_property_type_resort" = "Ξενοδοχείο θέρετρο";
+"hotel_property_type_lodge" = "Καλύβα";
+"hotel_property_type_bb" = "B&B";
+"hotel_property_type_other" = "Άλλο";

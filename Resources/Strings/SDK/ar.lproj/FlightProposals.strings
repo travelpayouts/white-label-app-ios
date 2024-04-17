@@ -1,0 +1,10 @@
+"flight_proposals_title" = "كل العروض";
+"flight_proposals_subtitle_per_person" = "السعر للراكب الواحد";
+"flight_proposals_subtitle_for_all_persons" = "السعر لجميع الراكب";
+"flight_proposals_filter_caption" = "لا تعرض إلا التذاكر التي تشمل الأمتعة";
+"flight_proposals_luggage_not_included" = "لا تشمل الشنط";
+"flight_proposals_hand_luggage_not_included" = "لا يتم تضمين الحقائب المسموح بحملها";
+"flight_proposals_dimension_centimetre_format" = "%d سم";
+"flight_proposals_purchase_button_format" = "شراء ب%@";
+"flight_proposals_flight_there" = "الذهاب";
+"flight_proposals_flight_back" = "العودة";

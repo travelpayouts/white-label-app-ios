@@ -1,0 +1,10 @@
+"flights_price_charts_search_button_without_price" = "Etsi lentoja";
+"flights_price_charts_search_button" = "Löydä lennot alkaen %@";
+"flights_price_charts_price_form" = "alkaen %@";
+"flights_price_charts_price_not_available" = "Hinta\nei ole saatavilla";
+"flights_price_charts_price_departure_title_for_cases" = "Meno kohteeseen %@";
+"flights_price_charts_price_departure_title" = "Meno kohteeseen %@";
+"flights_price_charts_price_return_title_for_cases" = "Paluu kohteeseen %@";
+"flights_price_charts_price_return_title" = "Paluu kohteeseen %@";
+"flights_price_charts_price_direct_flight" = "Vain suorat lennot";
+"flights_price_charts_price_baggage" = "Sisältää matkatavarat";
