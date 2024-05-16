@@ -23530,6 +23530,64 @@
           },
           {
             "kind": "Var",
+            "name": "time24",
+            "printedName": "time24",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DateFormatter",
+                "printedName": "Foundation.DateFormatter",
+                "usr": "c:objc(cs)NSDateFormatter"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So15NSDateFormatterC8WLCommonE6time24ABvpZ",
+            "mangledName": "$sSo15NSDateFormatterC8WLCommonE6time24ABvpZ",
+            "moduleName": "WLCommon",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DateFormatter",
+                    "printedName": "Foundation.DateFormatter",
+                    "usr": "c:objc(cs)NSDateFormatter"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So15NSDateFormatterC8WLCommonE6time24ABvgZ",
+                "mangledName": "$sSo15NSDateFormatterC8WLCommonE6time24ABvgZ",
+                "moduleName": "WLCommon",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "timeWithCurrentTimeZone",
             "printedName": "timeWithCurrentTimeZone",
             "children": [
@@ -25697,6 +25755,51 @@
                 "declKind": "Accessor",
                 "usr": "s:10Foundation6LocaleV8WLCommonE11appLanguageSSvg",
                 "mangledName": "$s10Foundation6LocaleV8WLCommonE11appLanguageSSvg",
+                "moduleName": "WLCommon",
+                "isFromExtension": true,
+                "spi_group_names": [
+                  "CleverPumpkinInternal"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "is24Hour",
+            "printedName": "is24Hour",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10Foundation6LocaleV8WLCommonE8is24HourSbvp",
+            "mangledName": "$s10Foundation6LocaleV8WLCommonE8is24HourSbvp",
+            "moduleName": "WLCommon",
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10Foundation6LocaleV8WLCommonE8is24HourSbvg",
+                "mangledName": "$s10Foundation6LocaleV8WLCommonE8is24HourSbvg",
                 "moduleName": "WLCommon",
                 "isFromExtension": true,
                 "spi_group_names": [
@@ -33855,6 +33958,76 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SetAlgebra",
+        "printedName": "SetAlgebra",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "formUnion",
+            "printedName": "formUnion(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:s10SetAlgebraP8WLCommonE9formUnionyyxSgF",
+            "mangledName": "$ss10SetAlgebraP8WLCommonE9formUnionyyxSgF",
+            "moduleName": "WLCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.SetAlgebra>",
+            "sugared_genericSig": "<Self where Self : Swift.SetAlgebra>",
+            "declAttributes": [
+              "Mutating",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "spi_group_names": [
+              "CleverPumpkinInternal"
+            ],
+            "funcSelfKind": "Mutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:s10SetAlgebraP",
+        "mangledName": "$ss10SetAlgebraP",
+        "moduleName": "Swift",
+        "genericSig": "<τ_0_0 : Swift.Equatable, τ_0_0 : Swift.ExpressibleByArrayLiteral>",
+        "sugared_genericSig": "<Self : Swift.Equatable, Self : Swift.ExpressibleByArrayLiteral>",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "DefaultStringInterpolation",
         "printedName": "DefaultStringInterpolation",
         "children": [
@@ -36094,104 +36267,167 @@
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
       "offset": 1064,
-      "length": 13,
-      "value": "\"HH:mm d MMM\""
+      "length": 56,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
-      "length": 13,
-      "value": "\"HH:mm d MMM\""
-    },
-    {
-      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
-      "kind": "StringLiteral",
-      "offset": 1631,
+      "offset": 1093,
       "length": 7,
       "value": "\"HH:mm\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1919,
+      "offset": 1103,
+      "length": 9,
+      "value": "\"hh:mm a\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1113,
+      "length": 1,
+      "value": "\" d MMM\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1421,
+      "length": 56,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1450,
       "length": 7,
       "value": "\"HH:mm\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 2178,
+      "offset": 1460,
+      "length": 9,
+      "value": "\"hh:mm a\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1470,
+      "length": 1,
+      "value": "\" d MMM\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 7,
+      "value": "\"HH:mm\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1753,
+      "length": 9,
+      "value": "\"hh:mm a\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1972,
+      "length": 7,
+      "value": "\"HH:mm\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 2286,
+      "length": 7,
+      "value": "\"HH:mm\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 9,
+      "value": "\"hh:mm a\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 2557,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 2414,
+      "offset": 2793,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 2729,
+      "offset": 3108,
       "length": 18,
       "value": "\"yyyy-MM-dd HH:mm\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 3018,
+      "offset": 3397,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 3275,
+      "offset": 3654,
       "length": 6,
       "value": "\"LLLL\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 3497,
+      "offset": 3876,
       "length": 4,
       "value": "\"EE\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 3728,
+      "offset": 4107,
       "length": 13,
       "value": "\"dd MMMM, EE\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 3969,
+      "offset": 4348,
       "length": 12,
       "value": "\"dd MMM, EE\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 4195,
+      "offset": 4574,
       "length": 10,
       "value": "\"HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 4280,
+      "offset": 4659,
       "length": 4,
       "value": "\"ru\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Foundation\/Public\/Date\/Formatting\/DateFormatter+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 4416,
+      "offset": 4795,
       "length": 23,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss\""
     },
@@ -36394,21 +36630,42 @@
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1360,
+      "offset": 1427,
+      "length": 3,
+      "value": "\"j\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1441,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 3,
+      "value": "\"a\""
+    },
+    {
+      "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
       "length": 5,
       "value": "\"USD\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1393,
+      "offset": 1608,
       "length": 4,
       "value": "\"US\""
     },
     {
       "filePath": "\/Users\/malibu\/TeamTownBuildAgent\/work\/5348e0fb5fbb3e63\/Modules\/WLCommon\/Sources\/Extensions\/Locale+Convenience.swift",
       "kind": "StringLiteral",
-      "offset": 1427,
+      "offset": 1642,
       "length": 4,
       "value": "\"us\""
     },

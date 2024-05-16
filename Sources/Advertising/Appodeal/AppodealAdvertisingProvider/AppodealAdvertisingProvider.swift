@@ -7,7 +7,9 @@
 //
 
 import UIKit
+#if canImport(Appodeal)
 import Appodeal
+#endif
 import WLConfig
 
 final class AppodealAdvertisingProvider: NSObject, AdvertisingProvider {
@@ -19,7 +21,7 @@ final class AppodealAdvertisingProvider: NSObject, AdvertisingProvider {
 	// MARK: - Internal methods
 	
 	func bannerView(for placement: String, complition: @escaping AdvertisingProviderBannerCompletion) {
-		
+		#if canImport(Appodeal)
 		DispatchQueue.main.async { [weak self] in
 			guard let self else { return }
 			
@@ -38,10 +40,11 @@ final class AppodealAdvertisingProvider: NSObject, AdvertisingProvider {
 			
 			bannerCompletions[bannerView] = complition
 		}
+		#endif
 	}
 	
 	func showInterstitial(for placement: String, in context: UIViewController) {
-		
+		#if canImport(Appodeal)
 		guard
 			Appodeal.isInitialized(for: .interstitial),
 			Appodeal.canShow(.interstitial, forPlacement: placement)
@@ -54,9 +57,11 @@ final class AppodealAdvertisingProvider: NSObject, AdvertisingProvider {
 			forPlacement: placement,
 			rootViewController: context
 		)
+		#endif
 	}
 }
 
+#if canImport(Appodeal)
 // MARK: - APDBannerViewDelegate
 
 extension AppodealAdvertisingProvider: APDBannerViewDelegate {
@@ -106,3 +111,4 @@ private extension AppodealAdvertisingProvider {
 		return bannerView
 	}
 }
+#endif

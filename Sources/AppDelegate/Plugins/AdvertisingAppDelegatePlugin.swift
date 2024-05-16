@@ -6,9 +6,11 @@
 //  Copyright © 2023 CleverPumpkin. All rights reserved.
 //
 
-import AppTrackingTransparency
 import UIKit
+#if canImport(Appodeal)
 import Appodeal
+import AppTrackingTransparency
+#endif
 
 // MARK: - Plugin
 
@@ -40,6 +42,7 @@ final class AdvertisingAppDelegatePlugin: AppDelegatePlugin {
 	// MARK: - Private methods
 	
 	private func setup() {
+		#if canImport(Appodeal)
 		guard let appodealKey = ApplicationConfiguration.current.constants.appodealApiKey else {
 			return
 		}
@@ -59,9 +62,11 @@ final class AdvertisingAppDelegatePlugin: AppDelegatePlugin {
 				types: Constants.defaultAdTypes
 			)
 		}
+		#endif
 	}
 }
 
+#if canImport(Appodeal)
 // MARK: - Constants
 
 private extension AdvertisingAppDelegatePlugin {
@@ -71,3 +76,4 @@ private extension AdvertisingAppDelegatePlugin {
 		static let defaultAdTypes: AppodealAdType = [.banner, .interstitial]
 	}
 }
+#endif

@@ -405,7 +405,18 @@
 							"name": "firebase_pods"
 						},
 						{
-							"name": "appodeal_base_pods"
+							"name": "appodeal_base_pods",
+							"enabled": {
+								"name": "configuration",
+								"paths": [
+									"advertising",
+									"appodeal_api_key"
+								],
+								"conditions": [
+									"not_nil",
+									"not_empty"
+								]
+							}
 						},
 						{
 							"name": "appodeal_optional_pods",

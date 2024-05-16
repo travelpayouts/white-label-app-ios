@@ -10,15 +10,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+wKFVsv0vMN6Ye31/sz1ns7eGZg=
+		1Zmhwt8AmibuufRrtpg6rX1tLg4=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		uCI2gMFowEvYt5ThgRMXtV0vRPM=
+		6TgKfA/zDwWP9wsQl5kWnfyAldE=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		OhmvIb+U05un9U3BeRf4AO+n9MU=
+		+9zjhZWQab1XeWJtWUlM0nUnpuI=
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CJwoEj6ihgVSllPruUdjIh1ls0U=
+		rApbt091h9MyTI/neNfomdwZCfc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,14 +54,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jWyID6iN9Uj7RHBY432nv5elX/d7onyh27jbe+hTSy8=
+			BM1SJ7O8ilcXce2KAZ6UTPr99WXn8FFNK0Ij6XNU1wc=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MplrD5oHeSd/3l4YY0mXXt54kVdOeOKc26kmFjfqoU=
+			hSb8SiyZ+ocUZ5hGZwBJ1exOBY7Yq72E6QP7qXaQdWU=
 			</data>
 		</dict>
 		<key>Modules/WLNetwork.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,7 +82,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G8yLHQL7ehzs9cAE4AzXMQJtMJn2sgWysM4e5hzi/dA=
+			QM2tpOfL2NOyhXgMLMKR7ZEXIdqWNboqw72K5c2QBFE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
