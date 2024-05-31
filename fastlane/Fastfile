@@ -83,6 +83,8 @@ def generate_configuration
 --xc-config-output Configs/Generated \
 --podfile-output . \
 --entitlements-output Entitlements/Generated \
---info-plist-strings-dir Resources/Strings"
+--info-plist-strings-dir Resources/Strings \
+--project-yaml-path project.yml \
+--is-production true"
 	end
 end

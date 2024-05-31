@@ -6,31 +6,31 @@
 	<dict>
 		<key>Headers/WLFlights-Swift.h</key>
 		<data>
-		63uB0FmK8FDG8yYNz5nG0lGl7tY=
+		P1pQ6hAvo/2C+fT0pOCt5HjCCJ8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JCB8tI12YfjpwSwc/mBOegxOuvE=
+		2p3F9jwvlAK49n4UEs6Dv1+Sbi8=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		xw4CFkL7/ONmnilfkXBDc5jSqmM=
+		Y2xM3Y7hsfc2GoySWB3MU9YCSDw=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hGoY86Hp037yS1u7Tk5RLNyryZU=
+		phwz4jrGwkGkyHlkUf1ZEon3ZM4=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		sFuFt/jecDjjLOIAtNuULpNiOis=
+		i0nnYF8fPFNTuNLmeG+8rElEHJs=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DWxAqrS8Onyg6c/LXL8K9PI+KNY=
+		EIZ3MWI5h/d1uX1g8pKYJ9UDW1A=
 		</data>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6dIHxFQLZY8QE1eRAMu5DHh5wN0=
+		OGCkXKMw8jQun6m9g9D39t/Zx08=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -4957,42 +4957,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ACSBqrSfV1p4m3B6YnYENaQSNQriA7uTwlwkgs/etAE=
+			C4DKgNcfwFsQAbZPgEbpHlkMIBH6TW3Y6b5Idg84rBI=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O2D8rVNoCuNCx6qGtSRpD5M3Z7jZu2AR25swxC9W1PE=
+			lO9+3y3dWj6HkyKKdDD7W6qAGFXR+qktHur5ex1Ts1c=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x/iBX8ie+UVl1FCAWgZpaVMKeukB/9dbK23X+gpJJ+o=
+			RtteF2KMQH++egO+UiiMuKD/9ZtMl2UGyBD9+eExd78=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X8dEnHNXUXZ8CgfavYUOV4ZBKTUXxYPwoYTETJscFfs=
+			Hjwua268AMnczydFoM6N3iBRzYLADw91+unPHWZTjGo=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B9y6IdTzgmHh5DvlTrnINqpdqtDz0u4AFsQJXtN7fso=
+			DZibCfJMStyRArLrWJvLvL/Y7u6yQQ9abVVBt0CzByo=
 			</data>
 		</dict>
 		<key>Modules/WLFlights.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8KQrQP1fEZSBZmeXZnfU+YFAm2i9IIf6qxwjNbpfYGs=
+			S0+RwPm2cnvhEk4Z9iQ4enyn7DALZG33x3tzepqmD+w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
