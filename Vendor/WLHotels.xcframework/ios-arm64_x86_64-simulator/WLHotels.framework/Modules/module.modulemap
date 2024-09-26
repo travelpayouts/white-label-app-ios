@@ -1,4 +1,0 @@
-framework module WLHotels {
-  header "WLHotels-Swift.h"
-  requires objc
-}

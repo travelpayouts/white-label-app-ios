@@ -26,16 +26,16 @@
 			"pods": [
 				{
 					"name": "Appodeal",
-					"version": "3.3.0"
+					"version": "3.3.1"
 				},
 				{
 					"name": "APDBidMachineAdapter",
-					"version": "3.3.0.0",
+					"version": "3.3.1.0",
 					"comment": "Required"
 				},
 				{
 					"name": "APDIABAdapter",
-					"version": "3.3.0.0",
+					"version": "3.3.1.0",
 					"comment": "Required"
 				}
 			]
@@ -45,15 +45,15 @@
 			"pods": [
 				{
 					"name": "APDFacebookAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMetaAudienceNetworkAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "BidMachineMetaAudienceAdapter",
-					"version": "2.6.0.0"
+					"version": "2.7.0.0"
 				}
 			]
 		},
@@ -62,43 +62,43 @@
 			"pods": [
 				{
 					"name": "APDAdjustAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAmazonAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppLovinAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppLovinMAXAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppsFlyerAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDBidonAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDBigoAdsAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDDTExchangeAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDFirebaseAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDGoogleAdMobAdapter",
-					"version": "3.3.0.0",
+					"version": "3.3.1.0",
 					"enabled": {
 						"name": "configuration",
 						"paths": [
@@ -113,74 +113,83 @@
 				},
 				{
 					"name": "APDInMobiAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDIronSourceAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMintegralAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMyTargetAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDPangleAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDSentryAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDSmaatoAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDUnityAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDVungleAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDYandexAdapter",
-					"version": "3.3.0.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "AmazonPublisherServicesSDK",
 					"version": "4.9.2"
 				},
 				{
-					"name": "AppLovinMediationAmazonAdMarketplaceAdapter"
+					"name": "AppLovinMediationAmazonAdMarketplaceAdapter",
+					"version": "4.5.6.4"
 				},
 				{
-					"name": "AppLovinMediationBidMachineAdapter"
+					"name": "AppLovinMediationBidMachineAdapter",
+					"version": "2.0.0.5.0"
 				},
 				{
-					"name": "AppLovinMediationFacebookAdapter"
+					"name": "AppLovinMediationFacebookAdapter",
+					"version": "6.12.0.2"
 				},
 				{
-					"name": "AppLovinMediationFyberAdapter"
+					"name": "AppLovinMediationFyberAdapter",
+					"version": "8.1.9.0"
 				},
 				{
-					"name": "AppLovinMediationGoogleAdManagerAdapter"
+					"name": "AppLovinMediationGoogleAdManagerAdapter",
+					"version": "10.1.0.0"
 				},
 				{
-					"name": "AppLovinMediationGoogleAdapter"
+					"name": "AppLovinMediationGoogleAdapter",
+					"version": "10.1.0.0"
 				},
 				{
-					"name": "AppLovinMediationIronSourceAdapter"
+					"name": "AppLovinMediationIronSourceAdapter",
+					"version": "7.2.7.0.1"
 				},
 				{
-					"name": "AppLovinMediationMintegralAdapter"
+					"name": "AppLovinMediationMintegralAdapter",
+					"version": "7.3.0.0.0"
 				},
 				{
-					"name": "AppLovinMediationUnityAdsAdapter"
+					"name": "AppLovinMediationUnityAdsAdapter",
+					"version": "4.5.0.2"
 				},
 				{
 					"name": "AppLovinMediationVungleAdapter",
@@ -192,15 +201,15 @@
 				},
 				{
 					"name": "BidMachineAmazonAdapter",
-					"version": "2.6.0.1"
+					"version": "2.7.0.0"
 				},
 				{
 					"name": "BidMachinePangleAdapter",
-					"version": "2.6.0.0"
+					"version": "2.7.0.0"
 				},
 				{
 					"name": "BidMachineVungleAdapter",
-					"version": "2.6.0.0"
+					"version": "2.7.0.0"
 				},
 				{
 					"name": "BidonAdapterAmazon",
@@ -322,128 +331,6 @@
 			]
 		},
 		{
-			"name": "general_pods",
-			"comment": "General pods",
-			"pods": [
-				{
-					"name": "NeedleFoundation",
-					"version": "0.17.2",
-					"max_version": "< 1.0.0"
-				},
-				{
-					"name": "DictionaryCoder",
-					"version": "1.0.8",
-					"max_version": "< 2.0.0"
-				}
-			]
-		},
-		{
-			"name": "common_pods",
-			"comment": "WLCommon target pods",
-			"pods": [
-				{
-					"name": "Sourcery",
-					"version": "1.4.2",
-					"excluded_from_sdk": true
-				},
-				{
-					"name": "Punycode-Cocoa",
-					"version": "1.3.1",
-					"max_version": "< 2.0.0"
-				}
-			]
-		},
-		{
-			"name": "persistence_pods",
-			"comment": "WLPersistence target pods",
-			"pods": [
-				{
-					"name": "KeychainSwift",
-					"version": "19.0.0",
-					"max_version": "<= 24.0.0"
-				}
-			]
-		},
-		{
-			"name": "networking_pods",
-			"comment": "WLNetwork target pods",
-			"pods": [
-				{
-					"name": "Apollo",
-					"version": "1.9.3",
-					"max_version": "< 2.0.0"
-				},
-				{
-					"name": "Moya/Combine",
-					"version": "15.0.0",
-					"max_version": "< 16.0.0"
-				}
-			]
-		},
-		{
-			"name": "ui_pods",
-			"comment": "WLUserInterface target pods",
-			"pods": [
-				{
-					"name": "SnapKit",
-					"version": "5.6.0",
-					"max_version": "< 6.0.0"
-				},
-				{
-					"name": "CrispyCalendar",
-					"version": "1.0.10",
-					"max_version": "< 2.0.0"
-				},
-				{
-					"name": "lottie-ios",
-					"version": "4.2.0",
-					"max_version": "< 5.0.0"
-				},
-				{
-					"name": "Kingfisher",
-					"version": "7.8.0",
-					"max_version": "< 8.0.0"
-				},
-				{
-					"name": "FigmaExport",
-					"version": "0.37.1",
-					"excluded_from_sdk": true
-				},
-				{
-					"name": "CombineCocoa",
-					"version": "0.4.0",
-					"max_version": "< 1.0.0"
-				},
-				{
-					"name": "SkeletonView",
-					"version": "1.30.4",
-					"max_version": "< 2.0.0"
-				},
-				{
-					"name": "ClusterKit",
-					"version": "0.5.0",
-					"max_version": "< 1.0.0"
-				},
-				{
-					"name": "AvailableHapticFeedback",
-					"version": "1.0.4",
-					"max_version": "< 1.1.0",
-					"comment": "Use only for MultiSlider"
-				},
-				{
-					"name": "SweeterSwift",
-					"version": "1.2.3",
-					"max_version": "< 1.3.0",
-					"comment": "Use only for MultiSlider"
-				},
-				{
-					"name": "ImageViewer.swift",
-					"version": "3.3.8",
-					"max_version": "< 3.4.0"
-				}
-			]
-		},
-		{
 			"name": "main_pods",
 			"comment": "Main target pods",
 			"pods": [
@@ -460,6 +347,14 @@
 				{
 					"name": "ESTabBarController-swift",
 					"version": "2.8.0"
+				},
+				{
+					"name": "WLSDK",
+					"version": "1.3.0"
+				},
+				{
+					"name": "WLSDK/WhiteLabelSupport",
+					"version": "1.3.0"
 				}
 			]
 		}
@@ -492,21 +387,6 @@
 				{
 					"name": "travel-app",
 					"functions": [
-						{
-							"name": "general_pods"
-						},
-						{
-							"name": "common_pods"
-						},
-						{
-							"name": "persistence_pods"
-						},
-						{
-							"name": "networking_pods"
-						},
-						{
-							"name": "ui_pods"
-						},
 						{
 							"name": "main_pods"
 						},
@@ -552,5 +432,8 @@
 				}
 			]
 		}
-	]
+	],
+	"additional_build_settings": {
+		"BUILD_LIBRARY_FOR_DISTRIBUTION": "YES"
+	}
 }

@@ -20,7 +20,7 @@ final class FlightsModule: FlightsModuleCore {
 	// MARK: - Initialization
 	
 	init() {
-		viewController = WLFlights.ScreenProvider.shared.flightsViewController
+		viewController = WLFlights.ScreenProvider.shared.flightsViewController()
 		
 		viewController.tabBarItem = ESTabBarItem(
 			title: R.string.tabBar.flights_tab_title(),

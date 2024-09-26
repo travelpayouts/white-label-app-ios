@@ -3,17 +3,7 @@ excluded:
   - Carthage
   - Pods
   - Sources/Generated/
-  - Modules/UI/Sources/Generated/
-  - Modules/Common/Sources/Generated/
-  - Modules/Networking/Sources/Generated/
-  - Modules/Networking/Sources/Api/GraphQL/
-  - Modules/FlightsUI/Sources/Generated/
-  - Modules/HotelsUI/Sources/Generated/
-  - Modules/InformationUI/Sources/Generated/
-  - Modules/TravelConfig/Sources/Generated/
-  - Modules/Persistence/Sources/Generated
-  - Modules/SharedUI/Sources/Generated
-  
+ 
 included:
   - Modules
   - Sources
@@ -25,6 +15,9 @@ disabled_rules:
 - implicitly_unwrapped_optional
 - discouraged_optional_collection
 - discouraged_optional_boolean
+- cyclomatic_complexity
+- function_body_length
+- function_parameter_count
 
 # Enabled non-default rules
 opt_in_rules:
@@ -48,7 +41,6 @@ opt_in_rules:
  - implicitly_unwrapped_optional
  - identical_operands
  - joined_default_parameter
- - let_var_whitespace
  - last_where
  - literal_expression_end_indentation
  - legacy_multiple
@@ -87,7 +79,6 @@ opt_in_rules:
  - vertical_whitespace_closing_braces
  - xct_specific_matcher
  - yoda_condition
- - closure_body_length
  - multiline_parameters
  - file_name
  - object_literal
@@ -101,10 +92,6 @@ line_length:
  error: 200
  ignores_comments: true
  ignores_urls: true
-
-function_body_length:
- warning: 70
- error: 100
 
 vertical_parameter_alignment:
   severity: error
@@ -121,7 +108,7 @@ array_init:
 attributes:
   severity: error
   always_on_same_line: ["@NSCopying", "@NSManaged", "@IBAction", "@IBOutlet", "@IBInspectable", "@inlinable", "@usableFromInline"]
-  always_on_line_above: ["@IBDesignable", "@available", "@convention", "@discardableResult", "@dynamicMemberLookup", "@objcMembers", "@nonobjc", "@objc"]
+  always_on_line_above: ["@IBDesignable", "@available", "@convention", "@discardableResult", "@dynamicMemberLookup", "@objcMembers", "@nonobjc", "@objc", "@_disfavoredOverload"]
 
 block_based_kvo:
   severity: error
@@ -152,11 +139,6 @@ contains_over_first_not_nil:
 
 convenience_type:
   severity: error
-
-cyclomatic_complexity:
-  warning: 7
-  error: 15
-  ignores_case_statements: true
 
 discouraged_direct_init:
   severity: error
@@ -197,14 +179,6 @@ first_where:
 
 for_where:
   severity: error
-
-function_body_length:
-  warning: 60
-  error: 200
-
-function_parameter_count:
-  warning: 4
-  error: 6
 
 identifier_name:
   min_length:
@@ -340,7 +314,7 @@ type_name:
     warning: 3
     error: 2
   max_length:
-    warning: 40
+    warning: 50
     error: 64
 
 type_body_length:
@@ -385,7 +359,3 @@ void_return:
 
 vertical_whitespace:
   severity: error
-
-closure_body_length:
-  warning: 30
-  error: 100

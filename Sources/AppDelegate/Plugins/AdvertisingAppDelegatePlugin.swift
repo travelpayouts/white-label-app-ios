@@ -30,13 +30,8 @@ final class AdvertisingAppDelegatePlugin: AppDelegatePlugin {
 	
 	// MARK: - Internal methods
 	
-	func application(
-		_ application: UIApplication,
-		didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil
-	) -> Bool {
+	func applicationDidBecomeActive(_ application: UIApplication) {
 		setup()
-		
-		return true
 	}
 	
 	// MARK: - Private methods
@@ -57,10 +52,12 @@ final class AdvertisingAppDelegatePlugin: AppDelegatePlugin {
 			Appodeal.setLogLevel(.verbose)
 			#endif
 			
-			Appodeal.initialize(
-				withApiKey: appodealKey,
-				types: Constants.defaultAdTypes
-			)
+			DispatchQueue.main.async {
+				Appodeal.initialize(
+					withApiKey: appodealKey,
+					types: Constants.defaultAdTypes
+				)
+			}
 		}
 		#endif
 	}

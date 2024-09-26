@@ -15,51 +15,58 @@
 
 default_platform(:ios)
 
+PROJECT_DISPLAY_NAME = "travel-app".freeze
+
+PRODUCT_VERSION_XCCONFIG_PATH = "Configs/product_version.xcconfig"
+
 platform :ios do
-  desc "Install executables: cocoapods, generamba and homebrew dependencies"
-  	lane :initialize do
-      Dir.chdir("..") do
-	sh("gem install bundler")
-	sh("bundle install")
-        sh("brew bundle")
-      end
-  end
+	desc "Install executables: cocoapods, generamba and homebrew dependencies"
+	lane :initialize do
+		Dir.chdir("..") do
+			sh("sudo gem install bundler")
+			sh("bundle install")
+			#sh("brew bundle")
+		end
+	end
 
-  desc "Generate project files and install cocoapods dependencies"
-  lane :setup do
-
-    # Perform common setup
-
-    self.perform_common_setup()
-  end
+	desc "Generate project files and install cocoapods dependencies"
+	lane :setup do
+		
+		# Perform common setup
+		self.perform_common_setup()
+	end
 end
 
 def perform_common_setup
-
-  # Generate configuration
-  self.generate_configuration()
-
-  Dir.chdir("..") do
-
-    # Generate project file(s)
-    self.perform_bootstrap()
-  end
-
-  # Install pods
-  self.perform_pods_install()
+	
+	# Generate configuration
+	self.generate_configuration()
+	
+	Dir.chdir("..") do
+		
+		# Install bundler dependencies
+		sh("bundle install")
+		
+		# Generate project file(s)
+		self.perform_bootstrap()
+	end
+	
+	# Install pods
+	self.perform_pods_install()
 end
 
 def perform_pods_install
-  sh("bundle exec pod install --repo-update")
+	sh("bundle exec pod install --repo-update")
 end
 
 def perform_bootstrap
-
-    # Bootstrap app main target
-    sh("xcodegen generate")
+	
+	# Bootstrap app main target
+	sh("xcodegen generate")
 end
 
 def generate_configuration
+	product_version = get_xcconfig_product_version
 	
 	Dir.chdir("../") do
 		
@@ -67,24 +74,25 @@ def generate_configuration
 		if(File.directory?('config'))
 			FileUtils.cp_r('config/.', '.')
 		end
-
-    ENV['TA_SHOULD_USE_CONFIGURATION_VERSION'] = 'YES'
-
-    project_configurator_path = "Scripts/project_configurator/project_configurator"
-
-    sh "xattr -d com.apple.quarantine \"#{project_configurator_path}\" || true"
-
-    sh "chmod +x \"#{project_configurator_path}\""
 		
 		sh "Scripts/project_configurator/project_configurator \
 --configuration-input configuration.json \
 --podfile-input podfile.json \
 --configurator-output Sources/Generated \
---xc-config-output Configs/Generated \
 --podfile-output . \
+--xc-config-output Configs/Generated \
 --entitlements-output Entitlements/Generated \
---info-plist-strings-dir Resources/Strings \
---project-yaml-path project.yml \
---is-production true"
+--info-plist-strings-dir Resources/Strings/WhiteLabel \
+--is-production true \
+--product-version #{product_version}"
 	end
+end
+
+def get_xcconfig_product_version
+	versionBase = get_xcconfig_value(
+		path: PRODUCT_VERSION_XCCONFIG_PATH,
+		name: 'CP_PRODUCT_VERSION_BASE'
+	)
+	
+	return versionBase
 end

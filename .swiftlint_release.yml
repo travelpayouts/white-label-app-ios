@@ -3,14 +3,6 @@ excluded:
   - Carthage
   - Pods
   - Sources/Generated/
-  - Modules/UI/Sources/Generated/
-  - Modules/Common/Sources/Generated/
-  - Modules/Networking/Sources/Generated/
-  - Modules/Networking/Sources/Api/GraphQL/
-  - Modules/FlightUI/Sources/Generated/
-  - Modules/HotelsUI/Sources/Generated/
-  - Modules/InformationUI/Sources/Generated/
-  - Modules/TravelConfig/Sources/Generated/
 
 included:
   - Modules

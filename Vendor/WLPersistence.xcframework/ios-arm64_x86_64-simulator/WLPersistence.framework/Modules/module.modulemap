@@ -1,4 +1,0 @@
-framework module WLPersistence {
-  header "WLPersistence-Swift.h"
-  requires objc
-}

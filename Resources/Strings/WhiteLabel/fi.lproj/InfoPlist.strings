@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "White Label App";
+"CFBundleName" = "White Label App";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Hakeakseen sinua lähimpänä olevia lentokenttiä ja hotelleja";
+"NSLocationWhenInUseUsageDescription" = "Hakeakseen sinua lähimpänä olevia lentokenttiä ja hotelleja";
+"NSPhotoLibraryAddUsageDescription" = "Sovelluksen on kyettävä tallentamaan liput puhelimesi valokuvagalleriaan";
+"NSUserTrackingUsageDescription" = "Tätä tunnistetta käytetään lähettämään sinulle yksilöllisiä mainoksia";

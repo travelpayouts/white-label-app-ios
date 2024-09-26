@@ -149,7 +149,15 @@ post_install do |installer|
 			{% if podfile_context.platform.name == 'ios' %}
 			config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '{{ podfile_context.platform.version }}'
 			{% endif %}
-			config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+			{% for key, value in podfile_context.additional_build_settings %}
+			config.build_settings['{{ key }}'] = '{{ value }}'
+			{% endfor %}
 		end
 	end
 end
+{% if podfile_context.grouping %}
+
+post_integrate do |installer|
+	system("#{__dir__}/Scripts/workspace_grouper/workspace_grouper", '-w', "#{__dir__}/#{workspace_name}", '-g', grouping.to_json)
+end
+{% endif %}

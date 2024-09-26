@@ -118,3 +118,4 @@ Resources/Images.xcassets/AppIconDebug.appiconset/Debug Icon-App-1024x1024.png
 /config
 Resources/Images.xcassets/ic_application_debug.appiconset/ic_application_debug.png
 *.podspec
+/Podfile

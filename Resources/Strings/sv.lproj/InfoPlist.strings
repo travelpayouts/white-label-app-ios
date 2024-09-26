@@ -1,6 +1,0 @@
-"CFBundleDisplayName" = "Travel App RU TEST";
-"CFBundleName" = "Travel App RU TEST";
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "För att söka efter flygplatser och hotell i närheten";
-"NSLocationWhenInUseUsageDescription" = "För att söka efter flygplatser och hotell i närheten";
-"NSPhotoLibraryAddUsageDescription" = "Appen måste kunna spara biljetter i din telefons fotobibliotek";
-"NSUserTrackingUsageDescription" = "Denna identifikator används för att ge dig anpassade annonser";

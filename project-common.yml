@@ -48,25 +48,22 @@ settings:
 targetTemplates:
   DefaultTarget:
     platform: iOS
-
+    
     ############
     # Sources
     ############
-
+    
     sources:
       - Sources
       - Supporting Files
-
+      
     ############
     # Info.plist
     ############
-
+      
     info:
       path: "Supporting Files/Info.plist"
       properties:
         CFBundleDisplayName: $(CP_PRODUCT_BUNDLE_DISPLAY_NAME)
         CFBundleShortVersionString: $(CP_PRODUCT_BUNDLE_VERSION_SHORT)
         CFBundleVersion: $(CP_PRODUCT_BUNDLE_VERSION)
-        
-    preBuildScripts:
-      

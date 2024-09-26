@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "White Label App";
+"CFBundleName" = "White Label App";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "To search for the closest airports and hotels near you";
+"NSLocationWhenInUseUsageDescription" = "To search for the closest airports and hotels near you";
+"NSPhotoLibraryAddUsageDescription" = "The app has to be able to save tickets to your phone's photo library";
+"NSUserTrackingUsageDescription" = "This identifier will be used to deliver personalized ads to you";

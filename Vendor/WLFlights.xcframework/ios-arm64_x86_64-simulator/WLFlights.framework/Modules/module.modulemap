@@ -1,4 +1,0 @@
-framework module WLFlights {
-  header "WLFlights-Swift.h"
-  requires objc
-}

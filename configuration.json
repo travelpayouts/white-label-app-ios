@@ -2,10 +2,10 @@
     "base_configuration": {
         "identifier": {
             "android": {
-                "id": "com.travelapp"
+                "id": ""
             },
             "apple": {
-                "id": "com.travelapp",
+                "id": "",
                 "team_id": "",
                 "version": "1.0.0",
                 "build_number": 0
@@ -14,8 +14,7 @@
         "display_name": {
             "base": "en",
             "localized": {
-                "en": "Travel App EN TEST",
-                "ru": "Travel App RU TEST"
+                "en": "White Label App"
             }
         }
     },
@@ -24,14 +23,14 @@
         "policy_url": {
             "base": "en",
             "localized": {
-                "en": "https://www.google.com",
-                "ru": "https://www.google.ru"
+                "en": "",
+                "ru": ""
             }
         },
         "feedback_email": "test@test.com",
         "google_maps_api_key": "",
         "appstore_id": "",
-        "client_device_host": "iphone.apartments",
+        "client_device_host": "",
         "marker": 0,
         "sharing_data": {
             "sharing_link": "https://www.google.ru",
@@ -43,10 +42,10 @@
         "appodeal_api_key": "",
         "google_admob_app_id": null,
         "placements": {
-            "air_ticket_placement_interstitial": "air_ticket_placement_interstitial",
-            "air_ticket_placement_banner": "air_ticket_placement_banner",
-            "hotels_placement_interstitial": "hotels_placement_interstitial",
-            "hotels_placement_banner": "hotels_placement_banner"
+            "air_ticket_placement_interstitial": "",
+            "air_ticket_placement_banner": "",
+            "hotels_placement_interstitial": "",
+            "hotels_placement_banner": ""
         }
     },
     "style": {
@@ -96,8 +95,7 @@
                     "title": {
                         "base": "en",
                         "localized": {
-                            "en": "Other 1",
-                            "ru": "Другое"
+                            "en": "Other 1"
                         }
                     },
                     "url": {
@@ -116,8 +114,7 @@
                     "title": {
                         "base": "en",
                         "localized": {
-                            "en": "Other 2",
-                            "ru": "Это другое"
+                            "en": "Other 2"
                         }
                     },
                     "url": {

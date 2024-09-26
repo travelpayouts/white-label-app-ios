@@ -20,8 +20,8 @@ fileGroups:
   - .swiftlint.yml
   - .xcode-version
   - project-common.yml
-  - podfile.json
   - configuration.json
+  - podfile.json
 
 ############
 # Config Files
@@ -106,7 +106,7 @@ targets:
         NSLocationWhenInUseUsageDescription: "To search for the closest airports and hotels near you"
         NSLocationAlwaysAndWhenInUseUsageDescription: "To search for the closest airports and hotels near you"
         NSPhotoLibraryAddUsageDescription: "To save ticket images"
-        NSUserTrackingUsageDescription: "This identifier will be used to deliver personalized ads to you."
+        963b5c1f433e641190f106919318b95e: "This identifier will be used to deliver personalized ads to you."
 
     ############
     # Dependencies
@@ -114,26 +114,6 @@ targets:
 
     dependencies:
       - target: travel-app-notification-service-extension
-      - framework: Vendor/WLCommon.xcframework
-        embed: true
-      - framework: Vendor/WLConfig.xcframework
-        embed: true
-      - framework: Vendor/WLPersistence.xcframework
-        embed: true
-      - framework: Vendor/WLUserInterface.xcframework
-        embed: true
-      - framework: Vendor/WLShared.xcframework
-        embed: true
-      - framework: Vendor/WLFlights.xcframework
-        embed: true
-      - framework: Vendor/WLHotels.xcframework
-        embed: true
-      - framework: Vendor/WLInformation.xcframework
-        embed: true
-      - framework: Vendor/WLNetwork.xcframework
-        embed: true
-      - framework: Vendor/WLSupport.xcframework
-        embed: true
 
     ############
     # Build scripts

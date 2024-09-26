@@ -20,7 +20,7 @@ final class HotelsModule: HotelsModuleCore {
 	// MARK: - Initialization
 	
 	init() {
-		viewController = WLHotels.ScreenProvider.shared.hotelsViewController
+		viewController = WLHotels.ScreenProvider.shared.hotelsViewController()
 		
 		viewController.tabBarItem = ESTabBarItem(
 			title: R.string.tabBar.hotels_tab_title(),
