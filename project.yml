@@ -22,6 +22,7 @@ fileGroups:
   - project-common.yml
   - configuration.json
   - podfile.json
+  - Gemfile
 
 ############
 # Config Files

@@ -170,12 +170,12 @@ PODS:
   - SnapKit (5.7.1)
   - SweeterSwift (1.2.5)
   - SwiftLint (0.43.1)
-  - WLSDK (1.3.0):
-    - WLSDK/Core (= 1.3.0)
-    - WLSDK/Flights (= 1.3.0)
-    - WLSDK/Hotels (= 1.3.0)
-    - WLSDK/Information (= 1.3.0)
-  - WLSDK/Core (1.3.0):
+  - WLSDK (1.3.1):
+    - WLSDK/Core (= 1.3.1)
+    - WLSDK/Flights (= 1.3.1)
+    - WLSDK/Hotels (= 1.3.1)
+    - WLSDK/Information (= 1.3.1)
+  - WLSDK/Core (1.3.1):
     - Apollo (< 1.14.0, >= 1.9.3)
     - AvailableHapticFeedback (< 1.1.0, >= 1.0.4)
     - ClusterKit (< 1.0.0, >= 0.5.0)
@@ -194,13 +194,13 @@ PODS:
     - SkeletonView (< 2.0.0, >= 1.30.4)
     - SnapKit (< 6.0.0, >= 5.6.0)
     - SweeterSwift (< 1.3.0, >= 1.2.3)
-  - WLSDK/Flights (1.3.0):
+  - WLSDK/Flights (1.3.1):
     - WLSDK/Core
-  - WLSDK/Hotels (1.3.0):
+  - WLSDK/Hotels (1.3.1):
     - WLSDK/Core
-  - WLSDK/Information (1.3.0):
+  - WLSDK/Information (1.3.1):
     - WLSDK/Core
-  - WLSDK/WhiteLabelSupport (1.3.0):
+  - WLSDK/WhiteLabelSupport (1.3.1):
     - WLSDK/Core
 
 DEPENDENCIES:
@@ -215,8 +215,8 @@ DEPENDENCIES:
   - GoogleUtilities (= 7.13.0)
   - R.swift (= 7.2.4)
   - SwiftLint (= 0.43.1)
-  - WLSDK (= 1.3.0)
-  - WLSDK/WhiteLabelSupport (= 1.3.0)
+  - WLSDK (= 1.3.1)
+  - WLSDK/WhiteLabelSupport (= 1.3.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -308,8 +308,8 @@ SPEC CHECKSUMS:
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SweeterSwift: 12f5b24e2410ea63e71f1ac089f8235eb5a12ecc
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
-  WLSDK: 5ba322a6296383fb2406c728cb9d91959a2a3d87
+  WLSDK: 98002694b7df5e0007aef0e528cf103c13b6d0ac
 
-PODFILE CHECKSUM: a2d342ee5a83c710b283577c1ba760acea2559f2
+PODFILE CHECKSUM: 1d2e7939379a7bbbefe8f1135d6fc14033b38eb1
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.15.2

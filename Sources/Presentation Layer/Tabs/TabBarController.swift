@@ -11,7 +11,11 @@ import WLSupport
 
 final class TabBarController: ESTabBarController, ConfigurableTabBar {
 	
-	// MARK: - Inits
+	// MARK: - Initialization
+	
+	convenience init() {
+		self.init(nibName: nil, bundle: nil)
+	}
 	
 	override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
 		super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -19,10 +23,9 @@ final class TabBarController: ESTabBarController, ConfigurableTabBar {
 		setupUI()
 	}
 	
+	@available(*, unavailable)
 	required init?(coder: NSCoder) {
-		super.init(coder: coder)
-		
-		setupUI()
+		fatalError("init(coder:) has not been implemented")
 	}
 	
 	// MARK: - Internal methods
