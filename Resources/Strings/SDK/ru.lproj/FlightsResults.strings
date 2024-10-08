@@ -1,4 +1,8 @@
 
+// MARK: - Titles
+
+"progress_bar_title" = "Ищем авиабилеты...";
+
 // MARK: - Button titles
 
 "filters_button_title" = "Фильтры";
@@ -20,4 +24,3 @@
 "should_update_alert_message" = "Цены на билеты меняются около 10 раз в день. Обновите поиск, чтобы увидеть точные цены";
 "should_update_alert_update_button_title" = "Обновить поиск";
 "should_update_alert_later_button_title" = "Позже";
-

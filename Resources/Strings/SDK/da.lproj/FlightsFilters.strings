@@ -5,6 +5,7 @@
 "extras_section_title" = "Flere indstillinger";
 "sorting_picker_row_cell_title" = "Sorter efter";
 "baggage_switch_row_cell_title" = "Kun inklusiv bagage";
+"one_transfer_max_switch_row_cell_title" = "Maks. 1 mellemlanding";
 "transfers_count_slider_cell_title" = "Antal stopovere";
 "transfers_duration_slider_cell_title" = "Varighed";
 "transfer_airports_picker_row_cell_title" = "Forbundne lufthavne";

@@ -350,11 +350,11 @@
 				},
 				{
 					"name": "WLSDK",
-					"version": "1.3.1"
+					"version": "1.3.2"
 				},
 				{
 					"name": "WLSDK/WhiteLabelSupport",
-					"version": "1.3.1"
+					"version": "1.3.2"
 				}
 			]
 		}

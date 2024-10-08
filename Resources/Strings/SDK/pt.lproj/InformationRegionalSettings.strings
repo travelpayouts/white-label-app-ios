@@ -1,5 +1,5 @@
 "title" = "Definições regionais";
 "app_language_cell_title" = "Idioma do aplicativo";
-"country_cell_title" = "País";
+"country_cell_title" = "País / Região";
 "currency_cell_title" = "Moeda";
 "description_cell_title" = "As configurações regionais são usadas para mostrar passagens adequadas e regras de entrada para diferentes países";

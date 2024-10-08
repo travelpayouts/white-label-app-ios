@@ -5,6 +5,7 @@
 "extras_section_title" = "Lisävalinnat";
 "sorting_picker_row_cell_title" = "Lajittele";
 "baggage_switch_row_cell_title" = "Vain, jos sisältää matkatavarat";
+"one_transfer_max_switch_row_cell_title" = "Enintään 1 välilasku";
 "transfers_count_slider_cell_title" = "Pysähdysten lukumäärä";
 "transfers_duration_slider_cell_title" = "Kesto";
 "transfer_airports_picker_row_cell_title" = "Välilasku lentokentät";

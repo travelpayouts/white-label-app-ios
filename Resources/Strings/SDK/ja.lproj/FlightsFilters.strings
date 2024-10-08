@@ -5,6 +5,7 @@
 "extras_section_title" = "その他の選択肢";
 "sorting_picker_row_cell_title" = "並び替え：";
 "baggage_switch_row_cell_title" = "手荷物込みのみ";
+"one_transfer_max_switch_row_cell_title" = "最大1回の乗り継ぎ";
 "transfers_count_slider_cell_title" = "乗り継ぎ回数";
 "transfers_duration_slider_cell_title" = "所要時間";
 "transfer_airports_picker_row_cell_title" = "乗継空港";

@@ -5,6 +5,7 @@
 "extras_section_title" = "다른 옵션";
 "sorting_picker_row_cell_title" = "정렬 기준";
 "baggage_switch_row_cell_title" = "수화물 포함만";
+"one_transfer_max_switch_row_cell_title" = "최대 1회 경유";
 "transfers_count_slider_cell_title" = "중간기착 횟수";
 "transfers_duration_slider_cell_title" = "소요시간";
 "transfer_airports_picker_row_cell_title" = "연결 공항";

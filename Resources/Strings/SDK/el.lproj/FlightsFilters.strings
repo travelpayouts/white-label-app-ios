@@ -5,6 +5,7 @@
 "extras_section_title" = "Περισσότερες επιλογές";
 "sorting_picker_row_cell_title" = "Ταξινόμηση κατά";
 "baggage_switch_row_cell_title" = "Μόνο μαζί με αποσκευές";
+"one_transfer_max_switch_row_cell_title" = "Μέγ. 1 ενδιάμεση στάση";
 "transfers_count_slider_cell_title" = "Αριθμός ενδιάμεσων στάσεων";
 "transfers_duration_slider_cell_title" = "Διάρκεια";
 "transfer_airports_picker_row_cell_title" = "Αεροδρομια διαμετακομισης";

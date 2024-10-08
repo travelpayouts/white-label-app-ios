@@ -1,5 +1,5 @@
 "title" = "Regional settings";
 "app_language_cell_title" = "App language";
-"country_cell_title" = "Country";
+"country_cell_title" = "Country / Region";
 "currency_cell_title" = "Currency";
 "description_cell_title" = "Regional settings are used to display suitable tickets and entry rules for different countries";

@@ -7,6 +7,7 @@
 
 // MARK: - Titles
 
+"progress_bar_title" = "Ищем отели...";
 "meters" = "%@ м";
 "kilometers" = "%@ км";
 "city_center" = "Центр города";

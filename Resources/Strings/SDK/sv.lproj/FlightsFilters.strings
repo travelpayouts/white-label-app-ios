@@ -5,6 +5,7 @@
 "extras_section_title" = "Fler alternativ";
 "sorting_picker_row_cell_title" = "Sortera efter";
 "baggage_switch_row_cell_title" = "Endast inklusive bagage";
+"one_transfer_max_switch_row_cell_title" = "Max. 1 mellanlandning";
 "transfers_count_slider_cell_title" = "Antal uppehåll";
 "transfers_duration_slider_cell_title" = "Längd";
 "transfer_airports_picker_row_cell_title" = "Anslut flygplatser";

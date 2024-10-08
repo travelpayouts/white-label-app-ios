@@ -1,5 +1,5 @@
 "title" = "การตั้งการภูมิภาค";
 "app_language_cell_title" = "ภาษาของแอป";
-"country_cell_title" = "ประเทศ";
+"country_cell_title" = "ประเทศ / ภูมิภาค";
 "currency_cell_title" = "สกุลเงิน";
 "description_cell_title" = "การตั้งค่าภูมิภาคใช้เพื่อแสดงตั๋วและกฎการเข้าประเทศที่เหมาะสมสำหรับประเทศต่าง ๆ";

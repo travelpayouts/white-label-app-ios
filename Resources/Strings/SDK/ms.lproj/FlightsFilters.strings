@@ -5,6 +5,7 @@
 "extras_section_title" = "Lagi pilihan";
 "sorting_picker_row_cell_title" = "Susun mengikut";
 "baggage_switch_row_cell_title" = "Hanya termasuk bagasi";
+"one_transfer_max_switch_row_cell_title" = "Maks. 1 persinggahan";
 "transfers_count_slider_cell_title" = "Jumlah persinggahan";
 "transfers_duration_slider_cell_title" = "Tempoh";
 "transfer_airports_picker_row_cell_title" = "Lapangan terbang sambungan";

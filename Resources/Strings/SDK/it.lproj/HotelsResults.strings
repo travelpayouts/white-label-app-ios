@@ -1,6 +1,7 @@
 "filters_button_title" = "Filtri";
 "location_button_map_view" = "Mostra sulla mappa";
 "location_button_card_view" = "Lista";
+"progress_bar_title" = "Ricerca hotel in corso...";
 "meters" = "%@m";
 "kilometers" = "%@km";
 "city_center" = "Centro città";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "Non ci sono camere disponibili in queste date";
 "for_single_night" = "a notte";
 "price_not_availalble" = "Nessuna stanza trovata";
+"hotels_results_loading_prices" = "Caricamento dei prezzi";

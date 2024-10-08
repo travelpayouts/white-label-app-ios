@@ -5,6 +5,7 @@
 "extras_section_title" = "خيارات آخرى";
 "sorting_picker_row_cell_title" = "الترتيب حسب";
 "baggage_switch_row_cell_title" = "شاملة الأمتعة فقط";
+"one_transfer_max_switch_row_cell_title" = "الحد الأقصى توقف مؤقت واحد";
 "transfers_count_slider_cell_title" = "عدد الرحلات";
 "transfers_duration_slider_cell_title" = "المدة";
 "transfer_airports_picker_row_cell_title" = "ربط المطارات";

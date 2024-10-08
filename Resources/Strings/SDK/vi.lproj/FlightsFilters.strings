@@ -5,6 +5,7 @@
 "extras_section_title" = "Tùy chọn khác";
 "sorting_picker_row_cell_title" = "Sắp xếp theo";
 "baggage_switch_row_cell_title" = "Chỉ bao gồm hành lý";
+"one_transfer_max_switch_row_cell_title" = "Tối đa 1 lần quá cảnh";
 "transfers_count_slider_cell_title" = "Số điểm dừng";
 "transfers_duration_slider_cell_title" = "Thời gian bay";
 "transfer_airports_picker_row_cell_title" = "Sân bay nối chuyến";

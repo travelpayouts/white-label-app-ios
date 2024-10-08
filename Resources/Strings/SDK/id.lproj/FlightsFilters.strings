@@ -5,6 +5,7 @@
 "extras_section_title" = "Pilihan lainnya";
 "sorting_picker_row_cell_title" = "Urutkan berdasarkan";
 "baggage_switch_row_cell_title" = "Hanya termasuk bagasi";
+"one_transfer_max_switch_row_cell_title" = "Maks. 1x transit";
 "transfers_count_slider_cell_title" = "Jumlah singgahan";
 "transfers_duration_slider_cell_title" = "Durasi";
 "transfer_airports_picker_row_cell_title" = "Transfer bandara";

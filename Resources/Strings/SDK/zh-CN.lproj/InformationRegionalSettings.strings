@@ -1,5 +1,5 @@
 "title" = "地区设置";
 "app_language_cell_title" = "应用程序语言";
-"country_cell_title" = "国家";
+"country_cell_title" = "国家/地区";
 "currency_cell_title" = "货币";
 "description_cell_title" = "区域设置用于为不同国家的用户显示合适的机票和入境规则";

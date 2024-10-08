@@ -5,6 +5,7 @@
 "extras_section_title" = "Mai multe opțiuni";
 "sorting_picker_row_cell_title" = "Triază după";
 "baggage_switch_row_cell_title" = "Numai cu bagaje incluse";
+"one_transfer_max_switch_row_cell_title" = "Max. 1 escală";
 "transfers_count_slider_cell_title" = "Număr de escale";
 "transfers_duration_slider_cell_title" = "Durată";
 "transfer_airports_picker_row_cell_title" = "Conexiuni aeroporturi";

@@ -5,6 +5,7 @@
 "extras_section_title" = "ตัวเลือกเพิ่มเติม";
 "sorting_picker_row_cell_title" = "เรียงตาม";
 "baggage_switch_row_cell_title" = "รวมสัมภาระเท่านั้น";
+"one_transfer_max_switch_row_cell_title" = "แวะพักเครื่องสูงสุด 1 ครั้ง";
 "transfers_count_slider_cell_title" = "จำนวนครั้งที่หยุดพักระหว่างทาง";
 "transfers_duration_slider_cell_title" = "ระยะเวลา";
 "transfer_airports_picker_row_cell_title" = "สนามบินที่แวะหยุดพัก";

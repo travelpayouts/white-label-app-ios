@@ -1,6 +1,7 @@
 "filters_button_title" = "Søgefiltre";
 "location_button_map_view" = "Vis på kort";
 "location_button_card_view" = "Liste";
+"progress_bar_title" = "Søger efter hoteller...";
 "meters" = "%@m";
 "kilometers" = "%@km";
 "city_center" = "Centrum";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "Ingen værelser tilgængelige for disse datoer";
 "for_single_night" = "per nat";
 "price_not_availalble" = "Ingen værelser fundet";
+"hotels_results_loading_prices" = "Indlæser priser";

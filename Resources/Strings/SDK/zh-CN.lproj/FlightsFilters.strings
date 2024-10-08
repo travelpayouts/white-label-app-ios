@@ -5,6 +5,7 @@
 "extras_section_title" = "更多选项";
 "sorting_picker_row_cell_title" = "排序方式";
 "baggage_switch_row_cell_title" = "仅显示包含行李的";
+"one_transfer_max_switch_row_cell_title" = "最多 1 次中转";
 "transfers_count_slider_cell_title" = "中转次数";
 "transfers_duration_slider_cell_title" = "旅行时间";
 "transfer_airports_picker_row_cell_title" = "转机机场";

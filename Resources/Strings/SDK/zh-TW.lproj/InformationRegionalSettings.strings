@@ -1,5 +1,5 @@
 "title" = "地區設定";
 "app_language_cell_title" = "應用程式語言";
-"country_cell_title" = "國家";
+"country_cell_title" = "國家/地區";
 "currency_cell_title" = "貨幣";
 "description_cell_title" = "區域設定是用來顯示不同國家的合適票券與入境規則";

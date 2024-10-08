@@ -5,6 +5,7 @@
 "extras_section_title" = "Mais opções";
 "sorting_picker_row_cell_title" = "Ordenar por";
 "baggage_switch_row_cell_title" = "Incluindo apenas bagagem";
+"one_transfer_max_switch_row_cell_title" = "1 escala no máximo";
 "transfers_count_slider_cell_title" = "Número de escalas";
 "transfers_duration_slider_cell_title" = "Duração";
 "transfer_airports_picker_row_cell_title" = "Aeroportos de Conexão";

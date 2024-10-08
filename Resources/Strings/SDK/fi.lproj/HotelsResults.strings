@@ -1,6 +1,7 @@
 "filters_button_title" = "Suodattimet";
 "location_button_map_view" = "Näytä kartalla";
 "location_button_card_view" = "Lista";
+"progress_bar_title" = "Etsitään hotelleja...";
 "meters" = "%@ m";
 "kilometers" = "%@ km";
 "city_center" = "Keskusta";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "Ei huoneita saatavilla näille päiville";
 "for_single_night" = "per yö";
 "price_not_availalble" = "Huoneita ei löytynyt";
+"hotels_results_loading_prices" = "Ladataan hintoja";

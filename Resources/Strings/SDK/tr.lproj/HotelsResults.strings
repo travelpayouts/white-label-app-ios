@@ -1,6 +1,7 @@
 "filters_button_title" = "Filtreler";
 "location_button_map_view" = "Haritada göster";
 "location_button_card_view" = "Liste";
+"progress_bar_title" = "Oteller aranıyor...";
 "meters" = "%@m";
 "kilometers" = "%@km";
 "city_center" = "Şehir merkezi";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "Bu tarihler için müsait oda yok";
 "for_single_night" = "gecelik";
 "price_not_availalble" = "Oda bulunamadı";
+"hotels_results_loading_prices" = "Fiyatlar yükleniyor";

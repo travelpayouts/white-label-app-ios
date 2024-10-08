@@ -1,6 +1,7 @@
 "filters_button_title" = "Filters";
 "location_button_map_view" = "Show on map";
 "location_button_card_view" = "List";
+"progress_bar_title" = "Searching hotels...";
 "meters" = "%@m";
 "kilometers" = "%@km";
 "city_center" = "City center";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "No rooms available for these dates";
 "for_single_night" = "per night";
 "price_not_availalble" = "No rooms found";
+"hotels_results_loading_prices" = "Loading prices";

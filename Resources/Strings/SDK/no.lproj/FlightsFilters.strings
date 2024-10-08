@@ -5,6 +5,7 @@
 "extras_section_title" = "Flere alternativer";
 "sorting_picker_row_cell_title" = "Sorter etter";
 "baggage_switch_row_cell_title" = "Bare inkludert bagasje";
+"one_transfer_max_switch_row_cell_title" = "Maks en overnatting";
 "transfers_count_slider_cell_title" = "Antall overnattinger";
 "transfers_duration_slider_cell_title" = "Varighet";
 "transfer_airports_picker_row_cell_title" = "Koble til flyplasser";

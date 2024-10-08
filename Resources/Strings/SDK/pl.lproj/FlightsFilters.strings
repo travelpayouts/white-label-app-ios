@@ -5,6 +5,7 @@
 "extras_section_title" = "Więcej opcji";
 "sorting_picker_row_cell_title" = "Sortuj według";
 "baggage_switch_row_cell_title" = "Tylko uwzględniające bagaż";
+"one_transfer_max_switch_row_cell_title" = "Maks. 1 przesiadka";
 "transfers_count_slider_cell_title" = "Liczba oczekiwań na przesiadki";
 "transfers_duration_slider_cell_title" = "Czasu trwania";
 "transfer_airports_picker_row_cell_title" = "Lotniska przesiadkowe";

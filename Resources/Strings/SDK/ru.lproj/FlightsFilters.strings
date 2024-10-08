@@ -14,6 +14,7 @@
 
 "sorting_picker_row_cell_title" = "Сортировка";
 "baggage_switch_row_cell_title" = "Только с багажом";
+"one_transfer_max_switch_row_cell_title" = "Максимум 1 пересадка";
 "transfers_count_slider_cell_title" = "Количество пересадок";
 "transfers_duration_slider_cell_title" = "Длительность пересадок";
 "transfer_airports_picker_row_cell_title" = "Аэропорты пересадок";

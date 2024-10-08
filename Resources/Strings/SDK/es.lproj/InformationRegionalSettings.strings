@@ -1,5 +1,5 @@
 "title" = "Ajustes regionales";
 "app_language_cell_title" = "Idioma de la aplicación";
-"country_cell_title" = "País";
+"country_cell_title" = "País / Región";
 "currency_cell_title" = "Moneda";
 "description_cell_title" = "La configuración regional se utiliza para mostrar los billetes y las normativas de entrada correspondientes para los distintos países";

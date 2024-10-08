@@ -5,6 +5,7 @@
 "extras_section_title" = "Daha fazla seçenek";
 "sorting_picker_row_cell_title" = "Şuna göre sırala";
 "baggage_switch_row_cell_title" = "Sadece bagaj dahil";
+"one_transfer_max_switch_row_cell_title" = "En fazla 1 aktarma";
 "transfers_count_slider_cell_title" = "Aktarma sayısı";
 "transfers_duration_slider_cell_title" = "Uçuş Süresi";
 "transfer_airports_picker_row_cell_title" = "Aktarma havalimanları";

@@ -5,6 +5,7 @@
 "extras_section_title" = "Mehr Optionen";
 "sorting_picker_row_cell_title" = "Sortieren nach";
 "baggage_switch_row_cell_title" = "Nur inklusive Gepäck";
+"one_transfer_max_switch_row_cell_title" = "Max. 1 Zwischenlandung";
 "transfers_count_slider_cell_title" = "Anzahl der Aufenthalte";
 "transfers_duration_slider_cell_title" = "Dauer";
 "transfer_airports_picker_row_cell_title" = "Umsteigeflughäfen";

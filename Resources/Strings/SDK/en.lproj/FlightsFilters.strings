@@ -5,6 +5,7 @@
 "extras_section_title" = "More options";
 "sorting_picker_row_cell_title" = "Sort by";
 "baggage_switch_row_cell_title" = "Only including baggage";
+"one_transfer_max_switch_row_cell_title" = "Max. 1 layover";
 "transfers_count_slider_cell_title" = "Number of layovers";
 "transfers_duration_slider_cell_title" = "Duration";
 "transfer_airports_picker_row_cell_title" = "Connecting airports";

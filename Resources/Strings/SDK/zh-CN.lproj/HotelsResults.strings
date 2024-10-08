@@ -1,6 +1,7 @@
 "filters_button_title" = "筛选器";
 "location_button_map_view" = "在地图上显示";
 "location_button_card_view" = "列表";
+"progress_bar_title" = "正在搜索酒店……";
 "meters" = "%@ 米";
 "kilometers" = "%@ 公里";
 "city_center" = "市中心";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "这些日期已无可用房间";
 "for_single_night" = "每晚";
 "price_not_availalble" = "没有找到房间";
+"hotels_results_loading_prices" = "正在加载价格";

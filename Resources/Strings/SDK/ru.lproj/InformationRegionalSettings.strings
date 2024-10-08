@@ -6,6 +6,6 @@
 // MARK: - Cell titles
 
 "app_language_cell_title" = "Язык приложения";
-"country_cell_title" = "Страна";
+"country_cell_title" = "Страна / Регион";
 "currency_cell_title" = "Валюта";
 "description_cell_title" = "Региональные настройки нужны для отображения подходящих билетов и правил въезда в страну";

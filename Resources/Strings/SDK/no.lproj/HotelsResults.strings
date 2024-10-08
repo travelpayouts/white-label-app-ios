@@ -1,6 +1,7 @@
 "filters_button_title" = "Filter";
 "location_button_map_view" = "Vis i kart";
 "location_button_card_view" = "Liste";
+"progress_bar_title" = "Søker etter hoteller ...";
 "meters" = "%@m";
 "kilometers" = "%@km";
 "city_center" = "Bysentrum";
@@ -9,3 +10,4 @@
 "no_available_rooms" = "Ingen rom tilgjengelig for disse datoene";
 "for_single_night" = "per natt";
 "price_not_availalble" = "Ingen rom funnet";
+"hotels_results_loading_prices" = "Laster inn priser";

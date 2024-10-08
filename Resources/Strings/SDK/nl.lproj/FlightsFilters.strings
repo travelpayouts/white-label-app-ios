@@ -5,6 +5,7 @@
 "extras_section_title" = "Meer opties";
 "sorting_picker_row_cell_title" = "Sorteren op";
 "baggage_switch_row_cell_title" = "Alleen inclusief bagage";
+"one_transfer_max_switch_row_cell_title" = "Max. 1 overstap";
 "transfers_count_slider_cell_title" = "Aantal tussenlandingen";
 "transfers_duration_slider_cell_title" = "Duur";
 "transfer_airports_picker_row_cell_title" = "Transferluchthavens";
