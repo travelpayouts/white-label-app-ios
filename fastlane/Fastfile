@@ -69,13 +69,21 @@ def generate_configuration
 	product_version = get_xcconfig_product_version
 	
 	Dir.chdir("../") do
+	
+		ENV['TA_SHOULD_USE_CONFIGURATION_VERSION'] = 'YES'
+		
+		project_configurator_path = "Scripts/project_configurator/project_configurator"
+		
+		sh "xattr -d com.apple.quarantine \"#{project_configurator_path}\" || true"
+		
+		sh "chmod +x \"#{project_configurator_path}\""
 		
 		# Apply configuration if needed
 		if(File.directory?('config'))
 			FileUtils.cp_r('config/.', '.')
 		end
 		
-		sh "Scripts/project_configurator/project_configurator \
+		sh "#{project_configurator_path} \
 --configuration-input configuration.json \
 --podfile-input podfile.json \
 --configurator-output Sources/Generated \
