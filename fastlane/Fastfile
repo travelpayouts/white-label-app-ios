@@ -92,7 +92,8 @@ def generate_configuration
 --entitlements-output Entitlements/Generated \
 --info-plist-strings-dir Resources/Strings/WhiteLabel \
 --is-production true \
---product-version #{product_version}"
+--product-version #{product_version} \
+--project-yaml-path project.yml"
 	end
 end
 
