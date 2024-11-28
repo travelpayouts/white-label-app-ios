@@ -23,9 +23,9 @@ platform :ios do
 	desc "Install executables: cocoapods, generamba and homebrew dependencies"
 	lane :initialize do
 		Dir.chdir("..") do
-			sh("sudo gem install bundler")
+			sh("gem install bundler")
 			sh("bundle install")
-			#sh("brew bundle")
+			sh("brew bundle")
 		end
 	end
 
