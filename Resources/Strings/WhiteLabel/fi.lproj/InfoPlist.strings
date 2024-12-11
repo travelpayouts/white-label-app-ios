@@ -1,6 +1,6 @@
+"963b5c1f433e641190f106919318b95e" = "Tätä tunnistetta käytetään lähettämään sinulle yksilöllisiä mainoksia";
 "CFBundleDisplayName" = "White Label App";
 "CFBundleName" = "White Label App";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Hakeakseen sinua lähimpänä olevia lentokenttiä ja hotelleja";
 "NSLocationWhenInUseUsageDescription" = "Hakeakseen sinua lähimpänä olevia lentokenttiä ja hotelleja";
 "NSPhotoLibraryAddUsageDescription" = "Sovelluksen on kyettävä tallentamaan liput puhelimesi valokuvagalleriaan";
-"NSUserTrackingUsageDescription" = "Tätä tunnistetta käytetään lähettämään sinulle yksilöllisiä mainoksia";

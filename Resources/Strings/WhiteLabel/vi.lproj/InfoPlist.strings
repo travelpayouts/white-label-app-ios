@@ -1,6 +1,6 @@
+"963b5c1f433e641190f106919318b95e" = "Ứng dụng sẽ sử dụng mã nhận dạng này để phân phối quảng cáo được điều chỉnh cho phù hợp với bạn";
 "CFBundleDisplayName" = "White Label App";
 "CFBundleName" = "White Label App";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Để tìm kiếm các sân bay và khách sạn gần bạn nhất";
 "NSLocationWhenInUseUsageDescription" = "Để tìm kiếm các sân bay và khách sạn gần bạn nhất";
 "NSPhotoLibraryAddUsageDescription" = "Ứng dụng phải có khả năng lưu vé vào thư viện ảnh trên điện thoại của bạn";
-"NSUserTrackingUsageDescription" = "Ứng dụng sẽ sử dụng mã nhận dạng này để phân phối quảng cáo được điều chỉnh cho phù hợp với bạn";

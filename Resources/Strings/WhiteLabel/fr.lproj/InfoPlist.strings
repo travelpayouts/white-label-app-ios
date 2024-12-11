@@ -1,6 +1,6 @@
+"963b5c1f433e641190f106919318b95e" = "Cet identifiant sera utilisé pour vous proposer des annonces personnalisées";
 "CFBundleDisplayName" = "White Label App";
 "CFBundleName" = "White Label App";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "Pour rechercher les aéroports et les hôtels les plus proches de vous";
 "NSLocationWhenInUseUsageDescription" = "Pour rechercher les aéroports et les hôtels les plus proches de vous";
 "NSPhotoLibraryAddUsageDescription" = "L'application doit pouvoir enregistrer les billets dans la photothèque de votre téléphone";
-"NSUserTrackingUsageDescription" = "Cet identifiant sera utilisé pour vous proposer des annonces personnalisées";

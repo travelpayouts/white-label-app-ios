@@ -1,6 +1,6 @@
+"963b5c1f433e641190f106919318b95e" = "Denne identifikatoren vil bli brukt til å levere deg personlig tilpassede annonser";
 "CFBundleDisplayName" = "White Label App";
 "CFBundleName" = "White Label App";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "For å søke etter flyplasser og hoteller i nærheten av deg";
 "NSLocationWhenInUseUsageDescription" = "For å søke etter flyplasser og hoteller i nærheten av deg";
 "NSPhotoLibraryAddUsageDescription" = "Appen må kunne lagre billetter til telefonens bildegalleri";
-"NSUserTrackingUsageDescription" = "Denne identifikatoren vil bli brukt til å levere deg personlig tilpassede annonser";

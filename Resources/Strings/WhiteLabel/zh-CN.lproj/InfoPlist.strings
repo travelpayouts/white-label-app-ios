@@ -1,6 +1,6 @@
+"963b5c1f433e641190f106919318b95e" = "该标识符将用来向您投放个性化广告";
 "CFBundleDisplayName" = "White Label App";
 "CFBundleName" = "White Label App";
 "NSLocationAlwaysAndWhenInUseUsageDescription" = "以便搜索离您最近的机场和酒店";
 "NSLocationWhenInUseUsageDescription" = "以便搜索离您最近的机场和酒店";
 "NSPhotoLibraryAddUsageDescription" = "该应用必须能够将机票保存到手机的照片库中";
-"NSUserTrackingUsageDescription" = "该标识符将用来向您投放个性化广告";

@@ -310,7 +310,7 @@
 					"version": "10.23.0"
 				},
 				{
-					"name": "FirebaseAnalytics",
+					"name": "FirebaseAnalytics/WithoutAdIdSupport",
 					"version": "10.23.0"
 				}
 			],
