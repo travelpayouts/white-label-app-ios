@@ -76,16 +76,17 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 	private func setupCoordinators() {
 		let configuration = ApplicationConfiguration.current
 		
-		if configuration.tabsToDisplay.contains(.flights) {
-			setupFlightsModule()
-		}
-		
-		if configuration.tabsToDisplay.contains(.hotels) {
-			setupHotelsModule()
-		}
-		
-		configuration.otherScreenParameters.forEach { parameters in
-			setupOtherModule(parameters: parameters)
+		configuration.tabsToDisplay.forEach { tab in
+			switch tab {
+			case .flights:
+				setupFlightsModule()
+				
+			case .hotels:
+				setupHotelsModule()
+				
+			case let .other(parameters):
+				setupOtherModule(parameters: parameters)
+			}
 		}
 		
 		setupInformationModule(

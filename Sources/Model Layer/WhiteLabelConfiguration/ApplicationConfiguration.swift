@@ -18,14 +18,6 @@ struct ApplicationConfiguration {
 	let informationScreenConfiguration: InformationScreenConfiguration
 	let constants: Constants
 	
-	var otherScreenParameters: [OptionalTab.OtherParameters] {
-		tabsToDisplay.compactMap { tab -> OptionalTab.OtherParameters? in
-			guard case let .other(parameters) = tab else { return nil }
-			
-			return parameters
-		}
-	}
-	
 	// MARK: - Private static properties
 	
 	private static let configurationLock = NSLock()

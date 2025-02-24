@@ -92,6 +92,7 @@ targets:
         NSAppTransportSecurity:
           NSAllowsArbitraryLoads: true
         UIBackgroundModes: [remote-notification]
+        ITSAppUsesNonExemptEncryption: NO
         CFBundleURLTypes: [
             {
                 CFBundleTypeRole: Editor,
