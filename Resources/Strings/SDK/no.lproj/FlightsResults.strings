@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Billettprisene endrer seg omtrent ti ganger per dag. Oppfrisk søket ditt for oppdaterte priser";
 "should_update_alert_update_button_title" = "Oppdater søket";
 "should_update_alert_later_button_title" = "Senere";
+"ticket_not_found_alert_title" = "Vi fant ikke noen billetter\nvia lenken din";

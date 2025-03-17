@@ -14,20 +14,19 @@ final class AppDelegate: PluggableAppDelegate, ConfigurableAppDelegate {
 	var rootComponent: RootComponent?
 	var rootCoordinator: Coordinator?
 	
-	lazy var privatePlugins: [AppDelegatePlugin] = {
-		var plugins: [AppDelegatePlugin] = [
-			ConfigurationAppDelegatePlugin(appDelegate: self),
-			BootstrapAppDelegatePlugin(appDelegate: self),
-			DebugAppDelegatePlugin(appDelegate: self),
-			FirebaseAppDelegatePlugin(appDelegate: self),
-			AdvertisingAppDelegatePlugin(appDelegate: self),
-			AppsFlyerAppDelegatePlugin(appDelegate: self)
-		]
-		
-		return plugins
-	}()
-	
 	override var plugins: [AppDelegatePlugin] {
-		return self.privatePlugins
+		privatePlugins
 	}
+	
+	// MARK: - Private properties
+	
+	private lazy var privatePlugins: [AppDelegatePlugin] = [
+		ConfigurationAppDelegatePlugin(appDelegate: self),
+		BootstrapAppDelegatePlugin(appDelegate: self),
+		FirebaseAppDelegatePlugin(appDelegate: self),
+		DeeplinkAppDelegatePlugin(appDelegate: self),
+		DebugAppDelegatePlugin(appDelegate: self),
+		AdvertisingAppDelegatePlugin(appDelegate: self),
+		AppsFlyerAppDelegatePlugin(appDelegate: self)
+	]
 }

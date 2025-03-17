@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Οι τιμές των εισιτηρίων αλλάζουν περίπου 10 φορές τη μέρα. Ανανεώστε την αναζήτησή σας για να δείτε τις ενημερωμένες τιμές";
 "should_update_alert_update_button_title" = "Ενημέρωση αναζήτησης";
 "should_update_alert_later_button_title" = "Αργότερα";
+"ticket_not_found_alert_title" = "Δεν μπορέσαμε να βρούμε εισιτήρια\nμέσω του συνδέσμου σας";

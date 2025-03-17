@@ -1,4 +1,5 @@
 // MARK: - Button titles
 
-"flight_details_share_share_button_title" = "Поделиться картинкой";
+"flight_details_share_share_as_image_button_title" = "Поделиться картинкой";
+"flight_details_share_share_as_link_button_title" = "Поделиться ссылкой";
 "flight_details_share_close_button_title" = "Закрыть";

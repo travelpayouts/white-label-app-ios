@@ -1,6 +1,11 @@
 "title" = "Zoek naar goedkope vliegtickets";
+"departure_airport_loading_placeholder" = "Stad van vertrek bepalen";
 "departure_airport_placeholder" = "Vanaf";
 "arrival_airport_placeholder" = "Naar";
 "dates_placeholder" = "Data";
 "passengers_placeholder" = "Reizigers en klasse";
 "search_button_title" = "Zoek";
+"location_not_found_alert_title" = "Geen steden gevonden";
+"link_not_recognized_alert_title" = "Link niet herkend";
+"dates_are_outdated_alert_title" = "Geselecteerde data zijn al voorbij";
+"enter_parameters_manually_alert_subtitle" = "Uw zoekparameters handmatig selecteren";

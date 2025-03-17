@@ -1,6 +1,11 @@
 "title" = "Procure por passagens aéreas baratas";
+"departure_airport_loading_placeholder" = "A determinar a cidade de partida";
 "departure_airport_placeholder" = "A partir de";
 "arrival_airport_placeholder" = "Para";
 "dates_placeholder" = "Datas";
 "passengers_placeholder" = "Passageiros e classe";
 "search_button_title" = "Buscar";
+"location_not_found_alert_title" = "Nenhuma cidade encontrada";
+"link_not_recognized_alert_title" = "Hiperligação não reconhecida";
+"dates_are_outdated_alert_title" = "As datas selecionadas já passaram";
+"enter_parameters_manually_alert_subtitle" = "Selecione os seus parâmetros de pesquisa manualmente";

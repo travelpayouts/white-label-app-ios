@@ -1,6 +1,11 @@
 "title" = "搜索廉价机票";
+"departure_airport_loading_placeholder" = "确定出发城市";
 "departure_airport_placeholder" = "来自";
 "arrival_airport_placeholder" = "至";
 "dates_placeholder" = "日期";
 "passengers_placeholder" = "乘客和舱位";
 "search_button_title" = "搜索";
+"location_not_found_alert_title" = "未找到城市";
+"link_not_recognized_alert_title" = "链接无法识别";
+"dates_are_outdated_alert_title" = "选择的日期已过";
+"enter_parameters_manually_alert_subtitle" = "请手动选择您的搜索参数";

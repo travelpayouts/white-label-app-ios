@@ -12,3 +12,4 @@
 "should_update_alert_message" = "票价每天会变化 10 次左右，请刷新您的搜索以获得更新价格";
 "should_update_alert_update_button_title" = "更新搜索";
 "should_update_alert_later_button_title" = "稍后";
+"ticket_not_found_alert_title" = "我们无法通过您的链接\n找到任何票";

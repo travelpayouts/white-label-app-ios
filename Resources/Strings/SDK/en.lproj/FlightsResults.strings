@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Ticket prices change around 10 times a day. Refresh your search for updated prices";
 "should_update_alert_update_button_title" = "Refresh search";
 "should_update_alert_later_button_title" = "Later";
+"ticket_not_found_alert_title" = "We couldn\'t find any tickets\nvia your link";

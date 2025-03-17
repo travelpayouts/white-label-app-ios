@@ -1,6 +1,11 @@
 "title" = "ابحث عن تذاكر طيران رخيصة";
+"departure_airport_loading_placeholder" = "جارٍ تحديد مدينة المغادرة";
 "departure_airport_placeholder" = "من";
 "arrival_airport_placeholder" = "إلى";
 "dates_placeholder" = "التواريخ";
 "passengers_placeholder" = "الدرجة والمسافرين";
 "search_button_title" = "البحث";
+"location_not_found_alert_title" = "لم نعثر على مدن";
+"link_not_recognized_alert_title" = "لم نتعرّف على الرابط";
+"dates_are_outdated_alert_title" = "انقضت التواريخ المحددة";
+"enter_parameters_manually_alert_subtitle" = "حدد معلمات بحثك يدوياً";

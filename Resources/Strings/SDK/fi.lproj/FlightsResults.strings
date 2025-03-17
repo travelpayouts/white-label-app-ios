@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Lippuhinnat vaihtelevat noin 10 kertaa päivässä. Päivitä hakusi nähdäksesi päivitetyt hinnat";
 "should_update_alert_update_button_title" = "Päivitä haku";
 "should_update_alert_later_button_title" = "Myöhemmin";
+"ticket_not_found_alert_title" = "Emme onnistuneet löytämään lippuja\nlinkkisi kautta";

@@ -8,6 +8,7 @@
 
 import UIKit
 import ESTabBarController_swift
+import WLUserInterface
 import WLFlights
 import WLSupport
 
@@ -15,17 +16,23 @@ final class FlightsModule: FlightsModuleCore {
 	
 	// MARK: - Private properties
 	
-	private let viewController: UIViewController
+	private let viewController: DeeplinkResponderViewController
 	
 	// MARK: - Initialization
 	
-	init() {
-		viewController = WLFlights.ScreenProvider.shared.flightsViewController()
+	init(deeplink: Deeplink?) {
+		viewController = WLFlights.ScreenProvider.shared.flightsViewController(deeplink: deeplink)
 		
 		viewController.tabBarItem = ESTabBarItem(
 			title: R.string.tabBar.flights_tab_title(),
 			moduleIcon: moduleIcon
 		)
+	}
+	
+	// MARK: - Internal methods
+	
+	func handle(deeplink: Deeplink) {
+		viewController.handle(deeplink: deeplink)
 	}
 }
 

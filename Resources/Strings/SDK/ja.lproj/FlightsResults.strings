@@ -12,3 +12,4 @@
 "should_update_alert_message" = "航空券の価格は1日に約10回変更されます。検索結果を更新して、最新の価格をご確認ください。";
 "should_update_alert_update_button_title" = "検索を更新";
 "should_update_alert_later_button_title" = "後で";
+"ticket_not_found_alert_title" = "リンク経由でチケットが\n見つかりませんでした";

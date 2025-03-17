@@ -1,6 +1,11 @@
 "title" = "Cari tiket penerbangan murah";
+"departure_airport_loading_placeholder" = "Menentukan bandar berlepas";
 "departure_airport_placeholder" = "Dari";
 "arrival_airport_placeholder" = "Ke";
 "dates_placeholder" = "Tarikh";
 "passengers_placeholder" = "Penumpang dan kelas";
 "search_button_title" = "Mencari";
+"location_not_found_alert_title" = "Tiada bandar ditemui";
+"link_not_recognized_alert_title" = "Pautan tidak dikenali";
+"dates_are_outdated_alert_title" = "Tarikh yang dipilih telah berlalu";
+"enter_parameters_manually_alert_subtitle" = "Pilih parameter carian anda secara manual";

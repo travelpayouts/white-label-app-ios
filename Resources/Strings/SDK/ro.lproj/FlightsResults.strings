@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Prețul biletelor se modifică de aproximativ 10 ori pe zi. Reîmprospătați-vă căutarea pentru a vedea prețurile actualizate";
 "should_update_alert_update_button_title" = "Actualizați căutarea";
 "should_update_alert_later_button_title" = "Mai târziu";
+"ticket_not_found_alert_title" = "Nu am putut găsi niciun bilet\nprin intermediul link-ului tău";

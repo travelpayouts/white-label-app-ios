@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Harga tiket berubah sekitar 10 kali dalam sehari. Segarkan pencarian Anda untuk harga terkini";
 "should_update_alert_update_button_title" = "Perbarui Pencarian";
 "should_update_alert_later_button_title" = "Nanti";
+"ticket_not_found_alert_title" = "Kami tidak dapat menemukan tiket\napa pun melalui tautan Anda";

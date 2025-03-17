@@ -8,6 +8,7 @@
 import UIKit
 import ESTabBarController_swift
 import WLInformation
+import WLUserInterface
 import WLConfig
 import WLSupport
 
@@ -56,15 +57,33 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 		self.informationModuleProvider = informationModuleProvider
 		
 		tabBarRouter?.delegate = self
-		
-		setupCoordinators()
 	}
 
 	// MARK: - Internal methods
 
-	func start() {
-		openMainPage()
+	func start(with deeplink: Deeplink?) {
+		setupCoordinators(deeplink: deeplink)
+		
+		switch deeplink {
+		case .flights:
+			openFlights()
+			
+		case .none:
+			openMainPage()
+		}
+		
 		registerRoutes()
+	}
+	
+	func handle(deeplink: Deeplink) {
+		switch deeplink {
+		case .flights:
+			guard
+				let flightsModule = childModules.lazy.compactMap({ $0 as? FlightsModule }).first
+			else { return }
+			
+			flightsModule.handle(deeplink: deeplink)
+		}
 	}
 	
 	// MARK: - Private methods
@@ -73,13 +92,19 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 		tabBarRouter?.selectPage(index: .zero)
 	}
 	
-	private func setupCoordinators() {
+	private func openFlights() {
+		let flightTabIndex = ApplicationConfiguration.current.tabsToDisplay.firstIndex(of: .flights)
+		
+		tabBarRouter?.selectPage(index: flightTabIndex ?? .zero)
+	}
+	
+	private func setupCoordinators(deeplink: Deeplink?) {
 		let configuration = ApplicationConfiguration.current
 		
 		configuration.tabsToDisplay.forEach { tab in
 			switch tab {
 			case .flights:
-				setupFlightsModule()
+				setupFlightsModule(deeplink: deeplink)
 				
 			case .hotels:
 				setupHotelsModule()
@@ -100,9 +125,9 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 		)
 	}
 	
-	private func setupFlightsModule() {
+	private func setupFlightsModule(deeplink: Deeplink?) {
 		childModules.append(
-			flightsModuleProvider.module
+			flightsModuleProvider.module(deeplink: deeplink)
 		)
 	}
 	

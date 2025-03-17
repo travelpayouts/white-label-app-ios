@@ -24,3 +24,4 @@
 "should_update_alert_message" = "Цены на билеты меняются около 10 раз в день. Обновите поиск, чтобы увидеть точные цены";
 "should_update_alert_update_button_title" = "Обновить поиск";
 "should_update_alert_later_button_title" = "Позже";
+"ticket_not_found_alert_title" = "По вашей ссылке билет\nне найден";

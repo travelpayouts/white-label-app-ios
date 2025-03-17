@@ -1,6 +1,11 @@
 "title" = "Search cheap flight tickets";
+"departure_airport_loading_placeholder" = "Determining departure city";
 "departure_airport_placeholder" = "From";
 "arrival_airport_placeholder" = "To";
 "dates_placeholder" = "Dates";
 "passengers_placeholder" = "Passengers and class";
 "search_button_title" = "Search";
+"location_not_found_alert_title" = "No cities found";
+"link_not_recognized_alert_title" = "Link not recognized";
+"dates_are_outdated_alert_title" = "Selected dates have passed";
+"enter_parameters_manually_alert_subtitle" = "Select your search parameters manually";

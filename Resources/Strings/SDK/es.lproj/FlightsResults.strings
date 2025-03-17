@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Los precios de los billetes cambian unas 10 veces al día. Actualice su búsqueda para ver los precios más recientes";
 "should_update_alert_update_button_title" = "Actualizar búsqueda";
 "should_update_alert_later_button_title" = "Más tarde";
+"ticket_not_found_alert_title" = "No hemos podido encontrar ninguna entrada\na través de su enlace";

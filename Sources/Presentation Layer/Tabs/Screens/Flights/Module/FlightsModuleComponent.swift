@@ -7,6 +7,7 @@
 //
 
 import NeedleFoundation
+import WLUserInterface
 
 // MARK: - Dependencies
 
@@ -15,7 +16,7 @@ protocol FlightsModuleDependency: Dependency {}
 // MARK: - Provider
 
 protocol FlightsModuleProvider {
-	var module: FlightsModule { get }
+	func module(deeplink: Deeplink?) -> FlightsModule
 }
 
 // MARK: - Component
@@ -24,7 +25,7 @@ final class FlightsModuleComponent: Component<FlightsModuleDependency>, FlightsM
 	
 	// MARK: - Module
 	
-	var module: FlightsModule {
-		FlightsModule()
+	func module(deeplink: Deeplink?) -> FlightsModule {
+		FlightsModule(deeplink: deeplink)
 	}
 }

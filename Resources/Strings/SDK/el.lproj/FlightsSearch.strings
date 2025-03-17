@@ -1,6 +1,11 @@
 "title" = "Αναζήτηση φθηνών αεροπορικών εισιτηρίων";
+"departure_airport_loading_placeholder" = "Προσδιορισμός πόλης προορισμού";
 "departure_airport_placeholder" = "Από";
 "arrival_airport_placeholder" = "Προς";
 "dates_placeholder" = "Ημερομηνίες";
 "passengers_placeholder" = "Επιβάτες και κατηγορία";
 "search_button_title" = "Αναζήτηση";
+"location_not_found_alert_title" = "Δεν βρέθηκαν πόλεις";
+"link_not_recognized_alert_title" = "Δεν αναγνωρίστηκε σύνδεσμος";
+"dates_are_outdated_alert_title" = "Οι επιλεγμένες ημερομηνίες έχουν παρέλθει";
+"enter_parameters_manually_alert_subtitle" = "Επιλέξτε τις παραμέτρους αναζήτησης μη αυτόματα";

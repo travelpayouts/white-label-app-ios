@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Biljettpriserna ändras cirka 10 gånger per dag. Uppdatera din sökning för aktuella priser";
 "should_update_alert_update_button_title" = "Uppdatera sökningen";
 "should_update_alert_later_button_title" = "Senare";
+"ticket_not_found_alert_title" = "Vi kunde inte hitta några biljetter\nvia din länk";

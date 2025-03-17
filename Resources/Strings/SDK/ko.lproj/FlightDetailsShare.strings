@@ -1,2 +1,3 @@
-"flight_details_share_share_button_title" = "이미지로 공유하기";
+"flight_details_share_share_as_image_button_title" = "이미지로 공유";
+"flight_details_share_share_as_link_button_title" = "링크로 공유";
 "flight_details_share_close_button_title" = "닫기";

@@ -46,8 +46,6 @@ extension BootstrapAppDelegatePlugin: UIApplicationDelegate {
 		appDelegate?.rootComponent = rootComponent
 		appDelegate?.rootCoordinator = rootComponent.appCoordinatorProvider.appCoordinator
 		
-		appDelegate?.rootCoordinator?.start()
-		
 		appDelegate?.window?.makeKeyAndVisible()
 		
 		return true

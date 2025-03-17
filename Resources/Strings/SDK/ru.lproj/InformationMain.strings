@@ -18,7 +18,3 @@
 "rateApp_cell_title" = "Оценить приложение";
 "shareApp_cell_title" = "Поделиться приложением";
 "confidentiality_cell_title" = "Kонфиденциальность";
-
-// MARK: - Texts
-
-"information_feedback_mail_subject" = "Whitelabel feedback";

@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Die Ticketpreise ändern sich etwa 10 Mal pro Tag. Aktualisieren Sie Ihre Suche, um aktuelle Preise zu erhalten";
 "should_update_alert_update_button_title" = "Suche aktualisieren";
 "should_update_alert_later_button_title" = "Später";
+"ticket_not_found_alert_title" = "Über Ihren Link wurden keine\nTickets gefunden";

@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Bilet fiyatları günde yaklaşık 10 kere değişir. Güncellenen fiyatlar için aramanı yenile";
 "should_update_alert_update_button_title" = "Aramayı güncelle";
 "should_update_alert_later_button_title" = "Sonra";
+"ticket_not_found_alert_title" = "Bağlantınızdan hiçbir bilet\nbulamadık";

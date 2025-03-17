@@ -5,6 +5,7 @@
 
 // MARK: - Placeholders
 
+"departure_airport_loading_placeholder" = "Определяем город вылета";
 "departure_airport_placeholder" = "Откуда";
 "arrival_airport_placeholder" = "Куда";
 "dates_placeholder" = "Когда";
@@ -13,3 +14,10 @@
 // MARK: - Button titles
 
 "search_button_title" = "Найти";
+
+// MARK: - Alert titles
+
+"location_not_found_alert_title" = "Города не найдены";
+"link_not_recognized_alert_title" = "Ссылка не распознана";
+"dates_are_outdated_alert_title" = "Даты устарели";
+"enter_parameters_manually_alert_subtitle" = "Пожалуйста укажите параметры поиска авиабилетов вручную";

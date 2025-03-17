@@ -21,7 +21,7 @@ final class ConfigurationAppDelegatePlugin: AppDelegatePlugin {
 	
 	private weak var appDelegate: ConfigurableAppDelegate?
 	
-	// MARK: - Inititalization
+	// MARK: - Initialization
 	
 	init(appDelegate: ConfigurableAppDelegate) {
 		self.appDelegate = appDelegate

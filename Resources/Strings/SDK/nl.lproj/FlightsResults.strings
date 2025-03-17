@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Ticketprijzen veranderen ongeveer 10 keer per dag. Vernieuw uw zoekopdracht voor bijgewerkte prijzen";
 "should_update_alert_update_button_title" = "Zoekopdracht bijwerken";
 "should_update_alert_later_button_title" = "Later";
+"ticket_not_found_alert_title" = "We kunnen geen tickets vinden\nvia uw link";

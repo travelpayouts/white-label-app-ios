@@ -1,6 +1,11 @@
 "title" = "Søk etter billige flybilletter";
+"departure_airport_loading_placeholder" = "Fastslår avreiseby";
 "departure_airport_placeholder" = "Fra";
 "arrival_airport_placeholder" = "Til";
 "dates_placeholder" = "Datoer";
 "passengers_placeholder" = "Passasjerer og klasse";
 "search_button_title" = "Søk";
+"location_not_found_alert_title" = "Ingen byer funnet";
+"link_not_recognized_alert_title" = "Lenke ikke gjenkjent";
+"dates_are_outdated_alert_title" = "De valgte datoene har utløpt";
+"enter_parameters_manually_alert_subtitle" = "Velg søkeparametere manuelt";

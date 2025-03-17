@@ -12,3 +12,4 @@
 "should_update_alert_message" = "ราคาตั๋วมีการเปลี่ยนแปลงประมาณ 10 ครั้งต่อวัน โปรดรีเฟรชการค้นหาของคุณเพื่อดูราคาที่อัปเดต";
 "should_update_alert_update_button_title" = "อัปเดตการค้นหา";
 "should_update_alert_later_button_title" = "ภายหลัง";
+"ticket_not_found_alert_title" = "เราไม่พบตั๋ว\nผ่านลิงก์ของคุณ";

@@ -8,6 +8,9 @@
 
 import Foundation
 import FirebaseMessaging
+import WLUserInterface
+
+typealias PushNotificationsServiceDeeplinkHandler = (Deeplink) -> Void
 
 // MARK: - Interface
 
@@ -17,9 +20,9 @@ protocol PushNotificationsService: AnyObject {
 }
 
 protocol PushNotificationsServiceInput: AnyObject {
-	
 	func requestAuthorization(for application: UIApplication)
 	func update(apnsToken: Data)
+	func set(deeplinkHandler: @escaping PushNotificationsServiceDeeplinkHandler)
 }
 
 protocol PushNotificationsServiceOutput: AnyObject {
@@ -48,7 +51,9 @@ final class PushNotificationsServiceImpl: NSObject, PushNotificationsService {
 		.messaging()
 	}
 	
-	// MARK: - Intialization
+	private var deeplinkHandler: PushNotificationsServiceDeeplinkHandler?
+	
+	// MARK: - Initialization
 	
 	override init() {
 		super.init()
@@ -69,7 +74,7 @@ final class PushNotificationsServiceImpl: NSObject, PushNotificationsService {
 
 extension PushNotificationsServiceImpl: UNUserNotificationCenterDelegate {
 	
-	// MARK: - Intarnal methods
+	// MARK: - Internal methods
 	
 	func userNotificationCenter(
 		_ center: UNUserNotificationCenter,
@@ -78,13 +83,25 @@ extension PushNotificationsServiceImpl: UNUserNotificationCenterDelegate {
 	) {
 		completionHandler(Constants.defaultNotificationPresentationOptions)
 	}
+	
+	func userNotificationCenter(
+		_ center: UNUserNotificationCenter,
+		didReceive response: UNNotificationResponse,
+		withCompletionHandler completionHandler: @escaping () -> Void
+	) {
+		if let deeplink = Deeplink.build(with: response) {
+			deeplinkHandler?(deeplink)
+		}
+		
+		completionHandler()
+	}
 }
 
 // MARK: - MessagingDelegate
 
 extension PushNotificationsServiceImpl: MessagingDelegate {
 	
-	// MARK: - Intarnal methods
+	// MARK: - Internal methods
 	
 	func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
 		firebaseDeviceToken = fcmToken
@@ -109,6 +126,10 @@ extension PushNotificationsServiceImpl: PushNotificationsServiceInput {
 	
 	func update(apnsToken: Data) {
 		firebaseMessaging.apnsToken = apnsToken
+	}
+	
+	func set(deeplinkHandler: @escaping PushNotificationsServiceDeeplinkHandler) {
+		self.deeplinkHandler = deeplinkHandler
 	}
 }
 

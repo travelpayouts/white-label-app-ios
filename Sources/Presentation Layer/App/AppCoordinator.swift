@@ -3,6 +3,7 @@
 //
 
 import Foundation
+import WLUserInterface
 
 protocol AppCoordinator: Coordinator { }
 
@@ -11,11 +12,13 @@ final class AppCoordinatorImpl: AppCoordinator {
 	// MARK: - Internal properties
 	
 	let router: Routable
-	var coordinatos = [Coordinator]()
+	var coordinators = [Coordinator]()
 	
 	// MARK: - Private properties
 	
 	private let tabsCoordinatorProvider: TabsCoordinatorProvider
+	
+	private var tabsCoordinator: TabsCoordinator?
 	
 	// MARK: - Init
 	
@@ -26,17 +29,23 @@ final class AppCoordinatorImpl: AppCoordinator {
 	
 	// MARK: - Internal methods
 	
-	func start() {
-		handleApplicationStart()
+	func start(with deeplink: Deeplink?) {
+		handleApplicationStart(deeplink: deeplink)
+	}
+	
+	func handle(deeplink: Deeplink) {
+		tabsCoordinator?.handle(deeplink: deeplink)
 	}
 
 	// MARK: - Private methods
 	
-	private func handleApplicationStart() {
+	private func handleApplicationStart(deeplink: Deeplink?) {
 		let coordinator = tabsCoordinatorProvider.coordinator
 		
-		coordinatos.append(coordinator)
+		coordinators.append(coordinator)
 		router.setRoot(module: coordinator.router)
-		coordinator.start()
+		coordinator.start(with: deeplink)
+		
+		tabsCoordinator = coordinator
 	}
 }

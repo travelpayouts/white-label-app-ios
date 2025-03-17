@@ -1,6 +1,11 @@
 "title" = "Sök efter billiga flygbiljetter";
+"departure_airport_loading_placeholder" = "Fastställer avreseort";
 "departure_airport_placeholder" = "Från";
 "arrival_airport_placeholder" = "Till";
 "dates_placeholder" = "Datum";
 "passengers_placeholder" = "Passagerare och klass";
 "search_button_title" = "Sök";
+"location_not_found_alert_title" = "Inga städer hittades";
+"link_not_recognized_alert_title" = "Länken känns inte igen";
+"dates_are_outdated_alert_title" = "Valda datum har passerat";
+"enter_parameters_manually_alert_subtitle" = "Välj dina sökparametrar manuellt";

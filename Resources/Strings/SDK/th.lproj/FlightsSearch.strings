@@ -1,6 +1,11 @@
 "title" = "ค้นหาตั๋วเครื่องบินราคาถูก";
+"departure_airport_loading_placeholder" = "กำหนดเมืองต้นทาง";
 "departure_airport_placeholder" = "จาก";
 "arrival_airport_placeholder" = "ถึง";
 "dates_placeholder" = "วันที่";
 "passengers_placeholder" = "ชั้นและผู้โดยสาร";
 "search_button_title" = "ค้นหา";
+"location_not_found_alert_title" = "ไม่พบเมือง";
+"link_not_recognized_alert_title" = "ไม่รู้จักลิงก์";
+"dates_are_outdated_alert_title" = "วันที่เลือกผ่านไปแล้ว";
+"enter_parameters_manually_alert_subtitle" = "เลือกพารามิเตอร์การค้นหาด้วยตนเอง";

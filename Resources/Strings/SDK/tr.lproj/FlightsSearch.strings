@@ -1,6 +1,11 @@
 "title" = "Ucuz uçak bileti ara";
+"departure_airport_loading_placeholder" = "Kalkış şehrini belirleme";
 "departure_airport_placeholder" = "Kalkış";
 "arrival_airport_placeholder" = "Nereye";
 "dates_placeholder" = "Tarihler";
 "passengers_placeholder" = "Yolcular ve sınıf";
 "search_button_title" = "Ara";
+"location_not_found_alert_title" = "Hiç şehir bulunamadı";
+"link_not_recognized_alert_title" = "Bağlantı tanınmadı";
+"dates_are_outdated_alert_title" = "Seçilen tarihler geçti";
+"enter_parameters_manually_alert_subtitle" = "Arama parametrelerinizi elle seçin";

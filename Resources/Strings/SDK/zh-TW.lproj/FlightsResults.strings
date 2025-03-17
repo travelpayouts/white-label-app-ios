@@ -12,3 +12,4 @@
 "should_update_alert_message" = "機票價格每天大約會變動 10 次。刷新您的搜索結果來查看最新價格";
 "should_update_alert_update_button_title" = "更新搜索";
 "should_update_alert_later_button_title" = "不，稍後再說";
+"ticket_not_found_alert_title" = "無法透過您的連結\n找到任何票券";

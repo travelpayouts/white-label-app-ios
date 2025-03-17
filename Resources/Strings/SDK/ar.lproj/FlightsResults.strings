@@ -12,3 +12,4 @@
 "should_update_alert_message" = "تتغير أسعار التذاكر نحو 10 مرات في اليوم. قم بتحديث بحثك للحصول على الأسعار المحدّثة";
 "should_update_alert_update_button_title" = "حدّث البحث";
 "should_update_alert_later_button_title" = "لاحقًا";
+"ticket_not_found_alert_title" = "لم نتمكن من العثور على أي تذاكر\nعبر رابطك";

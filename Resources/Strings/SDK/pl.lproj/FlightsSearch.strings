@@ -1,6 +1,11 @@
 "title" = "Wyszukaj bilety na tanie loty";
+"departure_airport_loading_placeholder" = "Określanie miasta odlotu";
 "departure_airport_placeholder" = "Z";
 "arrival_airport_placeholder" = "Do";
 "dates_placeholder" = "Daty";
 "passengers_placeholder" = "Pasażerowie i klasa";
 "search_button_title" = "Wyszukiwanie";
+"location_not_found_alert_title" = "Nie znaleziono żadnych miast";
+"link_not_recognized_alert_title" = "Nie rozpoznano linku";
+"dates_are_outdated_alert_title" = "Wybrane daty minęły";
+"enter_parameters_manually_alert_subtitle" = "Wybierz parametry wyszukiwania ręcznie";

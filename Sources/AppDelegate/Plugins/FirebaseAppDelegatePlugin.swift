@@ -45,7 +45,10 @@ final class FirebaseAppDelegatePlugin: AppDelegatePlugin {
 		return true
 	}
 	
-	func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+	func application(
+		_ application: UIApplication,
+		didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data
+	) {
 		pushNotificationsService?.input.update(apnsToken: deviceToken)
 	}
 }

@@ -12,3 +12,4 @@
 "should_update_alert_message" = "O preço das passagens muda cerca de 10 vezes ao dia. Atualize sua busca para obter preços atualizados";
 "should_update_alert_update_button_title" = "Atualizar pesquisa";
 "should_update_alert_later_button_title" = "Não, depois";
+"ticket_not_found_alert_title" = "Não conseguimos encontrar nenhum bilhete\npelo seu link";

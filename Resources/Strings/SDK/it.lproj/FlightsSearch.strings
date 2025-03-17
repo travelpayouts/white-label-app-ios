@@ -1,6 +1,11 @@
 "title" = "Cerca biglietti aerei economici";
+"departure_airport_loading_placeholder" = "Stabilendo la città di partenza";
 "departure_airport_placeholder" = "Da";
 "arrival_airport_placeholder" = "A";
 "dates_placeholder" = "Date";
 "passengers_placeholder" = "Passeggeri e classe";
 "search_button_title" = "Ricerca";
+"location_not_found_alert_title" = "Nessuna città trovata";
+"link_not_recognized_alert_title" = "Link non riconosciuto";
+"dates_are_outdated_alert_title" = "Le date selezionate sono nel passato";
+"enter_parameters_manually_alert_subtitle" = "Seleziona manualmente i parametri di ricerca";

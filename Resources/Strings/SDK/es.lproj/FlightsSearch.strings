@@ -1,6 +1,11 @@
 "title" = "Buscar billetes de avión baratos";
+"departure_airport_loading_placeholder" = "Determinando la ciudad de salida";
 "departure_airport_placeholder" = "Desde";
 "arrival_airport_placeholder" = "A";
 "dates_placeholder" = "Fechas";
 "passengers_placeholder" = "Pasajeros y clase";
 "search_button_title" = "Buscar";
+"location_not_found_alert_title" = "No se han encontrado ciudades";
+"link_not_recognized_alert_title" = "Enlace no reconocido";
+"dates_are_outdated_alert_title" = "Ya han pasado las fechas seleccionadas";
+"enter_parameters_manually_alert_subtitle" = "Seleccione manualmente sus parámetros de búsqueda";

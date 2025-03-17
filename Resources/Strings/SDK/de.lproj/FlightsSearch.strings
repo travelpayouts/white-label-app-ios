@@ -1,6 +1,11 @@
 "title" = "Suche günstige Flugtickets";
+"departure_airport_loading_placeholder" = "Abflugort wird ermittelt";
 "departure_airport_placeholder" = "Von";
 "arrival_airport_placeholder" = "Nach";
 "dates_placeholder" = "Daten";
 "passengers_placeholder" = "Passagiere und Klasse";
 "search_button_title" = "Suche";
+"location_not_found_alert_title" = "Keine Orte gefunden";
+"link_not_recognized_alert_title" = "Link nicht erkannt";
+"dates_are_outdated_alert_title" = "Die ausgewählten Daten liegen in der Vergangenheit";
+"enter_parameters_manually_alert_subtitle" = "Wählen Sie Ihre Suchkriterien manuell aus";

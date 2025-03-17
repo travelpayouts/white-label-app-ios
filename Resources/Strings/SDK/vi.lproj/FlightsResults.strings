@@ -12,3 +12,4 @@
 "should_update_alert_message" = "Giá vé thay đổi khoảng 10 lần mỗi ngày. Hãy tải lại yêu cầu tìm kiếm để xem giá mới nhất";
 "should_update_alert_update_button_title" = "Cập nhật tìm kiếm";
 "should_update_alert_later_button_title" = "Để sau";
+"ticket_not_found_alert_title" = "Chúng tôi không thể tìm thấy bất kỳ vé nào\nqua liên kết của bạn";
