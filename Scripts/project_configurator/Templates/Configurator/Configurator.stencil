@@ -29,8 +29,9 @@
 	{% endfor %}
 {% endmacro -%}
 
-{% set has_overridden_colors %}{{context.style.overridden_colors.ios and context.style.overridden_colors.ios.count > 0 and context.style.overridden_colors.ios != "<null>"}}{% endset %}
-{% set has_overridden_icons %}{{context.style.overridden_icons.ios and context.style.overridden_icons.ios.count > 0 and context.style.overridden_icons.ios != "<null>"}}{% endset %}
+{% set has_overridden_colors %}{{context.style.overridden_colors.ios and context.style.overridden_colors.ios.count > 0}}{% endset %}
+
+{% set has_overridden_icons %}{{context.style.overridden_icons.ios and context.style.overridden_icons.ios.count > 0}}{% endset %}
 
 {% set use_extended_appearance_configuration %}{{ has_overridden_icons == "true" }}{% endset %}
 
@@ -93,12 +94,12 @@ enum Configurator {
 		// White-Label configuration
 
 		let applicationConstants = ApplicationConfiguration.Constants(
-			{% if context.constants.appsflyer_dev_key  and context.constants.appsflyer_dev_key.count > 0 and context.constants.appsflyer_dev_key != "<null>" %}
+			{% if context.constants.appsflyer_dev_key  and context.constants.appsflyer_dev_key.count > 0 %}
 			appsFlyerDevKey: "{{ context.constants.appsflyer_dev_key }}",
 			{% else %}
 			appsFlyerDevKey: nil,
 			{% endif %}
-			{% if context.advertising.appodeal_api_key and context.advertising.appodeal_api_key.count > 0 and context.advertising.appodeal_api_key != "<null>" %}
+			{% if context.advertising.appodeal_api_key and context.advertising.appodeal_api_key.count > 0 %}
 			appodealApiKey: "{{ context.advertising.appodeal_api_key }}"
 			{% else %}
 			appodealApiKey: nil
@@ -129,17 +130,33 @@ enum Configurator {
 
 		// Advertising Configuration
 
-		{% if context.advertising.appodeal_api_key and context.advertising.appodeal_api_key.count > 0 and context.advertising.appodeal_api_key != "<null>" %}
+		{% if context.advertising.appodeal_api_key and context.advertising.appodeal_api_key.count > 0 %}
 		let sdkAdvertisingConfiguration = Configuration.Advertising(
 			advertisingProvider: AppodealAdvertisingProvider(),
 			placements: .init(
 				flights: .init(
-					searchInterstitial: "{{ context.advertising.placements.air_ticket_placement_interstitial }}",
-					searchResultsBanner: "{{ context.advertising.placements.air_ticket_placement_banner }}"
+					{% if context.advertising.placements.air_ticket_placement_interstitial and context.advertising.placements.air_ticket_placement_interstitial.count > 0 %}
+						searchInterstitial: "{{ context.advertising.placements.air_ticket_placement_interstitial }}",
+					{% else %}
+						searchInterstitial: nil,
+					{% endif %}
+					{% if context.advertising.placements.air_ticket_placement_banner and context.advertising.placements.air_ticket_placement_banner.count > 0 %}
+						searchResultsBanner: "{{ context.advertising.placements.air_ticket_placement_banner }}"
+					{% else %}
+						searchResultsBanner: nil
+					{% endif %}
 				),
 				hotels: .init(
-					searchInterstitial: "{{ context.advertising.placements.hotels_placement_interstitial }}",
-					searchResultsBanner: "{{ context.advertising.placements.hotels_placement_banner }}"
+					{% if context.advertising.placements.hotels_placement_interstitial and context.advertising.placements.hotels_placement_interstitial.count > 0 %}
+						searchInterstitial: "{{ context.advertising.placements.hotels_placement_interstitial }}",
+					{% else %}
+						searchInterstitial: nil,
+					{% endif %}
+					{% if context.advertising.placements.hotels_placement_banner and context.advertising.placements.hotels_placement_banner.count > 0 %}
+						searchResultsBanner: "{{ context.advertising.placements.hotels_placement_banner }}"
+					{% else %}
+						searchResultsBanner: nil
+					{% endif %}
 				)
 			)
 		)
@@ -164,10 +181,24 @@ enum Configurator {
 				appStoreId: "{{ context.constants.appstore_id }}",
 				privacyUrl: privacyUrlLocalizedContainer,
 				feedbackEmail: "{{ context.constants.feedback_email }}",
+				{% if context.constants.feedback_theme %}
+					feedbackTheme: "{{ context.constants.feedback_theme }}",
+				{% else %}
+					feedbackTheme: nil,
+				{% endif %}
 				sharingData: .init(
-					sharingLink: "{{ context.constants.sharing_data.sharing_link }}",
+					{% if context.constants.sharing_data.sharing_link %}
+						sharingLink: "{{ context.constants.sharing_data.sharing_link }}",
+					{% else %}
+						sharingLink: nil,
+					{% endif %}
 					handlingLink: "{{ context.constants.sharing_data.handling_link }}"
-				)
+				),
+				{% if context.base_configuration.booking_review_request_frequency %}
+					bookingReviewRequestFrequency: {{ context.base_configuration.booking_review_request_frequency }}
+				{% else %}
+					bookingReviewRequestFrequency: 0
+				{% endif %}
 			),
 			advertising: sdkAdvertisingConfiguration,
 			analytics: sdkAnalyticsConfiguration
@@ -211,7 +242,7 @@ private extension Configurator {
 		}
 		
 		var palette: ColorPalette {
-			{% if context.style.palette and context.style.palette.count > 0 and context.style.palette != "<null>" %}
+			{% if context.style.palette and context.style.palette.count > 0 %}
 			debugAppearance?.palette ?? .{{ context.style.palette | snakeToCamelCase | lowerFirstLetter }}
 			{% else %}
 			debugAppearance?.palette ?? .default
