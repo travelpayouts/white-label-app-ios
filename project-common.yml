@@ -8,6 +8,7 @@ options:
   createIntermediateGroups: true
   generateEmptyDirectories: true
   xcodeVersion: 12.2
+  developmentLanguage: en
 
 ############
 # Project attributes

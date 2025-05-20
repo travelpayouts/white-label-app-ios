@@ -82,7 +82,13 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 				let flightsModule = childModules.lazy.compactMap({ $0 as? FlightsModule }).first
 			else { return }
 			
-			flightsModule.handle(deeplink: deeplink)
+			router.dismissModule { [weak self] in
+				guard let self else { return }
+				
+				openFlights()
+				
+				flightsModule.handle(deeplink: deeplink)
+			}
 		}
 	}
 	

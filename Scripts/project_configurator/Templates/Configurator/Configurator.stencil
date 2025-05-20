@@ -186,14 +186,11 @@ enum Configurator {
 				{% else %}
 					feedbackTheme: nil,
 				{% endif %}
-				sharingData: .init(
-					{% if context.constants.sharing_data.sharing_link %}
-						sharingLink: "{{ context.constants.sharing_data.sharing_link }}",
-					{% else %}
-						sharingLink: nil,
-					{% endif %}
-					handlingLink: "{{ context.constants.sharing_data.handling_link }}"
-				),
+				{% if context.constants.sharing_data.sharing_link %}
+					sharingLink: "{{ context.constants.sharing_data.sharing_link }}",
+				{% else %}
+					sharingLink: nil,
+				{% endif %}
 				{% if context.base_configuration.booking_review_request_frequency %}
 					bookingReviewRequestFrequency: {{ context.base_configuration.booking_review_request_frequency }}
 				{% else %}
