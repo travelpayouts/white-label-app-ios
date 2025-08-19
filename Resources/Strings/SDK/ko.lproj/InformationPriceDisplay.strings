@@ -1,6 +1,5 @@
 "title" = "가격 표시";
 "aviaTickets_section_title" = "항공편";
-"hotels_section_title" = "호텔";
 "currency_cell_title" = "통화";
 "priceForAllPassengers_cell_title" = "모든 승객 가격";
 "priceForOnePassenger_cell_title" = "승객 1인당 가격";

@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "ฟิลเตอร์";
-"hotel_rooms_filters_grouping_title" = "จัดกลุ่มตาม";
-"hotel_rooms_filters_bed_type_title" = "ประเภทเตียง";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "ปิดใช้งานตัวกรองทั่วไป";
-"hotel_rooms_filters_grouping_rooms_text" = "ห้อง";
-"hotel_rooms_filters_grouping_gates_text" = "เอเจนซี่";
-"hotel_rooms_filters_grouping_prices_text" = "ราคา";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "แสดงห้องทั้งหมด ถึงแม้จะ\nไม่ตรงกับตัวกรองที่คุณตั้งไว้";

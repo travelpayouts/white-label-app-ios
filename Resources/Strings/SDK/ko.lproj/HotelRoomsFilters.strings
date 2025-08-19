@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "필터";
-"hotel_rooms_filters_grouping_title" = "그룹화 기준";
-"hotel_rooms_filters_bed_type_title" = "침대 유형";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "일반 필터 비활성화";
-"hotel_rooms_filters_grouping_rooms_text" = "객실";
-"hotel_rooms_filters_grouping_gates_text" = "에이전";
-"hotel_rooms_filters_grouping_prices_text" = "가격";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "설정한 필터와 일치하지\n않더라도 모든 객실을 표시합니다";

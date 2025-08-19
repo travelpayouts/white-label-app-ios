@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "Filter";
-"hotel_rooms_filters_grouping_title" = "Kelompokkan menurut";
-"hotel_rooms_filters_bed_type_title" = "Jenis ranjang";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Nonaktifkan filter umum";
-"hotel_rooms_filters_grouping_rooms_text" = "Kamar";
-"hotel_rooms_filters_grouping_gates_text" = "Agen";
-"hotel_rooms_filters_grouping_prices_text" = "Harga";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Tampilkan semua kamar, bahkan meski itu\ntidak sesuai dengan filter yang Anda atur";

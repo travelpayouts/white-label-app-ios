@@ -4,9 +4,7 @@
 "no_network_title" = "Нет интернета";
 "no_network_subtitle" = "Проверьте настройки подключения\nк сети и повторите попытку ";
 
-// MARK: - Hotels inaccessible
 
-"hotels_inaccessible_title" = "Бронирование отелей\nнедоступно в вашем регионе";
 
 // MARK: - Something went wrong
 
@@ -23,10 +21,7 @@
 "flights_search_no_results_title" = "Билеты не найдены";
 "flights_search_no_results_subtitle" = "Попробуйте изменить поисковый запрос\nили повторите поиск еще раз";
 
-// MARK: - Hotels search no results
 
-"hotels_search_no_results_title" = "Отели не найдены";
-"hotels_search_no_results_subtitle" = "Попробуйте изменить поисковый запрос\nили повторите поиск еще раз";
 
 // MARK: - Currency search no results
 
@@ -38,14 +33,10 @@
 "flights_favorites_no_result_title" = "Нет избранных направлений";
 "flights_favorites_no_result_subtitle" = "Сохраняйте понравившиеся направления,\n чтобы не потерять их";
 
-// MARK: - Hotels favorites no results
 
-"hotels_favorites_no_result_title" = "Нет избранных отелей";
-"hotels_favorites_no_result_subtitle" = "Сохраняйте понравившиеся отели,\n чтобы не потерять их";
 
 // MARK: - Button titles
 
 "retry_button_title" = "Попробовать ещё раз";
 "repeat_button_title" = "Повторить поиск";
 "find_flights_button_title" = "Найти билеты";
-"find_hotels_button_title" = "Найти отели";

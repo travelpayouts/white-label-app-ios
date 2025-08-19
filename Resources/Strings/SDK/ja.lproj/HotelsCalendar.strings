@@ -1,5 +1,0 @@
-"title" = "日付";
-"choose_button_title" = "%@を選択";
-"disabled_choose_button_title" = "選択";
-"date_range_limit_title" = "宿泊日数の上限を超えました";
-"date_range_limit_message" = "申し訳ございません。ホテルに宿泊できる日数は\n最大で%@までとなります";

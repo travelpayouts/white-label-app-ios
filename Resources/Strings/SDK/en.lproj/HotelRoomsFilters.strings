@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "Filters";
-"hotel_rooms_filters_grouping_title" = "Group by";
-"hotel_rooms_filters_bed_type_title" = "Bed type";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Disable general filters";
-"hotel_rooms_filters_grouping_rooms_text" = "Rooms";
-"hotel_rooms_filters_grouping_gates_text" = "Agencies";
-"hotel_rooms_filters_grouping_prices_text" = "Prices";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Show all rooms, even if they\ndon\'t match your set filters";

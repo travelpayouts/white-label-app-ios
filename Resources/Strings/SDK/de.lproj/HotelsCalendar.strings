@@ -1,5 +1,0 @@
-"title" = "Daten";
-"choose_button_title" = "%@ auswählen";
-"disabled_choose_button_title" = "Auswählen";
-"date_range_limit_title" = "Aufenthaltslimit überschritten";
-"date_range_limit_message" = "Der maximale Hotelaufenthalt ist leider\nauf %@ begrenzt";

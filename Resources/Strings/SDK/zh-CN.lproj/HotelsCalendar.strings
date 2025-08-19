@@ -1,5 +1,0 @@
-"title" = "日期";
-"choose_button_title" = "选择 %@";
-"disabled_choose_button_title" = "选择";
-"date_range_limit_title" = "超过入住时长限制";
-"date_range_limit_message" = "抱歉，但酒店最长入住天数被限制为 \n%@";

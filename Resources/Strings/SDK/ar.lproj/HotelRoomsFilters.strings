@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "تصفية";
-"hotel_rooms_filters_grouping_title" = "المجموعة حسب";
-"hotel_rooms_filters_bed_type_title" = "نوع السرير";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "تعطيل المرشحات العامة";
-"hotel_rooms_filters_grouping_rooms_text" = "الغرف";
-"hotel_rooms_filters_grouping_gates_text" = "الوكالات";
-"hotel_rooms_filters_grouping_prices_text" = "الأسعار";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "إظهار جميع الغرف، حتى لو لم\nتتطابق مع المرشحات التي قمت بتعيينها";

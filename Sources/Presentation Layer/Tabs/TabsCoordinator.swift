@@ -31,7 +31,6 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 	// MARK: - Private properties
 	
 	private let flightsModuleProvider: FlightsModuleProvider
-	private let hotelsModuleProvider: HotelsModuleProvider
 	private let otherModuleProvider: OtherModuleProvider
 	private let informationModuleProvider: InformationModuleProvider
 	private var childModules = [Presentable]()
@@ -45,14 +44,12 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 	init(
 		router: Routable,
 		flightsModuleProvider: FlightsModuleProvider,
-		hotelsModuleProvider: HotelsModuleProvider,
 		otherModuleProvider: OtherModuleProvider,
 		informationModuleProvider: InformationModuleProvider
 	) {
 		self.router = router
 		
 		self.flightsModuleProvider = flightsModuleProvider
-		self.hotelsModuleProvider = hotelsModuleProvider
 		self.otherModuleProvider = otherModuleProvider
 		self.informationModuleProvider = informationModuleProvider
 		
@@ -112,9 +109,6 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 			case .flights:
 				setupFlightsModule(deeplink: deeplink)
 				
-			case .hotels:
-				setupHotelsModule()
-				
 			case let .other(parameters):
 				setupOtherModule(parameters: parameters)
 			}
@@ -134,12 +128,6 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 	private func setupFlightsModule(deeplink: Deeplink?) {
 		childModules.append(
 			flightsModuleProvider.module(deeplink: deeplink)
-		)
-	}
-	
-	private func setupHotelsModule() {
-		childModules.append(
-			hotelsModuleProvider.module
 		)
 	}
 	
@@ -167,27 +155,11 @@ final class TabsCoordinatorImpl: TabsCoordinator {
 			
 			openFlightsTab()
 		}
-		
-		routeProvider.register(destination: .hotelsCoordinator) { [weak self] in
-			guard let self else { return }
-			
-			openHotelsTab()
-		}
 	}
 	
 	private func openFlightsTab() {
 		guard
 			let flightsTabIndex = childModules.firstIndex(where: { $0 is FlightsModule })
-		else {
-			return
-		}
-		
-		tabBarRouter?.selectPage(index: flightsTabIndex)
-	}
-	
-	private func openHotelsTab() {
-		guard
-			let flightsTabIndex = childModules.firstIndex(where: { $0 is HotelsModule })
 		else {
 			return
 		}

@@ -1,8 +1,0 @@
-"hotel_rooms_filters_title" = "Filter";
-"hotel_rooms_filters_grouping_title" = "Grupper etter";
-"hotel_rooms_filters_bed_type_title" = "Type seng";
-"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Deaktiver generelle filtre";
-"hotel_rooms_filters_grouping_rooms_text" = "Rom";
-"hotel_rooms_filters_grouping_gates_text" = "Bookingselskaper";
-"hotel_rooms_filters_grouping_prices_text" = "Priser";
-"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Vis alle rom, selv om de ikke samsvarer\nmed dine valgte filtre";

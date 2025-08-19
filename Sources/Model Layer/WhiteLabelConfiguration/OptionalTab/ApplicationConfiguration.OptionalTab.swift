@@ -13,7 +13,6 @@ extension ApplicationConfiguration {
 	
 	enum OptionalTab: Equatable {
 		case flights
-		case hotels
 		case other(parameters: OtherParameters)
 	}
 }
@@ -35,9 +34,5 @@ extension ApplicationConfiguration.OptionalTab {
 // MARK: - Visible by default
 
 extension ApplicationConfiguration.OptionalTab {
-	
-	static let visibleByDefault: [ApplicationConfiguration.OptionalTab] = [
-		.flights,
-		.hotels
-	]
+	static let visibleByDefault: [ApplicationConfiguration.OptionalTab] = [.flights]
 }

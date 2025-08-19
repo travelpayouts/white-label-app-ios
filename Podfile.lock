@@ -159,7 +159,7 @@ PODS:
   - ImageViewer.swift (3.3.8)
   - KeychainSwift (24.0.0)
   - Kingfisher (7.12.0)
-  - lottie-ios (4.5.1)
+  - lottie-ios (4.5.2)
   - Moya/Combine (15.0.0):
     - Moya/Core
   - Moya/Core (15.0.0):
@@ -179,12 +179,11 @@ PODS:
   - SnapKit (5.7.1)
   - SweeterSwift (1.2.6)
   - SwiftLint (0.43.1)
-  - WLSDK (1.4.1):
-    - WLSDK/Core (= 1.4.1)
-    - WLSDK/Flights (= 1.4.1)
-    - WLSDK/Hotels (= 1.4.1)
-    - WLSDK/Information (= 1.4.1)
-  - WLSDK/Core (1.4.1):
+  - WLSDK (1.5.0):
+    - WLSDK/Core (= 1.5.0)
+    - WLSDK/Flights (= 1.5.0)
+    - WLSDK/Information (= 1.5.0)
+  - WLSDK/Core (1.5.0):
     - Apollo (< 1.14.0, >= 1.9.3)
     - AvailableHapticFeedback (< 1.1.0, >= 1.0.4)
     - ClusterKit (< 1.0.0, >= 0.5.0)
@@ -203,13 +202,11 @@ PODS:
     - SkeletonView (< 2.0.0, >= 1.30.4)
     - SnapKit (< 6.0.0, >= 5.6.0)
     - SweeterSwift (< 1.3.0, >= 1.2.3)
-  - WLSDK/Flights (1.4.1):
+  - WLSDK/Flights (1.5.0):
     - WLSDK/Core
-  - WLSDK/Hotels (1.4.1):
+  - WLSDK/Information (1.5.0):
     - WLSDK/Core
-  - WLSDK/Information (1.4.1):
-    - WLSDK/Core
-  - WLSDK/WhiteLabelSupport (1.4.1):
+  - WLSDK/WhiteLabelSupport (1.5.0):
     - WLSDK/Core
 
 DEPENDENCIES:
@@ -224,8 +221,8 @@ DEPENDENCIES:
   - GoogleUtilities (= 7.13.0)
   - R.swift (= 7.2.4)
   - SwiftLint (= 0.43.1)
-  - WLSDK (= 1.4.1)
-  - WLSDK/WhiteLabelSupport (= 1.4.1)
+  - WLSDK (= 1.5.0)
+  - WLSDK/WhiteLabelSupport (= 1.5.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -305,7 +302,7 @@ SPEC CHECKSUMS:
   ImageViewer.swift: 284cd8127d31af8e5938674fb9f8e695a4cdf6c6
   KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
   Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
-  lottie-ios: 248b380fa1b97d18e792c37d90da7ab2aa0d6562
+  lottie-ios: 96784afc26ea031d3e2b6cae342a4b8915072489
   Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: 438bc412db1928dac798aa6fd75726007be04262
   NeedleFoundation: ae0df46708acf26bd030390f2800bf167f29a942
@@ -317,8 +314,8 @@ SPEC CHECKSUMS:
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   SweeterSwift: 1eca266517c703d7376e723a21926f5cb2ba4d0f
   SwiftLint: 99f82d07b837b942dd563c668de129a03fc3fb52
-  WLSDK: 93aecac3e15d81cad20c1aced55dc4a544ba7537
+  WLSDK: 5ea3e2f91ef483207c0b8bff4ec4b3f49e88b778
 
-PODFILE CHECKSUM: c194b107082590a89d1436a586d1433b03fe4e4c
+PODFILE CHECKSUM: a87cbdf5192592466f572063fff5baa3094f1fb6
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

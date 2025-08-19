@@ -22,10 +22,13 @@
 						)
 					)
 				)
+				{% ifnot forloop.last -%},{%- endif +%}
 		{%- else %}
+			{% if screen.type == "flights" %}
 				.{{ screen.type }}
+				{% ifnot forloop.last -%},{%- endif +%}
+			{%- endif -%}
 		{%- endif -%}
-		{%- ifnot forloop.last -%},{%- endif +%}
 	{% endfor %}
 {% endmacro -%}
 
@@ -44,7 +47,6 @@
 import UIKit
 import WLConfig
 import WLFlights
-import WLHotels
 import WLInformation
 import WLSupport
 
@@ -145,18 +147,6 @@ enum Configurator {
 					{% else %}
 						searchResultsBanner: nil
 					{% endif %}
-				),
-				hotels: .init(
-					{% if context.advertising.placements.hotels_placement_interstitial and context.advertising.placements.hotels_placement_interstitial.count > 0 %}
-						searchInterstitial: "{{ context.advertising.placements.hotels_placement_interstitial }}",
-					{% else %}
-						searchInterstitial: nil,
-					{% endif %}
-					{% if context.advertising.placements.hotels_placement_banner and context.advertising.placements.hotels_placement_banner.count > 0 %}
-						searchResultsBanner: "{{ context.advertising.placements.hotels_placement_banner }}"
-					{% else %}
-						searchResultsBanner: nil
-					{% endif %}
 				)
 			)
 		)
@@ -192,10 +182,11 @@ enum Configurator {
 					sharingLink: nil,
 				{% endif %}
 				{% if context.base_configuration.booking_review_request_frequency %}
-					bookingReviewRequestFrequency: {{ context.base_configuration.booking_review_request_frequency }}
+					bookingReviewRequestFrequency: {{ context.base_configuration.booking_review_request_frequency }},
 				{% else %}
-					bookingReviewRequestFrequency: 0
+					bookingReviewRequestFrequency: 0,
 				{% endif %}
+				appStoreLink: "{{ context.constants.app_store_link }}"
 			),
 			advertising: sdkAdvertisingConfiguration,
 			analytics: sdkAnalyticsConfiguration
@@ -205,10 +196,6 @@ enum Configurator {
 
 		if applicationConfiguration.tabsToDisplay.contains(.flights) {
 			WLFlights.ScreenProvider.shared.enable()
-		}
-
-		if applicationConfiguration.tabsToDisplay.contains(.hotels) {
-			WLHotels.ScreenProvider.shared.enable()
 		}
 
 		isConfigurationWasComplete = true

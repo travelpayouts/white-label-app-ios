@@ -1,5 +1,0 @@
-"title" = "วันที่";
-"choose_button_title" = "เลือก %@";
-"disabled_choose_button_title" = "เลือก";
-"date_range_limit_title" = "เกินขีดจำกัดการเข้าพัก";
-"date_range_limit_message" = "ขออภัย แต่คุณสามารถเข้าพักในโรงแรมได้\nไม่เกิน %@";
