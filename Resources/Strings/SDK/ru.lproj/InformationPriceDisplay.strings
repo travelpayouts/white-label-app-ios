@@ -6,6 +6,7 @@
 // MARK: - Section titles
 
 "aviaTickets_section_title" = "Авиабилеты";
+"hotels_section_title" = "Отели";
 
 // MARK: - Cell titles
 

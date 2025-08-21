@@ -1,0 +1,10 @@
+"title" = "Buscar hoteles inolvidables";
+"my_location_button_title" = "Ubicación actual";
+"map_location_button_title" = "Punto en el mapa";
+"location_placeholder" = "Ciudad u hotel";
+"search_button_title" = "Buscar";
+"location_troubles_title" = "No pudimos encontrar\nsu ubicación";
+"location_troubles_close" = "Cerrar";
+"restricred_location_access_message" = "Permita que esta aplicación determine su ubicación";
+"restricred_location_access_not_now" = "Más tarde";
+"restricred_location_access_settings" = "Ajustes";

@@ -1,0 +1,15 @@
+
+// MARK: - Titles
+
+"title" = "Отель на карте";
+
+// MARK: - Texts
+
+"airport_text" = "Аэропорт";
+"metro_station_text" = "Метро";
+"ski_lift_text" = "Подъемник";
+"beach_text" = "Пляж";
+"train_station_text" = "Ж/д–станция";
+"business_text" = "Бизнес-район";
+"sight_text" = "Обзорная площадка";
+"shopping_text" = "Торговый центр";

@@ -1,0 +1,5 @@
+"title" = "날짜";
+"choose_button_title" = "%@ 선택하기";
+"disabled_choose_button_title" = "선택";
+"date_range_limit_title" = "숙박 한도 초과";
+"date_range_limit_message" = "죄송하지만 최대 호텔 숙박이 %@로\n제한되어 있습니다";

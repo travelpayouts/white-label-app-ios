@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "フィルター";
+"hotel_rooms_filters_grouping_title" = "グループ：";
+"hotel_rooms_filters_bed_type_title" = "ベッドのタイプ";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "一般的なフィルターを無効にする";
+"hotel_rooms_filters_grouping_rooms_text" = "部屋";
+"hotel_rooms_filters_grouping_gates_text" = "代理店";
+"hotel_rooms_filters_grouping_prices_text" = "価格";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "設定したフィルタに一致しない場合でも、すべての部屋を表示します";

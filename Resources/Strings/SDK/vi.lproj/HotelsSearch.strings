@@ -1,0 +1,10 @@
+"title" = "Tìm kiếm khách sạn đáng nhớ";
+"my_location_button_title" = "Vị trí hiện tại";
+"map_location_button_title" = "Điểm trên bản đồ";
+"location_placeholder" = "Thành phố hay khách sạn";
+"search_button_title" = "Tìm kiếm";
+"location_troubles_title" = "Chúng tôi không xác định được\nvị trí của bạn";
+"location_troubles_close" = "Đóng";
+"restricred_location_access_message" = "Cho phép ứng dụng này xác định vị trí của bạn";
+"restricred_location_access_not_now" = "Để sau";
+"restricred_location_access_settings" = "Cài đặt";

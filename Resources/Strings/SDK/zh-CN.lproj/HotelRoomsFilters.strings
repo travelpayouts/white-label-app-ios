@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "筛选器";
+"hotel_rooms_filters_grouping_title" = "分类方式";
+"hotel_rooms_filters_bed_type_title" = "床型";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "禁用通用筛选条件";
+"hotel_rooms_filters_grouping_rooms_text" = "房间";
+"hotel_rooms_filters_grouping_gates_text" = "中介";
+"hotel_rooms_filters_grouping_prices_text" = "价格";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "显示所有房间，即使它们\n不符合您设置的筛选条件";

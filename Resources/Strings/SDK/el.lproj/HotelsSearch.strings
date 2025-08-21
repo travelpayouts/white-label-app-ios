@@ -1,0 +1,10 @@
+"title" = "Αναζήτηση αξέχαστων ξενοδοχείων";
+"my_location_button_title" = "Τρέχουσα τοποθεσία";
+"map_location_button_title" = "Σημείο στο χάρτη";
+"location_placeholder" = "Πόλη ή ξενοδοχείο";
+"search_button_title" = "Αναζήτηση";
+"location_troubles_title" = "Δεν μπορέσαμε να καθορίσουμε\nτην τοποθεσία σας";
+"location_troubles_close" = "Κλείσιμο";
+"restricred_location_access_message" = "Επιτρέψτε σε αυτή την εφαρμογή να προσδιορίσει την τοποθεσία σας";
+"restricred_location_access_not_now" = "Αργότερα";
+"restricred_location_access_settings" = "Ρυθμίσεις";

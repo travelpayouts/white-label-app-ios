@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "篩選項";
+"hotel_rooms_filters_grouping_title" = "分類方式";
+"hotel_rooms_filters_bed_type_title" = "床型";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "關閉一般性篩選";
+"hotel_rooms_filters_grouping_rooms_text" = "房型";
+"hotel_rooms_filters_grouping_gates_text" = "旅行社";
+"hotel_rooms_filters_grouping_prices_text" = "房價";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "顯示所有房源，包含\n不符合所設定篩選條件的房源";

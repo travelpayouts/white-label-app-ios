@@ -1,0 +1,16 @@
+// MARK: - Titles
+
+"hotel_rooms_filters_title" = "Фильтры";
+
+"hotel_rooms_filters_grouping_title" = "Группировка";
+"hotel_rooms_filters_bed_type_title" = "Тип кровати";
+
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Отключить общие фильтры";
+
+// MARK: - Texts
+
+"hotel_rooms_filters_grouping_rooms_text" = "Номера";
+"hotel_rooms_filters_grouping_gates_text" = "Агентства";
+"hotel_rooms_filters_grouping_prices_text" = "Цены";
+
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Показать все предложения без учёта\nфильтров, выбранных в результате поиска";

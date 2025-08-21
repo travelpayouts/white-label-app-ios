@@ -1,0 +1,10 @@
+"title" = "Zoek naar onvergetelijke hotels";
+"my_location_button_title" = "Huidige locatie";
+"map_location_button_title" = "Punt op de kaart";
+"location_placeholder" = "Stad of hotel";
+"search_button_title" = "Zoek";
+"location_troubles_title" = "We konden uw locatie\nniet vaststellen";
+"location_troubles_close" = "Sluiten";
+"restricred_location_access_message" = "Verleen deze app toestemming om uw locatie te bepalen";
+"restricred_location_access_not_now" = "Later";
+"restricred_location_access_settings" = "Instellingen";

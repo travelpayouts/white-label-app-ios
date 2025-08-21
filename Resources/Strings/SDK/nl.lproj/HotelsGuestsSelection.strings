@@ -1,0 +1,5 @@
+"adults" = "Volwassenen";
+"adults_description" = "18+";
+"children" = "Kinderen";
+"indexed_children" = "Kind %d";
+"title" = "Gasten";

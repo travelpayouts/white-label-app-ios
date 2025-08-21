@@ -28,6 +28,7 @@ final class TabsCoordinatorComponent: Component<TabsCoordinatorDependency>, Tabs
 		TabsCoordinatorImpl(
 			router: router,
 			flightsModuleProvider: flightsModuleProvider,
+			hotelsModuleProvider: hotelsModuleProvider,
 			otherModuleProvider: otherModuleProvider,
 			informationModuleProvider: informationModuleProvider
 		)
@@ -41,6 +42,10 @@ final class TabsCoordinatorComponent: Component<TabsCoordinatorDependency>, Tabs
 	
 	private var flightsModuleProvider: FlightsModuleProvider {
 		FlightsModuleComponent(parent: self)
+	}
+	
+	private var hotelsModuleProvider: HotelsModuleProvider {
+		HotelsModuleComponent(parent: self)
 	}
 	
 	private var otherModuleProvider: OtherModuleProvider {

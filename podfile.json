@@ -26,17 +26,16 @@
 			"pods": [
 				{
 					"name": "Appodeal",
-					"version": "3.4.1",
-					"comment": "Required"
+					"version": "3.3.1"
 				},
 				{
 					"name": "APDBidMachineAdapter",
-					"version": "3.4.1.1",
+					"version": "3.3.1.0",
 					"comment": "Required"
 				},
 				{
 					"name": "APDIABAdapter",
-					"version": "3.4.1.0",
+					"version": "3.3.1.0",
 					"comment": "Required"
 				}
 			]
@@ -46,15 +45,15 @@
 			"pods": [
 				{
 					"name": "APDFacebookAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMetaAudienceNetworkAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "BidMachineMetaAudienceAdapter",
-					"version": "3.1.0.2"
+					"version": "2.7.0.0"
 				}
 			]
 		},
@@ -63,43 +62,43 @@
 			"pods": [
 				{
 					"name": "APDAdjustAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAmazonAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppLovinAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppLovinMAXAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDAppsFlyerAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDBidonAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDBigoAdsAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDDTExchangeAdapter",
-					"version": "3.4.1.1"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDFirebaseAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDGoogleAdMobAdapter",
-					"version": "3.4.1.0",
+					"version": "3.3.1.0",
 					"enabled": {
 						"name": "configuration",
 						"paths": [
@@ -114,95 +113,87 @@
 				},
 				{
 					"name": "APDInMobiAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDIronSourceAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMintegralAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDMyTargetAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDPangleAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDSentryAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDSmaatoAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDUnityAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDVungleAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "APDYandexAdapter",
-					"version": "3.4.1.0"
+					"version": "3.3.1.0"
 				},
 				{
 					"name": "AmazonPublisherServicesSDK",
-					"version": "4.10.1.0"
+					"version": "4.9.2"
 				},
 				{
 					"name": "AppLovinMediationAmazonAdMarketplaceAdapter",
-					"version": "4.10.1.0"
+					"version": "4.5.6.4"
 				},
 				{
 					"name": "AppLovinMediationBidMachineAdapter",
-					"version": "3.1.2.0.0"
+					"version": "2.0.0.5.0"
 				},
 				{
 					"name": "AppLovinMediationFacebookAdapter",
-					"version": "6.15.2.1"
+					"version": "6.12.0.2"
 				},
 				{
 					"name": "AppLovinMediationFyberAdapter",
-					"version": "8.3.4.0"
+					"version": "8.1.9.0"
 				},
 				{
 					"name": "AppLovinMediationGoogleAdManagerAdapter",
-					"version": "11.12.0.0"
+					"version": "10.1.0.0"
 				},
 				{
 					"name": "AppLovinMediationGoogleAdapter",
-					"version": "11.12.0.0"
-				},
-				{
-					"name": "AppLovinMediationInMobiAdapter",
-					"version": "10.8.0.0"
+					"version": "10.1.0.0"
 				},
 				{
 					"name": "AppLovinMediationIronSourceAdapter",
-					"version": "8.5.0.0.0"
+					"version": "7.2.7.0.1"
 				},
 				{
 					"name": "AppLovinMediationMintegralAdapter",
-					"version": "7.7.3.0.0"
-				},
-				{
-					"name": "AppLovinMediationMyTargetAdapter",
-					"version": "5.21.9.1"
+					"version": "7.3.0.0.0"
 				},
 				{
 					"name": "AppLovinMediationUnityAdsAdapter",
-					"version": "4.12.5.0"
+					"version": "4.5.0.2"
 				},
 				{
 					"name": "AppLovinMediationVungleAdapter",
-					"version": "7.4.1.1"
+					"version": "7.3.0.0"
 				},
 				{
 					"name": "AppLovinMediationYandexAdapter",
@@ -210,87 +201,63 @@
 				},
 				{
 					"name": "BidMachineAmazonAdapter",
-					"version": "3.1.0.0"
-				},
-				{
-					"name": "BidMachineMintegralAdapter",
-					"version": "3.1.0.0"
-				},
-				{
-					"name": "BidMachineMyTargetAdapter",
-					"version": "3.1.0.0"
+					"version": "2.7.0.0"
 				},
 				{
 					"name": "BidMachinePangleAdapter",
-					"version": "3.1.0.0"
+					"version": "2.7.0.0"
 				},
 				{
 					"name": "BidMachineVungleAdapter",
-					"version": "3.1.0.0"
+					"version": "2.7.0.0"
+				},
+				{
+					"name": "BidonAdapterAmazon",
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterAppLovin",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterBidMachine",
-					"version": "0.7.1.1"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterBigoAds",
-					"version": "0.7.1.0"
-				},
-				{
-					"name": "BidonAdapterChartboost",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterDTExchange",
-					"version": "0.7.1.1"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterGoogleAdManager",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterGoogleMobileAds",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterInMobi",
-					"version": "0.7.1.0"
-				},
-				{
-					"name": "BidonAdapterIronSource",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterMetaAudienceNetwork",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterMintegral",
-					"version": "0.7.1.0"
-				},
-				{
-					"name": "BidonAdapterMyTarget",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterUnityAds",
-					"version": "0.7.1.0"
+					"version": "0.4.8.0"
 				},
 				{
 					"name": "BidonAdapterVungle",
-					"version": "0.7.1.0"
-				},
-				{
-					"name": "BidonAdapterYandex",
-					"version": "0.7.1.0"
-				},
-				{
-					"name": "bigo-ads-max-adapter",
-					"version": "4.5.1.1"
+					"version": "0.4.8.0"
 				}
 			],
 			"functions": [
@@ -383,11 +350,11 @@
 				},
 				{
 					"name": "WLSDK",
-					"version": "1.5.0"
+					"version": "1.4.1"
 				},
 				{
 					"name": "WLSDK/WhiteLabelSupport",
-					"version": "1.5.0"
+					"version": "1.4.1"
 				}
 			]
 		}

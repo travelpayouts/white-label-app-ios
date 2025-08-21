@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Filtry";
+"hotel_rooms_filters_grouping_title" = "Grupuj według";
+"hotel_rooms_filters_bed_type_title" = "Typ łóżka";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Wyłącz filtry ogólne";
+"hotel_rooms_filters_grouping_rooms_text" = "Pokoje";
+"hotel_rooms_filters_grouping_gates_text" = "Agencje";
+"hotel_rooms_filters_grouping_prices_text" = "Ceny";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Pokaż wszystkie pokoje, nawet jeśli\nnie pasują do ustawionych filtrów";

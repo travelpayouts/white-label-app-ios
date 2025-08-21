@@ -1,0 +1,8 @@
+"hotel_rooms_filters_title" = "Φίλτρα";
+"hotel_rooms_filters_grouping_title" = "Ομαδοποίηση κατά";
+"hotel_rooms_filters_bed_type_title" = "Τύπος κρεβατιού";
+"hotel_rooms_filters_disable_common_filters_switch_cell_title" = "Απενεργοποίηση γενικών φίλτρων";
+"hotel_rooms_filters_grouping_rooms_text" = "Δωμάτια";
+"hotel_rooms_filters_grouping_gates_text" = "Πρακτορεία";
+"hotel_rooms_filters_grouping_prices_text" = "Τιμές";
+"hotel_rooms_filters_disable_common_filters_switch_cell_text" = "Εμφάνιση όλων των δωματίων, ακόμη και αν δεν ταιριάζουν\nμε τα φίλτρα που έχετε ορίσει";

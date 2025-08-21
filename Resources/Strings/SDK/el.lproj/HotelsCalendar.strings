@@ -1,0 +1,5 @@
+"title" = "Ημερομηνίες";
+"choose_button_title" = "Επιλογή %@";
+"disabled_choose_button_title" = "Επιλογή";
+"date_range_limit_title" = "Υπέρβαση του ορίου διαμονής";
+"date_range_limit_message" = "Λυπούμαστε, το ανώτατο όριο διαμονής στο ξενοδοχείο είναι \nέως %@";

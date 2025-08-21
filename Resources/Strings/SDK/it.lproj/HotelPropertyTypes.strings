@@ -1,0 +1,11 @@
+"hotel_property_type_guest" = "Pensioni";
+"hotel_property_type_hotel" = "Hotel";
+"hotel_property_type_hostel" = "Ostello";
+"hotel_property_type_apartment" = "Appartamenti";
+"hotel_property_type_villa" = "Casa di Vacanza";
+"hotel_property_type_apart_hotel" = "Residence";
+"hotel_property_type_motel" = "Motel";
+"hotel_property_type_resort" = "Hotel Resort";
+"hotel_property_type_lodge" = "Cottage";
+"hotel_property_type_bb" = "B&B";
+"hotel_property_type_other" = "Altro";

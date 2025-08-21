@@ -9,6 +9,7 @@
 import UIKit
 import WLConfig
 import WLFlights
+import WLHotels
 import WLInformation
 import WLUserInterface
 
@@ -49,6 +50,16 @@ final class ConfigurationAppDelegatePlugin: AppDelegatePlugin {
 	// MARK: - Private methods
 	
 	private func registerImages(in imagesProvider: Configuration.ImagesProvider) {
+		
+		imagesProvider.register(
+			source: .local(
+				bundle: R.image.img_search_background.bundle,
+				key: R.image.img_search_background.name,
+				configuration: nil
+			),
+			forHotelsSink: .searchScreenBackground
+		)
+		
 		imagesProvider.register(
 			source: .local(
 				bundle: R.image.img_search_background.bundle,
@@ -60,8 +71,13 @@ final class ConfigurationAppDelegatePlugin: AppDelegatePlugin {
 	}
 	
 	private func registerLocalizations(in localizationProvider: Configuration.Localization) {
+		
 		WLFlights.LocalizationTable.allCases.forEach { table in
 			localizationProvider.register(bundle: .main, flightsTable: table)
+		}
+		
+		WLHotels.LocalizationTable.allCases.forEach { table in
+			localizationProvider.register(bundle: .main, hotelsTable: table)
 		}
 		
 		WLInformation.LocalizationTable.allCases.forEach { table in

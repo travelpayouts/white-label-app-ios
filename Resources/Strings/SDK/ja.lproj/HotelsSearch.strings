@@ -1,0 +1,10 @@
+"title" = "忘れられないホテルを検索する";
+"my_location_button_title" = "現在位置";
+"map_location_button_title" = "マップ上のポイント";
+"location_placeholder" = "都市またはホテル";
+"search_button_title" = "検索";
+"location_troubles_title" = "お客様の現在地を\n特定できませんでした";
+"location_troubles_close" = "閉じる";
+"restricred_location_access_message" = "このアプリに現在地の特定を許可する";
+"restricred_location_access_not_now" = "後で";
+"restricred_location_access_settings" = "設定";

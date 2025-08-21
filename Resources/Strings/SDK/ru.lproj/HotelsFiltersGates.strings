@@ -1,0 +1,8 @@
+// MARK: - Titles
+
+"hotels_filters_gates_title" = "Агентства бронирования";
+
+// MARK: - Buttons
+
+"hotels_filters_gates_button_choose_all" = "Выбрать все";
+"hotels_filters_gates_button_title" = "Применить";

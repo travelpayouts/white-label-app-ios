@@ -1,0 +1,10 @@
+"title" = "Pesquisar por hotéis imperdíveis";
+"my_location_button_title" = "Localização atual";
+"map_location_button_title" = "Apontar no mapa";
+"location_placeholder" = "Cidade ou hotel";
+"search_button_title" = "Buscar";
+"location_troubles_title" = "Não conseguimos determinar\na sua localização";
+"location_troubles_close" = "Fechar";
+"restricred_location_access_message" = "Permitir a este aplicativo determinar sua localização";
+"restricred_location_access_not_now" = "Mais tarde";
+"restricred_location_access_settings" = "Configurações";

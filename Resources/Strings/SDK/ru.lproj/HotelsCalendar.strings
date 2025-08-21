@@ -1,0 +1,14 @@
+
+// MARK: - Titles
+
+"title" = "Когда";
+
+// MARK: - Button titles
+
+"choose_button_title" = "Выбрать %@";
+"disabled_choose_button_title" = "Выбрать";
+
+// MARK: - Dialogs
+
+"date_range_limit_title" = "Превышение периода проживания";
+"date_range_limit_message" = "Извините, но максимальная продолжительность проживания\nв отеле – %@";

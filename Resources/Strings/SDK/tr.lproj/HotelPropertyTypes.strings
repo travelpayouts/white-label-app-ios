@@ -1,0 +1,11 @@
+"hotel_property_type_guest" = "Pansiyon";
+"hotel_property_type_hotel" = "Otel";
+"hotel_property_type_hostel" = "Hostel";
+"hotel_property_type_apartment" = "Daire";
+"hotel_property_type_villa" = "Villa";
+"hotel_property_type_apart_hotel" = "Apart otel";
+"hotel_property_type_motel" = "Motel";
+"hotel_property_type_resort" = "Tatil oteli";
+"hotel_property_type_lodge" = "Kulübe";
+"hotel_property_type_bb" = "B&B";
+"hotel_property_type_other" = "Diğer";

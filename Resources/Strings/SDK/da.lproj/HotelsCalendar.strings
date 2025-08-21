@@ -1,0 +1,5 @@
+"title" = "Datoer";
+"choose_button_title" = "Vælg %@";
+"disabled_choose_button_title" = "Vælg";
+"date_range_limit_title" = "Opholdsgrænsen er overskredet";
+"date_range_limit_message" = "Beklager, men hotelophold er begrænset til maksimalt\n %@";

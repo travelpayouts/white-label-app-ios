@@ -43,7 +43,9 @@
         "google_admob_app_id": null,
         "placements": {
             "air_ticket_placement_interstitial": "",
-            "air_ticket_placement_banner": ""
+            "air_ticket_placement_banner": "",
+            "hotels_placement_interstitial": "",
+            "hotels_placement_banner": ""
         }
     },
     "style": {
@@ -82,6 +84,9 @@
         "screens_to_display": [
             {
                 "type": "flights"
+            },
+            {
+                "type": "hotels"
             },
             {
                 "type": "other",
