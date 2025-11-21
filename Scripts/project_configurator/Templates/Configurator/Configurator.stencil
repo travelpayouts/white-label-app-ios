@@ -170,7 +170,11 @@ enum Configurator {
 				apiKey: "{{ context.constants.api_key }}",
 				appStoreId: "{{ context.constants.appstore_id }}",
 				privacyUrl: privacyUrlLocalizedContainer,
-				feedbackEmail: "{{ context.constants.feedback_email }}",
+				{% if context.constants.feedback_email %}
+					feedbackEmail: "{{ context.constants.feedback_email }}",
+				{% else %}
+					feedbackEmail: nil,
+				{% endif %}
 				{% if context.constants.feedback_theme %}
 					feedbackTheme: "{{ context.constants.feedback_theme }}",
 				{% else %}

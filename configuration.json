@@ -31,7 +31,7 @@
         "google_maps_api_key": "",
         "appstore_id": "",
         "client_device_host": "",
-        "marker": 0,
+        "marker": "",
         "sharing_data": {
             "sharing_link": "https://www.google.ru",
             "handling_link": "https://www.google.ru"
