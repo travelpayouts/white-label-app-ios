@@ -87,6 +87,7 @@ targets:
         UILaunchStoryboardName: Splash
         UIStatusBarHidden: false
         UIRequiredDeviceCapabilities: [arm64]
+        UIDesignRequiresCompatibility: true
         UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait]
         UILaunchStoryboardName: Splash
         NSAppTransportSecurity:
